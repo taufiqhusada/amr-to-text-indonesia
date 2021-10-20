@@ -1,0 +1,2618 @@
+# ::id 1
+# ::snt Balon itu  ditiup  Ilham
+( t / tiup 
+    :ARG0 ( i / ilham )
+    :ARG1 ( b / balon )
+)
+
+# ::id 2
+# ::snt Obe menulis puisi
+( t / tulis
+    :ARG0 ( o / obe )
+    :ARG1 ( p / puisi)
+)
+
+# ::id 2
+# ::snt Saya mengetik makalah
+( k / ketik 
+    :ARG0 ( s / saya)
+    :ARG1 ( m / makalah)
+)
+
+# ::id 2
+# ::snt Angga Anak Ajaib
+( a1 / angga 
+    :mod ( a2 / anak
+        :mod ( a3 / ajaib )))
+
+# ::id 2
+# ::snt Ibuku seorang dosen
+( o / orang 
+    :ARG0 ( i / ibu)
+    :ARG1 ( d / dosen))
+
+# ::id 2
+# ::snt Dia Sedang berenang
+( r / renang
+    :ARG0 ( d / dia ))
+
+# ::id 2
+# ::snt Ilham sedang mencari bukunya yang hilang
+( c / cari
+    :ARG0 ( i / ilham)
+    :ARG1 ( b / buku 
+        :mod ( h / hilang ))
+)
+
+# ::id 2
+# ::snt Ibu Sedang menyapu halaman rumah
+( s / sapu
+    :ARG0 ( i / ibu)
+    :location ( h / halaman 
+        :mod ( r / rumah )))
+
+# ::id 3
+# ::snt Ayah sedang membajak padi di sawah
+( b / bajak
+    :ARG0 ( a / ayah )
+    :ARG1 ( p / padi )
+    :location ( s / sawah ))
+
+# ::id 2
+# ::snt Andi pergi berkemah di tepi Pantai
+( p1 / pergi 
+    :ARG0 ( a / andi )
+    :ARG1 ( k / kemah)
+    :location ( t / tepi 
+        :mod ( p2 / pantai ))
+)
+
+# ::id 2
+# ::snt Angga pergi ke toko buku
+( p / pergi 
+    :ARG0 ( a / angga)
+    :location ( t / toko 
+        :mod ( b / buku ))
+)
+
+# ::id 2
+# ::snt Saya masih ada di rumah
+( a / ada 
+    :ARG0 ( s / saya )
+    :mod ( m / masih )
+    :location ( r / rumah )
+)
+
+# ::id 2
+# ::snt Ayah sekarang ada di pasar
+( a1 / ada 
+    :ARG0 ( a2 / ayah )
+    :time ( s / sekarang )
+    :location ( p / pasar )
+)
+
+# ::id 2
+# ::snt Kakak masih bermain bola
+( m1 / main
+    :ARG0 ( k / kakak )
+    :ARG1 ( b / bola )
+    :mod ( m / masih )
+)
+
+# ::id 2
+# ::snt Ada banyak tikus di rumah
+( a / ada
+    :ARG0 ( t / tikus 
+        :mod ( b / banyak ))
+    :location ( r / rumah)
+)
+
+# ::id 2
+# ::snt Adik menangis keras karena jatuh
+( t / tangis
+    :ARG0 ( a / adik )
+    :mod ( k / keras 
+        :mod ( j / jatuh ))
+)
+
+# ::id 2
+# ::snt Hotel itu sangat mewah seperti istana
+( s2 / seperti 
+    :ARG0 (h / hotel
+        :mod ( m / mewah 
+            :mod ( s1 / sangat)))
+    :ARG1 ( i / istana )
+)
+
+# ::id 2
+# ::snt Sisa uang yang aku miliki saat ini hanya berjumlah sepuluh ribu rupiah
+( m / milik 
+    :ARG0 ( a / aku )
+    :ARG1 ( s1 / sisa
+        :mod ( u / uang ))
+    :mod ( j / jumlah 
+        :mod ( s2 / sepuluh 
+            :mod ( r1 / ribu 
+                :mod ( r2 / rupiah ))))
+)
+
+# ::id 2
+# ::snt Jarak sekolah dan rumahku tidak terlalu jauh
+( j1 / jarak
+    :ARG0 ( s / sekolah )
+    :ARG1 ( r / rumah )
+    :mod ( t1 / tidak
+        :mod ( t2 / terlalu 
+            :mod ( j2 / jauh )))
+)
+
+# ::id 2
+# ::snt Perampok itu merampok korbannya dengan sangat kejam
+( r1 / rampok 
+    :ARG0 ( r2 / rampok )
+    :ARG1 ( k1 / korban )
+    :mod ( k2 / kejam 
+        :mod ( s / sangat ))
+)
+
+# ::id 2
+# ::snt Pak Roni berangkat ke Bandung besok
+( b1 / berangkat
+    :ARG0 ( p / pak 
+        :name ( r / roni ))
+    :location ( b2 / bandung)
+    :time ( b3 / besok )
+)
+
+# ::id 2
+# ::snt Bu Cinta berangkat ke sekolah menggunakan taksi
+( b1 / berangkat
+    :ARG0 ( b2 / bu 
+        :name ( c / cinta ))
+    :location ( s / sekolah )
+    :mod ( g / guna 
+        :ARG1 ( t / taksi ))
+)
+
+# ::id 2
+# ::snt Satria memberikan uang kepada adiknya
+( b / beri 
+    :ARG0 ( s / satria )
+    :ARG1 ( u / uang )
+    :mod ( k / kepada 
+        :mod ( a / adik ))
+)
+
+# ::id 2
+# ::snt Pak Hasan bertemu dengan Pak Husen kemarin di halte bus
+( t / temu 
+    :ARG0 ( p1 / pak 
+        :name ( h1 / hasan ))
+    :ARG1 ( p2 / pak 
+        :name ( h2 / husen ))
+    :time ( k / kemarin )
+    :location ( h / halte 
+        :mod ( b / bus ))
+)
+
+# ::id 2
+# ::snt Uang Maman jatuh ke selokan
+( j / jatuh
+    :ARG0 ( u / uang 
+        :mod ( m / maman ))
+    :location ( s / selokan )
+)
+
+# ::id 2
+# ::snt Yusron sedang menyapu halaman
+( s / sapu 
+    :ARG0 ( y / yusron )
+    :ARG1 ( h / halaman )
+)
+
+# ::id 2
+# ::snt Dona adalah siswa berprestasi di kampusku
+( s / siswa 
+    :ARG0 ( d / dona )
+    :mod ( p / prestasi )
+    :location ( k / kampus )
+)
+
+# ::id 2
+# ::snt Caca menulis status fb
+( t / tulis
+    :ARG0 ( c / caca)
+    :ARG1 ( s / status 
+        :mod ( f / fb ))
+)
+
+# ::id 2
+# ::snt Ranti berjalan dengan pelan
+( j / jalan
+    :ARG0 ( r / ranti )
+    :mod ( p / pelan )
+)
+
+# ::id 2
+# ::snt Pak Andre memecahkan gelas dengan sengaja
+( p1 / pecah 
+    :ARG0 ( p2 / pak 
+        :name ( a / andre ))
+    :ARG1 ( g / gelas )
+    :mod ( s / sengaja )
+)
+
+# ::id 2
+# ::snt Pak Amir bermain basket di lapangan
+( m / main 
+    :ARG0 ( p / pak 
+        :name ( a / amir ))
+    :ARG1 ( b / basket)
+    :location ( l / lapangan )
+)
+
+# ::id 2
+# ::snt Paman mengunjungi ayah kemarin
+( k1 / kunjung 
+    :ARG0 ( p / paman )
+    :ARG1 ( a / ayah )
+    :time ( k2 / kemarin )
+)
+
+# ::id 2
+# ::snt Ibu menjahit baju dengan rapi
+( j / jahit 
+    :ARG0 ( i / ibu)
+    :ARG1 ( b / baju)
+    :mod ( r / rapi)
+)
+
+# ::id 2
+# ::snt Rini menulis surat dengan komputer
+( t / tulis 
+    :ARG0 ( r / rini)
+    :ARG1 ( s / surat)
+    :mod ( k / komputer )
+)
+
+# ::id 2
+# ::snt Dina menulis puisi untuk ibunda di beranda pada malam hari
+( t /tulis
+    :ARG0 ( d / diana)
+    :ARG1 ( p / puisi)
+    :mod ( i / ibunda)
+    :location ( b / beranda )
+    :time ( m / malam 
+        :mod ( h / hari ))
+)
+
+# ::id 2
+# ::snt Adik berlari dengan sangat kencang
+( l / lari 
+    :ARG0 ( a/adik )
+    :mod ( k / kencang 
+        :mod ( s / sangat ))
+)
+
+# ::id 2
+# ::snt Wahyu pergi ke warung
+(p / pergi 
+    :ARG0 ( w1 / wahyu)
+    :location ( w2 / warung )
+)
+
+# ::id 2
+# ::snt Anita sedang membuat roti
+( b / buat 
+    :ARG0 ( a / anita)
+    :ARG1 ( r / roti )
+)
+
+# ::id 2
+# ::snt Singa mengintai mangsanya
+( i / intai 
+    :ARG0 ( s / singa )
+    :ARG1 ( m / mangsa )
+)
+
+# ::id 2
+# ::snt Mobil itu melaju dengan sangat cepat
+( l / laju 
+    :ARG0 ( m / mobil)
+    :mod ( c / cepat   
+        :mod ( s / sangat ))
+)
+
+# ::id 2
+# ::snt Kakek sebelah rumahku sangat pemarah
+( m / marah 
+    :ARG0 ( k / kakek)
+    :location ( s1 / sebelah 
+        :ARG0 ( r / rumah ))
+    :mod ( s2 / sangat )
+)
+
+# ::id 2
+# ::snt Romeo tampan dengan setelan jas itu
+( t / tampan 
+    :ARG0 ( r / romeo )
+    :mod ( s / setel 
+        :mod ( j / jas ))
+)
+
+# ::id 2
+# ::snt Arsita terlihat begitu anggun dengan gaunnya
+( l / lihat 
+    :ARG0 ( a1 / arsita)
+    :ARG1 ( a2 / anggun )
+    :mod ( g / gaun )
+)
+
+# ::id 2
+# ::snt Cecep adalah pembohong
+( b / bohong
+    :ARG0 ( c / cecep)
+)
+
+# ::id 2
+# ::snt Irawan sangat baik hati kepada siapa saja
+( b / baik 
+    :ARG0 ( i / irawan )
+    :mod ( h / hati )
+    :ARG1 ( s1 / siapa 
+        :mod ( s2 / saja ))
+)
+
+# ::id 2
+# ::snt Dudung sangat pendiam di sekolahnya
+( d1 / diam 
+    :mod ( s1 / sangat )
+    :ARG0 ( d2 / dudung )
+    :location ( s2 / sekolah )
+)
+
+# ::id 2
+# ::snt Kucing hitam itu sangat menakutkan
+( t / takut 
+    :ARG0 ( k / kucing 
+        :mod ( h / hitam ))
+    :mod ( s / sangat )
+)
+
+# ::id 2
+# ::snt Ibuku adalah orang yang sangat penyayang
+( a / adalah 
+    :ARG0 ( i / ibu)
+    :ARG1 ( s1 / sayang 
+        :mod ( s2 / sangat ))
+)
+
+# ::id 2
+# ::snt Mirna membersihkan kacamatanya dengan selembar tisu basah
+( b1 / bersih
+    :ARG0 ( m / mirna )
+    :ARG1 ( k / kacamata )
+    :mod ( t / tisu 
+        :mod ( l / lembar)
+        :mod ( b2 / basah ))
+)
+
+# ::id 2
+# ::snt Jesica menyeduhkan kopi kesukaan ayahnya
+( s1 / seduh 
+    :ARG0 ( j / jessica )
+    :ARG1 ( k / kopi 
+        :mod( s2 / suka 
+            :ARG0 ( a1 / ayah )))
+)
+
+# ::id 2
+# ::snt Paman membelikanku novel Sherlock Holmes edisi terbaru
+( b1 / beli 
+    :ARG0 ( p / paman )
+    :ARG1 ( n / novel 
+        :name ( s / sherlock 
+            :name ( h / holmes )))
+    :mod ( b2 / baru )
+)
+
+# ::id 2
+# ::snt Pemulung itu memunguti sampah yang bisa didaur ulang
+( p1 / pungut 
+    :ARG0 ( p / pulung )
+    :ARG1 ( s / sampah 
+        :mod ( b / bisa 
+            :mod ( d / daur 
+                :mod ( u / ulang )))))
+
+# ::id 2
+# ::snt Weni membantu ayahnya memanen buah apel di kebun miliknya
+( b1 / bantu 
+    :ARG0 ( w / weni )
+    :ARG1 ( a1 / ayah )
+    :mod ( p / panen 
+        :ARG1 ( b2 / buah 
+            :mod ( a2 / apel )))
+    :location ( k / kebun 
+        :mod ( m / milik ))
+)
+
+# ::id 2
+# ::snt Ibu sedang mencuci piring
+( c / cuci 
+    :ARG0 ( i / ibu)
+    :ARG1 ( p / piring)
+)
+
+# ::id 2
+# ::snt Devis bermain bola kaki sampai sore
+( m / main 
+    :ARG0 ( d / devis )
+    :ARG1 ( b / bola 
+        :mod ( k / kaki ))
+    :time ( s1 / sampai 
+        :mod ( s / sore ))
+)
+
+# ::id 2
+# ::snt Sabrina mencari bukunya yang terselip
+( c / cari 
+    :ARG0 ( s1 / sabrina )
+    :ARG1 ( b / buku 
+        :mod ( s2 / selip))
+)
+
+# ::id 2
+# ::snt Kami pergi berkemah di Gunung Semeru
+( p / pergi 
+    :ARG0 ( k1 / kami )
+    :mod ( k2 / kemah )
+    :location ( g / gunung 
+        :name ( s / semeru ))
+)
+
+# ::id 2
+# ::snt Bu Septia menunggang kerbau
+( t / tunggang 
+    :ARG0 ( b / bu 
+        :name (s / septia ))
+    :ARG1 ( k / kerbau )
+)
+
+# ::id 2
+# ::snt Siska berteriak di kejauhan
+( t / teriak 
+    :ARG0 ( s / siska )
+    :location ( j / jauh )
+)
+
+# ::id 2
+# ::snt Santoso menjahit celana
+( j / jahit
+    :ARG0 ( s / santoso )
+    :ARG1 ( c / celana )
+)
+
+# ::id 2
+# ::snt Dia melamunkan seseorang
+( l / lamun 
+    :ARG0 ( d / dia )
+    :ARG1 ( o / orang )
+)
+
+# ::id 2
+# ::snt Adik membaca buku pelajaran di kamarnya
+( b1 / baca 
+    :ARG0 ( a1 / adik )
+    :ARG1 ( b2 / buku 
+        :mod ( a2 / ajar ))
+    :location ( k / kamar )
+)
+
+# ::id 2
+# ::snt Nur menemukan barang itu di jalan
+( t / temu 
+    :ARG0 ( n / nur )
+    :ARG1 ( b / barang )
+    :location ( j / jalan )
+)
+
+# ::id 2
+# ::snt Messi mencetak gol indah di pertandingan tadi malam
+( c / cetak 
+    :ARG0 ( m1 / messi )
+    :ARG1 ( g / gol )
+    :location ( t1 / tanding )
+    :time ( t2 / tadi 
+        :mod ( m2 / malam ))
+)
+
+# ::id 2
+# ::snt Anggi membeli kue di toko
+( b / beli 
+    :ARG0 ( a / anggi )
+    :ARG1 ( k / kue)
+    :location ( t / toko )
+)
+
+# ::id 2
+# ::snt Riko menonton TV di ruang tamu
+( t1 / tonton 
+    :ARG0 ( r1 / riko )
+    :ARG1 ( t2 / tv )
+    :location ( r2 / ruang 
+        :mod ( t / tamu ))
+)
+
+# ::id 2
+# ::snt Bu Via menyanyikan lagu dengan semangat
+( n / nyanyi 
+    :ARG0 ( b / bu 
+        :name ( v / via ))
+    :ARG1 ( l / lagu )
+    :mod ( s / semangat )
+)
+
+# ::id 2
+# ::snt Wawan menyalakan lampu di depan rumah
+( n / nyala 
+    :ARG0 ( w / wawan)
+    :ARG1 ( l / lampu )
+    :location ( d / depan 
+        :mod ( r / rumah ))
+)
+
+# ::id 2
+# ::snt Yasmin membuang sampah di tempat sampah
+( b / buang 
+    :ARG0 ( y / yasmin )
+    :ARG1 ( s1 / sampah )
+    :location ( t / tempat 
+        :mod ( s2 / sampah ))
+)
+
+# ::id 2
+# ::snt Rina bertemu temannya tadi malam
+( t1 / temu
+    :ARG0 ( r / rina )
+    :ARG1 ( t2 / teman )
+    :time ( t3 / tadi 
+        :mod ( m / malam ))
+)
+
+# ::id 2
+# ::snt Indah memakan bekalnya dengan lahap
+( m / makan 
+    :ARG0 ( i / indah )
+    :ARG1 ( b / bekal )
+    :mod ( l / lahap )
+)
+
+# ::id 2
+# ::snt Paul mematikan komputernya lima menit yang lalu
+( m1 / mati 
+    :ARG0 ( p / paul)
+    :ARG1 ( k / komputer )
+    :time ( l1 / lima 
+        :mod ( m / menit 
+            :mod ( l / lalu )))
+)
+
+# ::id 2
+# ::snt Pak Sutejo menanam padi di sawah
+( t / tanam 
+    :ARG0 ( p1 / pak 
+        :name ( s1 / sutejo ) )
+    :ARG1 ( p2 / padi )
+    :location ( s2 / sawah )
+)
+
+# ::id 2
+# ::snt Karni membacakan orasi di atas panggung
+( b / baca 
+    :ARG0 ( k / karni )
+    :ARG1 ( o / orasi )
+    :location ( a / atas 
+        :mod ( p / panggung ))
+)
+
+# ::id 2
+# ::snt Tata membeli baju mahal itu di mall
+( b1 / beli 
+    :ARG0 ( t / tata)
+    :ARG1 ( b2 / baju 
+        :mod ( m1 / mahal ))
+    :location ( m2 / mall )
+)
+
+# ::id 2
+# ::snt Pemburu itu berburu hewan di hutan
+( b1 / buru 
+    :ARG0 ( b2 / buru )
+    :ARG1 ( h1 / hewan )
+    :location ( h2 / hutan )
+)
+
+# ::id 2
+# ::snt Riana makan nasi goreng
+(m / makan 
+    :ARG0 ( r / riana )
+    :ARG1 ( n / nasi 
+        :mod ( g / goreng ))
+)
+
+# ::id 2
+# ::snt Citra sedang membaca buku
+( b2 / baca 
+    :ARG0 ( c / citra)
+    :ARG1 ( b1 / buku )
+)
+
+# ::id 2
+# ::snt Ibu sedang mencuci pakaian
+(c / cuci 
+    :ARG0 ( i / ibu )
+    :ARG1 ( p / pakai )
+)
+
+# ::id 2
+# ::snt Joko membeli bahan makanan
+(b1 / beli 
+    :ARG0 ( j / joko )
+    :ARG1 ( b2 / bahan 
+        :mod ( m / makan ))
+)
+
+# ::id 2
+# ::snt Dik Dina melihat pemandangan pantai
+( l / lihat 
+    :ARG0 ( d1 / dik 
+        :name ( d2 / dina ))
+    :ARG1 ( p1 / pandang 
+        :mod ( p2 / pantai ))
+)
+
+# ::id 2
+# ::snt Para nelayan sedang memancing ikan
+( p1 / pancing
+    :ARG0 ( n / nelayan 
+        :mod ( p2 / para ))
+    :ARG1 ( i / ikan )
+)
+
+# ::id 2
+# ::snt Kucing itu berburu mangsa
+( b / buru 
+    :ARG0 ( k / kucing )
+    :ARG1 ( m / mangsa )
+)
+
+# ::id 2
+# ::snt Anak laki-laki itu yang menendang bola
+(t / tendang
+    :ARG0 ( a / anak 
+        :mod ( l / laki ))
+    :ARG1 ( b / bola )
+)
+
+# ::id 2
+# ::snt Mey meminum minuman itu
+( m1 / minum 
+    :ARG0 ( m2 / mey )
+    :ARG1 ( m3 / minuman )
+)
+
+# ::id 2
+# ::snt Suster Ayu suka menonton drama Korea
+( t / tonton 
+    :ARG0 ( s / suster
+        :name ( a / ayu ))
+    :ARG1 ( d / drama 
+        :mod ( k / korea ))
+)
+
+# ::id 2
+# ::snt Bapak Rian sedang mencari nafkah
+( c / cari 
+    :ARG0 ( b / bapak 
+        :name ( r / rian ))
+    :ARG1 ( n / nafkah )
+)
+
+# ::id 2
+# ::snt Ibu Budi sedang menanak nasi
+( n1 / nanak
+    :ARG0 ( i / ibu 
+        :name ( b / budi ))
+    :ARG1 ( n2 / nasi )
+)
+
+# ::id 2
+# ::snt Polisi itu menangkap gerombolan pencuri
+(t / tangkap 
+    :ARG0 ( p / polisi)
+    :ARG1 ( c / curi
+        :mod ( g / gerombol ) 
+    )
+)
+
+# ::id 2
+# ::snt Auliya menjual beberapa perhiasannya
+( j / jual 
+    :ARG0 ( a / auliya )
+    :ARG1 ( h / hias 
+        :mod ( b / berapa ))
+)
+
+# ::id 2
+# ::snt Nadya suka menggambar komik
+( s / suka 
+    :ARG0 ( n / nadya )
+    :ARG1 ( g / gambar 
+        :ARG1 ( k / komik ))
+)
+
+# ::id 2
+# ::snt Ajeng tertawa terbahak-bahak
+( t / tawa 
+    :ARG0 ( a / ajeng )
+    :mod ( b / bahak )
+)
+
+# ::id 2
+# ::snt Ibu memasak di dapur
+( m / masak 
+    :ARG0 ( i / ibu )
+    :location ( d / dapur )
+)
+
+# ::id 2
+# ::snt Devin menangis tersedu-sedu
+( t / tangis 
+    :ARG0 ( d / devin )
+    :mod ( s /sedu )
+)
+
+# ::id 2
+# ::snt Arlita sedang belajar di sekolah
+( a1 / ajar 
+    :ARG0 ( a2 / arlita )
+    :location ( s / sekolah )
+)
+
+# ::id 2
+# ::snt Bugie bermain di halaman rumah
+( m / main 
+    :ARG0 ( b / bugie )
+    :location ( h / halaman 
+        :mod ( r / rumah ))
+)
+
+# ::id 2
+# ::snt Para siswa berdiskusi di warung kopi
+( d / diskusi 
+    :ARG0 ( s / siswa 
+        :mod ( p / para ))
+    :location ( w / waring 
+        :mod ( k / kopi ))
+)
+
+# ::id 2
+# ::snt Rizal sedang membaca di perpustakaan
+( b / baca 
+    :ARG0 ( r / rizal )
+    :location ( p / pustaka )
+)
+
+# ::id 2
+# ::snt Singa meraung dengan keras
+( r / raung 
+    :ARG0 ( s / singa )
+    :mod ( k / keras )
+)
+
+# ::id 2
+# ::snt Pak guru berpidato di lapangan sekolah
+( p1 / pidato 
+    :ARG0 ( p2 / pak 
+        :mod ( g / guru ))
+    :location ( l / lapangan 
+        :mod ( s / sekolah ))
+)
+
+# ::id 2
+# ::snt Bu Rima berdandan di salon
+( d / dandan 
+    :ARG0 ( b / bu 
+        :name ( r / rima ))
+    :location ( s / salon )
+)
+
+# ::id 245
+# ::snt Kak Dina beli baju di toko baru.
+
+(b3/beli
+    :ARG0 (k/kak
+        :name ( d / dina ))
+    :ARG1 (b1/baju)
+    :location (t/toko
+        :mod (b2/baru)))
+
+# ::id 245
+# ::snt Paman Budi tidur di kamar depan
+
+(t/tidur
+    :ARG0 (p/paman
+        :name ( b / budi ))
+    :location (k/kamar
+        :mod (d/depan)))
+
+# ::id 245
+# ::snt Ibu menyiram bunga
+( s / siram 
+    :ARG0 ( i / ibu )
+    :ARG1 ( b / bunga )
+)
+
+# ::id 245
+# ::snt Bunga disiram ibu
+( s / siram 
+    :ARG0 ( i / ibu )
+    :ARG1 ( b / bunga )
+)
+
+# ::id 245
+# ::snt Ibu Shinta menyiram bunga mawar dengan air hujan yang ditampung kemarin
+( s1 / siram 
+    :ARG0 ( i / ibu 
+        :name ( s2 / shinta ))
+    :ARG1 ( b / bunga 
+        :mod ( m / mawar ))
+    :mod ( a / air 
+        :mod ( h / hujan 
+            :mod ( t /tampung 
+                :time ( k / kemarin ))))
+)
+
+# ::id 245
+# ::snt Ayah membaca koran Waspada di teras rumah
+(b / baca 
+    :ARG0 ( a / ayah )
+    :ARG1 ( k / koran 
+        :name ( w / waspada ))
+    :location ( t / teras 
+        :mod ( r / rumah ))
+)
+
+# ::id 245
+# ::snt Ketika hujan tadi malam, penjual nasi goreng berjualan
+(j1 / jual 
+    :ARG0 ( j2 / jual 
+        :ARG1 ( n / nasi 
+            :mod ( g / goreng )))
+    :time ( h / hujan 
+        :time ( t / tadi 
+            :mod ( m / malam )))
+)
+
+# ::id 245
+# ::snt Adik membaca buku ensiklopedia
+( b1 / baca
+    :ARG0 ( a / adik )
+    :ARG1 ( b2 / buku 
+        :mod ( e / ensiklopedia ))
+)
+
+# ::id 245
+# ::snt Kami pergi ke Gunung Rinjani saat liburan nanti
+( p /pergi
+    :ARG0 ( k / kami )
+    :location ( g / gunung 
+        :name ( r / rinjani ))
+    :time ( l / liburan 
+        :mod ( n / nanti ))
+)
+
+# ::id 245
+# ::snt Aku suka dengan tulisannya
+( s / suka 
+    :ARG0 ( a / aku )
+    :ARG1 ( t / tulis)
+)
+
+# ::id 245
+# ::snt Ibu menjahit baju sekolahku yang robek
+( j / jahit 
+    :ARG0 ( i / ibu )
+    :ARG1 ( b / baju 
+        :mod ( s / sekolah 
+            :mod ( r / robek )))
+)
+
+# ::id 245
+# ::snt Tim Indonesia mencetak gol ke gawang lawan
+( c / cetak
+    :ARG0 ( t / tim 
+        :name ( i / indonesia ))
+    :ARG1 ( g1 / gol )
+    :location ( g2/ gawang 
+        :mod ( l / lawan )))
+
+# ::id 245
+# ::snt Bu Asti mengenakan topi bundar 
+( k / kena 
+    :ARG0 ( b1 / bu 
+        :name ( a / asti ))
+    :ARG1 ( t / topi 
+        :mod ( b2 / bundar ))
+)
+
+# ::id 245
+# ::snt Tahanan di Nusakambangan diberikan keringanan saat hari raya Idul Fitri
+( b / beri 
+    :ARG0 ( t / tahanan 
+        :location ( n / nusakambangan ))
+    :ARG1 ( r1 / ringan )
+    :time ( h / hari 
+        :mod ( r2 / raya 
+            :name ( i / idul 
+                :mod ( f / fitri )))))
+
+# ::id 245
+# ::snt Cerpen yang ada di sekolah menginpirasi pembacanya
+( i / inspirasi 
+    :ARG0 ( c / cerpen 
+        :mod ( a / ada 
+            :location ( s / sekolah )))
+    :ARG1 ( b / baca )
+)
+
+# ::id 245
+# ::snt Perpustakaan menjadi tempat yang paling nyaman di sekolah kami
+( j / jadi 
+    :ARG0 ( p1 / pustaka )
+    :ARG1 ( t / tempat 
+        :mod ( n / nyaman 
+            :mod ( p2 / paling )))
+    :location ( s / sekolah 
+        :mod ( k / kami ))
+)
+
+# ::id 245
+# ::snt Ibu Sri Yuni membeli kue capit
+( b / beli 
+    :ARG0 ( i / ibu 
+        :name ( s / sri 
+            :name ( y / yuni )))
+    :ARG1 ( k / kue 
+        :name ( c / capit ))
+)
+
+# ::id 245
+# ::snt Pak Ucok membajak sawah dengan teknologi pertanian yang modern
+( b / bajak 
+    :ARG0 ( p / pak 
+        :name ( u / ucok ))
+    :ARG1 ( s / sawah )
+    :mod ( t1 / teknologi 
+        :mod ( t2 / tani 
+            :mod ( m / modern )))
+)
+
+# ::id 245
+# ::snt Ibu sedang mencuci piring
+( c / cuci 
+    :ARG0 ( i / ibu )
+    :ARG1 ( p / piring )
+)
+
+# ::id 245
+# ::snt Pak Andri bermain bola sampai sore
+( m / main 
+    :ARG0 ( p / pak 
+        :name ( a / andri ))
+    :ARG1 ( b / bola )
+    :time ( s1 / sampai 
+        :mod ( s2 / sore ))
+)
+
+# ::id 245
+# ::snt Rani sedang mencari buku yang terselip
+( c / cari 
+    :ARG0 ( r / rani )
+    :ARG1 ( b / buku 
+        :mod ( s / selip ))
+)
+
+# ::id 245
+# ::snt Kami pergi berkemah di Gunung Semeru
+( p / pergi 
+    :ARG0 ( k1 / kami )
+    :ARG1 ( k2 / kemah )
+    :location ( g / gunung 
+        :name (s / semeru ))
+)
+
+# ::id 245
+# ::snt Ada tikus di bawah ranjang tidurku
+( a / ada 
+    :ARG1 ( t1 / tikus )
+    :location ( b / bawah 
+        :mod ( r /ranjang 
+            :mod ( t2 / tidur)))
+)
+
+# ::id 245
+# ::snt Linda pergi ke toko cat
+( p / pergi 
+    :ARG0 ( l / linda )
+    :location ( t / toko 
+        :mod ( c / cat))
+)
+
+# ::id 245
+# ::snt Aku masih ada di rumah
+( a1 / ada 
+    :ARG1 ( a2/ aku  )
+    :location ( r / rumah )
+)
+
+# ::id 245
+# ::snt Kami pergi ke sana sekarang
+( p / pergi 
+    :ARG0 ( k / kami )
+    :location ( s1 / sana )
+    :time ( s2 / sekarang )
+)
+
+# ::id 245
+# ::snt Ayah sedang ada di kantor
+( a1 / ada 
+    :ARG0 ( a2 / ayah )
+    :location ( k / kantor )
+)
+
+# ::id 245
+# ::snt Ibu Rusni memasak sejak tadi pagi
+( m / masak 
+    :ARG0 ( i / ibu 
+        :name ( r / rusni ))
+    :time ( s / sejak 
+        :mod ( t/ tadi 
+            :mod ( p / pagi )))
+)
+
+# ::id 245
+# ::snt Andini berlibur ke pantai hari ini
+( l / libur
+    :ARG0 ( a / andini )
+    :location ( p / pantai )
+    :time ( h / hari 
+        :mod ( i / ini ))
+)
+
+# ::id 245
+# ::snt Setelah kejadian kemarin, kami trauma pergi ke sana
+( t / trauma 
+    :ARG0 ( k1 / kami)
+    :ARG1 ( p / pergi 
+        :location ( s1 / sana ))
+    :time ( s2 / setelah 
+        :mod ( j / jadi 
+            :mod ( k2 / kemarin )))
+)
+
+# ::id 245
+# ::snt Mita membersihkan rumah.
+( b / bersih 
+    :ARG0 ( m / mita )
+    :ARG1 ( r / rumah )
+)
+
+# ::id 245
+# ::snt Pak Dodi mengatakan Bu Nia pergi ke rumah Jihan sebelum magrib
+( k / kata 
+    :ARG0 ( p1 / pak 
+        :name ( d / dodi ))
+    :ARG1 ( p2 / pergi
+        :ARG0 ( b1 / bu 
+            :name ( n / nia ))
+        :location ( r / rumah 
+            :name ( j / jihan ))
+        :time ( b2 / belum 
+            :mod ( m / maghrib )) 
+    )
+)
+
+# ::id 245
+# ::snt Tika berhenti menangis setelah Ayah membelikannya mainan baru
+( h / henti 
+    :ARG0 ( t1 / tika )
+    :ARG1 ( t2 / tangis )
+    :time ( t3 / telah 
+        :mod ( b1 / beli 
+            :ARG0 ( a / ayah )
+            :ARG1 ( m / main
+                :mod ( b2 / baru )))))
+
+# ::id 245
+# ::snt Ibu Guru mengatakan bahwa kami harus menyelesaikan soal ujian hari ini
+( k1 / kata 
+    :ARG0 ( i1 / ibu 
+        :mod ( g / guru ))
+    :ARG1 ( s1 / selesai
+        :ARG0 ( k2 / kami )
+        :ARG1 ( s2  / soal 
+            :mod ( u / ujian ))
+        :time ( h / hari 
+            :mod ( i2 / ini )) 
+    )
+)
+
+# ::id 245
+# ::snt Saya tertawa ketika melihat acara komedi di televisi
+( t1 / tawa 
+    :ARG0 ( s / saya )
+    :time ( l / lihat 
+        :ARG1 ( a / acara 
+            :mod ( k / komedi ))
+        :location ( t2 / televisi ))
+)
+
+# ::id 245
+# ::snt Pak Gilang mengatakan bahwa Ayah pulang lusa
+( k / kata 
+    :ARG0 ( p1 / pak 
+        :name ( g / gilang ))
+    :ARG1 ( p2 / pulang 
+        :ARG0 ( a / ayah )
+        :time ( l / lusa ))
+)
+
+# ::id 245
+# ::snt Bulan depan, kami mengikuti UNBK secara serentak
+( i / ikut 
+    :ARG0 ( k / kami )
+    :ARG1 ( u / unbk)
+    :mod (  c / cara 
+        :mod ( r / rentak ))
+    :time ( b / bulan 
+        :mod ( d / depan ))
+)
+
+# ::id 245
+# ::snt Kue ini layak dimakan
+( l / layak 
+    :ARG0 ( k / kue )
+    :ARG1 ( m / makan )
+)
+
+# ::id 245
+# ::snt Obat ini kadaluarsa
+(k / kadaluarsa 
+    :ARG0 ( o / obat )
+)
+
+# ::id 245
+# ::snt Malam ini kami menginap di hotel yang besar
+( i1 / inap 
+    :ARG0 ( k / kami )
+    :location ( h / hotel 
+        :mod ( b / besar ))
+    :time ( m / malam 
+        :mod ( i2 / ini ))
+)
+
+# ::id 245
+# ::snt Jojon pulang ke rumah sejak Ayah memarahinya
+( p / pulang 
+    :ARG0 ( j / jojon )
+    :location ( r / rumah )
+    :time ( s / sejak 
+        :mod ( m / marah 
+            :ARG0 ( a / ayah ))) 
+)
+
+# ::id 245
+# ::snt Tuangkan adonan ke dalam loyang setelah adonan dingin
+( t1 / tuang 
+    :ARG1 ( a1 / adon )
+    :location ( d1 / dalam 
+        :mod ( l / loyang ))
+    :time ( t2 / telah 
+        :mod ( a2 / adon 
+            :mod ( d2 / dingin ))))
+
+# ::id 245
+# ::snt Ibu memberikan sup hangat ketika Ayah pulang
+( b / beri 
+    :ARG0 ( i / ibu )
+    :ARG1 ( s / sup 
+        :mod ( h / hangat ))
+    :time ( k / ketika 
+        :mod ( p / pulang 
+            :ARG0 ( a / ayah )))
+)
+
+# ::id 245
+# ::snt Pak Tono tahu bahwa komputernya rusak
+( t1 / tahu 
+    :ARG0 ( p / pak 
+        :name ( t2 / tono ))
+    :ARG1 ( k / komputer 
+        :mod ( r / rusak ))
+)
+
+# ::id 245
+# ::snt saya pergi ke pasar jam enam pagi
+( p1 / pergi 
+    :ARG0 ( s / saya )
+    :location ( p2 / pasar )
+    :time ( j / jam 
+        :mod ( e / enam 
+            :mod ( p3 / pagi ))))
+
+# ::id 245
+# ::snt Ayah pergi ke kantor minggu kemarin
+( p / pergi 
+    :ARG0 ( a / ayah )
+    :location ( k1 / kantor )
+    :time ( m / minggu 
+        :mod ( k2 / kemarin ))
+)
+
+# ::id 245
+# ::snt Andi berangkat ke sekolah
+(b / berangkat 
+    :ARG0 ( a / andi )
+    :location ( s / sekolah )
+)
+
+# ::id 245
+# ::snt ani mendapat nilai bagus pada hari pertama
+( d / dapat 
+    :ARG0 ( a / ani )
+    :ARG1 ( n / nilai 
+        :mod ( b / bagus ))
+    :time ( h / hari 
+        :mod ( p / pertama ))
+)
+
+# ::id 245
+# ::snt Andre berangkat ke sekolah pada enam pagi
+( b / berangkat 
+    :ARG0 ( a / andre )
+    :location ( s / sekolah )
+    :time ( e / enam 
+        :mod ( p / pagi))
+)
+
+# ::id 245
+# ::snt Sejak kemarin sore, dinda pulang ke rumah
+( p / pulang 
+    :ARG0 ( d / dinda )
+    :location ( r / rumah )
+    :time ( s1 / sejak 
+        :mod ( k / kemarin 
+            :mod ( s2 / sore )))
+)
+
+# ::id 245
+# ::snt Musim kemarau terjadi di bulan Oktober
+( j / jadi 
+    :ARG0 ( m / musim 
+        :mod ( k / kemarau ))
+    :time ( b / bulan 
+        :mod ( o / oktober ))
+)
+
+# ::id 245
+# ::snt Andre dapat mendengar dengan baik sejak kecil
+( d1 / dapat 
+    :ARG0 ( a / andre )
+    :ARG1 ( d2 / dengar 
+        :mod ( b / baik ))
+    :time ( s / sejak 
+        :mod ( k / kecil ))
+)
+
+# ::id 245
+# ::snt Nuryati pindah ke Bandung setelah menikah
+( p / pindah 
+    :ARG0 ( n1 / nuryati )
+    :location ( b / bandung )
+    :time ( t / telah 
+        :mod ( n2 / nikah ))
+)
+
+# ::id 245
+# ::snt Obat itu diminum setelah makan siang
+( m1 / minum 
+    :ARG1 ( o / obat )
+    :time ( s1 / setelah 
+        :mod ( m2 / makan 
+            :mod ( s2 / siang )))
+)
+
+# ::id 245
+# ::snt Matahari terbit di pagi hari
+(t / terbit 
+    :ARG0 ( m / matahari )
+    :time ( p / pagi 
+        :mod ( h / hari ))
+)
+
+# ::id 245
+# ::snt Saat fajar tiba terdengar suara ayam jantan berkokok
+( d / dengar 
+    :ARG1 ( s1 / suara 
+        :mod ( a / ayam 
+            :mod ( j / jantan 
+                :mod ( k / kokok ))))
+    :time ( f / fajar
+        :mod ( s2 / saat  
+            :mod ( t / tiba )))
+)
+
+# ::id 245
+# ::snt Ayah pergi memancing seminggu sekali
+( p1 / pergi 
+    :ARG0 ( a / ayah )
+    :ARG1 ( p2 / pangcing )
+    :time ( m / minggu 
+        :mod ( k / kali ))
+)
+
+# ::id 245
+# ::snt Pak Ilham masuk kantor
+( m / masuk 
+    :ARG0 ( p / pak 
+        :mod ( i / ilham ))
+    :location ( k / kantor )
+)
+
+# ::id 245
+# ::snt Zaman dahulu terdapat banyak kerajaan di indonesia
+( d1 / dapat 
+    :mod ( b / banyak )
+    :ARG0 ( r / raja )
+    :location ( i / indonesia )
+    :time ( z / zaman 
+        :mod ( d2 / dahulu ))
+)
+
+# ::id 245
+# ::snt Pakcoy bertumbuhan ketika musim kemarau
+( t / tumbuh 
+    :ARG0 ( p / pakcoy )
+    :time ( m / musim 
+        :mod ( k / kemarau ))
+)
+
+# ::id 245
+# ::snt Sekarang kami dapat berkomunikasi dengan mudah
+( d / dapat 
+    :ARG0 ( k1 / kami )
+    :ARG1 ( k2 / komunikasi 
+        :mod ( m / mudah ))
+    :time ( s / sekarang )
+)
+
+# ::id 245
+# ::snt Banyak hal yang perlu dibahas saat rapat nanti
+( p / perlu 
+    :ARG0 ( h / hal 
+        :mod ( b1 / banyak ))
+    :ARG1 ( b2 / bahas )
+    :time ( r / rapat 
+        :mod ( n / nanti ))
+)
+
+# ::id 245
+# ::snt Upacara penurunan bendera dilaksanakan pada hari Sabtu
+(l / laksana 
+    :ARG1 ( u / upacara 
+        :mod ( t / turun 
+            :mod ( b / bendera )))
+    :time ( h / hari 
+        :mod ( s / sabtu ))
+)
+
+# ::id 245
+# ::snt Kakek menanam cabe di halaman tadi pagi
+( t1 / tanam 
+    :ARG0 ( k / kakek )
+    :ARG1 ( c / cabe )
+    :location ( h / halaman )
+    :time ( t2 / tadi 
+        :mod ( p / pagi ))
+)
+
+# ::id 245
+# ::snt Upacara proklamasi dimulai jam sepuluh pagi
+( m / mulai 
+    :ARG1 ( u / upacara 
+        :mod ( p1 / proklamasi ))
+    :time ( j / jam 
+        :mod ( s / sepuluh 
+            :mod ( p2 / pagi )))
+)
+
+# ::id 245
+# ::snt Kemerdekaan Indonesia diproklamirkan pada tanggal 17 Agustus 1945 oleh Bapak Soekarno
+( p / proklamir 
+    :ARG1 ( m / merdeka 
+        :mod ( i / indonesia ))
+    :time ( t / tanggal
+        :mod ( vv1 / 17 
+            :mod ( a / agustus 
+                :mod ( vv2 / 1945 )))
+    )
+    :ARG0 ( b / bapak 
+        :name ( s / soekarno ))
+)
+
+# ::id 245
+# ::snt Dinda berangkat ke jakarta tiga hari yang lalu
+( b / berangkat
+    :ARG0 ( d / dinda )
+    :location ( j / jakarta )
+    :time ( t / tiga 
+        :mod ( h / hari 
+            :mod ( l / lalu )))
+)
+
+# ::id 245
+# ::snt Senam kesegaran jasmani dilaksanakan setiap senin
+( l / laksana 
+    :ARG0 ( s1 / senam 
+        :mod ( s2 / segar 
+            :mod ( j / jasmani ) ))
+    :time ( t / tiap 
+        :mod ( s4 / senin ))
+)
+
+# ::id 245
+# ::snt Dia terlihat antusias setiap kali membicarakan politik
+( l / lihat 
+    :ARG1 ( d / dia )
+    :mod ( a / antusias )
+    :time ( t / tiap 
+        :mod ( b / bicara 
+            :ARG0 ( p / politik )))
+)
+
+# ::id 245
+# ::snt Dia sedih saat ingat kejadian waktu itu
+( s1 / sedih 
+    :ARG0 ( d / dia )
+    :time ( i / ingat
+        :ARG1 ( j / jadi
+            :time ( w / waktu )   
+                :mod ( s2 / saat)))
+)
+
+# ::id 245
+# ::snt Peristiwa Pemberontakan G-30-S PKI terjadi pada tahun 1965
+( j / jadi 
+    :ARG0 ( p1 / peristiwa 
+        :mod ( b / berontak 
+            :name ( vv1 / g-30-s 
+                :mod ( p2 / pki )))
+    :time ( t / tahun 
+        :mod ( vv2 / 1965 ))
+    )
+)
+
+# ::id 245
+# ::snt Air selokan meluap pukul enam pagi
+( l / luap 
+    :ARG0 ( a / air 
+        :mod ( s / selok ))
+    :time ( p1 / pukul 
+        :mod ( e / enam 
+            :mod ( p2 / pagi )))
+)
+
+# ::id 245
+# ::snt Besok lusa saya berangkat ke bandung
+( b / berangkat 
+    :ARG0 ( s / saya )
+    :location ( b2 / bandung )
+    :time ( b3 / besok 
+        :mod ( l / lusa ))
+)
+
+# ::id 245
+# ::snt Waktu kecil andre diajak ibu pergi mengunjungi nenek
+( a1 / ajak 
+    :ARG1 ( a2 / andre )
+    :ARG0 ( i / ibu )
+    :mod ( p / pergi 
+        :mod ( k1 / kunjung 
+            :ARG1 ( n / nenek )))
+    :time ( w / waktu 
+        :mod ( k2 / kecil ))
+)
+
+# ::id 245
+# ::snt Saat hujan, udara terasa lebih panas
+( r / rasa 
+    :ARG1 ( u / udara )
+    :mod ( p / panas 
+        :mod ( l / lebih ))
+    :time ( h / hujan 
+        :mod ( s / saat ))
+)
+
+# ::id 245
+# ::snt Saya berjumpa dengan dinda
+( j / jumpa
+    :ARG0 ( s / saya )
+    :ARG1 ( d / dinda )
+)
+
+# ::id 245
+# ::snt Saat sakit kita menyadari pentingnya menjaga kesehatan
+( s1 / sadar 
+    :ARG0 ( k / kita )
+    :ARG1 ( p / penting 
+        :mod ( j / jaga 
+            :ARG1 ( s2 / sehat )))
+    :time ( s4 / sakit 
+        :mod ( s3 / saat  ))
+)
+
+# ::id 245
+# ::snt Acara seminar dimulai satu jam lagi
+(m / mulai 
+    :ARG0 ( a / acara 
+        :mod ( s1 / seminar ))
+    :time ( s2 / satu 
+        :mod ( j / jam 
+            :mod ( l / lagi )))
+)
+
+# ::id 245
+# ::snt Kami  menunggu di stasiun sejak tiga jam lalu
+( t1 / tunggu 
+    :ARG0 ( k / kami )
+    :location ( s1 / stasiun)
+    :time ( s2 / sejak 
+        :mod ( t2 / tiga 
+            :mod ( j / jam 
+                :mod ( l / lalu ))))
+)
+
+# ::id 245
+# ::snt Aku mencuci kaki sebelum tidur
+( c / cuci 
+    :ARG0 ( a / aku )
+    :ARG1 ( k / kaki )
+    :time ( b / belum 
+        :mod ( t / tidur ))
+)
+
+# ::id 245
+# ::snt Kita menjaga persatuan bangsa mulai sekarang 
+( j / jaga 
+    :ARG0 ( k / kita )
+    :ARG1 ( s1 / satu 
+        :mod ( b / bangsa ))
+    :time ( m / mulai 
+        :mod ( s2 / sekarang ))
+)
+
+# ::id 245
+# ::snt Pak Puguh bisa hadir pada sore hari ini
+( b / bisa
+    :ARG0 ( p1 / pak 
+        :name ( p2 / puguh ))
+    :ARG1 ( h1 / hadir )
+    :time ( s / sore
+        :mod ( h2 / hari 
+            :mod ( i / ini )))
+)
+
+# ::id 245
+# ::snt Toko buku buka jam 8 pagi
+( b1 / buka 
+    :ARG0 ( t / toko 
+        :mod ( b2 / buku ))
+    :time ( j / jam 
+        :mod ( vv1 / 8 
+            :mod ( p / pagi )))
+)
+
+# ::id 245
+# ::snt kita mampir ke sini lain kali 
+( m / mampir
+    :ARG0 ( k1 / kita)
+    :location ( s / sini )
+    :time ( l / lain 
+        :mod ( k2 / kali )))
+
+# ::id 245
+# ::snt Mulai sekarang kalian memperhatikan kebersihan kelas
+( p / perhati 
+    :ARG0 ( k1 / kalian )
+    :ARG1 ( b / bersih 
+        :mod ( k2 / kelas  ))
+    :time ( m / mulai 
+        :mod ( s / sekarang ))
+)
+
+# ::id 245
+# ::snt dia bisa malam hari ini
+( b / bisa 
+    :ARG0 ( d / dia )
+    :time ( m / malam 
+        :mod ( h / hari 
+            :mod ( i / ini )))
+)
+
+# ::id 245
+# ::snt Dinda mencontek saat ujian
+( c / contek 
+    :ARG0 ( d / dinda )
+    :time ( u / ujian 
+        :mod (s / saat))
+)
+
+# ::id 245
+# ::snt Adik kuliah di jakarta tahun depan
+( k / kuliah 
+    :ARG0 ( a / adik )
+    :location ( j / jakarta )
+    :time ( t / tahun 
+        :mod ( d / depan )))
+
+# ::id 245
+# ::snt Setiap pagi Pak Joko bersepeda
+( s / sepeda 
+    :ARG0 ( p1 / pak 
+        :name ( j / joko ))
+    :time ( t / tiap 
+        :mod ( p2 / pagi ))
+)
+
+# ::id 245
+# ::snt Bu Tati pergi berlibur ke jogja hari senin
+( p / pergi 
+    :ARG0 ( b / bu 
+        :name (  t / tati ))
+    :location ( j / jogja )
+    :time ( h / hari 
+        :mod ( s / senin ))
+)
+
+# ::id 245
+# ::snt Kalian boleh datang ke rumahku kapan saja
+( b / boleh 
+    :ARG0 ( k1 / kalian )
+    :ARG1 ( d / datang 
+        :location ( r / rumah )
+        :time ( k2 / kapan 
+            :mod ( s / saja )))
+)
+
+# ::id 245
+# ::snt Di musim kemarau, kami kekurangan air bersih
+( k1 / kurang 
+    :ARG0 ( k2 / kami )
+    :ARG1 ( a / air     
+        :mod ( b / bersih ))
+    :time ( m / musim 
+        :mod ( k3 / kemarin ))
+)
+
+# ::id 245
+# ::snt Kita pergi pukul tujuh malam
+( p2 / pergi 
+    :ARG0 ( k / kita )
+    :time ( p1 / pukul 
+        :mod ( t / tujuh 
+            :mod ( m / malam ))))
+
+# ::id 245
+# ::snt Kami latihan musik setiap hari minggu
+( l / latih 
+    :ARG0 ( k / kami )
+    :ARG1 ( m1 / musik )
+    :time ( s / setiap 
+        :mod ( h / hari 
+            :mod ( m2 / minggu )))
+)
+
+# ::id 245
+# ::snt Saya bertemu Pak Ilham besok
+( t / temu 
+    :ARG0 ( s / saya )
+    :ARG1 ( p / pak 
+        :name ( i / ilham ))
+    :time ( b / besok )
+)
+
+# ::id 245
+# ::snt Perbaikan jalan tol dilaksanakan dalam waktu dekat ini
+( l / laksana 
+    :ARG0 ( b / baik 
+        :ARG1 ( j / jalan 
+            :mod ( t  / tol )))
+    :time ( w / waktu 
+        :mod ( d / dekat ))
+)
+
+# ::id 245
+# ::snt Peraturan berlaku sejak disahkan
+( l / laku
+    :ARG0 ( a / atur )
+    :time ( s1 / sejak
+        :mod ( s2 / sah ))
+)
+
+# ::id 245
+# ::snt Natasha datang ke pestaku tadi sore
+(d / datang 
+    :ARG0 ( n / natasha)
+    :ARG1 ( p / pesta )
+    :time ( t / tadi 
+        :mod ( s / sore ))
+)
+
+# ::id 245
+# ::snt Paman kembali ke rumah tadi malam
+( k / kembali 
+    :ARG0 ( p / paman)
+    :location ( r / rumah )
+    :time ( t / tadi 
+        :mod ( m / malam ))
+)
+
+# ::id 245
+# ::snt Ayah berangkat ke kantor pukul tujuh pagi
+( b / berangkat 
+    :ARG0 ( a / ayah )
+    :location ( k / kantor)
+    :time ( p1 / pukul 
+        :mod ( t / tujuh 
+            :mod ( p2 / pagi ))))
+
+# ::id 245
+# ::snt Aku bekerja sejak sebulan yang lalu
+( k / kerja
+    :ARG0 ( a / aku )
+    :time ( b / bulan 
+        :mod ( l / lalu ))
+)
+
+# ::id 245
+# ::snt Acara diskusi dimulai jam delapan
+( m / mulai 
+    :ARG0 ( a / acara 
+        :mod ( d1 / diskusi ))
+    :time ( j / jam 
+        :mod ( d2 / delapan ))
+)
+
+ 
+# ::id 245
+# ::snt Aku memanggil Bu Lisa
+ 
+(p/panggil
+        :ARG0 (a/aku)
+        :ARG1 (b / bu 
+            :name (l/lisa)))
+  
+# ::id 245
+# ::snt Bu Lisa dipanggil Aku
+ 
+(p/panggil
+        :ARG0 (a/aku)
+        :ARG1 (b / bu 
+            :name (l/lisa)))
+
+# ::id 245
+# ::snt Ayah membaca koran Tempo di teras 
+ 
+(b/baca
+        :ARG0 (a/ayah)
+        :ARG1 (k/koran
+            :name ( t1 / tempo ))
+        :location (t2/teras))
+
+# ::id 245
+# ::snt Koran Tempo dibaca Ayah di teras 
+ 
+(b/baca
+    :ARG0 (a/ayah)
+    :ARG1 (k/koran
+        :name ( t1 / tempo ))
+    :location (t2/teras))
+ 
+# ::id 245
+# ::snt Saya mengantuk
+ 
+(k/kantuk
+        :ARG0 (s/saya))
+ 
+# ::id 245
+# ::snt Guru memberikan tugas
+ 
+(b/beri
+        :ARG0 (g/guru)
+        :ARG1 (t/tugas))
+ 
+# ::id 245
+# ::snt Tugas diberikan guru
+ 
+(b/beri
+        :ARG0 (g/guru)
+        :ARG1 (t/tugas))
+ 
+# ::id 245
+# ::snt Siswa menyanyikan lagu Indonesia Raya
+ 
+(n/nyanyi
+    :ARG0 (s/siswa)
+    :ARG1 (l/lagu
+            :name (i/indonesia
+                :name (r/raya))))
+ 
+# ::id 245
+# ::snt lagu Indonesia Raya dinyanyikan Siswa
+ 
+(n/nyanyi
+    :ARG0 (s/siswa)
+    :ARG1 (l/lagu
+            :name (i/indonesia
+                :name (r/raya))))
+
+# ::id 245
+# ::snt Petugas memeriksa tas pengunjung
+ 
+(p/periksa
+    :ARG0 (t1/tugas)
+    :ARG1 (t2/tas)
+    :mod (k/kunjung))
+
+# ::id 245
+# ::snt Tas pengunjung diperiksa petugas
+ 
+(p/periksa
+    :ARG0 (t1/tugas)
+    :ARG1 (t2/tas)
+    :mod (k/kunjung))
+ 
+# ::id 245
+# ::snt Ibu Budi memasak nasi kuning
+ 
+(m/masak
+    :ARG0 (i/ibu
+        :name ( b / budi ))
+    :ARG1 (n/nasi
+            :mod (k/kuning)))
+ 
+# ::id 245
+# ::snt Nasi kuning dimasak Ibu Budi
+ 
+(m/masak
+    :ARG0 (i/ibu
+        :name ( b / budi ))
+    :ARG1 (n/nasi
+            :mod (k/kuning)))
+
+# ::id 245
+# ::snt Adik meminjam buku
+ 
+(p/pinjam
+    :ARG0 (a/adik)
+    :ARG1 (b/buku))
+ 
+# ::id 245
+# ::snt Buku dipinjam Adik
+ 
+(p/pinjam
+    :ARG0 (a/adik)
+    :ARG1 (b/buku))
+ 
+# ::id 245
+# ::snt Pak Hasan membakar sampah
+ 
+(b/bakar
+        :ARG0 (p / pak 
+            :name (h/hasan))
+        :ARG1 (s/sampah))
+ 
+# ::id 245
+# ::snt Sampah dibakar Pak Hasan
+ 
+(b/bakar
+        :ARG0 (p / pak 
+            :name (h/hasan))
+        :ARG1 (s/sampah))
+  
+# ::id 245
+# ::snt Budhe Citra menurunkan suaranya
+  
+(t/turun
+    :ARG0 (b / budhe 
+        :name(c/citra))
+    :ARG1 (s/suara))
+  
+# ::id 245
+# ::snt Suaranya diturunkan Budhe Citra
+  
+(t/turun
+    :ARG0 (b / budhe 
+        :name(c/citra))
+    :ARG1 (s/suara))
+
+# ::id 245
+# ::snt Aku menuliskan cerita di buku
+ 
+(t/tulis
+    :ARG0 (a/aku)
+    :ARG1 (c/cerita)
+    :location (b/buku))
+ 
+# ::id 245
+# ::snt Cerita dituliskan aku di buku
+ 
+(t/tulis
+    :ARG0 (a/aku)
+    :ARG1 (c/cerita)
+    :location (b/buku))
+ 
+ 
+# ::id 245
+# ::snt Pencuri tertangkap 
+
+(t/tangkap
+        :ARG1 (c/curi))
+
+# ::id 245
+# ::snt Aku terperangkap
+ 
+(t/tangkap
+    :ARG1 (a/aku))
+ 
+# ::id 245
+# ::snt Ayah membawa piala
+ 
+(b/bawa
+        :ARG0 (a/ayah)
+        :ARG1 (p/piala))
+ 
+# ::id 245
+# ::snt Piala dibawa ayah
+ 
+(b/bawa
+        :ARG0 (a/ayah)
+        :ARG1 (p/piala))
+ 
+# ::id 245
+# ::snt Kak Adi meniup terompet di halaman
+ 
+(t1/tiup
+    :ARG0 (k / kak 
+        :name (a/adi))
+    :ARG1 (t2/terompet)
+    :location (h/halaman))
+ 
+# ::id 245
+# ::snt Terompet ditiup Kak Adi di halaman
+ 
+(t1/tiup
+    :ARG0 (k / kak 
+        :name (a/adi))
+    :ARG1 (t2/terompet)
+    :location (h/halaman))
+
+# ::id 245
+# ::snt Pak Krisna menanam kedelai di kebun
+
+(t/tanam
+    :ARG0 (p / pak 
+        :name (k1/krisna))
+    :ARG1 (k2/kedelai)
+    :location (k3/kebun))
+
+# ::id 245
+# ::snt Kedelai ditanam Pak Krisna di kebun
+
+(t/tanam
+    :ARG0 (p / pak 
+        :name (k1/krisna))
+    :ARG1 (k2/kedelai)
+    :location (k3/kebun))
+ 
+# ::id 245
+# ::snt Suster Rina membasuh muka di kamar mandi
+
+(b/basuh
+    :ARG0 (s / suster 
+        :name (r/rina))
+    :ARG1 (m1/muka)
+    :location (k/kamar
+            :mod (m2/mandi)))
+
+# ::id 245
+# ::snt Muka dibasuh Suster Rina di kamar mandi
+
+(b/basuh
+    :ARG0 (s / suster 
+        :name (r/rina))
+    :ARG1 (m1/muka)
+    :location (k/kamar
+            :mod (m2/mandi)))
+
+# ::id 245
+# ::snt Nenek Yeti menunggu kakek Fian di teras
+  
+(t1/tunggu
+        :ARG0 (n/nenek
+            :name ( y / yeti ))
+        :ARG1 (k/kakek
+            :name ( f / fian ))
+        :location (t2/teras))
+
+# ::id 245
+# ::snt kakek Fian ditunggu Nenek Yeti di teras
+  
+(t1/tunggu
+        :ARG0 (n/nenek
+            :name ( y / yeti ))
+        :ARG1 (k/kakek
+            :name ( f / fian ))
+        :location (t2/teras))
+ 
+# ::id 245
+# ::snt Kakak membersihkan dapur
+ 
+(b/bersih
+    :ARG0 (k/kakak)
+    :ARG1 (d/dapur))
+ 
+# ::id 245
+# ::snt Dapur dibersikan kakak
+ 
+(b/bersih
+    :ARG0 (k/kakak)
+    :ARG1 (d/dapur))
+
+# ::id 245
+# ::snt Bu Neneng melipat pakaian
+ 
+(l/lipat
+    :ARG0 (b/bu
+        :name ( n / neneng ))
+    :ARG1 (p/pakai))
+
+# ::id 245
+# ::snt Pakaian dilipat Bu Neneng
+ 
+(l/lipat
+    :ARG0 (b/bu
+        :name ( n / neneng ))
+    :ARG1 (p/pakai))
+
+# ::id 245
+# ::snt Jurnalis meliput berita
+  
+(l/liput
+    :ARG0 (j/jurnalis)
+    :ARG1 (b/berita))
+
+# ::id 245
+# ::snt Berita diliput jurnalis
+  
+(l/liput
+    :ARG0 (j/jurnalis)
+    :ARG1 (b/berita))
+ 
+ 
+# ::id 245
+# ::snt Adik Zaki mengunyah permen
+
+(k/kunyah
+    :ARG0 (a/adik
+        :name ( z / zaki ))
+    :ARG1 (p/permen))
+
+# ::id 245
+# ::snt Permen dikunyah Adik Zaki
+
+(k/kunyah
+    :ARG0 (a/adik
+        :name ( z / zaki ))
+    :ARG1 (p/permen))
+ 
+# ::id 245
+# ::snt Pak Iwan menyetir mobil
+ 
+(s/setir
+    :ARG0 (p/pak
+        :name ( i / iwan ))
+    :ARG1 (m/mobil))
+  
+# ::id 245
+# ::snt Mas Prapto membuat pupuk
+ 
+(b/buat
+    :ARG0 (m / mas 
+        :name (p1/prapto))
+    :ARG1 (p2/pupuk))
+ 
+# ::id 245
+# ::snt Petani menanam padi
+
+(t1/tanam
+    :ARG0 (t2/tani)
+    :ARG1 (p2/padi))
+    
+# ::id 245
+# ::snt Padi ditanam petani
+
+(t1/tanam
+    :ARG0 (t2/tani)
+    :ARG1 (p2/padi))
+ 
+    
+# ::id 245
+# ::snt Pemborong membeli hasil panen
+
+(b1/beli
+        :ARG0 (b2/borong)
+        :ARG1 (h/hasil
+                :mod (p/panen)))
+ 
+# ::id 245
+# ::snt Hasil panen dibeli pemborong
+
+(b1/beli
+        :ARG0 (b2/borong)
+        :ARG1 (h/hasil
+                :mod (p/panen)))
+ 
+# ::id 245
+# ::snt Tengkulak memeras petani
+
+(p1/peras
+        :ARG0 (t1/tengkulak)
+        :ARG1 (t2/tani))
+ 
+# ::id 245
+# ::snt Petani diperas tengkulak
+
+(p1/peras
+        :ARG0 (t1/tengkulak)
+        :ARG1 (t2/tani))
+ 
+# ::id 245
+# ::snt Adik menonton kartun di televisi
+ 
+(t1/tonton
+    :ARG0 (a/adik)
+    :ARG1 (k/kartun)
+    :location (t2/televisi))
+ 
+# ::id 245
+# ::snt Kartun ditonton adik di televisi
+ 
+(t1/tonton
+    :ARG0 (a/adik)
+    :ARG1 (k/kartun)
+    :location (t2/televisi))
+ 
+# ::id 245
+# ::snt Ibu Raska menuang air
+ 
+(t/tuang
+    :ARG0 (i/ibu
+        :name ( r /raska ))
+    :ARG1 (a/air))
+ 
+# ::id 245
+# ::snt Air dituang Ibu Raska
+ 
+(t/tuang
+    :ARG0 (i/ibu
+        :name ( r /raska ))
+    :ARG1 (a/air))
+ 
+# ::id 245
+# ::snt Pak Zee Zee menceritakan kisah tragisnya
+ 
+(c/cerita
+    :ARG0 (p / pak 
+        :name ( z1 / zee  
+            :name ( z2 / zee )))
+    :ARG1 (k/kisah
+            :mod (t/tragis)))
+ 
+# ::id 245
+# ::snt Kisah tragisnya diceritakan Pak Zee Zee
+ 
+(c/cerita
+    :ARG0 (p / pak 
+        :name ( z1 / zee  
+            :name ( z2 / zee )))
+    :ARG1 (k/kisah
+            :mod (t/tragis)))
+ 
+# ::id 245
+# ::snt Satpam menangkap pencuri
+ 
+(t/tangkap
+    :ARG0 (s/saptam)
+    :ARG1 (c/curi))
+
+# ::id 245
+# ::snt Pencuri ditangkap Satpam
+ 
+(t/tangkap
+    :ARG0 (s/saptam)
+    :ARG1 (c/curi))
+ 
+# ::id 245
+# ::snt Kakak mengepel lantai
+ 
+(p/pel
+    :ARG0 (k/kakak)
+    :ARG1 (l/lantai))
+ 
+# ::id 245
+# ::snt Lantai dipel kakak
+ 
+(p/pel
+    :ARG0 (k/kakak)
+    :ARG1 (l/lantai))
+ 
+# ::id 245
+# ::snt Tentara menjaga perdamaian di Indonesia
+ 
+(j/jaga
+    :ARG0 (t/tentara)
+    :ARG1 (d/damai)
+    :location (i/indonesia))
+
+# ::id 245
+# ::snt Perdamaian dijaga tentara di Indonesia
+ 
+(j/jaga
+    :ARG0 (t/tentara)
+    :ARG1 (d/damai)
+    :location (i/indonesia))
+
+# ::id 245
+# ::snt Ayah mencari nafkah
+ 
+(c/cari
+    :ARG0 (a/ayah)
+    :ARG1 (n/nafkah))
+ 
+# ::id 245
+# ::snt Nafkah dicari ayah
+ 
+(c/cari
+    :ARG0 (a/ayah)
+    :ARG1 (n/nafkah))
+ 
+# ::id 245
+# ::snt Ibu memberi makan
+ 
+(b/beri
+    :ARG0 (i/ibu)
+    :ARG1 (m/makan))
+ 
+# ::id 245
+# ::snt Makan diberi ibu
+ 
+(b/beri
+    :ARG0 (i/ibu)
+    :ARG1 (m/makan))
+ 
+# ::id 245
+# ::snt Adik menerima uang
+ 
+(t/terima
+        :ARG0 (a/adik)
+        :ARG1 (u/uang))
+ 
+# ::id 245
+# ::snt Uang diterima adik
+ 
+(t/terima
+        :ARG0 (a/adik)
+        :ARG1 (u/uang))
+ 
+# ::id 245
+# ::snt Kakak Byan menghabiskan uang
+ 
+(h/habis
+    :ARG0 (k/kakak
+        :name ( b / byan ))
+    :ARG1 (u/uang))
+ 
+# ::id 245
+# ::snt Uang dihabiskan Kakak Byan
+ 
+(h/habis
+    :ARG0 (k/kakak
+        :name ( b / byan ))
+    :ARG1 (u/uang))
+ 
+# ::id 245
+# ::snt Massa membakar mobil di jalanan
+ 
+(b/bakar
+    :ARG0 (m1/massa)
+    :ARG1 (m2/mobil)
+    :location (j/jalan))
+ 
+# ::id 245
+# ::snt Mobil dibakar massa  di jalanan
+ 
+(b/bakar
+    :ARG0 (m1/massa)
+    :ARG1 (m2/mobil)
+    :location (j/jalan))
+  
+# ::id 245
+# ::snt Warga menangkap babi di hutan
+ 
+(t/tangkap
+    :ARG0 (w/warga)
+    :ARG1 (b/babi)
+    :location (h/hutan))
+
+# ::id 245
+# ::snt Babi ditangkap warga di hutan
+ 
+(t/tangkap
+    :ARG0 (w/warga)
+    :ARG1 (b/babi)
+    :location (h/hutan))
+
+# ::id 245
+# ::snt Kak Zahra menjual kue
+ 
+(j/jual
+    :ARG0 (k1 / kak 
+        :name (z/zahra))
+    :ARG1 (k2/kue))
+
+# ::id 245
+# ::snt Kue dijual Kak Zahra
+ 
+(j/jual
+    :ARG0 (k1 / kak 
+        :name (z/zahra))
+    :ARG1 (k2/kue))
+ 
+# ::id 245
+# ::snt Adik melompat
+ 
+(l/lompat
+        :ARG0 (a/adik))
+ 
+# ::id 245
+# ::snt Pengacara membela tersangka di pengadilan
+
+(b/bela
+    :ARG0 (a1/acara)
+    :ARG1 (s/sangka)
+    :location (a2/adil))
+ 
+# ::id 245
+# ::snt Tersangka dibela Pengacara di pengadilan
+
+(b/bela
+    :ARG0 (a1/acara)
+    :ARG1 (s/sangka)
+    :location (a2/adil))
+ 
+# ::id 245
+# ::snt Hakim Roger menjatuhi hukuman
+ 
+(j/jatuh
+    :ARG0 (h1/hakim
+        :name ( r / roger ))
+    :ARG1 (h2/hukum))
+ 
+# ::id 245
+# ::snt Hukuman dijatuhkan Hakim Roger
+ 
+(j/jatuh
+    :ARG0 (h1/hakim
+        :name ( r / roger ))
+    :ARG1 (h2/hukum))
+ 
+# ::id 245
+# ::snt Jaksa menuntut tersangka di pengadilan
+ 
+(t/tuntut
+    :ARG0 (j/jaksa)
+    :ARG1 (s/sangka)
+    :location (a/adil))
+ 
+# ::id 245
+# ::snt Tersangka dituntut Jaksa di pengadilan
+ 
+(t/tuntut
+    :ARG0 (j/jaksa)
+    :ARG1 (s/sangka)
+    :location (a/adil))
+ 
+# ::id 245
+# ::snt Mereka menerima kekalahan
+ 
+(t/terima
+    :ARG0 (m/mereka)
+    :ARG1 (k/kalah))
+
+# ::id 245
+# ::snt kekalahan diterima mereka
+ 
+(t/terima
+        :ARG0 (m/mereka)
+        :ARG1 (k/kalah))
+ 
+# ::id 245
+# ::snt Kami merayakan kemenangan
+ 
+(r/raya
+    :ARG0 (k/kami)
+    :ARG1 (m/menang))
+ 
+# ::id 245
+# ::snt Kemenangan dirayakan kami
+ 
+(r/raya
+    :ARG0 (k/kami)
+    :ARG1 (m/menang))
+ 
+# ::id 245
+# ::snt Gubernur Anis menyampaikan keluhan
+ 
+(s/sampai
+    :ARG0 (g / gubernur 
+        :name (a/anis))
+    :ARG1 (k/keluh))
+ 
+# ::id 245
+# ::snt Keluhan disampaikan Gubernur Anis
+ 
+(s/sampai
+    :ARG0 (g / gubernur 
+        :name (a/anis))
+    :ARG1 (k/keluh))
+ 
+# ::id 245
+# ::snt Lusi menggambar
+ 
+(g/gambar
+        :ARG0 (l/lusi))
+ 
+# ::id 245
+# ::snt Okta melukis perempuan
+ 
+(l/lukis
+        :ARG0 (o/okta)
+        :ARG1 (p/perempuan))
+ 
+# ::id 245
+# ::snt Perempuan dilukis Okta
+ 
+(l/lukis
+        :ARG0 (o/okta)
+        :ARG1 (p/perempuan))
+
+# ::id 245
+# ::snt Pak Budi mencetak kartu nama di Sampurna
+ 
+(c/cetak
+    :ARG0 (p / pak 
+        :name (b/budi))
+    :ARG1 (k/kartu
+            :mod (n/nama))
+    :location (s/sampurna))
+ 
+# ::id 245
+# ::snt Kartu nama dicetak Pak Budi di Sampurna
+ 
+(c/cetak
+    :ARG0 (p / pak 
+        :name (b/budi))
+    :ARG1 (k/kartu
+            :mod (n/nama))
+    :location (s/sampurna))
+ 
+ 
+# ::id 245
+# ::snt KPU menetapkan pemenang
+
+(t/tetap
+        :ARG0 (k/kpu)
+        :ARG1 (m/menang))
+ 
+# ::id 245
+# ::snt Pemenang ditetapkan KPU
+
+(t/tetap
+    :ARG0 (k/kpu)
+    :ARG1 (m/menang))
+ 
+# ::id 245
+# ::snt Guru memberi hadiah kepada pemenang
+
+(b/beri
+    :ARG0 (g/guru)
+    :ARG1 (h/hadiah)
+    :mod (m/menang))
+ 
+# ::id 245
+# ::snt Hadiah diberi guru kepada pemenang
+
+(b/beri
+    :ARG0 (g/guru)
+    :ARG1 (h/hadiah)
+    :mod (m/menang))
+ 
+# ::id 245
+# ::snt Ibu Rusdi menggendong adik
+ 
+(g/gendong
+    :ARG0 (i/ibu
+        :name ( r / rusdi ))
+    :ARG1 (a/adik))
+
+# ::id 245
+# ::snt Adik digendong Ibu
+ 
+(g/gendong
+    :ARG0 (i/ibu
+        :name ( r / rusdi ))
+    :ARG1 (a/adik))
+
+# ::id 245
+# ::snt Ayah menjemput adik di sekolah hari ini
+ 
+(j/jemput
+    :ARG0 (a1/ayah)
+    :ARG1 (a2/adik)
+    :location (s/sekolah)
+    :time ( h / hari )
+)
+ 
+# ::id 245
+# ::snt Adik dijemput ayah di sekolah hari ini
+ 
+(j/jemput
+    :ARG0 (a1/ayah)
+    :ARG1 (a2/adik)
+    :location (s/sekolah)
+    :time ( h / hari )
+)
+ 
+# ::id 245
+# ::snt Kakak memilih pasangan minggu depan
+
+(p1/pilih
+    :ARG0 (k/kakak)
+    :ARG1 (p2/pasang)
+    :time( m / minggu 
+        :mod ( d / depan ))
+)
+ 
+# ::id 245
+# ::snt Pasangan dipilih kakak minggu depan
+
+(p1/pilih
+    :ARG0 (k/kakak)
+    :ARG1 (p2/pasang)
+    :time( m / minggu 
+        :mod ( d / depan ))
+)
+ 

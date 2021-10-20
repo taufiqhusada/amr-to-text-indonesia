@@ -1,0 +1,142 @@
+
+# ::id 13
+# ::snt Adik diajak Paman bermain
+(a / adik
+      / ajak
+      :ARG0 (p / paman)
+      :ARG1 a
+      :mod (m / main))
+
+# ::id 14
+# ::snt Upacara tadi dipimpin kepala sekolah
+(p / pimpin
+      :ARG0 (k / kepala
+            :mod (s / sekolah))
+      :ARG1 (u / upacara)
+      :time (t / tadi))
+
+# ::id 15
+# ::snt Mereka menonton pertandingan bola basket
+(t / tanding
+      / tonton
+      :ARG0 (m / mereka)
+      :ARG1 t
+      :mod (b1 / bola
+            :mod (b2 / basket)))
+
+# ::id 16
+# ::snt Ibu mengajak adik ke pasar
+(a / adik
+      / ajak
+      :ARG0 (i / ibu)
+      :ARG1 a
+      :location (p / pasar))
+
+# ::id 17
+# ::snt Irwan mempunyai sepatu baru
+(p / punya
+      :ARG0 (i / irwan)
+      :ARG1 (s / sepatu
+            :mod (b / baru)))
+
+# ::id 18
+# ::snt Semua siswa belajar dengan rajin
+(a / ajar
+      :ARG0 (s1 / siswa
+            :mod (s2 / semua))
+      :mod (r / rajin))
+
+# ::id 19
+# ::snt Para pedagang ramai berjualan di pasar
+(j / jual
+      :ARG0 (d / dagang
+            :mod (p1 / para))
+      :location (p2 / pasar))
+
+# ::id 20
+# ::snt Peserta lomba bersiap di garis start
+(s / start
+      / siap
+      :ARG0 (p / peserta
+            :mod (l / lomba))
+      :location (g / garis
+            :mod s))
+
+# ::id 21
+# ::snt Anna membaca buku
+(b / buku
+      / baca
+      :ARG0 (a / anna)
+      :ARG1 b)
+
+# ::id 22
+# ::snt Anna membaca buku dan majalah
+(b1 / baca
+      :ARG0 (a / anna)
+      :ARG1 (d / dan
+            :op1 (b2 / buku)
+            :op2 (m / majalah)))
+
+# ::id 23
+# ::snt Syifa membeli Roti
+(b / beli
+      :ARG0 (s / syifa)
+      :ARG1 (r / roti))
+
+# ::id 24
+# ::snt Syifa pergi ke salon dan membeli Roti
+(d / dan
+      :op1 (p / pergi
+            :ARG0 (s1 / syifa)
+            :ARG1 (s2 / salon))
+      :op2 (b / beli
+            :ARG0 s
+            :ARG1 (r / roti)))
+
+# ::id 25
+# ::snt Zulia mengenakan baju merah
+(k / kena
+      :ARG0 (z / zulia)
+      :ARG1 (b / baju
+            :mod (m / merah)))
+
+# ::id 26
+# ::snt Mereka mencetak gol ke gawang lawan
+(c / cetak
+      :ARG0 (m / mereka)
+      :ARG1 (g / gawang
+            :mod (l / lawan)))
+
+# ::id 27
+# ::snt Mereka melakukan selebrasi.
+(l / laku
+      :ARG0 (m / mereka)
+      :ARG1 (s / selebrasi))
+
+# ::id 28
+# ::snt Penonton Menyambut dengan riuh
+(s / sambut
+      :ARG0 (t / tonton)
+      :mod (r / riuh))
+
+# ::id 29
+# ::snt Ashita memintal benang wol
+(p / pintai
+      :ARG0 (a / ashita)
+      :ARG1 (b / benang
+            :mod (w / wol)))
+
+# ::id 30
+# ::snt Ashita memintal benang wol dan sutra
+(p / pintai
+      :ARG0 (a / ashita)
+      :ARG1 (b / benang
+            :mod (d / dan
+                  :op1 wol
+                  :op2 sutra)))
+
+# ::id 31
+# ::snt Andi bermain bola
+(m / main
+      :ARG0 (a / andi)
+      :ARG1 (b / bola))
