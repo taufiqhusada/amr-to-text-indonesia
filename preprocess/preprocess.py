@@ -1,19 +1,48 @@
 from os import listdir, path
+import argparse
 
 class PreprocessAMR:   
-    def preprocess(self, split, file_path, result_folder_path):
-        list_amr, list_sent = self.linearize_penman(file_path)
-        print(split)
-        print(len(list_amr))
-        print(len(list_sent))
+    def preprocess(self, source_file_path, result_amr_path, result_sent_path, source_folder_path=None, mode="linearized_penman"):
+        if (source_folder_path==None and source_file_path==None):
+            raise Exception("please specify source file path or source folder path")
+        if (source_folder_path and source_file_path):
+            raise Exception("please specify either only source file path or source folder path")
+
+        list_amr = []
+        list_sent = []
+        if (source_file_path):
+            if (mode=="linearized_penman"):
+                list_amr, list_sent = self.linearize_penman(source_file_path)
+            elif (mode=="dfs"):
+                list_amr, list_sent = self.dfs_nodes_and_edges_only(source_file_path)
+            elif (mode=="nodes_only"):
+                list_amr, list_sent = self.nodes_only(source_file_path)
+            else:
+                raise Exception("specified linearization mode not valid")
+        else:
+            list_file = [f for f in listdir(source_folder_path)]
+            for file_name in list_file:
+                if (mode=="linearized_penman"):
+                    list_amr_from_file, list_sent_from_file = self.linearize_penman(path.join(source_folder_path, file_name))
+                elif (mode=="dfs"):
+                    list_amr_from_file, list_sent_from_file = self.dfs_nodes_and_edges_only(path.join(source_folder_path, file_name))
+                elif (mode=="nodes_only"):
+                    list_amr_from_file, list_sent_from_file = self.nodes_only(path.join(source_folder_path, file_name))
+                else:
+                    raise Exception("specified linearization mode not valid")
+                list_amr += list_amr_from_file
+                list_sent += list_sent_from_file
+            
+        print("total:", len(list_amr), "amr")
+        print("total:", len(list_sent), "sentences")
         
-        f = open(path.join(result_folder_path, f'{split}.amr.txt'), "w")
+        f = open(result_amr_path, "w")
         for amr in list_amr:
             f.write(amr.strip())
             f.write("\n")
         f.close()
 
-        f = open(path.join(result_folder_path, f'{split}.sent.txt'), "w")
+        f = open(result_sent_path, "w")
         for sent in list_sent:
             f.write(sent.strip())
             f.write("\n")
@@ -88,18 +117,64 @@ class PreprocessAMR:
         
         return list_amr, list_sent
     
+    def dfs_nodes_and_edges_only(self, file_path):
+        list_amr, list_sent = self.linearize_penman(file_path)
+        final_list_amr = []
+        for amr in list_amr:
+            curr_amr = ""
+            for c in amr:
+                if (c=='(' or c==')'):
+                    continue
+
+                curr_amr += c
+            final_list_amr.append(" ".join(curr_amr.split()))
+
+        return final_list_amr, list_sent
+
+    def nodes_only(self, file_path):
+        list_amr, list_sent = self.linearize_penman(file_path)
+        final_list_amr = []
+        for amr in list_amr:
+            curr_amr = ""
+            for kata in amr.split():
+                if (kata=='(' or kata==')' or (':' in kata)):
+                    continue
+
+                curr_amr += kata + " "
+            final_list_amr.append(" ".join(curr_amr.split()))
+
+        return final_list_amr, list_sent
 
 if __name__=="__main__":
     PREPROCESS_AMR = PreprocessAMR()
-    RESULT_FOLDER_PATH = 'data/preprocessed_data'
 
-    TRAIN_FILE_PATH = 'data/raw_data_ilmy/amr_simple_train.txt'
-    DEV_FILE_PATH = 'data/raw_data_ilmy/amr_simple_dev.txt'
-    TEST_FILE_PATH = 'data/raw_data_ilmy/amr_simple_test.txt'
+    ## Example in code
+    # TRAIN_FILE_PATH = '../data/raw_data_ilmy/amr_simple_train.txt'
+    # PREPROCESS_AMR.preprocess(source_file_path=None,result_amr_path="amr_train_nodes_only.txt", result_sent_path="sent_train.txt", source_folder_path='../data/raw_data_ilmy', mode="nodes_only")
+    # PREPROCESS_AMR.preprocess(source_file_path=TRAIN_FILE_PATH,result_amr_path="amr_train_nodes_only.txt", result_sent_path="sent_train.txt", source_folder_path=None, mode="nodes_only")
 
-    PREPROCESS_AMR.preprocess(split='train',file_path=TRAIN_FILE_PATH,result_folder_path=RESULT_FOLDER_PATH)
-    PREPROCESS_AMR.preprocess(split='dev',file_path=DEV_FILE_PATH,result_folder_path=RESULT_FOLDER_PATH)
-    PREPROCESS_AMR.preprocess(split='test',file_path=TEST_FILE_PATH,result_folder_path=RESULT_FOLDER_PATH)
+    ## Example running from terminal
+    # python preprocess.py --source_file_path ../data/raw_data_ilmy/amr_simple_train.txt --result_amr_path amr_train_nodes_only.txt --result_sent_path sent_train.txt --mode nodes_only
+
+    
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--mode", default="linearized_penman", help="linearized_penman/ dfs/ nodes_only")
+    parser.add_argument("--source_file_path", default=None, help="pair sentence amr raw data file")
+    parser.add_argument("--source_folder_path", default=None, help="pair sentence amr raw data file")
+    parser.add_argument("--result_sent_path", help="result file for sentences")
+    parser.add_argument("--result_amr_path", help="result file for preprocessed amr")
+    args = parser.parse_args()
+    print(args)
+
+    PREPROCESS_AMR.preprocess(
+        source_file_path=args.source_file_path,
+        result_amr_path=args.result_amr_path, 
+        result_sent_path=args.result_sent_path, 
+        source_folder_path=args.source_folder_path, 
+        mode=args.mode
+    )
+
+    
 
 
 
