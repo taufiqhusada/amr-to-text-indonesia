@@ -1,0 +1,4 @@
+# preprocess silver data
+python preprocess/preprocess.py  --source_folder_path ../amr-indo-dataset/154k_raw_silver_amr_indo4b_news --result_amr_path ../amr-indo-dataset/preprocessed_silver_data/linearized_penman.amr.txt --result_sent_path ../amr-indo-dataset/preprocessed_silver_data/linearized_penman.sent.txt --mode linearized_penman
+python preprocess/preprocess.py  --source_folder_path ../amr-indo-dataset/154k_raw_silver_amr_indo4b_news --result_amr_path ../amr-indo-dataset/preprocessed_silver_data/dfs.amr.txt --result_sent_path ../amr-indo-dataset/preprocessed_silver_data/dfs.sent.txt --mode dfs
+python preprocess/preprocess.py  --source_folder_path ../amr-indo-dataset/154k_raw_silver_amr_indo4b_news --result_amr_path ../amr-indo-dataset/preprocessed_silver_data/nodes_only.amr.txt --result_sent_path ../amr-indo-dataset/preprocessed_silver_data/nodes_only.sent.txt --mode nodes_only
