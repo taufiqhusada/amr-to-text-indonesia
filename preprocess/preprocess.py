@@ -1,5 +1,6 @@
 from os import listdir, path
 import argparse
+from tqdm import tqdm
 
 class PreprocessAMR:   
     def preprocess(self, source_file_path, result_amr_path, result_sent_path, source_folder_path=None, mode="linearized_penman"):
@@ -8,42 +9,40 @@ class PreprocessAMR:
         if (source_folder_path and source_file_path):
             raise Exception("please specify either only source file path or source folder path")
 
-        list_amr = []
-        list_sent = []
+        list_pair_sent_amr = []
         if (source_file_path):
             if (mode=="linearized_penman"):
-                list_amr, list_sent = self.linearize_penman(source_file_path)
+                list_pair_sent_amr = self.linearize_penman(source_file_path)
             elif (mode=="dfs"):
-                list_amr, list_sent = self.dfs_nodes_and_edges_only(source_file_path)
+                list_pair_sent_amr = self.dfs_nodes_and_edges_only(source_file_path)
             elif (mode=="nodes_only"):
-                list_amr, list_sent = self.nodes_only(source_file_path)
+                list_pair_sent_amr = self.nodes_only(source_file_path)
             else:
                 raise Exception("specified linearization mode not valid")
         else:
             list_file = [f for f in listdir(source_folder_path)]
             for file_name in list_file:
                 if (mode=="linearized_penman"):
-                    list_amr_from_file, list_sent_from_file = self.linearize_penman(path.join(source_folder_path, file_name))
+                    list_pair_sent_amr_from_file = self.linearize_penman(path.join(source_folder_path, file_name))
                 elif (mode=="dfs"):
-                    list_amr_from_file, list_sent_from_file = self.dfs_nodes_and_edges_only(path.join(source_folder_path, file_name))
+                    list_pair_sent_amr_from_file = self.dfs_nodes_and_edges_only(path.join(source_folder_path, file_name))
                 elif (mode=="nodes_only"):
-                    list_amr_from_file, list_sent_from_file = self.nodes_only(path.join(source_folder_path, file_name))
+                    list_pair_sent_amr_from_file = self.nodes_only(path.join(source_folder_path, file_name))
                 else:
                     raise Exception("specified linearization mode not valid")
-                list_amr += list_amr_from_file
-                list_sent += list_sent_from_file
+                list_pair_sent_amr += list_pair_sent_amr_from_file
+                
             
-        print("total:", len(list_amr), "amr")
-        print("total:", len(list_sent), "sentences")
+        print("total:", len(list_pair_sent_amr), "pair sent-amr")
         
         f = open(result_amr_path, "w")
-        for amr in list_amr:
+        for (sent,amr) in list_pair_sent_amr:
             f.write(amr.strip())
             f.write("\n")
         f.close()
 
         f = open(result_sent_path, "w")
-        for sent in list_sent:
+        for (sent,amr) in list_pair_sent_amr:
             f.write(sent.strip())
             f.write("\n")
         f.close()
@@ -53,14 +52,14 @@ class PreprocessAMR:
             data = f.readlines()
 
         # transform original AMR to linearized penman notation based on format Ribeiro dkk (2020)
-        list_amr = []
-        list_sent = []
+        list_pair_sent_amr = []   # list[(<sent>, <amr>), ...]
 
         sent_now = ""
         amr_now = ""
         is_reading_amr = False
 
-        for line in data:
+        for idx_line in tqdm(range(len(data))):
+            line = data[idx_line]
             line = line.strip()
 
             # print(line)
@@ -68,8 +67,9 @@ class PreprocessAMR:
                 if (is_reading_amr):
                     is_reading_amr = False      # reading AMR finish then append it to list
                     amr_now = " ".join(amr_now.split())
-                    list_amr.append(amr_now)
+                    list_pair_sent_amr.append((sent_now, amr_now))
                     amr_now = ""
+                    sent_now = ""
                 continue
 
             line += "."
@@ -79,7 +79,6 @@ class PreprocessAMR:
                     sent_now = line[8:-1]
                     temp_sent_now = sent_now.split()
                     sent_now = " ".join(temp_sent_now)
-                    list_sent.append(sent_now)
                 else: # ignore other than sentence/amr
                     continue
             else:  #reading amr
@@ -113,37 +112,39 @@ class PreprocessAMR:
 
         amr_now = " ".join(amr_now.split())
         if (amr_now != ""):
-            list_amr.append(amr_now)
+            list_pair_sent_amr.append((sent_now, amr_now))
         
-        return list_amr, list_sent
+        return list_pair_sent_amr
     
     def dfs_nodes_and_edges_only(self, file_path):
-        list_amr, list_sent = self.linearize_penman(file_path)
-        final_list_amr = []
-        for amr in list_amr:
+        list_pair_sent_amr = self.linearize_penman(file_path)
+    
+        for i in range(len(list_pair_sent_amr)):
+            (sent,amr) = list_pair_sent_amr[i]            
             curr_amr = ""
             for c in amr:
                 if (c=='(' or c==')'):
                     continue
 
                 curr_amr += c
-            final_list_amr.append(" ".join(curr_amr.split()))
+            list_pair_sent_amr[i] = (sent, " ".join(curr_amr.split()))
 
-        return final_list_amr, list_sent
+        return list_pair_sent_amr
 
     def nodes_only(self, file_path):
-        list_amr, list_sent = self.linearize_penman(file_path)
-        final_list_amr = []
-        for amr in list_amr:
+        list_pair_sent_amr = self.linearize_penman(file_path)
+    
+        for i in range(len(list_pair_sent_amr)):
+            (sent,amr) = list_pair_sent_amr[i]
             curr_amr = ""
             for kata in amr.split():
                 if (kata=='(' or kata==')' or (':' in kata)):
                     continue
 
                 curr_amr += kata + " "
-            final_list_amr.append(" ".join(curr_amr.split()))
+            list_pair_sent_amr[i] = (sent, " ".join(curr_amr.split()))
 
-        return final_list_amr, list_sent
+        return list_pair_sent_amr
 
 if __name__=="__main__":
     PREPROCESS_AMR = PreprocessAMR()
