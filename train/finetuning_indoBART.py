@@ -29,6 +29,7 @@ max_seq_len_amr = 512
 max_seq_len_sent = 384
 result_folder = 'result'
 DATA_FOLDER = '../data/preprocessed_data/linearized_penman'
+num_beams = 5
 
 def set_seed(seed):
     random.seed(seed)
@@ -182,7 +183,7 @@ if __name__=='__main__':
         bleu = calc_corpus_bleu_score(list_hyp, list_label)
         print('bleu score on dev: ', str(bleu))
 
-        list_loss_train.append(total_dev_loss/len(dev_loader))
+        list_loss_dev.append(total_dev_loss/len(dev_loader))
 
     ## TEST
     model.eval()
@@ -236,6 +237,12 @@ if __name__=='__main__':
     print('bleu score on test dataset: ', str(bleu))
     with open(os.path.join(result_folder, 'bleu_score_test.txt'), 'w') as f:
         f.write(bleu)
+
+    ## save loss data
+    with open(os.path.join(result_folder, 'loss_data.tsv'), 'w') as f:
+        f.write('train_loss\tval_loss\n')
+        for i in range(n_epochs):
+            f.write(f'{str(list_loss_train[i])}\t{str(list_loss_dev[i])}\n')
 
     ## save model
     torch.save(model.state_dict(), os.path.join(result_folder, "indobart.th"))
