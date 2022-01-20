@@ -31,7 +31,12 @@ def get_lr(optimizer):
     for param_group in optimizer.param_groups:
         return param_group['lr']
 
-def init_params(args):
+
+if __name__=='__main__':
+    parser = add_args(argparse.ArgumentParser())
+    args = parser.parse_args()
+
+    ## init params
     set_seed(42)
     model_type = args.model_type
     batch_size = args.batch_size
@@ -44,10 +49,6 @@ def init_params(args):
     result_folder = args.result_folder
     DATA_FOLDER = args.data_folder
 
-if __name__=='__main__':
-    parser = add_args(argparse.ArgumentParser())
-    args = parser.parse_args()
-    init_params(args)
 
     if torch.cuda.is_available():
         device = torch.device("cuda:0") 
