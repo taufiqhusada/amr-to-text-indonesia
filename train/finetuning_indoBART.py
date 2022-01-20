@@ -13,10 +13,11 @@ import numpy as np
 
 from indobenchmark import IndoNLGTokenizer
 
-from ..utils.constants import AMR_TOKENS
-from ..utils.data_utils import AMRToTextDataset, AMRToTextDataLoader
-from ..utils.scoring import calc_corpus_bleu_score
-from ..utils.eval import generate
+sys.path.append('..')
+from utils.constants import AMR_TOKENS
+from utils.data_utils import AMRToTextDataset, AMRToTextDataLoader
+from utils.scoring import calc_corpus_bleu_score
+from utils.eval import generate
 
 # constant
 model_type = 'indo-bart'
@@ -27,6 +28,7 @@ n_epochs = 5
 max_seq_len_amr = 512
 max_seq_len_sent = 384
 result_folder = 'result'
+DATA_FOLDER = '../data/preprocessed_data/linearized_penman'
 
 def set_seed(seed):
     random.seed(seed)
@@ -65,8 +67,7 @@ if __name__=='__main__':
 
     model.resize_token_embeddings(len(tokenizer))
 
-    # load adata
-    DATA_FOLDER = '../data/preprocessed_data/'
+    # load data
 
     train_amr_path = os.path.join(DATA_FOLDER, 'train.amr.txt')
     train_sent_path = os.path.join(DATA_FOLDER, 'train.sent.txt')
