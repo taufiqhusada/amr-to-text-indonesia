@@ -243,7 +243,7 @@ if __name__=='__main__':
     bleu = calc_corpus_bleu_score(list_hyp, list_label)
     print('bleu score on test dataset: ', str(bleu))
     with open(os.path.join(result_folder, 'bleu_score_test.txt'), 'w') as f:
-        f.write(bleu)
+        f.write(str(bleu))
 
     ## save loss data
     with open(os.path.join(result_folder, 'loss_data.tsv'), 'w') as f:
