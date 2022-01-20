@@ -11,7 +11,6 @@ from sacrebleu import corpus_bleu
 import random
 import numpy as np
 import argparse
-from utils.utils_argparser import add_args
 
 from indobenchmark import IndoNLGTokenizer
 
@@ -20,6 +19,7 @@ from utils.constants import AMR_TOKENS
 from utils.data_utils import AMRToTextDataset, AMRToTextDataLoader
 from utils.scoring import calc_corpus_bleu_score
 from utils.eval import generate
+from utils.utils_argparser import add_args
 
 def set_seed(seed):
     random.seed(seed)
