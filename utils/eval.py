@@ -11,7 +11,6 @@ def generate(text, model, tokenizer, num_beams, model_type, device='cpu'):
 
 def _generate_bart(text, model, tokenizer, num_beams, device):
     model.to(device)
-    tokenizer.to(device)
 
     model.eval()
     bart_input = tokenizer.prepare_input_for_generation(text,
@@ -24,7 +23,6 @@ def _generate_bart(text, model, tokenizer, num_beams, device):
 
 def _generate_t5(text, model, tokenizer, num_beams, device):
     model.to(device)
-    tokenizer.to(device)
     
     model.eval()
     input_ids = tokenizer.encode(f"{T5_PREFIX}{text}", return_tensors="pt", add_special_tokens=False)  # Batch size 1
