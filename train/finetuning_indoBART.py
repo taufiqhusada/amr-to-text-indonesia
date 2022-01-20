@@ -10,6 +10,8 @@ from tqdm import tqdm
 from sacrebleu import corpus_bleu
 import random
 import numpy as np
+import argparse
+from utils.utils_argparser import add_args
 
 from indobenchmark import IndoNLGTokenizer
 
@@ -18,18 +20,6 @@ from utils.constants import AMR_TOKENS
 from utils.data_utils import AMRToTextDataset, AMRToTextDataLoader
 from utils.scoring import calc_corpus_bleu_score
 from utils.eval import generate
-
-# constant
-model_type = 'indo-bart'
-batch_size = 4
-lr=3e-5
-eps=1e-8
-n_epochs = 5
-max_seq_len_amr = 512
-max_seq_len_sent = 384
-result_folder = 'result'
-DATA_FOLDER = '../data/preprocessed_data/linearized_penman'
-num_beams = 5
 
 def set_seed(seed):
     random.seed(seed)
@@ -41,7 +31,24 @@ def get_lr(optimizer):
     for param_group in optimizer.param_groups:
         return param_group['lr']
 
+def init_params(args):
+    set_seed(42)
+    model_type = args.model_type
+    batch_size = args.batch_size
+    lr = args.lr
+    eps = args.eps
+    n_epochs = args.n_epochs
+    num_beams = args.num_beams
+    max_seq_len_amr = args.max_seq_len_amr
+    max_seq_len_sent = args.max_seq_len_sent
+    result_folder = args.result_folder
+    DATA_FOLDER = args.data_folder
+
 if __name__=='__main__':
+    parser = add_args(argparse.ArgumentParser())
+    args = parser.parse_args()
+    init_params(args)
+
     if torch.cuda.is_available():
         device = torch.device("cuda:0") 
         print("Running on the GPU")
@@ -49,7 +56,6 @@ if __name__=='__main__':
         device = torch.device("cpu")
         print("Running on the CPU")
 
-    set_seed(42)
 
     tokenizer = IndoNLGTokenizer.from_pretrained('indobenchmark/indobart')
     model = MBartForConditionalGeneration.from_pretrained('indobenchmark/indobart')
