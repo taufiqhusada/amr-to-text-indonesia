@@ -2,7 +2,7 @@ import pandas as pd
 import os
 import sys
 import torch
-from transformers import MBartForConditionalGeneration
+from transformers import AutoModelForSeq2SeqLM, AutoTokenizer
 from transformers.optimization import  AdamW, Adafactor 
 import time
 import warnings
@@ -12,7 +12,6 @@ import random
 import numpy as np
 import argparse
 
-from indobenchmark import IndoNLGTokenizer
 
 sys.path.append('..')
 from utils.constants import AMR_TOKENS
@@ -38,7 +37,7 @@ if __name__=='__main__':
 
     ## init params
     set_seed(42)
-    model_type = args.model_type
+    model_type = "indo-t5"
     batch_size = args.batch_size
     lr = args.lr
     eps = args.eps
@@ -58,8 +57,8 @@ if __name__=='__main__':
         print("Running on the CPU")
 
 
-    tokenizer = IndoNLGTokenizer.from_pretrained('indobenchmark/indobart')
-    model = MBartForConditionalGeneration.from_pretrained('indobenchmark/indobart')
+    tokenizer = AutoTokenizer.from_pretrained("Wikidepia/IndoT5-base")
+    model = AutoModelForSeq2SeqLM.from_pretrained("Wikidepia/IndoT5-base", return_dict=True)
 
     #moving the model to device(GPU/CPU)
     model.to(device)
@@ -252,7 +251,7 @@ if __name__=='__main__':
             f.write(f'{str(list_loss_train[i])}\t{str(list_loss_dev[i])}\n')
 
     ## save model
-    torch.save(model.state_dict(), os.path.join(result_folder, "indobart.th"))
+    torch.save(model.state_dict(), os.path.join(result_folder, "indot5.th"))
 
     ## save generated outputs
     with open(os.path.join(result_folder, 'test_generations.txt'), 'w') as f:
@@ -271,6 +270,6 @@ if __name__=='__main__':
                 f.write('\n')
 
     
-    print(generate("( ketik :ARG0 ( saya ) :ARG1 ( makalah ) ) )", model, tokenizer, num_beams, 'indobart', 'cpu'))    
+    print(generate("( ketik :ARG0 ( saya ) :ARG1 ( makalah ) ) )", model, tokenizer, num_beams, model_type, 'cpu'))    
 
     

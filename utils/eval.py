@@ -2,9 +2,9 @@ import torch
 from utils.data_utils import T5_PREFIX
 
 def generate(text, model, tokenizer, num_beams, model_type, device='cpu'):
-    if (model_type=='indobart'):
+    if (model_type=='indo-bart'):
         return _generate_bart(text, model, tokenizer, num_beams, device)
-    elif (model_type=='indot5'):
+    elif (model_type=='indo-t5'):
         return _generate_t5(text, model, tokenizer, num_beams, device)
     else:
         raise ValueError(f'Unknown model_type `{model_type}`')
