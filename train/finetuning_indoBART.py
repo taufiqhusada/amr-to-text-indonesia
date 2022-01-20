@@ -13,11 +13,10 @@ import numpy as np
 
 from indobenchmark import IndoNLGTokenizer
 
-sys.path.append('../')
-from utils.constants import AMR_TOKENS
-from utils.data_utils import AMRToTextDataset, AMRToTextDataLoader
-from utils.scoring import calc_corpus_bleu_score
-from utils.eval import generate
+from ..utils.constants import AMR_TOKENS
+from ..utils.data_utils import AMRToTextDataset, AMRToTextDataLoader
+from ..utils.scoring import calc_corpus_bleu_score
+from ..utils.eval import generate
 
 # constant
 model_type = 'indo-bart'
