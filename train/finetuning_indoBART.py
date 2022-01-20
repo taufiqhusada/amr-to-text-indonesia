@@ -210,7 +210,7 @@ if __name__=='__main__':
         label_batch = label_batch.cuda()
         token_type_batch = None
 
-        hyps = model.generate(input_ids=enc_batch, attention_mask=enc_mask_batch, num_beams=num_beams, max_length=max_seq_len, 
+        hyps = model.generate(input_ids=enc_batch, attention_mask=enc_mask_batch, num_beams=num_beams, max_length=max_seq_len_sent, 
                             early_stopping=True, pad_token_id=tokenizer.pad_token_id, eos_token_id=tokenizer.eos_token_id)
 
 
