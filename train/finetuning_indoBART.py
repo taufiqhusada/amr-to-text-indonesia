@@ -1,5 +1,6 @@
 import pandas as pd
 import os
+import sys
 import torch
 from transformers import MBartForConditionalGeneration
 from transformers.optimization import  AdamW, Adafactor 
@@ -12,6 +13,7 @@ import numpy as np
 
 from indobenchmark import IndoNLGTokenizer
 
+sys.path.append('../')
 from utils.constants import AMR_TOKENS
 from utils.data_utils import AMRToTextDataset, AMRToTextDataLoader
 from utils.scoring import calc_corpus_bleu_score
