@@ -16476,7 +16476,7 @@
                     :mod (b2 / baik
                              :mod (i / ipb)
                              :time (t2 / tahun
-                                       :mod vv22)))))
+                                       :mod 2017)))))
 
 # ::id 736
 # ::snt Dia mampu mandiri secara finansial dan Ibunya adalah seorang dokter
