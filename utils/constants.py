@@ -1,1 +1,1 @@
-AMR_TOKENS = [':arg0',':arg1',':mod',':time', ':name', ':location', ':op1', ':op2', ':root']
+AMR_TOKENS = ['|']

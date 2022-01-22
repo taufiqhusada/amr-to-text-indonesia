@@ -110,8 +110,7 @@ def convert_linearized_penman_to_rule_based_traversal(linearized_penman):
     str_path = ""
     for (edge, node) in path:
         node_without_id = node.split('-')[0]
-        if (edge==None):
-            edge = ':mod'
+        edge = '|'
         str_path+= edge + " " + node_without_id + " "
     return str_path.strip()
 

@@ -1,306 +1,306 @@
-:ARG0 ilham :root tiup :ARG1 balon
-:ARG0 obe :root tulis :ARG1 puisi
-:ARG0 saya :root ketik :ARG1 makalah
-:root angga :mod anak :mod ajaib
-:ARG0 ibu :root orang :ARG1 dosen
-:ARG0 dia :root renang
-:ARG0 ilham :root cari :ARG1 buku :mod hilang
-:ARG0 ibu :root sapu :location halaman :mod rumah
-:ARG0 ayah :root bajak :ARG1 padi :location sawah
-:ARG0 andi :root pergi :ARG1 kemah :location tepi :mod pantai
-:ARG0 angga :root pergi :location toko :mod buku
-:ARG0 saya :root ada :mod masih :location rumah
-:ARG0 ayah :root ada :time sekarang :location pasar
-:ARG0 kakak :root main :ARG1 bola :mod masih
-:ARG0 tikus :mod banyak :root ada :location rumah
-:ARG0 adik :root tangis :mod keras :mod jatuh
-:ARG0 hotel :mod mewah :mod sangat :root seperti :ARG1 istana
-:ARG0 aku :root milik :ARG1 sisa :mod uang :mod jumlah :mod sepuluh :mod ribu :mod rupiah
-:ARG0 sekolah :root jarak :ARG1 rumah :mod tidak :mod terlalu :mod jauh
-:ARG0 rampok :root rampok :ARG1 korban :mod kejam :mod sangat
-:ARG0 pak :name roni :root berangkat :location bandung :time besok
-:ARG0 bu :name cinta :root berangkat :location sekolah :mod guna :ARG1 taksi
-:ARG0 satria :root beri :ARG1 uang :mod kepada :mod adik
-:ARG0 pak :name hasan :root temu :ARG1 pak :name husen :time kemarin :location halte :mod bus
-:ARG0 uang :mod maman :root jatuh :location selokan
-:ARG0 yusron :root sapu :ARG1 halaman
-:ARG0 dona :root siswa :mod prestasi :location kampus
-:ARG0 caca :root tulis :ARG1 status :mod fb
-:ARG0 ranti :root jalan :mod pelan
-:ARG0 pak :name andre :root pecah :ARG1 gelas :mod sengaja
-:ARG0 pak :name amir :root main :ARG1 basket :location lapangan
-:ARG0 paman :root kunjung :ARG1 ayah :time kemarin
-:ARG0 ibu :root jahit :ARG1 baju :mod rapi
-:ARG0 rini :root tulis :ARG1 surat :mod komputer
-:ARG0 diana :root tulis :ARG1 puisi :mod ibunda :location beranda :time malam :mod hari
-:ARG0 adik :root lari :mod kencang :mod sangat
-:ARG0 wahyu :root pergi :location warung
-:ARG0 anita :root buat :ARG1 roti
-:ARG0 singa :root intai :ARG1 mangsa
-:ARG0 mobil :root laju :mod cepat :mod sangat
-:ARG0 kakek :root marah :ARG0 rumah :location sebelah :mod sangat
-:ARG0 romeo :root tampan :mod setel :mod jas
-:ARG0 arsita :root lihat :ARG1 anggun :mod gaun
-:ARG0 cecep :root bohong
-:ARG0 irawan :root baik :ARG1 siapa :mod saja :mod hati
-:ARG0 dudung :root diam :mod sangat :location sekolah
-:ARG0 kucing :mod hitam :root takut :mod sangat
-:ARG0 ibu :root adalah :ARG1 sayang :mod sangat
-:ARG0 mirna :root bersih :ARG1 kacamata :mod tisu :mod lembar :mod basah
-:ARG0 jessica :root seduh :ARG1 kopi :ARG0 ayah :mod suka
-:ARG0 paman :root beli :ARG1 novel :name sherlock :name holmes :mod baru
-:ARG0 pulung :root pungut :ARG1 sampah :mod bisa :mod daur :mod ulang
-:ARG0 weni :root bantu :ARG1 ayah :mod panen :ARG1 buah :mod apel :location kebun :mod milik
-:ARG0 ibu :root cuci :ARG1 piring
-:ARG0 devis :root main :ARG1 bola :mod kaki :time sampai :mod sore
-:ARG0 sabrina :root cari :ARG1 buku :mod selip
-:ARG0 kami :root pergi :mod kemah :location gunung :name semeru
-:ARG0 bu :name septia :root tunggang :ARG1 kerbau
-:ARG0 siska :root teriak :location jauh
-:ARG0 santoso :root jahit :ARG1 celana
-:ARG0 dia :root lamun :ARG1 orang
-:ARG0 adik :root baca :ARG1 buku :mod ajar :location kamar
-:ARG0 nur :root temu :ARG1 barang :location jalan
-:ARG0 messi :root cetak :ARG1 gol :location tanding :time tadi :mod malam
-:ARG0 anggi :root beli :ARG1 kue :location toko
-:ARG0 riko :root tonton :ARG1 tv :location ruang :mod tamu
-:ARG0 bu :name via :root nyanyi :ARG1 lagu :mod semangat
-:ARG0 wawan :root nyala :ARG1 lampu :location depan :mod rumah
-:ARG0 yasmin :root buang :ARG1 sampah :location tempat :mod sampah
-:ARG0 rina :root temu :ARG1 teman :time tadi :mod malam
-:ARG0 indah :root makan :ARG1 bekal :mod lahap
-:ARG0 paul :root mati :ARG1 komputer :time lima :mod menit :mod lalu
-:ARG0 pak :name sutejo :root tanam :ARG1 padi :location sawah
-:ARG0 karni :root baca :ARG1 orasi :location atas :mod panggung
-:ARG0 tata :root beli :ARG1 baju :mod mahal :location mall
-:ARG0 buru :root buru :ARG1 hewan :location hutan
-:ARG0 riana :root makan :ARG1 nasi :mod goreng
-:ARG0 citra :root baca :ARG1 buku
-:ARG0 ibu :root cuci :ARG1 pakai
-:ARG0 joko :root beli :ARG1 bahan :mod makan
-:ARG0 dik :name dina :root lihat :ARG1 pandang :mod pantai
-:ARG0 nelayan :mod para :root pancing :ARG1 ikan
-:ARG0 kucing :root buru :ARG1 mangsa
-:ARG0 anak :mod laki :root tendang :ARG1 bola
-:ARG0 mey :root minum :ARG1 minuman
-:ARG0 suster :name ayu :root tonton :ARG1 drama :mod korea
-:ARG0 bapak :name rian :root cari :ARG1 nafkah
-:ARG0 ibu :name budi :root nanak :ARG1 nasi
-:ARG0 polisi :root tangkap :ARG1 curi :mod gerombol
-:ARG0 auliya :root jual :ARG1 hias :mod berapa
-:ARG0 nadya :root suka :ARG1 gambar :ARG1 komik
-:ARG0 ajeng :root tawa :mod bahak
-:ARG0 ibu :root masak :location dapur
-:ARG0 devin :root tangis :mod sedu
-:ARG0 arlita :root ajar :location sekolah
-:ARG0 bugie :root main :location halaman :mod rumah
-:ARG0 siswa :mod para :root diskusi :location waring :mod kopi
-:ARG0 rizal :root baca :location pustaka
-:ARG0 singa :root raung :mod keras
-:ARG0 pak :mod guru :root pidato :location lapangan :mod sekolah
-:ARG0 bu :name rima :root dandan :location salon
-:ARG0 kak :name dina :root beli :ARG1 baju :location toko :mod baru
-:ARG0 paman :name budi :root tidur :location kamar :mod depan
-:ARG0 ibu :root siram :ARG1 bunga
-:ARG0 ibu :root siram :ARG1 bunga
-:ARG0 ibu :name shinta :root siram :ARG1 bunga :mod mawar :mod air :mod hujan :mod tampung :time kemarin
-:ARG0 ayah :root baca :ARG1 koran :name waspada :location teras :mod rumah
-:ARG0 jual :ARG1 nasi :mod goreng :root jual :time hujan :time tadi :mod malam
-:ARG0 adik :root baca :ARG1 buku :mod ensiklopedia
-:ARG0 kami :root pergi :location gunung :name rinjani :time liburan :mod nanti
-:ARG0 aku :root suka :ARG1 tulis
-:ARG0 ibu :root jahit :ARG1 baju :mod sekolah :mod robek
-:ARG0 tim :name indonesia :root cetak :ARG1 gol :location gawang :mod lawan
-:ARG0 bu :name asti :root kena :ARG1 topi :mod bundar
-:ARG0 tahanan :location nusakambangan :root beri :ARG1 ringan :time hari :mod raya :name idul :mod fitri
-:ARG0 cerpen :mod ada :location sekolah :root inspirasi :ARG1 baca
-:ARG0 pustaka :root jadi :ARG1 tempat :mod nyaman :mod paling :location sekolah :mod kami
-:ARG0 ibu :name sri :name yuni :root beli :ARG1 kue :name capit
-:ARG0 pak :name ucok :root bajak :ARG1 sawah :mod teknologi :mod tani :mod modern
-:ARG0 ibu :root cuci :ARG1 piring
-:ARG0 pak :name andri :root main :ARG1 bola :time sampai :mod sore
-:ARG0 rani :root cari :ARG1 buku :mod selip
-:ARG0 kami :root pergi :ARG1 kemah :location gunung :name semeru
-:root ada :ARG1 tikus :location bawah :mod ranjang :mod tidur
-:ARG0 linda :root pergi :location toko :mod cat
-:root ada :ARG1 aku :location rumah
-:ARG0 kami :root pergi :location sana :time sekarang
-:ARG0 ayah :root ada :location kantor
-:ARG0 ibu :name rusni :root masak :time sejak :mod tadi :mod pagi
-:ARG0 andini :root libur :location pantai :time hari :mod ini
-:ARG0 kami :root trauma :ARG1 pergi :location sana :time setelah :mod jadi :mod kemarin
-:ARG0 mita :root bersih :ARG1 rumah
-:ARG0 pak :name dodi :root kata :ARG0 bu :name nia :ARG1 pergi :location rumah :name jihan :time belum :mod maghrib
-:ARG0 tika :root henti :ARG1 tangis :time telah :ARG0 ayah :mod beli :ARG1 main :mod baru
-:ARG0 ibu :mod guru :root kata :ARG0 kami :ARG1 selesai :ARG1 soal :mod ujian :time hari :mod ini
-:ARG0 saya :root tawa :time lihat :ARG1 acara :mod komedi :location televisi
-:ARG0 pak :name gilang :root kata :ARG0 ayah :ARG1 pulang :time lusa
-:ARG0 kami :root ikut :ARG1 unbk :mod cara :mod rentak :time bulan :mod depan
-:ARG0 kue :root layak :ARG1 makan
-:ARG0 obat :root kadaluarsa
-:ARG0 kami :root inap :location hotel :mod besar :time malam :mod ini
-:ARG0 jojon :root pulang :location rumah :time sejak :ARG0 ayah :mod marah
-:root tuang :ARG1 adon :location dalam :mod loyang :time telah :mod adon :mod dingin
-:ARG0 ibu :root beri :ARG1 sup :mod hangat :time ketika :ARG0 ayah :mod pulang
-:ARG0 pak :name tono :root tahu :ARG1 komputer :mod rusak
-:ARG0 saya :root pergi :location pasar :time jam :mod enam :mod pagi
-:ARG0 ayah :root pergi :location kantor :time minggu :mod kemarin
-:ARG0 andi :root berangkat :location sekolah
-:ARG0 ani :root dapat :ARG1 nilai :mod bagus :time hari :mod pertama
-:ARG0 andre :root berangkat :location sekolah :time enam :mod pagi
-:ARG0 dinda :root pulang :location rumah :time sejak :mod kemarin :mod sore
-:ARG0 musim :mod kemarau :root jadi :time bulan :mod oktober
-:ARG0 andre :root dapat :ARG1 dengar :mod baik :time sejak :mod kecil
-:ARG0 nuryati :root pindah :location bandung :time telah :mod nikah
-:root minum :ARG1 obat :time setelah :mod makan :mod siang
-:ARG0 matahari :root terbit :time pagi :mod hari
-:root dengar :ARG1 suara :mod ayam :mod jantan :mod kokok :time fajar :mod saat :mod tiba
-:ARG0 ayah :root pergi :ARG1 pangcing :time minggu :mod kali
-:ARG0 pak :mod ilham :root masuk :location kantor
-:ARG0 raja :root dapat :mod banyak :location indonesia :time zaman :mod dahulu
-:ARG0 pakcoy :root tumbuh :time musim :mod kemarau
-:ARG0 kami :root dapat :ARG1 komunikasi :mod mudah :time sekarang
-:ARG0 hal :mod banyak :root perlu :ARG1 bahas :time rapat :mod nanti
-:root laksana :ARG1 upacara :mod turun :mod bendera :time hari :mod sabtu
-:ARG0 kakek :root tanam :ARG1 cabe :location halaman :time tadi :mod pagi
-:root mulai :ARG1 upacara :mod proklamasi :time jam :mod sepuluh :mod pagi
-:ARG0 bapak :name soekarno :root proklamir :ARG1 merdeka :mod indonesia :time tanggal :mod 17 :mod agustus :mod 1945
-:ARG0 dinda :root berangkat :location jakarta :time tiga :mod hari :mod lalu
-:ARG0 senam :mod segar :mod jasmani :root laksana :time tiap :mod senin
-:root lihat :ARG1 dia :mod antusias :time tiap :ARG0 politik :mod bicara
-:ARG0 dia :root sedih :time ingat :ARG1 jadi :time waktu :mod saat
-:ARG0 peristiwa :mod berontak :name g :mod pki :time tahun :mod 1965 :root jadi
-:ARG0 air :mod selok :root luap :time pukul :mod enam :mod pagi
-:ARG0 saya :root berangkat :location bandung :time besok :mod lusa
-:ARG0 ibu :root ajak :ARG1 andre :mod pergi :mod kunjung :ARG1 nenek :time waktu :mod kecil
-:root rasa :ARG1 udara :mod panas :mod lebih :time hujan :mod saat
-:ARG0 saya :root jumpa :ARG1 dinda
-:ARG0 kita :root sadar :ARG1 penting :mod jaga :ARG1 sehat :time sakit :mod saat
-:ARG0 acara :mod seminar :root mulai :time satu :mod jam :mod lagi
-:ARG0 kami :root tunggu :location stasiun :time sejak :mod tiga :mod jam :mod lalu
-:ARG0 aku :root cuci :ARG1 kaki :time belum :mod tidur
-:ARG0 kita :root jaga :ARG1 satu :mod bangsa :time mulai :mod sekarang
-:ARG0 pak :name puguh :root bisa :ARG1 hadir :time sore :mod hari :mod ini
-:ARG0 toko :mod buku :root buka :time jam :mod 8 :mod pagi
-:ARG0 kita :root mampir :location sini :time lain :mod kali
-:ARG0 kalian :root perhati :ARG1 bersih :mod kelas :time mulai :mod sekarang
-:ARG0 dia :root bisa :time malam :mod hari :mod ini
-:ARG0 dinda :root contek :time ujian :mod saat
-:ARG0 adik :root kuliah :location jakarta :time tahun :mod depan
-:ARG0 pak :name joko :root sepeda :time tiap :mod pagi
-:ARG0 bu :name tati :root pergi :location jogja :time hari :mod senin
-:ARG0 kalian :root boleh :ARG1 datang :location rumah :time kapan :mod saja
-:ARG0 kami :root kurang :ARG1 air :mod bersih :time musim :mod kemarin
-:ARG0 kita :root pergi :time pukul :mod tujuh :mod malam
-:ARG0 kami :root latih :ARG1 musik :time setiap :mod hari :mod minggu
-:ARG0 saya :root temu :ARG1 pak :name ilham :time besok
-:ARG0 baik :ARG1 jalan :mod tol :root laksana :time waktu :mod dekat
-:ARG0 atur :root laku :time sejak :mod sah
-:ARG0 natasha :root datang :ARG1 pesta :time tadi :mod sore
-:ARG0 paman :root kembali :location rumah :time tadi :mod malam
-:ARG0 ayah :root berangkat :location kantor :time pukul :mod tujuh :mod pagi
-:ARG0 aku :root kerja :time bulan :mod lalu
-:ARG0 acara :mod diskusi :root mulai :time jam :mod delapan
-:ARG0 aku :root panggil :ARG1 bu :name lisa
-:ARG0 aku :root panggil :ARG1 bu :name lisa
-:ARG0 ayah :root baca :ARG1 koran :name tempo :location teras
-:ARG0 ayah :root baca :ARG1 koran :name tempo :location teras
-:ARG0 saya :root kantuk
-:ARG0 guru :root beri :ARG1 tugas
-:ARG0 guru :root beri :ARG1 tugas
-:ARG0 siswa :root nyanyi :ARG1 lagu :name indonesia :name raya
-:ARG0 siswa :root nyanyi :ARG1 lagu :name indonesia :name raya
-:ARG0 tugas :root periksa :ARG1 tas :mod kunjung
-:ARG0 tugas :root periksa :ARG1 tas :mod kunjung
-:ARG0 ibu :name budi :root masak :ARG1 nasi :mod kuning
-:ARG0 ibu :name budi :root masak :ARG1 nasi :mod kuning
-:ARG0 adik :root pinjam :ARG1 buku
-:ARG0 adik :root pinjam :ARG1 buku
-:ARG0 pak :name hasan :root bakar :ARG1 sampah
-:ARG0 pak :name hasan :root bakar :ARG1 sampah
-:ARG0 budhe :name citra :root turun :ARG1 suara
-:ARG0 budhe :name citra :root turun :ARG1 suara
-:ARG0 aku :root tulis :ARG1 cerita :location buku
-:ARG0 aku :root tulis :ARG1 cerita :location buku
-:root tangkap :ARG1 curi
-:root tangkap :ARG1 aku
-:ARG0 ayah :root bawa :ARG1 piala
-:ARG0 ayah :root bawa :ARG1 piala
-:ARG0 kak :name adi :root tiup :ARG1 terompet :location halaman
-:ARG0 kak :name adi :root tiup :ARG1 terompet :location halaman
-:ARG0 pak :name krisna :root tanam :ARG1 kedelai :location kebun
-:ARG0 pak :name krisna :root tanam :ARG1 kedelai :location kebun
-:ARG0 suster :name rina :root basuh :ARG1 muka :location kamar :mod mandi
-:ARG0 suster :name rina :root basuh :ARG1 muka :location kamar :mod mandi
-:ARG0 nenek :name yeti :root tunggu :ARG1 kakek :name fian :location teras
-:ARG0 nenek :name yeti :root tunggu :ARG1 kakek :name fian :location teras
-:ARG0 kakak :root bersih :ARG1 dapur
-:ARG0 kakak :root bersih :ARG1 dapur
-:ARG0 bu :name neneng :root lipat :ARG1 pakai
-:ARG0 bu :name neneng :root lipat :ARG1 pakai
-:ARG0 jurnalis :root liput :ARG1 berita
-:ARG0 jurnalis :root liput :ARG1 berita
-:ARG0 adik :name zaki :root kunyah :ARG1 permen
-:ARG0 adik :name zaki :root kunyah :ARG1 permen
-:ARG0 pak :name iwan :root setir :ARG1 mobil
-:ARG0 mas :name prapto :root buat :ARG1 pupuk
-:ARG0 tani :root tanam :ARG1 padi
-:ARG0 tani :root tanam :ARG1 padi
-:ARG0 borong :root beli :ARG1 hasil :mod panen
-:ARG0 borong :root beli :ARG1 hasil :mod panen
-:ARG0 tengkulak :root peras :ARG1 tani
-:ARG0 tengkulak :root peras :ARG1 tani
-:ARG0 adik :root tonton :ARG1 kartun :location televisi
-:ARG0 adik :root tonton :ARG1 kartun :location televisi
-:ARG0 ibu :name raska :root tuang :ARG1 air
-:ARG0 ibu :name raska :root tuang :ARG1 air
-:ARG0 pak :name zee :name zee :root cerita :ARG1 kisah :mod tragis
-:ARG0 pak :name zee :name zee :root cerita :ARG1 kisah :mod tragis
-:ARG0 saptam :root tangkap :ARG1 curi
-:ARG0 saptam :root tangkap :ARG1 curi
-:ARG0 kakak :root pel :ARG1 lantai
-:ARG0 kakak :root pel :ARG1 lantai
-:ARG0 tentara :root jaga :ARG1 damai :location indonesia
-:ARG0 tentara :root jaga :ARG1 damai :location indonesia
-:ARG0 ayah :root cari :ARG1 nafkah
-:ARG0 ayah :root cari :ARG1 nafkah
-:ARG0 ibu :root beri :ARG1 makan
-:ARG0 ibu :root beri :ARG1 makan
-:ARG0 adik :root terima :ARG1 uang
-:ARG0 adik :root terima :ARG1 uang
-:ARG0 kakak :name byan :root habis :ARG1 uang
-:ARG0 kakak :name byan :root habis :ARG1 uang
-:ARG0 massa :root bakar :ARG1 mobil :location jalan
-:ARG0 massa :root bakar :ARG1 mobil :location jalan
-:ARG0 warga :root tangkap :ARG1 babi :location hutan
-:ARG0 warga :root tangkap :ARG1 babi :location hutan
-:ARG0 kak :name zahra :root jual :ARG1 kue
-:ARG0 kak :name zahra :root jual :ARG1 kue
-:ARG0 adik :root lompat
-:ARG0 acara :root bela :ARG1 sangka :location adil
-:ARG0 acara :root bela :ARG1 sangka :location adil
-:ARG0 hakim :name roger :root jatuh :ARG1 hukum
-:ARG0 hakim :name roger :root jatuh :ARG1 hukum
-:ARG0 jaksa :root tuntut :ARG1 sangka :location adil
-:ARG0 jaksa :root tuntut :ARG1 sangka :location adil
-:ARG0 mereka :root terima :ARG1 kalah
-:ARG0 mereka :root terima :ARG1 kalah
-:ARG0 kami :root raya :ARG1 menang
-:ARG0 kami :root raya :ARG1 menang
-:ARG0 gubernur :name anis :root sampai :ARG1 keluh
-:ARG0 gubernur :name anis :root sampai :ARG1 keluh
-:ARG0 lusi :root gambar
-:ARG0 okta :root lukis :ARG1 perempuan
-:ARG0 okta :root lukis :ARG1 perempuan
-:ARG0 pak :name budi :root cetak :ARG1 kartu :mod nama :location sampurna
-:ARG0 pak :name budi :root cetak :ARG1 kartu :mod nama :location sampurna
-:ARG0 kpu :root tetap :ARG1 menang
-:ARG0 kpu :root tetap :ARG1 menang
-:ARG0 guru :root beri :ARG1 hadiah :mod menang
-:ARG0 guru :root beri :ARG1 hadiah :mod menang
-:ARG0 ibu :name rusdi :root gendong :ARG1 adik
-:ARG0 ibu :name rusdi :root gendong :ARG1 adik
-:ARG0 ayah :root jemput :ARG1 adik :location sekolah :time hari
-:ARG0 ayah :root jemput :ARG1 adik :location sekolah :time hari
-:ARG0 kakak :root pilih :ARG1 pasang :time minggu :mod depan
-:ARG0 kakak :root pilih :ARG1 pasang :time minggu :mod depan
+| ilham | tiup | balon
+| obe | tulis | puisi
+| saya | ketik | makalah
+| angga | anak | ajaib
+| ibu | orang | dosen
+| dia | renang
+| ilham | cari | buku | hilang
+| ibu | sapu | halaman | rumah
+| ayah | bajak | padi | sawah
+| andi | pergi | kemah | tepi | pantai
+| angga | pergi | toko | buku
+| saya | ada | masih | rumah
+| ayah | ada | sekarang | pasar
+| kakak | main | bola | masih
+| tikus | banyak | ada | rumah
+| adik | tangis | keras | jatuh
+| hotel | mewah | sangat | seperti | istana
+| aku | milik | sisa | uang | jumlah | sepuluh | ribu | rupiah
+| sekolah | jarak | rumah | tidak | terlalu | jauh
+| rampok | rampok | korban | kejam | sangat
+| pak | roni | berangkat | bandung | besok
+| bu | cinta | berangkat | sekolah | guna | taksi
+| satria | beri | uang | kepada | adik
+| pak | hasan | temu | pak | husen | kemarin | halte | bus
+| uang | maman | jatuh | selokan
+| yusron | sapu | halaman
+| dona | siswa | prestasi | kampus
+| caca | tulis | status | fb
+| ranti | jalan | pelan
+| pak | andre | pecah | gelas | sengaja
+| pak | amir | main | basket | lapangan
+| paman | kunjung | ayah | kemarin
+| ibu | jahit | baju | rapi
+| rini | tulis | surat | komputer
+| diana | tulis | puisi | ibunda | beranda | malam | hari
+| adik | lari | kencang | sangat
+| wahyu | pergi | warung
+| anita | buat | roti
+| singa | intai | mangsa
+| mobil | laju | cepat | sangat
+| kakek | marah | rumah | sebelah | sangat
+| romeo | tampan | setel | jas
+| arsita | lihat | anggun | gaun
+| cecep | bohong
+| irawan | baik | siapa | saja | hati
+| dudung | diam | sangat | sekolah
+| kucing | hitam | takut | sangat
+| ibu | adalah | sayang | sangat
+| mirna | bersih | kacamata | tisu | lembar | basah
+| jessica | seduh | kopi | ayah | suka
+| paman | beli | novel | sherlock | holmes | baru
+| pulung | pungut | sampah | bisa | daur | ulang
+| weni | bantu | ayah | panen | buah | apel | kebun | milik
+| ibu | cuci | piring
+| devis | main | bola | kaki | sampai | sore
+| sabrina | cari | buku | selip
+| kami | pergi | kemah | gunung | semeru
+| bu | septia | tunggang | kerbau
+| siska | teriak | jauh
+| santoso | jahit | celana
+| dia | lamun | orang
+| adik | baca | buku | ajar | kamar
+| nur | temu | barang | jalan
+| messi | cetak | gol | tanding | tadi | malam
+| anggi | beli | kue | toko
+| riko | tonton | tv | ruang | tamu
+| bu | via | nyanyi | lagu | semangat
+| wawan | nyala | lampu | depan | rumah
+| yasmin | buang | sampah | tempat | sampah
+| rina | temu | teman | tadi | malam
+| indah | makan | bekal | lahap
+| paul | mati | komputer | lima | menit | lalu
+| pak | sutejo | tanam | padi | sawah
+| karni | baca | orasi | atas | panggung
+| tata | beli | baju | mahal | mall
+| buru | buru | hewan | hutan
+| riana | makan | nasi | goreng
+| citra | baca | buku
+| ibu | cuci | pakai
+| joko | beli | bahan | makan
+| dik | dina | lihat | pandang | pantai
+| nelayan | para | pancing | ikan
+| kucing | buru | mangsa
+| anak | laki | tendang | bola
+| mey | minum | minuman
+| suster | ayu | tonton | drama | korea
+| bapak | rian | cari | nafkah
+| ibu | budi | nanak | nasi
+| polisi | tangkap | curi | gerombol
+| auliya | jual | hias | berapa
+| nadya | suka | gambar | komik
+| ajeng | tawa | bahak
+| ibu | masak | dapur
+| devin | tangis | sedu
+| arlita | ajar | sekolah
+| bugie | main | halaman | rumah
+| siswa | para | diskusi | waring | kopi
+| rizal | baca | pustaka
+| singa | raung | keras
+| pak | guru | pidato | lapangan | sekolah
+| bu | rima | dandan | salon
+| kak | dina | beli | baju | toko | baru
+| paman | budi | tidur | kamar | depan
+| ibu | siram | bunga
+| ibu | siram | bunga
+| ibu | shinta | siram | bunga | mawar | air | hujan | tampung | kemarin
+| ayah | baca | koran | waspada | teras | rumah
+| jual | nasi | goreng | jual | hujan | tadi | malam
+| adik | baca | buku | ensiklopedia
+| kami | pergi | gunung | rinjani | liburan | nanti
+| aku | suka | tulis
+| ibu | jahit | baju | sekolah | robek
+| tim | indonesia | cetak | gol | gawang | lawan
+| bu | asti | kena | topi | bundar
+| tahanan | nusakambangan | beri | ringan | hari | raya | idul | fitri
+| cerpen | ada | sekolah | inspirasi | baca
+| pustaka | jadi | tempat | nyaman | paling | sekolah | kami
+| ibu | sri | yuni | beli | kue | capit
+| pak | ucok | bajak | sawah | teknologi | tani | modern
+| ibu | cuci | piring
+| pak | andri | main | bola | sampai | sore
+| rani | cari | buku | selip
+| kami | pergi | kemah | gunung | semeru
+| ada | tikus | bawah | ranjang | tidur
+| linda | pergi | toko | cat
+| ada | aku | rumah
+| kami | pergi | sana | sekarang
+| ayah | ada | kantor
+| ibu | rusni | masak | sejak | tadi | pagi
+| andini | libur | pantai | hari | ini
+| kami | trauma | pergi | sana | setelah | jadi | kemarin
+| mita | bersih | rumah
+| pak | dodi | kata | bu | nia | pergi | rumah | jihan | belum | maghrib
+| tika | henti | tangis | telah | ayah | beli | main | baru
+| ibu | guru | kata | kami | selesai | soal | ujian | hari | ini
+| saya | tawa | lihat | acara | komedi | televisi
+| pak | gilang | kata | ayah | pulang | lusa
+| kami | ikut | unbk | cara | rentak | bulan | depan
+| kue | layak | makan
+| obat | kadaluarsa
+| kami | inap | hotel | besar | malam | ini
+| jojon | pulang | rumah | sejak | ayah | marah
+| tuang | adon | dalam | loyang | telah | adon | dingin
+| ibu | beri | sup | hangat | ketika | ayah | pulang
+| pak | tono | tahu | komputer | rusak
+| saya | pergi | pasar | jam | enam | pagi
+| ayah | pergi | kantor | minggu | kemarin
+| andi | berangkat | sekolah
+| ani | dapat | nilai | bagus | hari | pertama
+| andre | berangkat | sekolah | enam | pagi
+| dinda | pulang | rumah | sejak | kemarin | sore
+| musim | kemarau | jadi | bulan | oktober
+| andre | dapat | dengar | baik | sejak | kecil
+| nuryati | pindah | bandung | telah | nikah
+| minum | obat | setelah | makan | siang
+| matahari | terbit | pagi | hari
+| dengar | suara | ayam | jantan | kokok | fajar | saat | tiba
+| ayah | pergi | pangcing | minggu | kali
+| pak | ilham | masuk | kantor
+| raja | dapat | banyak | indonesia | zaman | dahulu
+| pakcoy | tumbuh | musim | kemarau
+| kami | dapat | komunikasi | mudah | sekarang
+| hal | banyak | perlu | bahas | rapat | nanti
+| laksana | upacara | turun | bendera | hari | sabtu
+| kakek | tanam | cabe | halaman | tadi | pagi
+| mulai | upacara | proklamasi | jam | sepuluh | pagi
+| bapak | soekarno | proklamir | merdeka | indonesia | tanggal | 17 | agustus | 1945
+| dinda | berangkat | jakarta | tiga | hari | lalu
+| senam | segar | jasmani | laksana | tiap | senin
+| lihat | dia | antusias | tiap | politik | bicara
+| dia | sedih | ingat | jadi | waktu | saat
+| peristiwa | berontak | g | pki | tahun | 1965 | jadi
+| air | selok | luap | pukul | enam | pagi
+| saya | berangkat | bandung | besok | lusa
+| ibu | ajak | andre | pergi | kunjung | nenek | waktu | kecil
+| rasa | udara | panas | lebih | hujan | saat
+| saya | jumpa | dinda
+| kita | sadar | penting | jaga | sehat | sakit | saat
+| acara | seminar | mulai | satu | jam | lagi
+| kami | tunggu | stasiun | sejak | tiga | jam | lalu
+| aku | cuci | kaki | belum | tidur
+| kita | jaga | satu | bangsa | mulai | sekarang
+| pak | puguh | bisa | hadir | sore | hari | ini
+| toko | buku | buka | jam | 8 | pagi
+| kita | mampir | sini | lain | kali
+| kalian | perhati | bersih | kelas | mulai | sekarang
+| dia | bisa | malam | hari | ini
+| dinda | contek | ujian | saat
+| adik | kuliah | jakarta | tahun | depan
+| pak | joko | sepeda | tiap | pagi
+| bu | tati | pergi | jogja | hari | senin
+| kalian | boleh | datang | rumah | kapan | saja
+| kami | kurang | air | bersih | musim | kemarin
+| kita | pergi | pukul | tujuh | malam
+| kami | latih | musik | setiap | hari | minggu
+| saya | temu | pak | ilham | besok
+| baik | jalan | tol | laksana | waktu | dekat
+| atur | laku | sejak | sah
+| natasha | datang | pesta | tadi | sore
+| paman | kembali | rumah | tadi | malam
+| ayah | berangkat | kantor | pukul | tujuh | pagi
+| aku | kerja | bulan | lalu
+| acara | diskusi | mulai | jam | delapan
+| aku | panggil | bu | lisa
+| aku | panggil | bu | lisa
+| ayah | baca | koran | tempo | teras
+| ayah | baca | koran | tempo | teras
+| saya | kantuk
+| guru | beri | tugas
+| guru | beri | tugas
+| siswa | nyanyi | lagu | indonesia | raya
+| siswa | nyanyi | lagu | indonesia | raya
+| tugas | periksa | tas | kunjung
+| tugas | periksa | tas | kunjung
+| ibu | budi | masak | nasi | kuning
+| ibu | budi | masak | nasi | kuning
+| adik | pinjam | buku
+| adik | pinjam | buku
+| pak | hasan | bakar | sampah
+| pak | hasan | bakar | sampah
+| budhe | citra | turun | suara
+| budhe | citra | turun | suara
+| aku | tulis | cerita | buku
+| aku | tulis | cerita | buku
+| tangkap | curi
+| tangkap | aku
+| ayah | bawa | piala
+| ayah | bawa | piala
+| kak | adi | tiup | terompet | halaman
+| kak | adi | tiup | terompet | halaman
+| pak | krisna | tanam | kedelai | kebun
+| pak | krisna | tanam | kedelai | kebun
+| suster | rina | basuh | muka | kamar | mandi
+| suster | rina | basuh | muka | kamar | mandi
+| nenek | yeti | tunggu | kakek | fian | teras
+| nenek | yeti | tunggu | kakek | fian | teras
+| kakak | bersih | dapur
+| kakak | bersih | dapur
+| bu | neneng | lipat | pakai
+| bu | neneng | lipat | pakai
+| jurnalis | liput | berita
+| jurnalis | liput | berita
+| adik | zaki | kunyah | permen
+| adik | zaki | kunyah | permen
+| pak | iwan | setir | mobil
+| mas | prapto | buat | pupuk
+| tani | tanam | padi
+| tani | tanam | padi
+| borong | beli | hasil | panen
+| borong | beli | hasil | panen
+| tengkulak | peras | tani
+| tengkulak | peras | tani
+| adik | tonton | kartun | televisi
+| adik | tonton | kartun | televisi
+| ibu | raska | tuang | air
+| ibu | raska | tuang | air
+| pak | zee | zee | cerita | kisah | tragis
+| pak | zee | zee | cerita | kisah | tragis
+| saptam | tangkap | curi
+| saptam | tangkap | curi
+| kakak | pel | lantai
+| kakak | pel | lantai
+| tentara | jaga | damai | indonesia
+| tentara | jaga | damai | indonesia
+| ayah | cari | nafkah
+| ayah | cari | nafkah
+| ibu | beri | makan
+| ibu | beri | makan
+| adik | terima | uang
+| adik | terima | uang
+| kakak | byan | habis | uang
+| kakak | byan | habis | uang
+| massa | bakar | mobil | jalan
+| massa | bakar | mobil | jalan
+| warga | tangkap | babi | hutan
+| warga | tangkap | babi | hutan
+| kak | zahra | jual | kue
+| kak | zahra | jual | kue
+| adik | lompat
+| acara | bela | sangka | adil
+| acara | bela | sangka | adil
+| hakim | roger | jatuh | hukum
+| hakim | roger | jatuh | hukum
+| jaksa | tuntut | sangka | adil
+| jaksa | tuntut | sangka | adil
+| mereka | terima | kalah
+| mereka | terima | kalah
+| kami | raya | menang
+| kami | raya | menang
+| gubernur | anis | sampai | keluh
+| gubernur | anis | sampai | keluh
+| lusi | gambar
+| okta | lukis | perempuan
+| okta | lukis | perempuan
+| pak | budi | cetak | kartu | nama | sampurna
+| pak | budi | cetak | kartu | nama | sampurna
+| kpu | tetap | menang
+| kpu | tetap | menang
+| guru | beri | hadiah | menang
+| guru | beri | hadiah | menang
+| ibu | rusdi | gendong | adik
+| ibu | rusdi | gendong | adik
+| ayah | jemput | adik | sekolah | hari
+| ayah | jemput | adik | sekolah | hari
+| kakak | pilih | pasang | minggu | depan
+| kakak | pilih | pasang | minggu | depan
