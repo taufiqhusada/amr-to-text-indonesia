@@ -218,8 +218,8 @@
 :ARG0 adik :root pinjam :ARG1 buku
 :ARG0 pak :name hasan :root bakar :ARG1 sampah
 :ARG0 pak :name hasan :root bakar :ARG1 sampah
-:ARG0 budhe :name ccitra)) :ARG1 suara :root turun
-:ARG0 budhe :name ccitra)) :ARG1 suara :root turun
+:ARG0 budhe :name citra :root turun :ARG1 suara
+:ARG0 budhe :name citra :root turun :ARG1 suara
 :ARG0 aku :root tulis :ARG1 cerita :location buku
 :ARG0 aku :root tulis :ARG1 cerita :location buku
 :root tangkap :ARG1 curi

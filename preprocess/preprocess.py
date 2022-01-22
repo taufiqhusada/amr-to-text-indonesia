@@ -2,6 +2,7 @@ from os import listdir, path
 import argparse
 from tqdm import tqdm
 from graph_utils import convert_linearized_penman_to_rule_based_traversal
+import re
 
 class PreprocessAMR:   
     def preprocess(self, source_file_path, result_amr_path, result_sent_path, source_folder_path=None, mode="linearized_penman"):
@@ -52,6 +53,34 @@ class PreprocessAMR:
             f.write("\n")
         f.close()
 
+    def _tidy_up_linearized_penman(self, linearized_penman):
+        list_item = linearized_penman.split()
+
+        # map variable to node
+        map_variable_node = {}
+        for i in range(len(list_item)):
+            if (list_item[i] == '/'):
+                map_variable_node[list_item[i-1]] = list_item[i+1]
+
+        # remove variable and slash
+        pattern_to_be_removed = '\( \w+ /'
+        subtitute = '('
+        final_str = re.sub(pattern_to_be_removed, subtitute, linearized_penman)
+
+        pattern_to_be_removed = '/'
+        subtitute = ''
+        final_str = re.sub(pattern_to_be_removed, subtitute, final_str)
+
+        # convert remaining variable (usually for coreference cases) to node
+        list_item = final_str.split()
+        for i in range(len(list_item)):
+            if (list_item[i] in map_variable_node):
+                list_item[i] = map_variable_node[list_item[i]]
+
+        final_str = " ".join(list_item)
+
+        return final_str
+
     def linearize_penman(self, file_path):
         with open(file_path) as f:
             data = f.readlines()
@@ -72,6 +101,7 @@ class PreprocessAMR:
                 if (is_reading_amr):
                     is_reading_amr = False      # reading AMR finish then append it to list
                     amr_now = " ".join(amr_now.split())
+                    amr_now = self._tidy_up_linearized_penman(amr_now)
                     list_pair_sent_amr.append((sent_now, amr_now))
                     amr_now = ""
                     sent_now = ""
@@ -93,30 +123,14 @@ class PreprocessAMR:
                 for c in line:
                     if (c=='.'):
                         amr_now += " "
-                        found_colon = False
-                        found_slash = False
-                    elif (c=='('):
+                    elif (c==')' or c=='(' or c=='/'):
                         amr_now += " " + c + " "
-                    elif (c==')' and not found_colon and not found_slash):
-                        amr_now += " " + c + " "
-                    elif (c=='/'):
-                        found_slash = True
-                    elif (c==':'):
-                        found_colon = True
-                        amr_now += c
                     else:
-                        if (found_colon):
-                            amr_now += c
-                            if (c==' '):
-                                found_colon = False
-                        elif (found_slash):
-                            if (c==')'):   
-                                amr_now += " "
-                                found_slash = False
-                            amr_now += c
+                        amr_now += c
 
         amr_now = " ".join(amr_now.split())
         if (amr_now != ""):
+            amr_now = self._tidy_up_linearized_penman(amr_now)
             list_pair_sent_amr.append((sent_now, amr_now))
         
         return list_pair_sent_amr

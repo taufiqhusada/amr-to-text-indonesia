@@ -124,3 +124,5 @@ if __name__=="__main__":
 
     print(grammar_based_tree_traversal(root, adj_list))
     print(convert_linearized_penman_to_rule_based_traversal('( pergi :ARG0 ( kami :mod ( keluarga ) ) :ARG1 ( tamasya ) :time ( hari :mod ( tamasya ) ) )'))
+
+    print(convert_linearized_penman_to_tree('( adik  ajak :ARG0 ( ibu ) :ARG1 a :location ( pasar ) )'))

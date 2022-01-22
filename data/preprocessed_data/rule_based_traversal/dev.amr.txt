@@ -1,19 +1,19 @@
-:root adik :ARG0 paman :mod ajak :mod main
+:ARG0 paman :root adik :ARG1 adik :mod main :mod ajak
 :ARG0 kepala :mod sekolah :root pimpin :ARG1 upacara :time tadi
-:root tanding :ARG0 mereka :mod tonton :mod bola :mod basket
-:root adik :ARG0 ibu :mod ajak :location pasar
+:ARG0 mereka :root tanding :ARG1 tanding :mod bola :mod basket :mod tonton
+:ARG0 ibu :root adik :ARG1 adik :location pasar :mod ajak
 :ARG0 irwan :root punya :ARG1 sepatu :mod baru
 :ARG0 siswa :mod semua :root ajar :mod rajin
 :ARG0 dagang :mod para :root jual :location pasar
-:root start :ARG0 peserta :mod lomba :mod siap :location garis
-:root buku :ARG0 anna :mod baca
+:ARG0 peserta :mod lomba :root start :mod siap :location garis :mod start
+:ARG0 anna :root buku :ARG1 buku :mod baca
 :ARG0 anna :root baca :op1 buku :ARG1 dan :op2 majalah
 :ARG0 syifa :root beli :ARG1 roti
-:ARG0 syifa :op1 pergi :ARG1 salon :root dan :op2 beli :ARG1 roti
+:ARG0 syifa :op1 pergi :ARG1 salon :root dan :ARG0 syifa :ARG1 roti :op2 beli
 :ARG0 zulia :root kena :ARG1 baju :mod merah
 :ARG0 mereka :root cetak :ARG1 gawang :mod lawan
 :ARG0 mereka :root laku :ARG1 selebrasi
 :ARG0 tonton :root sambut :mod riuh
 :ARG0 ashita :root pintai :ARG1 benang :mod wol
-:ARG0 ashita :root pintai :ARG1 benang :mod dan
+:ARG0 ashita :root pintai :ARG1 benang :op1 wol :op2 sutra :mod dan
 :ARG0 andi :root main :ARG1 bola

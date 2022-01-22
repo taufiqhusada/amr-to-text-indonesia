@@ -243,7 +243,7 @@
 :ARG0 tante :name ari :root naik :ARG1 sepeda
 :ARG0 tante :name ari :root naik :ARG1 sepeda
 :ARG0 tante :name ari :root naik :ARG1 sepeda
-:ARG0 bu :name ayu :root jadi :ARG1 lulus :mod baik :mod ipb :time tahun
+:ARG0 bu :name ayu :root jadi :ARG1 lulus :mod baik :mod ipb :time tahun :mod 2017
 :ARG0 dia :root mampu :ARG1 mandiri :mod finansial
 :ARG0 ibu :root orang :ARG1 dokter
 :ARG0 ibu :root orang :ARG1 dokter
@@ -391,8 +391,8 @@
 :ARG0 alfiansyah :root juara :ARG1 renang
 :ARG0 alfiansyah :root juara :ARG1 renang
 :ARG0 alfiansyah :root juara :ARG1 renang
-:ARG0 agribisnis :root jadi :ARG1 juara :ARG1 the :mod umum :time tahun :mod ini
-:ARG0 agribisnis :root jadi :ARG1 juara :ARG1 the :mod umum :time tahun :mod ini
+:ARG0 agribisnis :ARG1 juara :ARG1 the :mod 10th :mod umum :time tahun :mod ini :mod 50 :root jadi
+:ARG0 agribisnis :ARG1 juara :ARG1 the :mod 10th :mod umum :time tahun :mod ini :mod 50 :root jadi
 :ARG0 aku :root kantuk :time sore :mod tadi
 :ARG0 aku :root kantuk :time sore :mod tadi
 :ARG0 dia :root selesai :ARG1 tugas :time tepat :mod waktu
@@ -2043,7 +2043,7 @@
 :ARG0 hujan :mod lebat :root buat :ARG1 ganggu :ARG1 sinyal :mod internet
 :ARG0 hujan :mod lebat :root buat :ARG1 ganggu :ARG1 sinyal :mod internet
 :ARG0 hujan :mod lebat :root buat :ARG1 ganggu :ARG1 sinyal :mod internet
-:ARG0 hari :root rupa :ARG1 padam :ARG1 listrik :mod gilir
+:ARG0 hari :root rupa :ARG1 padam :ARG1 listrik :mod gilir :time hari
 :ARG0 mobil :mod mewah :root warna :ARG1 merah
 :ARG0 mobil :mod mewah :root warna :ARG1 merah
 :ARG0 mobil :mod mewah :root warna :ARG1 merah
@@ -2156,7 +2156,7 @@
 :op1 bangun :ARG1 gedung :mod tahun :mod lima :root dan :op2 selesai :ARG1 misi :mod satu
 :ARG0 anna :op1 sepatu :mod pasang :mod dua :root dan :op2 ada :ARG1 coklat :mod biji :mod tiga
 :ARG0 bangunan :op1 umur :mod abad :root dan :ARG0 anak :mod kucing :op2 ada :mod tiga
-:ARG0 tante :name ari :op1 naik :ARG1 sepeda :root dan :ARG0 bu :name ayu :op2 jadi :ARG1 lulus :mod baik :mod ipb :time tahun
+:ARG0 tante :name ari :op1 naik :ARG1 sepeda :root dan :ARG0 bu :name ayu :op2 jadi :ARG1 lulus :mod baik :mod ipb :time tahun :mod 2017
 :ARG0 dia :op1 mampu :ARG1 mandiri :mod finansial :root dan :ARG0 ibu :op2 orang :ARG1 dokter
 :ARG0 arya :op1 beli :ARG1 telur :location minimarket :root dan :ARG0 kakek :name arya :op2 beli :ARG1 telur :location minimarket
 :op1 roboh :ARG1 rumah :root dan :ARG0 hujan :op2 kacau :ARG1 sinyal :mod internet
@@ -2176,7 +2176,7 @@
 :ARG0 kami :op1 senang :location taman :mod bermain :time siang :mod itu :root dan :ARG0 raut :mod muka :op2 tampak :ARG1 bahagia
 :ARG0 jadi :op1 buat :ARG1 rifqy :mod sadar :time kemarin :root dan :ARG0 ia :op2 suka :ARG0 dekat :ARG1 mereka :ARG1 suka :time lama :mod ini
 :ARG0 bu :name rifqy :op1 tahu :ARG1 rasa :root dan :ARG0 alfiansyah :op2 juara :ARG1 renang
-:ARG0 agribisnis :op1 jadi :ARG1 juara :ARG1 the :mod umum :time tahun :mod ini :root dan :ARG0 aku :op2 kantuk :time sore :mod tadi
+:ARG0 agribisnis :ARG1 juara :ARG1 the :mod 10th :mod umum :time tahun :mod ini :ARG0 aku :op2 kantuk :time sore :mod tadi :mod 50 :op1 jadi :root dan
 :ARG0 dia :op1 selesai :ARG1 tugas :time tepat :mod waktu :root dan :ARG0 dia :op2 anak :mod cerdas
 :ARG0 rumah :op1 ada :location belakang :mod kebun :mod raya :root dan :ARG0 tk :op2 ada :location sebelah :mod kanan
 :ARG0 mereka :op1 pilih :ARG1 tinggal :location pinggiran :mod jakarta :root dan :ARG0 rumah :mod mereka :time sekarang :op2 jarak :mod dekat :ARG1 tempat :mod kerja
@@ -2375,7 +2375,7 @@
 :ARG0 andi :op1 naik :ARG1 helikopter :time minggu :mod lalu :root dan :ARG0 aku :op2 juara :ARG1 lomba :mod baca :ARG1 quran :mod pertama :time kemarin
 :ARG0 hendra :op1 jadi :ARG1 alumni :mod lulusan :mod baik :location universitas :mod islam :location malang :time tahun :mod 2013 :root dan :ARG0 ayah :op2 dagang :ARG1 siomay
 :ARG0 adi :op1 jual :ARG1 kayu :location kota :name jakarta :time panjang :mod tahun :root dan :ARG0 huni :op2 lihat :ARG1 indah :time hari
-:ARG0 hujan :mod lebat :op1 buat :ARG1 ganggu :ARG1 sinyal :mod internet :root dan :ARG0 hari :op2 rupa :ARG1 padam :ARG1 listrik :mod gilir
+:ARG0 hujan :mod lebat :op1 buat :ARG1 ganggu :ARG1 sinyal :mod internet :root dan :ARG0 hari :op2 rupa :ARG1 padam :ARG1 listrik :mod gilir :time hari
 :ARG0 mobil :mod mewah :op1 warna :ARG1 merah :root dan :ARG0 majalah :op2 ada :location atas :mod meja :mod ajar
 :ARG0 ani :op1 lolos :ARG1 ikut :ARG1 uji :ARG0 usaha :mod keluar :time kemarin :root dan :ARG0 rumah :op2 sertifikat :mod atas :mod nama :name herlinda
 :ARG0 orang :op1 ada :location luar :mod rumah :time dari :mod tadi :root dan :ARG0 nenek :op2 tingal :time tadi :mod pagi :mod pukul :mod enam
@@ -2418,7 +2418,7 @@
 :op1 bangun :ARG1 gedung :mod tahun :mod lima :root atau :op2 selesai :ARG1 misi :mod satu
 :ARG0 anna :op1 sepatu :mod pasang :mod dua :root atau :op2 ada :ARG1 coklat :mod biji :mod tiga
 :ARG0 bangunan :op1 umur :mod abad :root atau :ARG0 anak :mod kucing :op2 ada :mod tiga
-:ARG0 tante :name ari :op1 naik :ARG1 sepeda :root atau :ARG0 bu :name ayu :op2 jadi :ARG1 lulus :mod baik :mod ipb :time tahun
+:ARG0 tante :name ari :op1 naik :ARG1 sepeda :root atau :ARG0 bu :name ayu :op2 jadi :ARG1 lulus :mod baik :mod ipb :time tahun :mod vv22
 :ARG0 dia :op1 mampu :ARG1 mandiri :mod finansial :root atau :ARG0 ibu :op2 orang :ARG1 dokter
 :ARG0 arya :op1 beli :ARG1 telur :location minimarket :root atau :ARG0 kakek :name arya :op2 beli :ARG1 telur :location minimarket
 :op1 roboh :ARG1 rumah :root atau :ARG0 hujan :op2 kacau :ARG1 sinyal :mod internet
@@ -2438,7 +2438,7 @@
 :ARG0 kami :op1 senang :location taman :mod bermain :time siang :mod itu :root atau :ARG0 raut :mod muka :op2 tampak :ARG1 bahagia
 :ARG0 jadi :op1 buat :ARG1 rifqy :mod sadar :time kemarin :root atau :ARG0 ia :op2 suka :ARG0 dekat :ARG1 mereka :ARG1 suka :time lama :mod ini
 :ARG0 bu :name rifqy :op1 tahu :ARG1 rasa :root atau :ARG0 alfiansyah :op2 juara :ARG1 renang
-:ARG0 agribisnis :op1 jadi :ARG1 juara :ARG1 the :mod umum :time tahun :mod ini :root atau :ARG0 aku :op2 kantuk :time sore :mod tadi
+:ARG0 agribisnis :ARG1 juara :ARG1 the :mod 10th :mod umum :time tahun :mod ini :ARG0 aku :op2 kantuk :time sore :mod tadi :mod 50 :op1 jadi :root atau
 :ARG0 dia :op1 selesai :ARG1 tugas :time tepat :mod waktu :root atau :ARG0 dia :op2 anak :mod cerdas
 :ARG0 rumah :op1 ada :location belakang :mod kebun :mod raya :root atau :ARG0 tk :op2 ada :location sebelah :mod kanan
 :ARG0 mereka :op1 pilih :ARG1 tinggal :location pinggiran :mod jakarta :root atau :ARG0 rumah :mod mereka :time sekarang :op2 jarak :mod dekat :ARG1 tempat :mod kerja
@@ -2637,7 +2637,7 @@
 :ARG0 andi :op1 naik :ARG1 helikopter :time minggu :mod lalu :root atau :ARG0 aku :op2 juara :ARG1 lomba :mod baca :ARG1 quran :mod pertama :time kemarin
 :ARG0 hendra :op1 jadi :ARG1 alumni :mod lulusan :mod baik :location universitas :mod islam :location malang :time tahun :mod 2013 :root atau :ARG0 ayah :op2 dagang :ARG1 siomay
 :ARG0 adi :op1 jual :ARG1 kayu :location kota :name jakarta :time panjang :mod tahun :root atau :ARG0 huni :op2 lihat :ARG1 indah :time hari
-:ARG0 hujan :mod lebat :op1 buat :ARG1 ganggu :ARG1 sinyal :mod internet :root atau :ARG0 hari :op2 rupa :ARG1 padam :ARG1 listrik :mod gilir
+:ARG0 hujan :mod lebat :op1 buat :ARG1 ganggu :ARG1 sinyal :mod internet :root atau :ARG0 hari :op2 rupa :ARG1 padam :ARG1 listrik :mod gilir :time hari
 :ARG0 mobil :mod mewah :op1 warna :ARG1 merah :root atau :ARG0 majalah :op2 ada :location atas :mod meja :mod ajar
 :ARG0 ani :op1 lolos :ARG1 ikut :ARG1 uji :ARG0 usaha :mod keluar :time kemarin :root atau :ARG0 rumah :op2 sertifikat :mod atas :mod nama :name herlinda
 :ARG0 orang :op1 ada :location luar :mod rumah :time dari :mod tadi :root atau :ARG0 nenek :op2 tingal :time tadi :mod pagi :mod pukul :mod enam
