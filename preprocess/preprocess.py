@@ -1,6 +1,7 @@
 from os import listdir, path
 import argparse
 from tqdm import tqdm
+from graph_utils import convert_linearized_penman_to_rule_based_traversal
 
 class PreprocessAMR:   
     def preprocess(self, source_file_path, result_amr_path, result_sent_path, source_folder_path=None, mode="linearized_penman"):
@@ -17,6 +18,8 @@ class PreprocessAMR:
                 list_pair_sent_amr = self.dfs_nodes_and_edges_only(source_file_path)
             elif (mode=="nodes_only"):
                 list_pair_sent_amr = self.nodes_only(source_file_path)
+            elif (mode=='rule_based_traversal'):
+                list_pair_sent_amr = self.rule_based_traversal(source_file_path)
             else:
                 raise Exception("specified linearization mode not valid")
         else:
@@ -28,6 +31,8 @@ class PreprocessAMR:
                     list_pair_sent_amr_from_file = self.dfs_nodes_and_edges_only(path.join(source_folder_path, file_name))
                 elif (mode=="nodes_only"):
                     list_pair_sent_amr_from_file = self.nodes_only(path.join(source_folder_path, file_name))
+                elif (mode=='rule_based_traversal'):
+                    list_pair_sent_amr_from_file = self.rule_based_traversal(path.join(source_folder_path, file_name))
                 else:
                     raise Exception("specified linearization mode not valid")
                 list_pair_sent_amr += list_pair_sent_amr_from_file
@@ -145,6 +150,17 @@ class PreprocessAMR:
             list_pair_sent_amr[i] = (sent, " ".join(curr_amr.split()))
 
         return list_pair_sent_amr
+
+    def rule_based_traversal(self, file_path):
+        list_pair_sent_amr = self.linearize_penman(file_path)
+
+        for i in range(len(list_pair_sent_amr)):
+            (sent,amr) = list_pair_sent_amr[i]
+            result_path_traversal = convert_linearized_penman_to_rule_based_traversal(amr)
+            list_pair_sent_amr[i] = (sent, result_path_traversal)
+
+        return list_pair_sent_amr
+
 
 if __name__=="__main__":
     PREPROCESS_AMR = PreprocessAMR()

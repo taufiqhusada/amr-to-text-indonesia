@@ -1,0 +1,34 @@
+{
+    "list_rule": [
+        {
+            "condition":{
+                "edge": ":ARG0"
+            },
+            "priority": "dependent_node"
+        },
+        {
+            "condition":{
+                "edge": ":ARG1"
+            },
+            "priority": "head_node"
+        },
+        {
+            "condition":{
+                "edge": ":ARG2"
+            },
+            "priority": "head_node"
+        },
+        {
+            "condition":{
+                "edge": ":op1"
+            },
+            "priority": "dependent_node"
+        },
+        {
+            "condition":{
+                "edge": ":op2"
+            },
+            "priority": "head_node"
+        }
+    ]
+}
