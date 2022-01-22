@@ -10,6 +10,7 @@ def generate(text, model, tokenizer, num_beams, model_type, device='cpu'):
         raise ValueError(f'Unknown model_type `{model_type}`')
 
 def _generate_bart(text, model, tokenizer, num_beams, device):
+    text = text.lower()
     model.to(device)
 
     model.eval()
@@ -22,6 +23,7 @@ def _generate_bart(text, model, tokenizer, num_beams, device):
     return gen_text
 
 def _generate_t5(text, model, tokenizer, num_beams, device):
+    text = text.lower()
     model.to(device)
     
     model.eval()

@@ -2,7 +2,7 @@ import numpy as np
 import pandas as pd
 from torch.utils.data import Dataset, DataLoader
 
-T5_PREFIX = "translate Graph to Indonesian: "
+T5_PREFIX = "translate graph to indonesian: "
 
 # class to load preprocessed amr data
 class AMRToTextDataset(Dataset):    
