@@ -1,0 +1,606 @@
+# ::id c-gedung-roboh-json.2
+# ::snt-type body
+# ::preferred
+# ::snt Pengalihan dilakukan bagi pengendara yang melaju dari arah mal Bintaro XChange dan tol Bintaro menuju Jalan Boulevard Bintaro dengan menggunakan flyover di atas lampu merah Indomobil.
+(vv1 / laku
+    :ARG1 (vv2 / alih)
+    :ARG0 (vv3 / kendara 
+        :mod (vv4 / laju 
+            :mod (vv5 / arah 
+                :mod ( m / mal 
+                    :name ( b / bintaro 
+                        :name ( x / xchange )))
+                        :mod (vv8 / tol
+                            :mod (vv7 / dan )
+                            :name (vv6 / bintaro )
+                            :mod (vv9 / tuju 
+                                :ARG1 (vv10 / jalan 
+                                    :name (vv11 / boulevard 
+                                        :name (vv12 / bintaro ))))))))
+    :mod ( vv15 / dengan 
+        :mod ( vv16 / guna 
+            :ARG1 ( vv17 / flyover 
+                :location ( vv18 / atas 
+                    :mod ( vv19 / lampu 
+                        :name ( vv20 / indomobil )
+                        :mod ( vv21 / merah ))))))
+)
+
+# ::id c-gedung-roboh-json.3
+# ::snt-type body
+# ::preferred
+# ::snt Kegagalan struktur dan kesalahan tes tanah yang mengakibatkan gedung miring juga terjadi pada Menara Saidah di Jalan MT Haryono, Jakarta Timur.
+(vv1 / jadi 
+    :ARG1 (vv2 / akibat
+        :ARG0 (vv3 / gagal 
+            :mod (vv4 / dan 
+                :mod (vv5 / salah 
+                    :ARG1 (vv6 / tes 
+                        :mod (vv7 / tanah ))))
+            :ARG1 (vv8 / struktur))
+        :ARG1 (vv9 / gedung 
+            :mod (vv10 / miring )))
+    :location (vv11 / menara  
+        :location (vv12 / jalan 
+            :location (vv13 / jakarta 
+                :mod (vv14 / timur ))
+            :name (vv15 / mt 
+                :name (vv16 / haryono )))
+        :name (vv17 / saidah ))
+)
+
+# ::id c-gedung-roboh-json.5
+# ::snt-type body
+# ::preferred
+# ::snt Kapolres Tangerang Selatan, AKBP Ayi Supardan membenarkan peristiwa robohnya gedung di Bintaro yang menarik perhatian masyarakat banyak.
+(vv1 / benar
+    :ARG0 (vv2 / Kapolres
+        :name ( vv3 / ayi 
+            :name ( vv4 / supardan ))
+        :mod ( vv5 / akbp )
+        :location ( vv6 / tangerang 
+            :mod ( vv7 / selatan )))
+    :ARG1 (vv8 / peristiwa
+        :location (vv9 / bintaro )
+        :mod ( vv10 / roboh
+            :ARG1 ( vv11 / gedung ))
+        :mod ( vv12 / tarik 
+            :ARG1 ( vv13 / hati 
+                :mod ( vv14 / masyarakat 
+                    :mod ( vv15 / banyak ))))
+    )
+)
+
+# ::id c-gedung-roboh-json.6
+# ::snt-type body
+# ::preferred
+# ::snt Panin memutuskan tidak melanjutkan pembangunan gedung itu karena dinyatakan tidak lulus uji kelayakan.
+(vv1 / putus
+    :ARG0 (vv2 / Panin)
+    :ARG1 (vv3 / lanjut
+        :ARG1 (vv4 / bangun 
+            :ARG1 (vv5 / gedung))
+    )
+    :mod ( vv6 / karena 
+        :mod ( vv7 / nyata 
+            :ARG1 ( vv8 / lulus 
+                :mod ( vv9 / tidak )
+                :ARG1 ( vv10 / uji 
+                    :ARG1 ( vv11 / layak )))))
+)
+
+# ::id c-gedung-roboh-json.7
+# ::snt-type body
+# ::preferred
+# ::snt Gedung tersebut dinyatakan tidak lulus uji sehingga pembangunan gedung diputuskan tidak dilanjutkan.
+(vv1 / nyata
+    :ARG1 (vv2 / gedung 
+        :mod ( vv3 / sebut ))
+    :mod ( vv4 / lulus 
+        :mod ( vv5 / tidak )
+        :ARG1 ( vv6 / uji )
+    )
+    :mod (vv7 / sehingga
+        :mod ( vv8 / bangun 
+            :mod ( vv9 / putus 
+                :ARG1 ( vv10 / lanjut 
+                    :mod ( vv11 / tidak )))
+            :ARG1 ( vv12 / gedung ))
+    )
+)
+
+# ::id c-gedung-roboh-json.8
+# ::snt-type body
+# ::preferred
+# ::snt Kasat Reskrim Polres Tangerangg Selatan, AKP Samian mengatakan saat ini pihaknya melakukan penyelidikan untuk mengetahui penyebab runtuhnya gedung.
+(vv1 / kata
+    :ARG0 (vv2 / kasat
+        :name (vv3 / akp 
+            :name (vv4 / samian )) 
+        :mod ( vv5 / polres 
+            :location ( vv6 / tangerang 
+                :location ( vv7 / selatan )))
+        :mod ( vv8 / reskrim ))
+    :ARG1 ( vv9 / laku 
+        :mod ( vv10 / untuk 
+            :mod ( vv11 / tahu 
+                :ARG1 ( vv12 / sebab 
+                    :mod ( vv13 / runtuh 
+                        :ARG1 ( vv14 / gedung )))))
+        :ARG1 ( vv15 / selidik )
+        :ARG0 ( vv16 / pihak )
+        :time ( vv17 / saat 
+            :mod ( vv18 / ini ))
+    )
+)
+
+# ::id c-gedung-roboh-json.9
+# ::snt-type body
+# ::preferred
+# ::snt hingga kini kami masih mendalami peristiwa tersebut.
+( vv1 / dalam 
+    :mod ( vv2 / masih )
+    :ARG0 ( vv3 / kami )
+    :ARG1 ( vv4 / peristiwa 
+        :mod ( vv5 / sebut ))
+    :time ( vv6 / hingga 
+        :mod ( vv7 / ini ))
+)
+
+# ::id c-gedung-roboh-json.9
+# ::snt-type body
+# ::preferred
+# ::snt Kejadian tersebut tidak timbul korban.
+(vv1 / timbul
+    :mod ( vv2 / sebut )
+    :mod ( vv3 / tidak)
+    :ARG0 (vv4 / jadi)
+    :ARG1 (vv5 / korban)
+)
+
+# ::id c-gedung-roboh-json.9
+# ::snt-type body
+# ::preferred
+# ::snt terjadi kerugian material.
+(vv1 / jadi
+    :ARG1 (vv2 / rugi 
+        :mod (vv3 / material ))
+)
+
+# ::id c-gedung-roboh-json.10
+# ::snt-type body
+# ::preferred
+# ::snt Pembongkaran gedung di Sektor 7, Bintaro, Tangerang Selatan, diduga menyalahi prosedur.
+(vv1 / duga
+    :ARG0 (vv2 / bongkar 
+        :location (vv3 / sektor
+            :location (vv4 / bintaro
+                :location (vv5 / tangerang 
+                    :mod (vv6 / selatan ))) 
+            :mod ( vv7 / 7 ))
+        :ARG1 ( vv8 / gedung ))
+    :ARG1 (vv9 / salah 
+        :ARG1 (vv10 / prosedur ))
+)
+
+# ::id c-gedung-roboh-json.11
+# ::snt-type body
+# ::preferred
+# ::snt Arus lalu lintas dari pintu keluar Tol Pondok Aren dialihkan melalui jembatan layang.
+(vv1 / alih
+    :ARG1 (vv2 / arus
+        :location (vv3 / pintu 
+            :mod (vv4 / tol 
+                :name (vv5 / pondok 
+                    :name (vv6 / aren )))
+            :mod (vv7 / keluar ))
+        :mod (vv8 / lalu 
+            :mod (vv9 / lintas )))
+    :mod (vv10 / lalu 
+        :ARG1 (vv11 / jembatan 
+            :mod (vv12 / layang )))
+)
+
+# ::id c-gedung-roboh-json.12
+# ::snt-type body
+# ::preferred
+# ::snt Uji kelayakan dinyatakan tidak lulus uji sehingga bangunan dibiarkan untuk tidak dilanjutkan.
+(vv1 / nyata
+    :ARG0 (vv2 / uji 
+        :mod (vv3 / layak ))
+    :ARG1 (vv4 / lulus 
+        :mod (vv5 / tidak )
+        :ARG1 (vv6 / uji ))
+    :mod (vv7 / sehingga
+        :mod (vv8 /biar
+            :ARG1 (vv9 / bangun )
+            :mod (vv10 / untuk 
+                :mod (vv11 / lanjut 
+                    :mod (vv12 / tidak )))
+            )
+    )
+)
+
+# ::id c-gedung-roboh-json.13
+# ::snt-type body
+# ::preferred
+# ::snt Warga Bintaro Jaya, Tangerang Selatan, digegerkan getaran dan dentuman keras, Kamis 2 Juni.
+(vv1 / geger
+    :ARG1 (vv2 / warga
+        :location (vv3 / bintaro 
+            :location (vv4 / tangerang 
+                :mod (vv5 / selatan ))
+            :mod ( vv6 / jaya )))
+    :ARG0 ( vv7 / getar 
+        :location ( vv8 / gedung 
+            :mod ( vv9 / milik 
+                :ARG0 ( vv10 / bank 
+                    :name ( vv11 / panin 
+                        :name ( vv12 / bank)))))
+        :mod ( vv13 / dan 
+            :mod ( vv14 / dentum 
+                :mod ( vv15 / keras ))))
+    :time ( vv16 / kamis 
+        :mod ( vv17 / 2 
+            :mod ( vv18 / juni )))
+)
+
+# ::id c-gedung-roboh-json.14
+# ::snt-type body
+# ::preferred
+# ::snt Nadia mengatakan, sejak pagi sekitar pukul 08.00 WIB, dia melihat ada petugas yang merobohkan lantai di bangunan tersebut.
+(vv1 / kata
+    :ARG0 (vv2 / nadia )
+    :ARG1 ( vv3 / lihat
+        :ARG0 ( vv4 / dia )
+        :ARG1 ( vv5 / ada 
+            :ARG1 ( vv6 / tugas 
+                :mod ( vv7 / roboh 
+                    :location (vv8 / bangunan 
+                        :mod ( vv9 / sebut ))
+                    :ARG1 ( vv10 / lantai )))))
+    :time ( vv11 / sejak 
+        :mod ( vv12 / sekitar 
+            :mod ( vv13 / pukul 
+                :mod ( vv14 / 08.00 
+                    :mod ( vv15 / WIB ))))
+        :mod ( vv16 / pagi )))
+
+# ::id c-gedung-roboh-json.15
+# ::snt-type body
+# ::preferred
+# ::snt Kawasan sekitar gedung 21 lantai milik Panin di Jalan Boulevard Bintaro Jaya, Tangerang Selatan, masih ditutup untuk umum hingga Jumat pagi menjelang siang ini.
+(vv1 / tutup
+    :ARG1 (vv2 / kawasan
+        :location ( vv3 / sekitar
+            :location ( vv4 / jalan 
+                :location ( vv5 / tangerang 
+                    :mod ( vv6 / selatan ))
+                :name ( vv7 / boulevard 
+                    :name ( vv8 / bintaro 
+                        :name ( vv9 / jaya )))) 
+            :mod ( vv10 / gedung 
+                :mod ( vv11 / milik 
+                    :ARG0 ( vv12 / panin ))
+                :mod ( vv13 / 21 
+                    :mod ( vv14 / lantai )))))
+    :mod ( vv15 / untuk 
+        :mod (  vv16 / umum ))
+    :time ( vv17 / hingga
+        :mod ( vv18 / jumat 
+            :mod ( vv19 / pagi 
+                :mod (vv20 / jelang 
+                    :mod ( vv21 / siang )))))
+)
+
+# ::id c-gedung-roboh-json.17
+# ::snt-type body
+# ::preferred
+# ::snt Gedung roboh di Bintaro yang dibeli dari Bank Panin pada tahun 1998 oleh Jaya Property itu memang terlihat sudah tua.
+(vv1 / lihat
+    :mod (vv2 / memang )
+    :ARG1 (vv3 / Gedung
+        :mod ( vv4 / beli 
+            :ARG0 ( vv5 / jaya 
+                :name ( vv6 / property ))
+            :time ( vv7 / tahun 
+                :mod ( vv8 / 1998 ))
+            :mod ( vv9 / dari 
+                :mod (vv10 / bank 
+                    :name ( vv11 / panin ))))
+        :location ( vv12 / bintaro )
+        :mod ( vv13 / roboh ))
+    :ARG0 (vv14 / tua))
+
+# ::id c-gedung-roboh-json.18
+# ::snt-type body
+# ::preferred
+# ::snt Property Development Panin Group Paulus Indra Intan menunggu rekomendasi dari Pemerintah Kota Tangerang Selatan untuk mendapatkan kontraktor dan konsultan bersertifikat.
+(vv1 / tunggu
+    :ARG0 (vv2 / property
+        :name ( vv3 / paulus 
+            :name ( vv4 / indra 
+                :name ( vv5 / intan )))
+        :mod ( vv6 / development 
+            :name ( vv7 / panin 
+                :name ( vv8 / group ))))
+    :ARG1 (vv9 / rekomendasi
+        :mod ( vv10 / untuk 
+            :mod ( vv11 / dapat 
+                :ARG1 ( vv12 / kontrak 
+                    :mod ( vv13 / konsultan 
+                        :mod ( vv14 / sertifikat )))))
+        :ARG0 ( vv15 / pemerintah 
+            :location ( vv16 / kota 
+                :mod ( vv17 / tangerang 
+                    :mod ( vv18 / selatan )))
+            :mod ( vv19 /dari ))))
+
+# ::id c-gedung-roboh-json.19
+# ::snt-type body
+# ::preferred
+# ::snt Kemarin, para petugas Polres Tangsel dan juga Polsek Pondok Aren masih berjaga di sekitar gedung roboh itu sekitar pukul 16.30 WIB.
+(vv1 / jaga
+    :ARG0 (vv2 / tugas 
+        :mod (vv3 / dan 
+            :location (vv4 / polsek 
+                :mod (vv5 / pondok 
+                    :mod (vv6 / aren ))))
+        :location ( vv7 / polres
+            :mod ( vv8 / tangsel ))
+        :mod ( vv9 / para ))
+    :location ( vv10 / sekitar 
+        :mod ( vv11 / gedung 
+            :mod ( vv12 / roboh )))
+    :time ( vv13 / sekitar 
+        :mod ( vv14 / pukul 
+            :mod ( vv15 / 16.30 
+                :mod ( vv16  / wib))))
+)
+
+# ::id c-gedung-roboh-json.20
+# ::snt-type body
+# ::preferred
+# ::snt Sebuah gedung kosong di dekat Bintaro Trade Center, Sektor 7, Bintaro, Kota Tangerang Selatan, roboh pada Kamis, sekitar pukul 15.00 WIB.
+(vv1 / roboh
+    :ARG0 (vv2 / gedung 
+        :location ( vv3 / dekat 
+            :name ( vv4 / bintaro 
+                :location ( vv5 / sektor
+                    :location ( vv6 / bintaro 
+                        :location ( vv7 / kota 
+                            :mod ( vv8 / tangerang 
+                                :mod ( vv9 / selatan)))) 
+                    :name ( vv10 / 7 ))
+                :name ( vv11 / trade 
+                    :name ( vv12 / center ))))
+        :mod ( vv13 / kosong)
+        :mod ( vv14 / buah )
+    )
+    :time ( vv15 / kamis 
+        :time ( vv16 / sekitar 
+            :mod ( vv17 / pukul 
+                :mod ( vv18 / 15.00 
+                    :mod ( vv19 / wib )))))
+)
+
+# ::id c-gedung-roboh-json.21
+# ::snt-type body
+# ::preferred
+# ::snt Saksi mata, Nadia yang bekerja tak jauh dari lokasi ambruknya gedung kembar itu mengungkapkan sekitar pukul 08.00 WIB, dia melihat sejumlah orang merobohkan lantai di gedung kembar.
+(vv1 / ungkap
+    :ARG0 (vv2 / saksi    
+        :name ( vv3 / nadia )
+        :mod ( vv4 / mata ) 
+        :mod ( vv5 / kerja 
+            :location ( vv6 / jauh
+                :mod ( vv7 / lokasi 
+                    :mod ( vv8 / ambruk 
+                        :ARG1 ( vv9 / gedung 
+                            :mod ( vv10 / kembar )))) 
+                :mod ( vv11 / tak ))))
+    :ARG1 ( vv12 / lihat 
+        :ARG0 ( vv13 / dia )
+        :ARG1 ( vv14 / orang 
+            :mod ( vv15 / roboh 
+                :location ( vv16 / gedung 
+                    :mod ( vv17 / kembar ))
+                :ARG1 ( vv18 / lantai ))
+            :mod ( vv19 / jumlah ))
+    )     
+    :time (vv20 / sekitar 
+        :mod ( vv21 / pukul 
+            :mod ( vv22 / 08.00 
+                :mod ( vv23 / WIB)))))
+
+# ::id c-gedung-roboh-json.22
+# ::snt-type body
+# ::preferred
+# ::snt Airin menuturkan sejarah gedung tersebut memang gedung tersebut telah mendapat izin mendirikan perkantoran.
+(vv1 / tutur
+    :ARG0 (vv2 / Airin)
+    :ARG1 (vv3 / sejarah
+        :mod ( vv4 / gedung 
+            :mod ( vv5 / sebut )))
+    :mod ( vv6 / dapat 
+        :ARG1 ( vv7 / izin 
+            :mod ( vv8 / diri 
+                :ARG1 ( vv9 / kantor )))
+        :mod ( vv10 / telah ))
+)
+
+# ::id c-gedung-roboh-json.23
+# ::snt-type body
+# ::preferred
+# ::snt Hingga saat ini, kepolisian masih memblokir akses di depan gedung milik Bank Panin yang roboh pada Kamis 2 Juni itu.
+(vv1 / blokir
+    :mod ( vv2 / masih )
+    :ARG0 (vv3 / polisi)
+    :ARG1 (vv4 / akses )
+    :location ( vv5 / depan 
+        :mod ( vv6 / gedung 
+            :mod ( vv7 / roboh 
+                :time ( vv8 / kamis 
+                    :mod ( vv9 / 2 
+                        :mod ( vv10 / juni ))))
+            :mod ( vv11 / milik 
+                :ARG0 ( vv12 / bank 
+                    :name ( vv13 / panin )))))
+)
+
+# ::id c-gedung-roboh-json.24
+# ::snt-type body
+# ::preferred
+# ::snt Polres Tangerang Selatan memberlakukan pengalihan arus lalu lintas menyusul robohnya gedung Panin di Bintaro Sektor 7, Tangerang Selatan, Kamis pukul 15.00 WIB.
+(vv1 / laku
+    :ARG0 (vv2 / polres
+        :location ( vv3 / tangerang 
+            :mod ( vv4 / selatan )))
+    :ARG1 (vv5 / alih
+        :ARG1 ( vv6 / arus 
+            :mod ( vv7 / lalu 
+                :mod ( vv8 / lintas ))))
+    :time ( vv9 / susul 
+        :mod ( vv10 / roboh 
+            :time ( vv11 / kamis 
+                :mod ( vv12 / pukul 
+                    :mod ( vv13 / 15.00 
+                        :mod ( vv14 / wib ))))
+            :location (  vv15 / bintaro
+                :location ( vv16 / tangerang 
+                    :mod ( vv17 / selatan )) 
+                :mod ( vv18 / sektor 
+                    :mod ( vv19 / 7 )))
+            :ARG1 ( vv20 / gedung 
+                :name ( vv21 / panin ))))
+)
+
+# ::id c-gedung-roboh-json.25
+# ::snt-type body
+# ::preferred
+# ::snt Bank Panin sebagai pemilik memutuskan tidak melanjutkan pembangunan gedung itu karena dinyatakan tidak lulus uji kelayakan.
+(vv1 / putus
+    :ARG0 (vv2 / bank 
+        :name ( vv3 / panin ))
+    :mod ( vv4 / karena 
+        :mod ( vv5 / nyata 
+            :ARG1 ( vv6 / lulus 
+                :ARG1 ( vv7 / uji 
+                    :ARG1 ( vv8 / layak ))
+                :mod ( vv9 / tidak ))))
+    :ARG1 (vv10 / lanjut
+        :mod ( vv11 / tidak )
+        :ARG1 (vv12 / bangun
+            :ARG1 ( vv13 / gedung ))
+))
+
+# ::id c-gedung-roboh-json.26
+# ::snt-type body
+# ::preferred
+# ::snt Kapolres Tangerang Selatan Ajun Komisaris Besar Ayi Supardan menjelaskan perihal gedung yang roboh di Sektor 7, Bintaro, Tangerang Selatan, Kamis siang.
+(vv1 / jelas
+    :ARG0 (vv2 / Kapolres
+        :name ( vv3 / ayi 
+            :name ( vv4 / supardan ))
+        :mod ( vv5 / komisaris
+            :mod ( vv6 / besar ))
+        :location ( vv7 / tangerang 
+            :mod ( vv8 / selatan )))
+    :ARG1 (vv9 / perihal
+        :mod ( vv10 / gedung 
+            :location ( vv11 / sektor
+                :location ( vv12 / bintaro 
+                    :location ( vv13 / tangerang 
+                        :mod ( vv14 / selatan ))) 
+                :mod ( vv15 / 7 ))
+            :mod ( vv16 / roboh 
+                :time ( vv17 / kamis 
+                    :time ( vv18 / siang ))))
+    ))
+
+# ::id c-gedung-roboh-json.27
+# ::snt-type body
+# ::preferred
+# ::snt Sebelum sisi depan gedung tersebut roboh kemarin, memang sedang dilakukan pembongkaran oleh 15 pekerja bangunan.
+(vv1 / laku 
+    :mod ( vv2 / sedang 
+        :mod ( vv3 / memang ))
+    :ARG1 (vv4 / bongkar)
+    :ARG0 (vv5 / kerja
+        :mod ( vv6 / 15 )
+        :mod ( vv7 / bangun )
+    )
+    :time ( vv8 / belum
+        :mod ( vv9 / roboh
+            :time ( vv10 / kemarin )
+            :ARG0 ( vv11 / sisi 
+                :mod ( vv12 / depan 
+                    :mod ( vv13 / gedung))) 
+        )
+    )
+)
+
+# ::id c-gedung-roboh-json.28
+# ::snt-type body
+# ::preferred
+# ::snt Benar peristiwa gedung Bintaro roboh ini terjadi siang tadi sekitar pukul 14.00 WIB, ungkap AKBP Ayi Supardan, Kapolres Tangerang Selatan, Kamis.
+( vv1 / ungkap 
+    :ARG0 ( vv2 / akbp 
+        :mod ( vv3 / kapolres 
+            :location ( vv4 / tangerang 
+                :mod ( vv5 / selatan )))
+        :name ( vv6 / ayi 
+            :name ( vv7 / supardan )))
+    :ARG1 ( vv8 / benar 
+        :mod ( vv9 / peristiwa 
+            :mod ( vv10 / jadi 
+                :time ( vv11 / siang 
+                    :time ( vv12 / sekitar 
+                        :mod ( vv13 / pukul 
+                            :mod ( vv14 / 14.00 
+                                :mod ( vv15 / wib ))))
+                    :mod ( vv16 / tadi )))
+            :mod ( vv17 / roboh 
+                :ARG0 ( vv18 / gedung 
+                    :location ( vv19 / bintaro )))))
+    :time ( vv20 / kamis )
+)
+
+# ::id c-gedung-roboh-json.29
+# ::snt-type body
+# ::preferred
+# ::snt Wali Kota Tangerang Selatan Airin Rachmi Diany menyambangi langsung gedung roboh di Bintaro, Tangerang Selatan.
+(vv1 / sambang
+    :ARG0 (vv2 / wali
+        :name ( vv3 / airin 
+            :name ( vv4 / rachmi 
+                :name ( vv5 / diany )))
+        :location ( vv6 / tangerang 
+            :mod ( vv7 / selatan ))
+        :mod (vv8 / kota ))
+    :ARG1 (vv9 / gedung
+        :mod (vv10 / roboh))
+    :location (vv11 / bintaro
+        :location (vv12 / tangerang 
+            :mod (vv13 / selatan )) 
+    )
+    :mod ( vv14 / langsung)
+)
+
+# ::id c-gedung-roboh-json.30
+# ::snt-type body
+# ::preferred
+# ::snt Kepala daerah akan memberikan persetujuan setelah mendapat pertimbangan dari tim ahli bangunan atau gedung.
+(vv1 / beri
+    :ARG0 (vv2 / kepala 
+        :mod ( vv3 / daerah ))
+    :ARG1 (vv4 / setuju)
+    :time ( vv5 / telah 
+        :mod ( vv6 / dapat 
+            :ARG1 (vv7 / timbang 
+                :mod ( vv8 / dari 
+                    :mod ( vv9 / ahli 
+                        :mod ( vv10 /gedung 
+                            :mod ( vv11 / atau ))
+                        :mod ( vv12 / bangunan ))))))
+)

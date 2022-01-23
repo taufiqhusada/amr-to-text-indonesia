@@ -1,0 +1,676 @@
+# ::id b-salah-darat-json.1
+# ::snt-type body
+# ::preferred
+# ::snt Kantor Imigrasi Bandara Soekarno-Hatta bersama Kantor Otoritas Bandara Soekarno-Hatta dan PT Angkasa Pura II membahas insiden penumpang penerbangan pesawat Lion Air JT 161 yang tiba di Jakarta dari Singapura 10 Mei 2016.
+( vv1 / bahas 
+    :ARG0 ( vv2 / kantor 
+            :mod ( vv5 / kantor
+                :mod ( vv4 / sama )
+                :name ( vv7 / pt 
+                    :mod ( vv6 / dan )
+                    :name ( vv8 / angkasa 
+                        :name ( vv9 / pura 
+                            :name ( vv10 / ii )))) 
+                :mod ( vv11 / otoritas 
+                    :mod ( vv12 / bandara 
+                        :mod ( vv13 / soekarnohatta ))))
+        :mod ( vv14 / imigrasi 
+            :mod ( vv15 / bandara 
+                :name ( vv16 / soekarnohatta ))))
+    :ARG1 ( vv17 / insiden 
+        :mod ( vv18 / tumpang 
+            :mod ( vv19 / terbang 
+                :mod ( vv20 / pesawat 
+                    :mod ( vv21 / tiba 
+                        :location ( vv22 / jakarta ) 
+                        :location ( vv23 / singapura 
+                            :mod ( vv24 / dari ))
+                        :time ( vv26 / mei  
+                            :mod ( vv25 / 10
+                                :mod ( vv27 / 2016 ))))
+                    :name ( vv28 / lion 
+                        :name ( vv29 / air 
+                            :name ( vv30 / jt 
+                                :name ( vv31 / 161 )))))))))
+
+# ::id b-salah-darat-json.2
+# ::snt-type body
+# ::preferred
+# ::snt Kami meeting soal ini," ujar Kepala Kantor Imigrasi Soekarno-Hatta Alif Suadi kepada Tempo, Sabtu malam ini, 14 Mei 2016.
+(vv1 / ujar 
+    :ARG0 ( vv2 / kepala)
+        :mod ( vv5 / kantor 
+            :mod ( vv6 / imigrasi 
+                :name ( vv7 / soekarnohatta         
+                    :name ( vv3 / alif 
+                        :name ( vv4 / suadi )))))
+    :ARG1 ( m / meeting 
+        :ARG0 ( k / kami )
+        :ARG1 ( s / soal ))
+    :mod ( vv8 / kepada 
+        :name ( vv9 / tempo ))
+    :time ( vv10 / sabtu 
+        :mod ( vv11 / malam 
+            :mod ( vv12 / ini 
+                :mod ( vv13 / 14 
+                    :mod ( vv14 / mei )
+                        :mod ( vv15 / 2016 )))))
+)
+
+# ::id b-salah-darat-json.3
+# ::snt-type body
+# ::preferred
+# ::snt Anak temannya Natalie berangkat dari Singapura dan menggunakan pesawat Lion Air JT 161, pada pukul 18.50.
+(vv1 / berangkat
+    :ARG0 (vv2 / anak 
+        :mod ( vv3 / teman 
+            :name ( vv4 / natalie )))
+    :mod ( vv5 / dan 
+        :mod ( vv6 / guna 
+            :ARG1 ( vv7 / pesawat 
+                :name ( vv8 / lion 
+                    :name ( vv9 / air 
+                        :name ( vv10 / jt 
+                            :name ( vv11 / 161 ))))))
+            :time ( vv12 / pukul 
+                :mod ( vv13 / 18.55 )))
+    :location ( vv14 / singapura )
+)
+
+# ::id b-salah-darat-json.4
+# ::snt-type body
+# ::preferred
+# ::snt Sekretaris Perusahaan PT Angkasa Pura II Agus Haryadi mengatakan selaku pengelola Bandara Internasional Soekarno-Hatta, pihaknya akan berkoordinasi dengan Kantor Otoritas Bandara Wilayah I terkait dengan peristiwa ini.
+(vv1 / kata
+    :ARG0 (vv2 / Sekretaris 
+        :name (vv3 / agus 
+            :name (vv4 / haryadi ))
+        :mod (vv5 / perusahaan 
+            :name (vv6 / pt 
+                :name (vv7 / angkasa 
+                    :name (vv8 / pura 
+                        :name (vv9 / ii ))))))
+    :ARG1 (vv10 / laku 
+        :mod (vv11 / kelola 
+            :ARG1 (vv12 / bandara 
+                :mod (vv13 / internasional 
+                    :name (vv14 / soekarnohatta 
+                        :mod(vv15 / pihak 
+                            :mod (vv16 / akan 
+                                :mod (vv17 / koordinasi 
+                                    :mod (vv18 / kantor 
+                                        :mod (vv19 / otoritas 
+                                            :mod (vv20 / bandara 
+                                                :mod (vv21 / wilayah 
+                                                    :mod (vv22 / 1
+                                                        :mod (vv23 / kait 
+                                                            :mod (vv24 / perisitiwa ))))))))))))))))
+
+# ::id b-salah-darat-json.6
+# ::snt-type body
+# ::preferred
+# ::snt setiap pesawat yang parkir di remote area sudah kami siapkan bus untuk mengantar penumpang ke terminal.
+( vv1 / siap 
+    :ARG1 ( vv2 / pesawat 
+        :mod ( vv3 / parkir )
+        :location ( vv4 / remote 
+            :mod ( vv5 / area )))
+    :ARG0 ( vv6 / kami)
+    :ARG1 ( vv7 / bus 
+        :mod ( vv8 / antar 
+            :mod ( vv9 / tumpang 
+                :location ( vv10 / terminal ))))
+)
+
+# ::id b-salah-darat-json.7
+# ::snt-type body
+# ::preferred
+# ::snt terdapat sopir bus yang akan menjemput penumpang dari Padang" ujar Edward.
+( vv1 / ujar
+    :ARG0 ( vv2 / edward )
+    :ARG1 ( vv3 / dapat 
+        :ARG1 ( vv4 / sopir 
+            :mod ( vv5 / jemput
+                :ARG1 ( vv6 / tumpang )
+                :location ( vv7 / padang ))
+            :mod ( vv8 / bus )))
+)
+
+# ::id b-salah-darat-json.8
+# ::snt-type body
+# ::preferred
+# ::snt Pihak Otoritas Bandara Soetta akan memanggil pihak terkait dan dilakukan investigasi.
+(vv1 / panggil
+    :ARG0 (vv2 / pihak 
+        :mod (vv3 / otoritas 
+            :mod (vv4 / bandara 
+                :name (vv5 / soetta ))))
+    :ARG1 (vv6 / pihak
+        :mod ( vv7 / kait 
+            :mod ( vv8 / dan 
+                :mod ( vv9 / laku 
+                    :ARG1 ( vv10 / investigasi ))))))
+
+# ::id b-salah-darat-json.9
+# ::snt-type body
+# ::preferred
+# ::snt Kemenhub memberikan sanksi kepada pihak-pihak yang lalai," ujarnya.
+( vv1 / ujar 
+    :ARG1 (vv2 / beri
+        :ARG0 (vv3 / kemenhub)
+        :ARG1 (vv4 / sanksi 
+            :mod (vv5 / kepada 
+                :mod (vv6 / pihakpihak 
+                    :mod (vv7 / lalai )))
+)))
+
+# ::id b-salah-darat-json.10
+# ::snt-type body
+# ::preferred
+# ::snt Pesawat itu mendarat tidak di Terminal II, kata Zara mengutip cerita temannya.
+( vv1 / kata 
+    :ARG0 ( vv2 / zara )
+    :mod ( vv3 / kutip 
+        :ARG1 ( vv4 /cerita 
+            :mod ( vv5 / teman )))
+    :ARG1 ( vv6 / darat 
+        :ARG0 ( vv7 / pesawat )
+        :mod ( vv8 / tidak )
+        :location ( vv9 / terminal 
+            :mod ( vv10 / ii ))
+    )
+)
+
+# ::id b-salah-darat-json.11
+# ::snt-type body
+# ::preferred
+# ::snt setiap pesawat yang parkir di remote area sudah kami siapkan bus untuk mengantar penumpang ke terminal.
+( vv1 / siap 
+    :ARG1 ( vv2 / pesawat 
+        :mod ( vv3 / parkir )
+        :location ( vv4 / remote 
+            :mod ( vv5 / area )))
+    :ARG0 ( vv6 / kami)
+    :ARG1 ( vv7 / bus 
+        :mod ( vv8 / antar 
+            :mod ( vv9 / tumpang 
+                :location ( vv10 / terminal ))))
+)
+
+# ::id b-salah-darat-json.12
+# ::snt-type body
+# ::preferred
+# ::snt terdapat sopir bus yang akan menjemput penumpang dari Padang, kata Edward dalam keterangan yang diterima, Sabtu.
+( vv1 / ujar 
+    :ARG0 ( vv2 / edward )
+    :location ( vv9 / terang
+        :mod ( vv10 / terima ))
+    :time ( vv11 / sabtu )
+    :ARG1 ( vv3 / dapat 
+        :ARG1 ( vv4 / sopir 
+            :mod ( vv5 / jemput 
+                :ARG1 ( vv6 / tumpang )
+                :location ( vv7 / padang ))
+            :mod ( vv8 / bus )))
+)
+
+# ::id b-salah-darat-json.13
+# ::snt-type body
+# ::preferred
+# ::snt "Kemudian, beliau kembali ke remote 56, dapat informasi awal akan ada landing dari Padang.
+(vv1 / kembali
+    :time (vv2 / kemudian)
+    :ARG0 (vv3 / beliau)
+    :location (vv4 / remote 
+        :mod (vv5 / 56 ))
+    :mod (vv6 / dapat 
+        :ARG1 (vv7 / informasi
+            :mod (vv8 / landing 
+                    :mod (vv9 / ada
+                        :mod (vv10 / akan ))
+                :location (vv11 / padang )) 
+            :mod (vv12 / awal ))))
+
+# ::id b-salah-darat-json.14
+# ::snt-type body
+# ::preferred
+# ::snt Edward menambahkan penumpang JT 161 langsung diarahkan kembali ke bus untuk dibawa ke Terminal 2 setelah petugas menyadari telah terjadi kesalahan.
+(vv1 / tambah
+    :ARG0 (vv2 / edward )
+    :ARG1 (vv3 / arah 
+        :ARG0 (vv4 / tumpang 
+            :name ( vv5 / jt 
+                :name ( vv6 / 161 ))
+            :mod ( vv7 / langsung )))
+        :location ( vv8 / kembali )
+        :mod ( vv9 / untuk 
+            :mod ( vv10 / bawa 
+                :location ( vv11 / terminal 
+                    :mod ( vv12 / 2 )))
+        :time ( vv13 / telah 
+            :mod ( vv14 / sadar 
+                :ARG0 ( vv15 / tugas )
+                :ARG1 ( vv16 / jadi 
+                    :mod ( vv17 / telah )
+                    :ARG1 ( vv18 / salah ))))))
+
+# ::id b-salah-darat-json.15
+# ::snt-type body
+# ::preferred
+# ::snt "Pada saat JT 161 parkir di R54 terdapat JT lain dari Padang yang parkir di R56.
+(vv1 / dapat
+    :time ( vv2 / pada 
+        :mod ( vv3 / saat 
+            :mod ( vv4 / parkir 
+                :location ( vv5 / r54 )
+                :ARG0 ( vv6 / jt 
+                    :name ( vv7 / 161 )))))
+    :ARG1 ( vv8 / jt 
+        :mod ( vv9 / parkir 
+            :location ( vv10 / r56 ))
+        :mod ( vv11 / lain ) )
+    :location ( vv12 / dari 
+        :mod ( vv13 / padang ))
+)
+
+# ::id b-salah-darat-json.17
+# ::snt-type body
+# ::preferred
+# ::snt Pesawat Lion Air JT 161 dari Singapura yang mendarat di Bandara Soekarno Hatta, Banten, pada Selasa dilaporkan menurunkan penumpang tanpa melalui terminal imigrasi.
+(vv1 / lapor
+    :ARG1 (vv2 / pesawat
+        :mod (vv3 / darat 
+            :time (vv4 / selasa )
+            :location ( vv6 / bandara
+                :location ( vv7 / banten )
+                :name ( vv8 / soekarno 
+                    :name ( vv9  / hatta ))))
+        :location (vv10  / singapura )
+        :name ( vv11 / lion 
+            :name ( vv12 / air 
+                :name ( vv13 / jt 
+                    :name ( vv14 /161 )))))
+    :ARG1 ( vv15 / turun 
+        :mod ( vv16 / tanpa 
+            :mod ( vv17 / lalu 
+                :mod ( vv18 / terminal 
+                    :mod ( vv19 / imigrasi ))))
+        :ARG1 ( vv20 / tumpang )
+))
+
+# ::id b-salah-darat-json.18
+# ::snt-type body
+# ::preferred
+# ::snt Si sopir disebut melakukan kesalahan menurunkan sebagian penumpang Lion Air JT 161 rute Singapura - Jakarta.
+
+(vv1 / sebut
+    :ARG0 (vv2 / sopir
+        :mod (vv3 / si ))
+    :ARG1 (vv4 / laku 
+        :ARG1 (vv5 / salah 
+            :mod (vv6 / turun 
+                :ARG1 (vv7 / tumpang 
+                    :mod (vv8 / rute 
+                        :location (vv9 / jakarta) 
+                        :location (vv10 / singapura ))
+                    :name (vv11 / lion 
+                        :name (vv12 / air 
+                            :name (vv13 / jt 
+                                :name (vv14 / 161 ))))
+                    :mod (vv15 / bagi )))))
+)
+
+# ::id b-salah-darat-json.19
+# ::snt-type body
+# ::preferred
+# ::snt Sebelumnya, beredar di media sosial Zara menceritakan anak rekannya yang terbang dari Singapura menuju Jakarta, ketika tiba di Bandara Soekarno-Hatta tidak diarahkan ke Terminal II.
+(vv1 / edar
+    :time (vv2 / belum)
+    :location (vv3 / media 
+        :mod (vv4 / sosial ))
+    :ARG1 (vv5 / cerita
+        :ARG0 (vv6 / zara )
+        :ARG1 (vv7 / arah 
+            :location (vv8 / terminal    
+                :mod (vv9 / 2 ))
+            :mod (vv10 / tidak )
+            :time (vv11 / ketika 
+                :mod (vv12 / tiba 
+                    :location (vv13 / bandara 
+                        :name (vv14 / soekarnohatta ))))
+            :ARG0 ( vv15 / anak 
+                :mod ( vv16 / terbang
+                    :location ( vv17 / singapura 
+                        :mod ( vv18 / tuju 
+                            :location ( vv19 / jakarta ))))
+                :mod ( vv20 / rekan )))))
+
+# ::id b-salah-darat-json.20
+# ::snt-type body
+# ::preferred
+# ::snt Pesawat ini mendarat tidak di terminal II.
+(vv1 / darat
+    :ARG0 (vv2 / pesawat)
+    :mod (vv3 / tidak)
+    :location (vv4 / terminal 
+        :mod (vv5/ II)))
+
+# ::id b-salah-darat-json.21
+# ::snt-type body
+# ::preferred
+# ::snt Kala itu, sejumlah penumpang Lion Air JT 161 tujuan Singapura Jakarta yang seharusnya turun di terminal kedatangan internasional di Terminal 2 dibawa ke terminal domestik di Terminal 1 oleh bus ground handling Lion Air.
+(vv1 / bawa
+    :ARG1 ( vv2 / tumpang 
+        :mod ( vv3 / harus 
+            :mod ( vv4 / turun 
+                :location ( vv5 / terminal
+                    :location ( vv6 / terminal 
+                        :name ( vv7 / 2))
+                    :mod ( vv8 / datang 
+                        :mod ( vv9 / international )))))
+        :mod ( vv10 / tujuan 
+            :location ( vv11 / jakarta )
+            :location ( vv12 / singapura ))
+        :name ( vv13 / lion 
+            :name ( vv14 / air 
+                :name ( vv15 / jt 
+                    :name ( vv16 / 161 ))))
+        :mod ( vv17 / jumlah ))
+    :time ( vv18 / kala )
+    :ARG0 ( vv19 / bus 
+        :name ( vv20 / lion 
+            :name ( vv21 / air ))
+        :mod ( vv22 / ground
+            :mod ( vv23 / handling )))
+    :location ( vv24 / terminal 
+        :location ( vv25 / terminal 
+            :mod ( vv26 / 1 ))
+        :mod ( vv27 / domestik ))
+)
+
+# ::id b-salah-darat-json.22
+# ::snt-type body
+# ::preferred
+# ::snt Insiden salah mendarat Pesawat Lion Air dengan penerbangan internasional di Terminal Domestik Bandara Soekarno Hatta, Tangerang, Banten berpotensi terjadinya penyelundupan.
+(vv1 / potensi 
+    :ARG0 (vv2 / insiden 
+        :location (vv3 / terminal 
+            :mod (vv4 / domestik 
+                :mod (vv5 / bandara
+                    :location (vv6 / tangerang 
+                        :location (vv7 / banten )) 
+                    :name ( vv8 / soekarno 
+                        :name ( vv9 / hatta )))))
+        :mod ( vv10 / salah 
+            :mod ( vv11  / darat 
+                :mod ( vv12 / terbang 
+                    :mod ( vv13 / internasional ))
+                :ARG0 ( vv14 / pesawat 
+                    :name ( vv15 / lion 
+                        :name ( vv16 / air) )))))
+    :ARG1 ( vv17 / jadi 
+        :mod ( vv18 / selundup ))
+)
+
+# ::id b-salah-darat-json.23
+# ::snt-type body
+# ::preferred
+# ::snt Seiring dengan insiden tersebut, Budi menuturkan pihaknya siap berkoordinasi dengan Kantor Otoritas Bandara Wilayah I Soekarno - Hatta, dan mendorong pihak ground handling untuk lebih meningkatkan tanggung jawabnya.
+(vv1 / tutur
+    :ARG0 (vv2 / budi)
+    :ARG1 (vv3 / siap
+        :ARG0 (vv4 / pihak )
+        :ARG1 (vv5 / koordinasi 
+            :mod ( vv6 / dan 
+                :mod ( vv7 / dorong 
+                    :mod ( vv8 / untuk 
+                        :mod ( vv9 / tingkat 
+                            :mod ( vv10 / lebih )
+                            :ARG1 ( vv11 / tanggung 
+                                :mod ( vv12 /jawab ))))
+                    :ARG1 ( vv13 / pihak 
+                        :mod ( vv14 / ground 
+                            :mod ( vv15 / handling )))))
+            :ARG1 ( vv16 / kantor 
+                :mod ( vv17 / otoritas 
+                    :mod ( vv18 / bandara 
+                        :name ( vv19 / soekarno 
+                            :name ( vv20 / hatta ))
+                        :mod ( vv21 / wilayah 
+                            :mod ( vv22 / 1 ))))))))
+
+# ::id b-salah-darat-json.24
+# ::snt-type body
+# ::preferred
+# ::snt Kala itu, sejumlah penumpang Lion Air JT 161 tujuan Singapura-Jakarta yang seharusnya turun di terminal kedatangan internasional di Terminal 2 malah dibawa ke terminal domestik di Terminal 1 oleh bus ground handling Lion Air.
+(vv1 / bawa
+    :ARG1 ( vv2 / tumpang 
+        :mod ( vv3 / harus 
+            :mod ( vv4 / turun 
+                :location ( vv5 / terminal
+                    :location ( vv6 / terminal 
+                        :name ( vv7 / 2))
+                    :mod ( vv8 / datang 
+                        :mod ( vv9 / international )))))
+        :mod ( vv10 / tujuan 
+            :location ( vv11 / jakarta )
+            :location ( vv12 / singapura ))
+        :name ( vv13 / lion 
+            :name ( vv14 / air 
+                :name ( vv15 / jt 
+                    :name ( vv16 / 161 ))))
+        :mod ( vv17 / jumlah ))
+    :time ( vv18 / kala )
+    :ARG0 ( vv19 / bus 
+        :name ( vv20 / lion 
+            :name ( vv21 / air ))
+        :mod ( vv22 / ground
+            :mod ( vv23 / handling )))
+    :location ( vv24 / terminal 
+        :location ( vv25 / terminal 
+            :mod ( vv26 / 1 ))
+        :mod ( vv27 / domestik ))
+)
+
+# ::id b-salah-darat-json.25
+# ::snt-type body
+# ::preferred
+# ::snt satu bus bukan diantarkan ke terminal kedatangan internasional, melainkan ke terminal kedatangan domestik di Terminal 1.
+(vv1 / antar
+    :mod ( vv2 / bukan )
+    :ARG0( vv3 / bus 
+        :mod ( vv4 / satu )) 
+    :location ( vv5 / terminal 
+        :mod ( vv6 / datang 
+            :mod ( vv7 / internasional )))
+    :mod ( vv8 / lain 
+        :location ( vv9 / terminal 
+            :location ( vv10 / terminal 
+                :mod ( vv11 / 1 ))
+            :mod ( vv12 / datang 
+                :mod ( vv13 / domestik ))))
+)
+
+# ::id b-salah-darat-json.26
+# ::snt-type body
+# ::preferred
+# ::snt pesawat Lion Air dari Singapura mendarat di bandara Soekarno Hatta pada Rabu, 10 Mei malam lalu.
+( vv1 / darat 
+    :ARG0 ( vv2 / pesawat 
+        :location ( vv3 / singapura 
+            :mod ( vv4 / dari ))
+        :name ( vv5 / lion 
+            :name ( vv6 / air )))
+    :location ( vv7 / bandara 
+        :name (vv8 / soekarno 
+            :name ( vv9 / hatta )))
+    :time ( vv10 / rabu 
+        :mod ( vv11 / pada)
+        :time ( vv12 / 10 
+            :time ( vv13 / mei 
+                :time ( vv14 / malam 
+                    :mod ( vv15 / lalu ))))))
+
+# ::id b-salah-darat-json.27
+# ::snt-type body
+# ::preferred
+# ::snt Semua instansi itu memastikan berapa penumpang dari penerbangan internasional itu yang lolos dari pemeriksaan Imigrasi.
+(vv1 / pasti
+    :ARG0 (vv2 / instansi 
+        :mod (vv3 / itu )
+        :mod (vv4 / semua ))
+    :ARG1 (vv5 / tumpang
+        :mod (vv6 / lolos 
+            :ARG1 (vv7 / periksa 
+                :ARG1 (vv8 / imigrasi )))
+        :mod (vv9 / dari 
+            :mod (vv10 / terbang 
+                :mod (vv11 / internasional )))
+        :mod (vv12 / berapa ) )
+)
+
+# ::id b-salah-darat-json.28
+# ::snt-type body
+# ::preferred
+# ::snt "Pihak Lion sudah mengakui ada kesalahan tersebut." kata Prasetyo saat dihubungi Liputan6.com, Jakarta, Sabtu.
+(vv1 / kata
+    :ARG0 (vv2 / prasetyo)
+    :ARG1 ( vv3 / aku 
+        :ARG0 ( vv4 / pihak 
+            :name ( vv5 / lion ))
+        :ARG1 ( vv6 / ada
+            :mod ( vv7 / salah 
+                :mod ( vv8 / sebut ))))
+    :time ( vv9 / saat    
+        :mod ( vv10 / hubung
+            :location ( vv11 / jakarta )
+            :time ( vv12 / sabtu ) 
+            :ARG0 ( vv13 / liputan6com )))
+)
+
+# ::id b-salah-darat-json.29
+# ::snt-type body
+# ::preferred
+# ::snt terdapat sopir bus yang akan menjemput penumpang dari Padang, kata Direktur Utama Lion Air, Edward Sirait, kepada VIVA.co.id, Minggu 15 Mei 2016.
+( vv1 / kata 
+    :ARG0 ( vv2 / direktur 
+        :name ( vv3 / edward 
+            :name ( vv4 / sirait ))
+        :mod ( vv5 / utama ) )
+    :ARG1 ( vv6 / dapat 
+        :ARG1 ( vv7 / sopir 
+            :mod ( vv8 / jemput 
+                :ARG1 ( vv9 / tumpang )
+                :location ( vv10 / padang ))
+            :mod ( vv11 / bus )))
+    :mod ( vv12 / kepada 
+        :name ( vv13 / viva.co.id ))
+    :time ( vv14 / minggu 
+        :time ( vv15 / 15 
+            :time ( vv16 / mei 
+                :time ( vv17 / 2016 ))))
+)
+
+# ::id b-salah-darat-json.30
+# ::snt-type body
+# ::preferred
+# ::snt Setelah didera masalah penundaan penerbangan, petugas layanan darat Lion Air salah mengantar penumpang rute internasional ke terminal domestik.
+(vv1 / antar 
+    :mod (vv2 / salah)
+    :ARG0 (vv3 / tugas 
+        :name (vv4 / lion 
+            :name (vv5 / air )))
+        :mod (vv6 / layan 
+            :mod (vv7 / darat ))
+    :ARG1 (vv8 / tumpang 
+        :mod (vv9 / rute 
+            :mod (vv10 / internasional )))
+    :location (vv11 / terminal 
+        :mod (vv12 / domestik ))
+    :time (vv13 / telah 
+        :mod (vv14 / dera 
+            :ARG0 (vv15 / masalah 
+                :mod (vv16 / tunda 
+                    :mod (vv17 / terbang ))))))
+
+# ::id b-salah-darat-json.31
+# ::snt-type body
+# ::preferred
+# ::snt Maskapai Lion Air kembali menjadi perbincangan publik.
+(vv1 / jadi
+    :mod ( vv2 / kembali )
+    :ARG0 (vv3 / maskapai 
+        :name ( vv4 / Lion 
+            :name (vv5 / Air)))
+    :ARG1 (vv6 / bincang 
+        :mod ( vv7 / publik )))
+
+# ::id b-salah-darat-json.33
+# ::snt-type body
+# ::preferred
+# ::snt Direktur Utama PT Angkasa Pura II Budi Karya Sumadi mengatakan insiden tersebut disebabkan adanya miskomunikasi pengemudi bus ground handling Lion Air sehingga penumpang rute internasional diantar ke Terminal 1.
+(vv1 / kata
+    :ARG0 (vv2 / direktur 
+        :name (vv3 / budi
+            :name (vv4 / karya 
+                :name (vv5 / sumadi )))
+        :mod (vv6 / utama 
+            :mod (vv7 / pt 
+                :name (vv8 / angkasa 
+                    :name (vv9 / pura 
+                        :name (vv10 / ii ))))))
+    :ARG1 (vv11 / sebab
+        :mod ( vv12 / sehingga
+            :mod ( vv13 / tumpang 
+                :mod ( vv14 / antar 
+                    :location ( vv15 / terminal 
+                        :mod ( vv16 / 1 )))
+                :mod ( vv17 / rute 
+                    :mod ( vv18 / internasional ))))
+        :ARG1 ( vv19 / insiden 
+            :mod ( vv20 / sebut ))
+        :ARG0 ( vv21 / miskomunikasi 
+            :ARG0 ( vv22 / kemudi 
+                :ARG0 ( vv23 / bus 
+                    :name ( vv24 / lion 
+                        :name ( vv25 / air ))
+                    :mod ( vv26 / ground 
+                        :mod ( vv27 / handling )))))
+    )
+)
+
+# ::id b-salah-darat-json.34
+# ::snt-type body
+# ::preferred
+# ::snt Dia menambahkan Lion Air akan mendapat teguran keras.
+(vv1 / tambah
+    :ARG0 (vv2 / dia)
+    :ARG1 (vv3 / dapat 
+        :ARG1 (vv4 / tegur 
+            :mod (vv5 / keras ))
+        :ARG0 (vv6 / lion 
+            :name (vv7 / air )))
+)
+
+# ::id b-salah-darat-json.36
+# ::snt-type body
+# ::preferred
+# ::snt Anak saya dan penumpang warga asing tidak diarahkan oleh petugas ground crew Lion Air untuk cap paspor imigrasi
+(vv1 / arah
+    :ARG0 ( vv2 / tugas 
+        :name ( vv3 / lion 
+            :name (vv4 / air ))
+        :mod ( vv5 / ground 
+            :mod ( vv6 / crew )))
+    :ARG1 ( vv7 / anak 
+        :mod ( vv8 / saya 
+            :mod ( vv9 / dan 
+                :mod ( vv10 / tumpang 
+                    :mod ( vv11 / warga 
+                        :mod ( vv12 / asing ))))))
+    :mod ( vv13 / tidak )
+    :mod ( vv14 / untuk 
+        :mod ( vv15 /cap 
+            :ARG1 ( vv16 / paspor 
+                :mod ( vv17 / imigrasi ))))
+)

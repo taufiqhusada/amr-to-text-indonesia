@@ -110,7 +110,7 @@ class PreprocessAMR:
             line += "."
 
             if (line[0]=='#'):  # read label (sentence)
-                if ('# ::snt' in line):
+                if ('# ::snt ' in line):
                     sent_now = line[8:-1]
                     temp_sent_now = sent_now.split()
                     sent_now = " ".join(temp_sent_now)

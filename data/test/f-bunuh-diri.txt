@@ -1,0 +1,468 @@
+# ::id f-bunuh-diri-json.1
+# ::snt-type body
+# ::preferred
+# ::snt Ciptadi dengan nekat melompat dari megatron jembatan penyeberangan orang yang tingginya diperkirakan mencapai 15 meter.
+(vv1 / lompat 
+    :ARG0 ( vv2 / ciptadi )
+    :location ( vv3 / megatron 
+        :mod ( vv4 / jembatan 
+            :mod ( vv5 / kira 
+                :ARG0 ( vv6 / tinggi )
+                :ARG1 ( vv7 / capai 
+                    :ARG1 ( vv8 / 15 
+                        :mod ( vv9 / meter )))
+            )
+            :mod ( vv10 / sebrang 
+                :ARG1 ( vv11 / orang ))))
+)
+
+# ::id f-bunuh-diri-json.2
+# ::snt-type body
+# ::preferred
+# ::snt Hal tersebut diungkapkan Kabag Ops Polrestabes Bandung Kompol Dede Rojudin didampingi Kasubag Humas Kompol Reny Marthaliana, saat ditemui di Mapolrestabes Bandung, Jumat.
+(vv1 / ungkap
+    :ARG1 (vv2 / hal 
+        :mod (vv3 / sebut ))
+    :ARG0 ( vv4 / damping 
+        :ARG0( vv5 / Kasubag
+            :name ( vv6 / reny 
+                :name ( vv7 / marthaliana ))
+            :mod ( vv8 / humas 
+                :mod ( vv9 / kompol)))
+        :ARG1 (vv10 / kabag 
+        :name ( vv11 / dede 
+            :name ( vv12 / rojudin ))
+        :mod ( vv13 / kompol )
+        :mod ( vv14 / ops 
+            :location ( vv15 / polrestabes 
+                :location ( vv16 / bandung )))))
+    :time ( vv17 / temu 
+        :time ( vv18 / jumat )
+        :location ( vv19 / Mapolrestabes
+            :location ( vv20 / bandung )))
+)
+
+# ::id f-bunuh-diri-json.3
+# ::snt-type body
+# ::preferred
+# ::snt Rezha Noviana, warga Kota Bandung mengatakan ia dan jemaat lainnya langsung memperhatikan megatron jembatan penyeberangan orang depan Kantor Pos Besar Bandung setelah bubar salat Jumat di Masjid Raya Bandung.
+(vv1 / kata
+    :ARG0 (vv2 / rezha 
+        :mod ( vv3 / warga 
+            :location ( vv4 / kota 
+                :location ( vv5 / bandung )))
+        :name ( vv6 / noviana ))
+    :ARG1 ( vv7 / perhati
+        :time ( vv8 / telah 
+            :mod ( vv9 / bubar 
+                :ARG0 ( vv10 / salat
+                    :location ( vv11 / masjid 
+                        :name ( vv12 / raya 
+                            :name ( vv13 / bandung ))) 
+                    :mod ( vv14 / jumat ))))
+        :ARG0 ( vv15 / ia 
+            :mod ( vv16 / jemaat
+                :mod ( vv17 / dan ) 
+                :mod ( vv18 / lain )))
+        :ARG1 ( vv19 / megatron 
+            :location ( vv20 / depan 
+                :mod ( vv21 / kantor 
+                    :location ( vv22 / bandung )
+                    :name ( vv23 / pos 
+                        :name ( vv24 / besar ))))
+            :mod ( vv25 / jembatan 
+                :mod ( vv26 / seberang 
+                    :mod ( vv27 / orang ))))
+    )
+)      
+
+# ::id f-bunuh-diri-json.4
+# ::snt-type body
+# ::preferred
+# ::snt Ketika itu, petugas linmas dan beberapa satpam berdiri di atas JPO.
+(vv1 / diri
+    :ARG0 (vv2 / tugas 
+        :mod ( vv3 / linmas ))
+    :ARG0 ( vv4 / satpam 
+        :mod ( d / dan )
+        :mod ( vv5 / berapa ))
+    :location ( vv6 / atas 
+        :mod ( vv7 / jpo ))
+)
+
+# ::id f-bunuh-diri-json.5
+# ::snt-type body
+# ::preferred
+# ::snt Aksi bunuh diri di Alun - alun Bandung belum lama ini terjadi. 
+(vv1 / jadi 
+    :ARG0 ( vv2 / aksi 
+        :mod ( vv3 / bunuh 
+            :ARG1 ( vv4 / diri )))
+    :location ( vv5 / alun
+        :location ( vv6 / bandung )
+        :mod ( vv7 / alun ))
+    :time ( vv8 / belum 
+        :mod ( vv9 / lama ))
+)
+
+
+# ::id f-bunuh-diri-json.5
+# ::snt-type body
+# ::preferred
+# ::snt seorang pria tua nekat menjatuhkan diri dari JPO di Alun - alun Kota Bandung.
+( vv1 / jatuh 
+    :ARG0 (vv2 / orang 
+        :mod ( vv3 / pria 
+            :mod ( vv4 / tua )))
+    :ARG1 ( vv5 / diri )
+    :mod ( vv6 / jpo )
+    :location ( vv7 / alun
+        :location ( vv8 / kota 
+            :location ( vv9 / bandung )) 
+        :mod ( vv10 / alun ) )
+)
+
+
+# ::id f-bunuh-diri-json.6
+# ::snt-type body
+# ::preferred
+# ::snt Sudirman, anggota Linmas Satpol PP Kota Bandung yang menjadi saksi mata aksi bunuh diri di Alun - alun Bandung itu mengatakan, pria tersebut diperkirakan berusia 50 tahun.
+(vv1 / kata
+    :ARG0 ( vv2 / sudirman 
+        :mod ( vv3 / jadi 
+            :ARG1 ( vv4 / saksi 
+                :mod ( vv5 / mata 
+                    :mod ( vv6 / bunuh 
+                        :location ( vv7 / alun 
+                            :location ( vv8 / bandung )
+                            :mod ( vv9 / alun ))
+                        :ARG1 (vv10 / diri ))))))
+        :mod ( vv11 / anggota 
+            :mod ( vv12 / linmas 
+                :location ( vv13 / kota 
+                    :mod ( vv14 / bandung ))
+                :mod ( vv15 / satpol 
+                    :name ( vv16 / pp ))))
+    :ARG1 ( vv17 / kira
+        :ARG0 ( vv18 / pria 
+            :mod ( vv19 / sebut ))
+        :ARG1 ( vv20 / 30 
+            :mod ( vv21 / tahun )) 
+    )
+)
+
+# ::id f-bunuh-diri-json.8
+# ::snt-type body
+# ::preferred
+# ::snt Seorang lelaki menjatuhkan diri dari megatron jembatan penyeberangan di depan Pos Giro Besar Bandung, Bandung, Jumat.
+(vv1 / jatuh
+    :ARG0 (vv2 / lelaki
+        :mod ( vv3 / orang ))
+    :ARG1 (vv4 / diri)
+    :location (vv5 / megatron 
+        :location ( vv6 / depan 
+            :location ( vv7 / bandung )
+            :name ( vv8 / pos 
+                :name ( vv9 / giro 
+                    :name ( vv10 / besar 
+                        :name ( vv11 / bandung )))))
+        :mod ( vv12 / jembatan 
+            :mod ( vv13 / seberang )))
+    :time ( vv14 / jumat )
+)
+
+# ::id f-bunuh-diri-json.8
+# ::snt-type body
+# ::preferred
+# ::snt Seorang lelaki tengah baya nekat mengakhiri hidupnya di tengah kepadatan lalu lintas Jalan Asia Afrika.
+(vv1 / akhir
+    :ARG0 (vv2 / lelaki
+        :mod ( vv3 / tengah 
+            :mod ( vv4 / baya )))
+    :ARG1 (vv5 / hidup)
+    :location ( vv6 / tengah 
+        :mod ( vv7 / padat 
+            :ARG0 ( vv8 / lalu 
+                :location ( vv9 / jalan 
+                    :name (vv10 / asia 
+                        :name ( vv11 / afrika )))
+                :mod ( vv12 / lintas ))))
+)
+
+# ::id f-bunuh-diri-json.9
+# ::snt-type body
+# ::preferred
+# ::snt Pria misterius yang bunuh diri dari jembatan penyeberangan orang di Jalan Asia Afrika, Bandung, Jawa Barat, membuat pesan sebelum nekat terjun.
+(vv1 / buat
+    :ARG0 (vv2 / pria 
+        :mod ( vv3 / misterius )
+        :mod ( vv4 / bunuh 
+            :location ( vv5 / jembatan
+                :location ( vv6 / jalan 
+                    :location ( vv7 / bandung 
+                        :location ( vv8 / jawa 
+                            :name ( b / barat ))
+                    :name ( vv9 / asia 
+                        :name ( vv10 / afrika ))) 
+                :mod ( vv11 / seberang 
+                    :mod ( vv12 / orang )))
+            :ARG1 ( vv13 / diri ))))
+    :ARG1 (vv14 / pesan)
+    :time ( vv15 / belum 
+        :mod ( vv16 / terjun 
+            :mod ( vv17 / nekat )))
+)
+
+# ::id f-bunuh-diri-json.10
+# ::snt-type body
+# ::preferred
+# ::snt Ketika itu, petugas linmas dan beberapa satpam berdiri di atas JPO.
+(vv1 / diri
+    :ARG0 ( vv2 / satpam 
+        :mod ( vv3 / dan )
+        :mod ( vv4 / berapa  ))
+    :ARG0 ( vv5 / tugas 
+        :mod ( vv6 / linmas ))
+    :location ( vv7 / atas 
+        :mod ( vv8 / jpo  ))
+    :time ( vv9 / ketika 
+        :mod ( vv10 / itu ))
+)
+
+# ::id f-bunuh-diri-json.11
+# ::snt-type body
+# ::preferred
+# ::snt Rezha Noviana, warga Kota Bandung mengatakan ia dan jemaat lainnya langsung memperhatikan megatron jembatan penyeberangan orang depan Kantor Pos Besar Bandung setelah bubar salat Jumat di Masjid Raya Bandung.
+(vv1 / kata
+    :ARG0 (vv2 / rezha 
+        :mod ( vv3 / warga 
+            :location ( vv4 / kota 
+                :location ( vv5 / bandung )))
+        :name ( vv6 / noviana ))
+    :ARG1 ( vv7 / perhati
+        :time ( vv8 / telah 
+            :mod ( vv9 / bubar 
+                :ARG0 ( vv10 / salat
+                    :location ( vv11 / masjid 
+                        :name ( vv12 / raya 
+                            :name ( vv13 / bandung ))) 
+                    :mod ( vv14 / jumat ))))
+        :ARG0 ( vv15 / ia 
+            :mod ( vv16 / jemaat
+                :mod ( vv17 / dan ) 
+                :mod ( vv18 / lain )))
+        :ARG1 ( vv19 / megatron 
+            :location ( vv20 / depan 
+                :mod ( vv21 / kantor 
+                    :location ( vv22 / bandung )
+                    :name ( vv23 / pos 
+                        :name ( vv24 / besar ))))
+            :mod ( vv25 / jembatan 
+                :mod ( vv26 / seberang 
+                    :mod ( vv27 / orang ))))
+    )
+)      
+
+# ::id f-bunuh-diri-json.12
+# ::snt-type body
+# ::preferred
+# ::snt Ketika itu, petugas linmas dan beberapa satpam berdiri di atas JPO.
+(vv1 / diri
+    :ARG0 ( vv2 / satpam 
+        :mod ( vv3 / dan )
+        :mod ( vv4 / berapa  ))
+    :ARG0 ( vv5 / tugas 
+        :mod ( vv6 / linmas ))
+    :location ( vv7 / atas 
+        :mod ( vv8 / jpo  ))
+    :time ( vv9 / ketika 
+        :mod ( vv10 / itu ))
+)
+
+
+# ::id f-bunuh-diri-json.13
+# ::snt-type body
+# ::preferred
+# ::snt Lelaki yang belum diketahui identitasnya itu sempat naik di atas megatron JPO depan Gedung Kantor Pos Besar tersebut, pukul 11.00 WIB.
+(vv1 / naik
+    :mod ( vv2 / sempat)
+    :ARG0 (vv3 / lelaki 
+        :mod ( t / tahu 
+            :mod ( b / belum )))
+    :time ( vv4 / pukul   
+        :mod ( vv5 / 11.00 
+            :mod ( vv6 / wib )))
+    :location ( vv7 / atas 
+        :mod ( vv8 / megatron
+            :location ( vv9 / depan 
+                :mod ( vv10 / gedung 
+                    :mod ( vv11 / kantor 
+                        :name ( vv12 / pos 
+                            :name ( vv13 / besar )))))     
+            :mod ( vv14 / jpo )))
+)
+
+# ::id f-bunuh-diri-json.14
+# ::snt-type body
+# ::preferred
+# ::snt WHO mencatat bunuh diri sebagai penyebab kematian kelima, ujarnya, Juni lalu di Jakarta.
+( vv1 / ujar 
+    :ARG1 (vv2 / catat
+        :ARG0 (vv3 / who)
+        :ARG1 (vv4 / bunuh
+            :ARG1 (vv5 / diri))
+        :mod ( vv6 / bagai 
+            :mod ( vv7 / sebab 
+                :mod ( vv8 / lima )
+                :ARG0 ( vv9 / mati )))
+    )
+)
+
+# ::id f-bunuh-diri-json.15
+# ::snt-type body
+# ::preferred
+# ::snt Pada Jumat, warga Kota Bandung digegerkan aksi bunuh diri lelaki paruh baya yang terjun dari Jembatan Penyeberangan Orang Alun - Alun Bandung.
+(vv1 / geger
+    :ARG0 ( vv2 / warga 
+        :location ( vv3 / kota 
+            :location ( vv4 / bandung )))
+    :ARG1 ( vv5 / aksi 
+        :mod ( vv6 / bunuh 
+            :ARG0 ( vv7 / terjun 
+                :location ( vv8 / jembatan 
+                    :location ( vv9 / bandung )
+                    :mod ( vv10 / seberang 
+                        :mod ( vv11 / alun 
+                            :mod ( vv12 / alun ))))
+                :ARG0 (vv13 / lelaki 
+                    :mod ( vv14 / paruh 
+                        :mod ( vv15 / baya ))))
+            :ARG1 ( vv16 / diri )))
+)     
+
+# ::id f-bunuh-diri-json.16
+# ::snt-type body
+# ::preferred
+# ::snt Seorang warga asal Kebumen, Ciptadi, tewas seketika setelah melompat dari jembatan penyeberangan orang yang terletak di Jalan Asia Afrika, Kota Bandung.
+(vv1 / tewas
+    :ARG1 (vv2 / warga
+        :name (vv3 / ciptadi )
+        :mod (vv4 /asal 
+            :location ( vv5 / kebumen )))
+    :time ( vv6 / telah 
+        :mod ( vv7 / lompat 
+            :location ( vv8 / jembatan 
+                :location ( vv9 / jalan 
+                    :location ( vv10 / kota
+                        :name ( vv11 / bandung ))
+                    :name (vv12 / asia 
+                        :name ( vv13 / afrika )))
+                :mod ( vv14 / seberang 
+                    :mod ( vv15 / orang )))))
+)
+
+# ::id f-bunuh-diri-json.17
+# ::snt-type body
+# ::preferred
+# ::snt korban yang mengenakan kaos putih dan celana training itu menaiki anak tangga JPO.
+(vv1 / naik
+    :ARG0 ( vv2 / kena
+        :ARG0 ( vv3 / korban )
+        :ARG1 ( vv4 / kaos 
+            :mod ( vv5 / putih ))
+        :ARG1 ( vv6 / celana 
+            :mod ( vv7 / dan )
+            :mod ( vv8 / training )) 
+    )
+    :ARG1 ( vv9 / anak 
+        :mod ( vv10 /tangga 
+            :mod ( vv11 / jpo )))
+)
+
+# ::id f-bunuh-diri-json.19
+# ::snt-type body
+# ::preferred
+# ::snt Saksi merupakan anggota linmas Satpol PP Kota Bandung, Sudirman mengatakan pria itu diperkirakan berumur 50 tahunan.
+(vv1 / kata
+    :ARG0 (vv2 / saksi 
+        :name ( vv3 / sudirman )
+        :mod ( vv4 / rupa 
+            :ARG1 ( vv5 / anggota 
+                :mod ( vv6 / linmas 
+                    :location ( vv7 / kota 
+                        :name ( vv8 / bandung )))
+                    :name ( vv9 / satpol 
+                        :name ( vv10 / pp )))))
+    :ARG1 (vv11 / kira
+        :ARG0 ( vv12 / pria )
+        :ARG1 ( vv13 / umur 
+            :mod ( vv14 / 50 
+                :mod ( vv15 / tahun ))) 
+))
+
+# ::id f-bunuh-diri-json.20
+# ::snt-type body
+# ::preferred
+# ::snt Ia menyebutkan mengenakan pakaian putih dan celana biru.
+(vv1 / sebut
+    :ARG0 (vv2 / ia)
+    :ARG1 (vv3 / kena
+        :ARG1 ( vv4 / celana 
+            :mod ( vv5 / dan )
+            :mod ( vv6 / biru ))
+        :ARG1 ( vv7 / pakai 
+            :mod ( vv8 / putih ))
+    )
+)
+
+# ::id f-bunuh-diri-json.21
+# ::snt-type body
+# ::preferred
+# ::snt Lelaki yang belum diketahui identitasnya itu sempat naik di atas megatron jembatan penyeberangan.
+(n / naik
+    :ARG0 (l / lelaki 
+        :mod ( t / tahu 
+            :ARG1 ( i / identitas )
+            :mod ( b / belum )))
+    :location (m / megatron 
+        :mod ( a / atas 
+            :mod ( j / jembatan 
+                :mod ( s / seberang )))))
+
+# ::id f-bunuh-diri-json.22
+# ::snt-type body
+# ::preferred
+# ::snt Seorang pria paruh baya tanpa identitas nekat bunuh diri di jembatan penyeberangan orang yang berada dekat Alun - alun Kota Bandung, Jumat.
+(vv1 / bunuh
+    :ARG1 (vv2 / pria
+        :mod (vv3 / paruh 
+            :mod ( vv4 / baya 
+                :mod ( vv5 / tanpa 
+                    :mod ( vv6 / identitas ))))
+        :mod ( vv7 / orang ))
+    :ARG0 ( vv8 / diri )
+    :location ( vv9 / jembatan
+        :location ( vv10 / ada 
+            :mod ( vv11 / dekat 
+                :location ( vv12 / alun
+                    :location ( vv13 / kota 
+                        :name ( vv14 / bandung ))    
+                    :mod ( vv15 / alun )))) 
+        :mod ( vv16 / seberang 
+            :mod (vv17 / orang )))
+)
+
+# ::id f-bunuh-diri-json.23
+# ::snt-type body
+# ::preferred
+# ::snt Ia menyebutkan mengenakan pakaian putih dan celana biru.
+(vv1 / sebut
+    :ARG0 (vv2 / ia)
+    :ARG1 (vv3 / kena
+        :ARG1 ( vv4 / celana 
+            :mod ( vv5 / dan )
+            :mod ( vv6 / biru ))
+        :ARG1 ( vv7 / pakai 
+            :mod ( vv8 / putih ))
+    )
+)
