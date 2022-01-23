@@ -252,6 +252,7 @@ if __name__=='__main__':
             f.write(f'{str(list_loss_train[i])}\t{str(list_loss_dev[i])}\n')
 
     ## save model
+    os.mkdir(os.path.join(result_folder,'model'))
     torch.save(model.state_dict(), os.path.join(result_folder, "model/indobart.th"))
     with open(os.path.join(result_folder, "model/config.json"), 'w') as f:
         json.dump(model.config.to_dict(), f)
