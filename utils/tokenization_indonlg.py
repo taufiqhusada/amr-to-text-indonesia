@@ -298,7 +298,7 @@ class IndoNLGTokenizer(PreTrainedTokenizer):
             lang_id = self.special_tokens_to_ids[lang_token]
             input_batch = self(inputs, return_attention_mask=False)
             if type(inputs) == str:
-                input_batch['input_ids'] = [self.bos_token_id] + input_batch['input_ids'] + [self.eos_token_id, lang_id]
+                input_batch['input_ids'] = [self.bos_token_id] + input_batch['input_ids'][1:-1] + [self.eos_token_id, lang_id]
             else:
                 input_batch['input_ids'] = list(map(lambda input_ids: [self.bos_token_id] + input_ids + [self.eos_token_id, lang_id], input_batch['input_ids']))
             
