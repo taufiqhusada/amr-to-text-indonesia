@@ -65,7 +65,7 @@ if __name__=='__main__':
 
     # add new vocab (amr special tokens)
     new_tokens_vocab = {}
-    new_tokens_vocab['additional_special_tokens'] = []
+    new_tokens_vocab['additional_special_tokens'] = tokenizer.additional_special_tokens
     for idx, t in enumerate(AMR_TOKENS):
         new_tokens_vocab['additional_special_tokens'].append(t)
 
@@ -252,7 +252,7 @@ if __name__=='__main__':
 
     ## save model
     # torch.save(model.state_dict(), os.path.join(result_folder, "indobart.th"))
-    tokenizer.save_pretrained(os.path.join(result_folder, "tokenizer"))
+    # tokenizer.save_pretrained(os.path.join(result_folder, "tokenizer"))  # error
     model.save_pretrained(os.path.join(result_folder, "model"))
 
     ## save generated outputs
