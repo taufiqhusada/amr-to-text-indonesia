@@ -49,6 +49,8 @@ if __name__=='__main__':
 
     tokenizer = T5TokenizerFast.from_pretrained(os.path.join(saved_model_folder_path, 'tokenizer'))
     model = AutoModelForSeq2SeqLM.from_pretrained(os.path.join(saved_model_folder_path, 'model'))
+    print(tokenizer)
+    print(model.config)
 
     #moving the model to device(GPU/CPU)
     model.to(device)
@@ -103,6 +105,7 @@ if __name__=='__main__':
 
     list_label = []
     for i in range(len(list_hyp)):
+        list_hyp[i] = " ".join(list_hyp[i].split()[1:])
         if (i<10):
             print('sample: ', list_hyp[i], '----', test_dataset.data['sent'][i])
         list_label.append(test_dataset.data['sent'][i])
