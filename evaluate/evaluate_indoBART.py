@@ -34,7 +34,7 @@ if __name__=='__main__':
     args = parser.parse_args()
     set_seed(42)
 
-    model_type = "indo-t5"
+    model_type = "indo-bart"
     saved_model_folder_path = args.saved_model_folder_path
     data_folder = args.data_folder
     batch_size = args.batch_size
