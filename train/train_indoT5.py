@@ -2,7 +2,7 @@ import pandas as pd
 import os
 import sys
 import torch
-from transformers import T5Tokenizer, T5ForConditionalGeneration 
+from transformers import AutoModelForSeq2SeqLM, AutoTokenizer
 from transformers.optimization import  AdamW, Adafactor 
 import time
 import warnings
@@ -57,11 +57,9 @@ if __name__=='__main__':
         print("Running on the CPU")
 
 
-    tokenizer = T5Tokenizer.from_pretrained("Wikidepia/IndoT5-base")
-    model = T5ForConditionalGeneration.from_pretrained("Wikidepia/IndoT5-base", return_dict=True)
-    print(tokenizer)
-    print(model.config)
-    
+    tokenizer = AutoTokenizer.from_pretrained("Wikidepia/IndoT5-base")
+    model = AutoModelForSeq2SeqLM.from_pretrained("Wikidepia/IndoT5-base", return_dict=True)
+
     #moving the model to device(GPU/CPU)
     model.to(device)
 
