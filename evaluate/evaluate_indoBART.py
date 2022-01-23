@@ -62,6 +62,7 @@ if __name__=='__main__':
 
 
     # model = MBartForConditionalGeneration.from_pretrained(os.path.join(saved_model_folder_path, 'model'))
+    os.mkdir(os.path.join(saved_model_folder_path,'model'))
     model = MBartForConditionalGeneration.from_pretrained(os.path.join(saved_model_folder_path, 'model/indobart.th'), config = os.path.join(saved_model_folder_path, 'model/config.json') )
     model.resize_token_embeddings(len(tokenizer))
     print(tokenizer)
