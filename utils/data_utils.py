@@ -63,8 +63,8 @@ class AMRToTextDataLoader(DataLoader):
             self.t5_prefix =np.array(self.tokenizer.encode(T5_PREFIX, add_special_tokens=False))
             self.collate_fn = self._t5_collate_fn
         elif model_type == 'indo-bart':
-            source_lang = "[indonesia]"
-            target_lang = "[indonesia]"
+            source_lang = "[indonesian]"
+            target_lang = "[indonesian]"
 
             self.src_lid_token_id = tokenizer.special_tokens_to_ids[source_lang]
             self.tgt_lid_token_id = tokenizer.special_tokens_to_ids[target_lang]

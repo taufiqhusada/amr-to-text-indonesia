@@ -15,7 +15,7 @@ def _generate_bart(text, model, tokenizer, num_beams, device):
 
     model.eval()
     bart_input = tokenizer.prepare_input_for_generation(text,
-                                         lang_token = '[indonesia]', decoder_lang_token='[indonesia]')
+                                         lang_token = '[indonesian]', decoder_lang_token='[indonesian]')
     input_ids = torch.tensor([bart_input['input_ids']]).to(device)
     print(input_ids)
     outputs = model.generate(input_ids, num_beams=num_beams)
