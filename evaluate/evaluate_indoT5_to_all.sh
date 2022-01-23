@@ -72,6 +72,7 @@ python preprocess/preprocess.py \
 
 ####### predict all and evaluate #########
 cd evaluate
+mkdir result
 
 # amr_simple_test
 echo evaluate on data amr_simple_test
@@ -114,14 +115,3 @@ mkdir result/g-gempa-dieng
 
 python evaluate_indoT5.py --saved_model_folder_path ${SAVED_MODEL_FOLDER} \
 --data_folder ../data/test/preprocessed_data/g-gempa-dieng --result_folder result/g-gempa-dieng
-
-####### move all result ########
-echo move results
-
-mkdir ../result
-mv result/amr_simple_test ../result -r
-mv result/b-salah-darat ../result -r
-mv result/c-gedung-roboh../result -r
-mv result/d-indo-fuji ../result -r
-mv result/f-bunuh-diri ../result -r
-mv result/g-gempa-dieng ../result -r
