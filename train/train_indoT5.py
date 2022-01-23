@@ -2,7 +2,7 @@ import pandas as pd
 import os
 import sys
 import torch
-from transformers import AutoModelForSeq2SeqLM, AutoTokenizer
+from transformers import AutoModelForSeq2SeqLM, T5TokenizerFast
 from transformers.optimization import  AdamW, Adafactor 
 import time
 import warnings
@@ -57,7 +57,7 @@ if __name__=='__main__':
         print("Running on the CPU")
 
 
-    tokenizer = AutoTokenizer.from_pretrained("Wikidepia/IndoT5-base")
+    tokenizer = T5TokenizerFast.from_pretrained("Wikidepia/IndoT5-base")
     model = AutoModelForSeq2SeqLM.from_pretrained("Wikidepia/IndoT5-base", return_dict=True)
 
     #moving the model to device(GPU/CPU)
@@ -253,7 +253,6 @@ if __name__=='__main__':
     ## save model
     # torch.save(model.state_dict(), os.path.join(result_folder, "indot5.th"))
     tokenizer.save_pretrained(os.path.join(result_folder, "tokenizer"))
-    tokenizer.config.save_pretrained(os.path.join(result_folder, "tokenizer"))
     model.save_pretrained(os.path.join(result_folder, "model"))
 
     ## save generated outputs
