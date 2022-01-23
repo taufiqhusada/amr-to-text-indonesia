@@ -59,8 +59,9 @@ if __name__=='__main__':
     num_added_toks = tokenizer.add_special_tokens(new_tokens_vocab)
     print(f'added {num_added_toks} tokens')
 
-    
+
     model = MBartForConditionalGeneration.from_pretrained(os.path.join(saved_model_folder_path, 'model'))
+    model.resize_token_embeddings(len(tokenizer))
     print(tokenizer)
     print(model.config)
 
