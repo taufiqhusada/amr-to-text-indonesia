@@ -253,6 +253,7 @@ if __name__=='__main__':
     ## save model
     # torch.save(model.state_dict(), os.path.join(result_folder, "indot5.th"))
     tokenizer.save_pretrained(os.path.join(result_folder, "tokenizer"))
+    tokenizer.config.save_pretrained(os.path.join(result_folder, "tokenizer"))
     model.save_pretrained(os.path.join(result_folder, "model"))
 
     ## save generated outputs
