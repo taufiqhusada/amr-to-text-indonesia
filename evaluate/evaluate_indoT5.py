@@ -19,9 +19,17 @@ from utils.scoring import calc_corpus_bleu_score
 from utils.eval import generate
 from utils.utils_argparser import add_args
 
+
+def set_seed(seed):
+    random.seed(seed)
+    np.random.seed(seed)
+    torch.manual_seed(seed)
+    torch.cuda.manual_seed(seed)
+
 if __name__=='__main__':
     parser = add_args(argparse.ArgumentParser())
     args = parser.parse_args()
+    set_seed(42)
 
     model_type = "indo-t5"
     saved_model_folder_path = args.saved_model_folder_path
