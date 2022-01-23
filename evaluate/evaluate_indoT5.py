@@ -105,7 +105,6 @@ if __name__=='__main__':
 
     list_label = []
     for i in range(len(list_hyp)):
-        list_hyp[i] = " ".join(list_hyp[i].split()[1:])
         if (i<10):
             print('sample: ', list_hyp[i], '----', test_dataset.data['sent'][i])
         list_label.append(test_dataset.data['sent'][i])
