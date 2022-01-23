@@ -9,6 +9,7 @@ def add_args(parser):
     parser.add_argument("--max_seq_len_sent", type=int, default=384)
     parser.add_argument("--result_folder", default='result')
     parser.add_argument("--data_folder", default='../data/preprocessed_data/linearized_penman')
+    parser.add_argument("--saved_model_folder_path")
 
     return parser
 
