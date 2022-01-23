@@ -251,7 +251,9 @@ if __name__=='__main__':
             f.write(f'{str(list_loss_train[i])}\t{str(list_loss_dev[i])}\n')
 
     ## save model
-    torch.save(model.state_dict(), os.path.join(result_folder, "indobart.th"))
+    # torch.save(model.state_dict(), os.path.join(result_folder, "indobart.th"))
+    tokenizer.save_pretrained(os.path.join(result_folder, "tokenizer"))
+    model.save_pretrained(os.path.join(result_folder, "model"))
 
     ## save generated outputs
     with open(os.path.join(result_folder, 'test_generations.txt'), 'w') as f:
