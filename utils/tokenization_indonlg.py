@@ -114,6 +114,10 @@ class IndoNLGTokenizer(PreTrainedTokenizer):
             self.javanese_token_id, self.sundanese_token_id, self.indonesian_token_id
         ]
         
+    def prepare_input_for_generation(self, text, lang_token = '[indonesia]', decoder_lang_token='[indonesia]'):
+        bart_text = '<s> ' + text + ' </s> ' +  lang_token
+        return self.encode(bart_text)
+
     def build_inputs_with_special_tokens(
         self, token_ids_0: List[int], token_ids_1: Optional[List[int]] = None
     ) -> List[int]:
