@@ -30,6 +30,7 @@ if __name__=='__main__':
     max_seq_len_amr = args.max_seq_len_amr
     max_seq_len_sent = args.max_seq_len_sent
     result_folder = args.result_folder
+    num_beams = args.num_beams
 
     if torch.cuda.is_available():
         device = torch.device("cuda:0") 
