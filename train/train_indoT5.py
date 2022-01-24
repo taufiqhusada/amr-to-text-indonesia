@@ -47,6 +47,8 @@ if __name__=='__main__':
     max_seq_len_sent = args.max_seq_len_sent
     result_folder = args.result_folder
     DATA_FOLDER = args.data_folder
+    if (args.resume_from_checkpoint):
+        saved_model_folder_path = args.saved_model_folder_path
 
 
     if torch.cuda.is_available():
@@ -56,9 +58,13 @@ if __name__=='__main__':
         device = torch.device("cpu")
         print("Running on the CPU")
 
-
-    tokenizer = T5TokenizerFast.from_pretrained("Wikidepia/IndoT5-base")
-    model = AutoModelForSeq2SeqLM.from_pretrained("Wikidepia/IndoT5-base", return_dict=True)
+    if (args.resume_from_checkpoint):
+        print('resume from checkpoint')
+        tokenizer = T5TokenizerFast.from_pretrained(os.path.join(saved_model_folder_path, 'tokenizer'))
+        model = AutoModelForSeq2SeqLM.from_pretrained(os.path.join(saved_model_folder_path, 'model'))
+    else:
+        tokenizer = T5TokenizerFast.from_pretrained("Wikidepia/IndoT5-base")
+        model = AutoModelForSeq2SeqLM.from_pretrained("Wikidepia/IndoT5-base", return_dict=True)
 
     #moving the model to device(GPU/CPU)
     model.to(device)

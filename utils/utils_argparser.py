@@ -10,6 +10,7 @@ def add_args(parser):
     parser.add_argument("--result_folder", default='result')
     parser.add_argument("--data_folder", default='../data/preprocessed_data/linearized_penman')
     parser.add_argument("--saved_model_folder_path")
+    parser.add_argument('--resume_from_checkpoint', default=False)
 
     return parser
 
