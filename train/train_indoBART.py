@@ -48,7 +48,8 @@ if __name__=='__main__':
     max_seq_len_sent = args.max_seq_len_sent
     result_folder = args.result_folder
     DATA_FOLDER = args.data_folder
-
+    if (args.resume_from_checkpoint):
+        saved_model_folder_path = args.saved_model_folder_path
 
     if torch.cuda.is_available():
         device = torch.device("cuda:0") 
@@ -59,7 +60,12 @@ if __name__=='__main__':
 
 
     tokenizer = IndoNLGTokenizer.from_pretrained('indobenchmark/indobart')
-    model = MBartForConditionalGeneration.from_pretrained('indobenchmark/indobart')
+
+    if (args.resume_from_checkpoint):
+        print('resume from checkpoint')
+        model = MBartForConditionalGeneration.from_pretrained(os.path.join(saved_model_folder_path, 'model'))
+    else:
+        model = MBartForConditionalGeneration.from_pretrained('indobenchmark/indobart')
 
     #moving the model to device(GPU/CPU)
     model.to(device)
@@ -252,12 +258,12 @@ if __name__=='__main__':
             f.write(f'{str(list_loss_train[i])}\t{str(list_loss_dev[i])}\n')
 
     ## save model
-    os.mkdir(os.path.join(result_folder,'model'))
-    torch.save(model.state_dict(), os.path.join(result_folder, "model/indobart.th"))
-    with open(os.path.join(result_folder, "model/config.json"), 'w') as f:
-        json.dump(model.config.to_dict(), f)
+    # os.mkdir(os.path.join(result_folder,'model'))
+    # torch.save(model.state_dict(), os.path.join(result_folder, "model/indobart.th"))
+    # with open(os.path.join(result_folder, "model/config.json"), 'w') as f:
+    #     json.dump(model.config.to_dict(), f)
     # tokenizer.save_pretrained(os.path.join(result_folder, "tokenizer"))  # error
-    # model.save_pretrained(os.path.join(result_folder, "model"))
+    model.save_pretrained(os.path.join(result_folder, "model"))
 
     ## save generated outputs
     with open(os.path.join(result_folder, 'test_generations.txt'), 'w') as f:
