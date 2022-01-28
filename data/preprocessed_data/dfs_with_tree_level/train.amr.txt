@@ -1,0 +1,2648 @@
+tanam :ARG0 bu :name ani :ARG1 bunga
+tanam :ARG0 bu :name ani :ARG1 bunga
+berangkat :ARG0 om :name andi :ARG1 sekolah :mod ke :time besok
+berangkat :ARG0 om :name andi :ARG1 sekolah :mod ke :time besok
+pergi :ARG0 ibu :name asih :location rumah :mod nenek :name yanti :time kemarin
+pergi :ARG0 ibu :name asih :location rumah :mod nenek :name yanti :time kemarin
+pergi :ARG0 kami :mod keluarga :ARG1 tamasya :time hari :mod minggu
+pergi :ARG0 kami :mod keluarga :ARG1 tamasya :time hari :mod minggu
+pergi :ARG0 kami :mod keluarga :ARG1 tamasya :time hari :mod minggu
+pergi :ARG0 kami :mod keluarga :ARG1 tamasya :time hari :mod minggu
+pergi :ARG0 kami :mod keluarga :ARG1 tamasya :time hari :mod minggu
+ajar :ARG0 siswa :location sekolah
+ajar :ARG0 siswa :location sekolah
+upacara :ARG0 siswa :mod para
+upacara :ARG0 siswa :mod para
+upacara :ARG0 siswa :mod para
+makan :ARG0 om :name budi :ARG1 permen
+makan :ARG0 om :name budi :ARG1 permen
+tanam :ARG0 tani :ARG1 padi
+tanam :ARG0 tani :ARG1 padi
+pergi :ARG0 ayah :location kantor :mod ke
+pergi :ARG0 ayah :location kantor :mod ke
+pergi :ARG0 ayah :location kantor :mod ke
+masak :ARG0 ibu :name risna :ARG1 ayam :location dapur
+masak :ARG0 ibu :name risna :ARG1 ayam :location dapur
+masak :ARG0 ibu :name risna :ARG1 ayam :location dapur
+masak :ARG0 ibu :name risna :ARG1 ayam :location dapur
+masak :ARG0 ibu :name risna :ARG1 ayam :location dapur
+main :ARG0 adik :ARG1 teman
+main :ARG0 adik :ARG1 teman
+main :ARG0 adik :ARG1 teman
+main :ARG0 adik :ARG1 teman
+main :ARG0 adik :ARG1 teman
+tidur :ARG0 kakak
+tidur :ARG0 kakak
+tidur :ARG0 kakak
+ajak :ARG0 paman :name nadiem :ARG1 adik :mod main
+ajak :ARG0 paman :name nadiem :ARG1 adik :mod main
+pimpin :ARG0 kepala :mod sekolah :ARG1 upacara :time tadi
+pimpin :ARG0 kepala :mod sekolah :ARG1 upacara :time tadi
+pimpin :ARG0 kepala :mod sekolah :ARG1 upacara :time tadi
+pimpin :ARG0 kepala :mod sekolah :ARG1 upacara :time tadi
+pimpin :ARG0 kepala :mod sekolah :ARG1 upacara :time tadi
+tonton :ARG0 mereka :ARG1 tanding :mod bola :mod basket :time hari
+tonton :ARG0 mereka :ARG1 tanding :mod bola :mod basket :time hari
+tonton :ARG0 mereka :ARG1 tanding :mod bola :mod basket :time hari
+tonton :ARG0 mereka :ARG1 tanding :mod bola :mod basket :time hari
+tonton :ARG0 mereka :ARG1 tanding :mod bola :mod basket :time hari
+ajak :ARG0 ibu :name fio :ARG1 adik :location pasar
+ajak :ARG0 ibu :name fio :ARG1 adik :location pasar
+punya :ARG0 om :name irwan :ARG1 sepatu :mod baru
+punya :ARG0 om :name irwan :ARG1 sepatu :mod baru
+ajar :ARG0 siswa :mod semua :mod rajin
+ajar :ARG0 siswa :mod semua :mod rajin
+jual :ARG0 dagang :mod para :location pasar :time hari
+jual :ARG0 dagang :mod para :location pasar :time hari
+jual :ARG0 dagang :mod para :location pasar :time hari
+jual :ARG0 dagang :mod para :location pasar :time hari
+jual :ARG0 dagang :mod para :location pasar :time hari
+siap :ARG0 peserta :mod lomba :location garis :mod start
+siap :ARG0 peserta :mod lomba :location garis :mod start
+siap :ARG0 peserta :mod lomba :location garis :mod start
+siap :ARG0 peserta :mod lomba :location garis :mod start
+siap :ARG0 peserta :mod lomba :location garis :mod start
+baca :ARG0 bu :name anna :ARG1 buku :time kemarin
+baca :ARG0 bu :name anna :ARG1 buku :time kemarin
+baca :ARG0 bu :name anna :ARG1 buku :time kemarin
+baca :ARG0 bu :name anna :ARG1 buku :time kemarin
+baca :ARG0 bu :name anna :ARG1 buku :time kemarin
+baca :ARG0 bu :name anna :ARG1 buku :name bobo
+baca :ARG0 bu :name anna :ARG1 buku :name bobo
+baca :ARG0 bu :name anna :ARG1 buku :name bobo
+baca :ARG0 bu :name anna :ARG1 buku :name bobo
+baca :ARG0 bu :name anna :ARG1 buku :name bobo
+beli :ARG0 syifa :ARG1 roti :name jaya
+beli :ARG0 syifa :ARG1 roti :name jaya
+pergi :ARG0 tante :name syifa :location salon :name lutuye
+pergi :ARG0 tante :name syifa :location salon :name lutuye
+pergi :ARG0 tante :name syifa :location salon :name lutuye
+kena :ARG0 zulia :ARG1 baju :mod merah
+kena :ARG0 zulia :ARG1 baju :mod merah
+kena :ARG0 zulia :ARG1 baju :mod merah
+kena :ARG0 zulia :ARG1 baju :mod merah
+kena :ARG0 zulia :ARG1 baju :mod merah
+cetak :ARG0 mereka :ARG1 gol :location gawang :mod lawan
+cetak :ARG0 mereka :ARG1 gol :location gawang :mod lawan
+cetak :ARG0 mereka :ARG1 gol :location gawang :mod lawan
+cetak :ARG0 mereka :ARG1 gol :location gawang :mod lawan
+cetak :ARG0 mereka :ARG1 gol :location gawang :mod lawan
+laku :ARG0 mereka :ARG1 selebrasi
+laku :ARG0 mereka :ARG1 selebrasi
+laku :ARG0 mereka :ARG1 selebrasi
+laku :ARG0 mereka :ARG1 selebrasi
+laku :ARG0 mereka :ARG1 selebrasi
+sambut :ARG0 tonton :ARG1 pak :name budi :mod riuh
+sambut :ARG0 tonton :ARG1 pak :name budi :mod riuh
+sambut :ARG0 tonton :ARG1 pak :name budi :mod riuh
+sambut :ARG0 tonton :ARG1 pak :name budi :mod riuh
+sambut :ARG0 tonton :ARG1 pak :name budi :mod riuh
+pintal :ARG0 ashita :ARG1 benang :mod wol
+pintal :ARG0 ashita :ARG1 benang :mod wol
+pintal :ARG0 ashita :ARG1 benang :mod wol
+pintal :ARG0 ashita :ARG1 benang :mod wol
+pintal :ARG0 ashita :ARG1 benang :mod wol
+pintal :ARG0 ashita :ARG1 benang :mod sutra
+pintal :ARG0 ashita :ARG1 benang :mod sutra
+pintal :ARG0 ashita :ARG1 benang :mod sutra
+pintal :ARG0 ashita :ARG1 benang :mod sutra
+pintal :ARG0 ashita :ARG1 benang :mod sutra
+main :ARG0 profesor :name joko :ARG1 bola
+main :ARG0 profesor :name joko :ARG1 bola
+main :ARG0 profesor :name joko :ARG1 bola
+main :ARG0 profesor :name joko :ARG1 bola
+main :ARG0 profesor :name joko :ARG1 bola
+tangis :ARG0 pak :name andi :location tengah :mod permainan
+tangis :ARG0 pak :name andi :location tengah :mod permainan
+tidur :ARG0 ayah
+tidur :ARG0 ayah
+tidur :ARG0 ayah
+tidur :ARG0 ayah
+tidur :ARG0 ayah
+main :ARG0 risya :ARG1 voli
+main :ARG0 risya :ARG1 voli
+main :ARG0 risya :ARG1 voli
+main :ARG0 risya :ARG1 voli
+main :ARG0 risya :ARG1 voli
+tendang :ARG0 bos :name andi :ARG1 bola :mod itu
+tendang :ARG0 bos :name andi :ARG1 bola :mod itu
+tendang :ARG0 bos :name andi :ARG1 bola :mod itu
+tendang :ARG0 bos :name andi :ARG1 bola :mod itu
+jalan :ARG0 main :mod tarik
+jalan :ARG0 main :mod tarik
+ketik :ARG0 aku :ARG1 cerita
+ketik :ARG0 aku :ARG1 cerita
+ketik :ARG0 aku :ARG1 cerita
+ketik :ARG0 aku :ARG1 cerita
+ketik :ARG0 aku :ARG1 cerita
+ketik :ARG0 aku :ARG1 cerita :time datang :ARG0 ayah
+ketik :ARG0 aku :ARG1 cerita :time datang :ARG0 ayah
+ketik :ARG0 aku :ARG1 cerita :time datang :ARG0 ayah
+adalah :ARG0 suminah :mod anak :mod dua
+adalah :ARG0 suminah :mod anak :mod dua
+adalah :ARG0 suminah :mod anak :mod dua
+manja :ARG1 ia
+manja :ARG1 ia
+manja :ARG0 orang :mod tua :ARG1 ia
+manja :ARG0 orang :mod tua :ARG1 ia
+manja :ARG0 orang :mod tua :ARG1 ia
+benci :ARG0 aku :ARG1 tikus
+benci :ARG0 aku :ARG1 tikus
+benci :ARG0 aku :ARG1 tikus
+benci :ARG0 aku :ARG1 tikus
+benci :ARG0 aku :ARG1 tikus
+benci :ARG0 ia :ARG1 kucing
+benci :ARG0 ia :ARG1 kucing
+benci :ARG0 ia :ARG1 kucing
+benci :ARG0 ia :ARG1 kucing
+benci :ARG0 ia :ARG1 kucing
+orang :ARG0 ayah :ARG1 polisi
+anak :ARG0 dewi :mod manja
+anak :ARG0 dewi :mod manja
+rangkak :ARG0 orang :name rudi
+rangkak :ARG0 orang :name rudi
+rangkak :ARG0 orang :name rudi
+rangkak :ARG0 orang :name rudi
+rangkak :ARG0 orang :name rudi
+orang :ARG0 pak :name sasu :ARG1 ceo :mod muda :location indonesia
+orang :ARG0 pak :name sasu :ARG1 ceo :mod muda :location indonesia
+orang :ARG0 pak :name sasu :ARG1 ceo :mod muda :location indonesia
+orang :ARG0 pak :name sasu :ARG1 ceo :mod muda :location indonesia
+anak :ARG0 andriana :mod berani
+anak :ARG0 andriana :mod berani
+anak :ARG0 andriana :mod berani
+adalah :ARG0 zia :ARG1 mayoret :mod kelompok :mod marching :mod band
+adalah :ARG0 zia :ARG1 mayoret :mod kelompok :mod marching :mod band
+adalah :ARG0 zia :ARG1 mayoret :mod kelompok :mod marching :mod band
+adalah :ARG0 zia :ARG1 mayoret :mod kelompok :mod marching :mod band
+siswa :ARG0 mereka :mod sma :name dua :name nusantara
+siswa :ARG0 mereka :mod sma :name dua :name nusantara
+siswa :ARG0 mereka :mod sma :name dua :name nusantara
+orang :ARG0 teguh :ARG1 perwira :mod polisi
+rupa :ARG0 ramadhan :ARG1 bulan :mod suci
+rupa :ARG0 ramadhan :ARG1 bulan :mod suci
+rupa :ARG0 ramadhan :ARG1 bulan :mod suci
+rupa :ARG0 ramadhan :ARG1 bulan :mod suci
+baca :ARG0 andi :ARG1 buku
+baca :ARG0 andi :ARG1 buku
+baca :ARG0 andi :ARG1 buku
+baca :ARG0 andi :ARG1 buku
+baca :ARG0 andi :ARG1 buku
+lari :ARG0 siana :location lapang
+lari :ARG0 siana :location lapang
+lari :ARG0 siana :location lapang
+lari :ARG0 siana :location lapang
+lari :ARG0 siana :location lapang
+kerja :ARG0 siwan :ARG1 tugas :location pustaka :mod kampus
+kerja :ARG0 siwan :ARG1 tugas :location pustaka :mod kampus
+kerja :ARG0 siwan :ARG1 tugas :location pustaka :mod kampus
+kerja :ARG0 siwan :ARG1 tugas :location pustaka :mod kampus
+kerja :ARG0 siwan :ARG1 tugas :location pustaka :mod kampus
+rotasi :ARG0 bumi
+putar :ARG0 bola :location udara
+putar :ARG0 bola :location udara
+putar :ARG0 bola :location udara
+putar :ARG0 bola :location udara
+putar :ARG0 bola :location udara
+sapa :ARG0 dika :ARG1 tiap :mod orang :mod lewat
+sapa :ARG0 dika :ARG1 tiap :mod orang :mod lewat
+sapa :ARG0 dika :ARG1 tiap :mod orang :mod lewat
+sapa :ARG0 dika :ARG1 tiap :mod orang :mod lewat
+sapa :ARG0 dika :ARG1 tiap :mod orang :mod lewat
+gerak :ARG0 menara :mod pisa :mod miring
+gerak :ARG0 menara :mod pisa :mod miring
+baca :ARG0 sonia :ARG1 jurnal :mod hari :mod sekolah :mod kembali
+baca :ARG0 sonia :ARG1 jurnal :mod hari :mod sekolah :mod kembali
+mati :ARG0 singa :mod lapar
+mati :ARG0 singa :mod lapar
+lari :ARG0 impala :ARG1 kejar :ARG0 singa
+lari :ARG0 impala :ARG1 kejar :ARG0 singa
+lari :ARG0 impala :ARG1 kejar :ARG0 singa
+lari :ARG0 impala :ARG1 kejar :ARG0 singa
+lari :ARG0 impala :ARG1 kejar :ARG0 singa
+bangun :ARG1 gedung :mod tahun :mod lima
+bangun :ARG1 gedung :mod tahun :mod lima
+bangun :ARG1 gedung :mod tahun :mod lima
+bangun :ARG1 gedung :mod tahun :mod lima
+bangun :ARG1 gedung :mod tahun :mod lima
+selesai :ARG1 misi :mod satu
+selesai :ARG1 misi :mod satu
+sepatu :ARG0 anna :mod pasang :mod dua
+sepatu :ARG0 anna :mod pasang :mod dua
+ada :ARG1 coklat :mod biji :mod tiga
+ada :ARG1 coklat :mod biji :mod tiga
+umur :ARG0 bangunan :mod abad
+umur :ARG0 bangunan :mod abad
+umur :ARG0 bangunan :mod abad
+umur :ARG0 bangunan :mod abad
+umur :ARG0 bangunan :mod abad
+ada :ARG0 anak :mod kucing :mod tiga
+ada :ARG0 anak :mod kucing :mod tiga
+naik :ARG0 tante :name ari :ARG1 sepeda
+naik :ARG0 tante :name ari :ARG1 sepeda
+naik :ARG0 tante :name ari :ARG1 sepeda
+naik :ARG0 tante :name ari :ARG1 sepeda
+naik :ARG0 tante :name ari :ARG1 sepeda
+jadi :ARG0 bu :name ayu :ARG1 lulus :mod baik :mod ipb :time tahun :mod 2017
+mampu :ARG0 dia :ARG1 mandiri :mod finansial
+orang :ARG0 ibu :ARG1 dokter
+orang :ARG0 ibu :ARG1 dokter
+beli :ARG0 arya :ARG1 telur :location minimarket
+beli :ARG0 arya :ARG1 telur :location minimarket
+beli :ARG0 arya :ARG1 telur :location minimarket
+beli :ARG0 arya :ARG1 telur :location minimarket
+beli :ARG0 arya :ARG1 telur :location minimarket
+beli :ARG0 kakek :name arya :ARG1 telur :location minimarket
+beli :ARG0 kakek :name arya :ARG1 telur :location minimarket
+beli :ARG0 kakek :name arya :ARG1 telur :location minimarket
+beli :ARG0 kakek :name arya :ARG1 telur :location minimarket
+beli :ARG0 kakek :name arya :ARG1 telur :location minimarket
+roboh :ARG1 rumah
+roboh :ARG1 rumah
+roboh :ARG1 rumah
+kacau :ARG0 hujan :ARG1 sinyal :mod internet
+kacau :ARG0 hujan :ARG1 sinyal :mod internet
+kacau :ARG0 hujan :ARG1 sinyal :mod internet
+kacau :ARG0 hujan :ARG1 sinyal :mod internet
+kacau :ARG0 hujan :ARG1 sinyal :mod internet
+adalah :ARG0 padam :mod gilir :mod empat :time minggu
+adalah :ARG0 padam :mod gilir :mod empat :time minggu
+warna :ARG0 mobil :ARG1 silver
+warna :ARG0 mobil :ARG1 silver
+warna :ARG0 mobil :ARG1 silver
+warna :ARG0 mobil :ARG1 silver
+warna :ARG0 mobil :ARG1 silver
+taruh :ARG0 aku :ARG1 majalah :location meja :mod atas
+taruh :ARG0 aku :ARG1 majalah :location meja :mod atas
+taruh :ARG0 aku :ARG1 majalah :location meja :mod atas
+taruh :ARG0 aku :ARG1 majalah :location meja :mod atas
+taruh :ARG0 aku :ARG1 majalah :location meja :mod atas
+dapat :ARG0 aji :ARG1 kerja :mod bagus :location perusahaan :mod multi
+dapat :ARG0 aji :ARG1 kerja :mod bagus :location perusahaan :mod multi
+dapat :ARG0 aji :ARG1 kerja :mod bagus :location perusahaan :mod multi
+dapat :ARG0 aji :ARG1 kerja :mod bagus :location perusahaan :mod multi
+dapat :ARG0 aji :ARG1 kerja :mod bagus :location perusahaan :mod multi
+diri :ARG0 orang :location sana :time tadi :mod sejak
+diri :ARG0 orang :location sana :time tadi :mod sejak
+diri :ARG0 orang :location sana :time tadi :mod sejak
+diri :ARG0 orang :location sana :time tadi :mod sejak
+diri :ARG0 orang :location sana :time tadi :mod sejak
+tinggal :ARG0 kakak
+tinggal :ARG0 kakak
+pergi :ARG0 riana :location pasar
+pergi :ARG0 riana :location pasar
+pergi :ARG0 riana :location pasar
+dari :ARG0 ayah :location kota
+bawa :ARG0 ayah :ARG1 boneka
+bawa :ARG0 ayah :ARG1 boneka
+bawa :ARG0 ayah :ARG1 boneka
+bawa :ARG0 ayah :ARG1 boneka
+bawa :ARG0 ayah :ARG1 boneka
+main :ARG0 kesang :ARG1 bola
+main :ARG0 kesang :ARG1 bola
+main :ARG0 kesang :ARG1 bola
+main :ARG0 kesang :ARG1 bola
+main :ARG0 kesang :ARG1 bola
+tabrak :ARG0 mobil :ARG1 mobil :mod parkir :location depan :mod kompleks :time pagi :mod ini
+tabrak :ARG0 mobil :ARG1 mobil :mod parkir :location depan :mod kompleks :time pagi :mod ini
+tabrak :ARG0 mobil :ARG1 mobil :mod parkir :location depan :mod kompleks :time pagi :mod ini
+tabrak :ARG0 mobil :ARG1 mobil :mod parkir :location depan :mod kompleks :time pagi :mod ini
+tabrak :ARG0 mobil :ARG1 mobil :mod parkir :location depan :mod kompleks :time pagi :mod ini
+beri :ARG0 agung :ARG1 selamat :ARG1 pada :time bulan :mod ini
+beri :ARG0 agung :ARG1 selamat :ARG1 pada :time bulan :mod ini
+beri :ARG0 agung :ARG1 selamat :ARG1 pada :time bulan :mod ini
+beri :ARG0 agung :ARG1 selamat :ARG1 pada :time bulan :mod ini
+beri :ARG0 agung :ARG1 selamat :ARG1 pada :time bulan :mod ini
+bahagia :ARG0 aku :time hari :mod ini
+bahagia :ARG0 aku :time hari :mod ini
+bahagia :ARG0 aku :time hari :mod ini
+bahagia :ARG0 aku :time hari :mod ini
+bahagia :ARG0 aku :time hari :mod ini
+anak :ARG0 kucing :ARG1 lima
+anak :ARG0 kucing :ARG1 lima
+anak :ARG0 kucing :ARG1 lima
+anak :ARG0 kucing :ARG1 lima
+pergi :ARG0 ibu :location kantor
+pergi :ARG0 ibu :location kantor
+pergi :ARG0 ibu :location kantor
+antar :ARG0 ayah :ARG1 ibu :location pasar
+antar :ARG0 ayah :ARG1 ibu :location pasar
+antar :ARG0 ayah :ARG1 ibu :location pasar
+antar :ARG0 ayah :ARG1 ibu :location pasar
+antar :ARG0 ayah :ARG1 ibu :location pasar
+tara :ARG0 gaji :mod bulan :mod tiap :ARG1 rumah :mod buah :mod satu
+tara :ARG0 gaji :mod bulan :mod tiap :ARG1 rumah :mod buah :mod satu
+tara :ARG0 gaji :mod bulan :mod tiap :ARG1 rumah :mod buah :mod satu
+tara :ARG0 gaji :mod bulan :mod tiap :ARG1 rumah :mod buah :mod satu
+tara :ARG0 gaji :mod bulan :mod tiap :ARG1 rumah :mod buah :mod satu
+makan :ARG0 aku :ARG1 roti :time tadi
+makan :ARG0 aku :ARG1 roti :time tadi
+makan :ARG0 aku :ARG1 roti :time tadi
+makan :ARG0 aku :ARG1 roti :time tadi
+makan :ARG0 aku :ARG1 roti :time tadi
+busuk :ARG0 roti
+busuk :ARG0 roti
+busuk :ARG0 roti
+buang :ARG0 aku :ARG1 roti :location tempat :mod sampah
+buang :ARG0 aku :ARG1 roti :location tempat :mod sampah
+buang :ARG0 aku :ARG1 roti :location tempat :mod sampah
+buang :ARG0 aku :ARG1 roti :location tempat :mod sampah
+buang :ARG0 aku :ARG1 roti :location tempat :mod sampah
+bawa :ARG0 aceng :ARG1 sesuatu :location semeru
+bawa :ARG0 aceng :ARG1 sesuatu :location semeru
+bawa :ARG0 aceng :ARG1 sesuatu :location semeru
+bawa :ARG0 aceng :ARG1 sesuatu :location semeru
+bawa :ARG0 aceng :ARG1 sesuatu :location semeru
+gerak :ARG0 mobil :ARG1 maju
+gerak :ARG0 mobil :ARG1 maju
+gerak :ARG0 mobil :ARG1 maju
+gerak :ARG0 mobil :ARG1 maju
+gerak :ARG0 mobil :ARG1 maju
+guna :ARG0 mereka :ARG1 teknologi :mod rupa :mod paling :mod mutakhir
+anak :ARG0 dia :mod riang
+anak :ARG0 dia :mod riang
+anak :ARG0 dia :mod riang
+ada :ARG0 balon :mod lima
+ada :ARG0 balon :mod lima
+ada :ARG0 balon :mod lima
+ada :ARG0 balon :mod lima
+beli :ARG0 jabar :mod untuk
+beli :ARG0 jabar :mod untuk
+senang :ARG0 kami :location taman :mod bermain :time siang :mod itu
+senang :ARG0 kami :location taman :mod bermain :time siang :mod itu
+senang :ARG0 kami :location taman :mod bermain :time siang :mod itu
+senang :ARG0 kami :location taman :mod bermain :time siang :mod itu
+senang :ARG0 kami :location taman :mod bermain :time siang :mod itu
+tampak :ARG0 raut :mod muka :ARG1 bahagia
+tampak :ARG0 raut :mod muka :ARG1 bahagia
+tampak :ARG0 raut :mod muka :ARG1 bahagia
+tampak :ARG0 raut :mod muka :ARG1 bahagia
+tampak :ARG0 raut :mod muka :ARG1 bahagia
+buat :ARG0 jadi :ARG1 rifqy :mod sadar :time kemarin
+buat :ARG0 jadi :ARG1 rifqy :mod sadar :time kemarin
+suka :ARG0 ia :ARG1 suka :ARG0 dekat :ARG1 mereka :time lama :mod ini
+suka :ARG0 ia :ARG1 suka :ARG0 dekat :ARG1 mereka :time lama :mod ini
+tahu :ARG0 bu :name rifqy :ARG1 rasa
+tahu :ARG0 bu :name rifqy :ARG1 rasa
+tahu :ARG0 bu :name rifqy :ARG1 rasa
+tahu :ARG0 bu :name rifqy :ARG1 rasa
+tahu :ARG0 bu :name rifqy :ARG1 rasa
+juara :ARG0 alfiansyah :ARG1 renang
+juara :ARG0 alfiansyah :ARG1 renang
+juara :ARG0 alfiansyah :ARG1 renang
+juara :ARG0 alfiansyah :ARG1 renang
+jadi :ARG0 agribisnis :mod 50 :ARG1 juara :ARG1 the :mod 10th :mod umum :time tahun :mod ini
+jadi :ARG0 agribisnis :mod 50 :ARG1 juara :ARG1 the :mod 10th :mod umum :time tahun :mod ini
+kantuk :ARG0 aku :time sore :mod tadi
+kantuk :ARG0 aku :time sore :mod tadi
+selesai :ARG0 dia :ARG1 tugas :time tepat :mod waktu
+selesai :ARG0 dia :ARG1 tugas :time tepat :mod waktu
+selesai :ARG0 dia :ARG1 tugas :time tepat :mod waktu
+selesai :ARG0 dia :ARG1 tugas :time tepat :mod waktu
+selesai :ARG0 dia :ARG1 tugas :time tepat :mod waktu
+anak :ARG0 dia :mod cerdas
+anak :ARG0 dia :mod cerdas
+ada :ARG0 rumah :location belakang :mod kebun :mod raya
+ada :ARG0 rumah :location belakang :mod kebun :mod raya
+ada :ARG0 tk :location sebelah :mod kanan
+ada :ARG0 tk :location sebelah :mod kanan
+ada :ARG0 tk :location sebelah :mod kanan
+ada :ARG0 tk :location sebelah :mod kanan
+ada :ARG0 tk :location sebelah :mod kanan
+pilih :ARG0 mereka :ARG1 tinggal :location pinggiran :mod jakarta
+pilih :ARG0 mereka :ARG1 tinggal :location pinggiran :mod jakarta
+pilih :ARG0 mereka :ARG1 tinggal :location pinggiran :mod jakarta
+jarak :ARG0 rumah :mod mereka :time sekarang :mod dekat :ARG1 tempat :mod kerja
+jarak :ARG0 rumah :mod mereka :time sekarang :mod dekat :ARG1 tempat :mod kerja
+rupa :ARG0 shiana :ARG1 anak :ARG0 mereka :mod dua
+nanti :ARG0 shiana :ARG1 lahir :ARG1 adik :location dunia :time sekarang
+nanti :ARG0 shiana :ARG1 lahir :ARG1 adik :location dunia :time sekarang
+nanti :ARG0 shiana :ARG1 lahir :ARG1 adik :location dunia :time sekarang
+nanti :ARG0 shiana :ARG1 lahir :ARG1 adik :location dunia :time sekarang
+nanti :ARG0 shiana :ARG1 lahir :ARG1 adik :location dunia :time sekarang
+semangat :ARG0 ibu :ARG1 gadis :location garis :mod finish :time pagi :mod tadi
+semangat :ARG0 ibu :ARG1 gadis :location garis :mod finish :time pagi :mod tadi
+semangat :ARG0 ibu :ARG1 gadis :location garis :mod finish :time pagi :mod tadi
+semangat :ARG0 ibu :ARG1 gadis :location garis :mod finish :time pagi :mod tadi
+semangat :ARG0 ibu :ARG1 gadis :location garis :mod finish :time pagi :mod tadi
+serah :ARG0 aku
+rasa :ARG0 aku :ARG1 sendiri :mod lagi :location rumah
+rasa :ARG0 aku :ARG1 sendiri :mod lagi :location rumah
+rasa :ARG0 aku :ARG1 sendiri :mod lagi :location rumah
+rasa :ARG0 aku :ARG1 sendiri :mod lagi :location rumah
+rasa :ARG0 aku :ARG1 sendiri :mod lagi :location rumah
+teman :ARG0 dia :ARG1 aku :time pagi :mod sampai
+teman :ARG0 dia :ARG1 aku :time pagi :mod sampai
+teman :ARG0 dia :ARG1 aku :time pagi :mod sampai
+teman :ARG0 dia :ARG1 aku :time pagi :mod sampai
+teman :ARG0 dia :ARG1 aku :time pagi :mod sampai
+buat :ARG0 datang :ARG0 curi :ARG1 seti :mod trauma
+buat :ARG0 datang :ARG0 curi :ARG1 seti :mod trauma
+buat :ARG0 datang :ARG0 curi :ARG1 seti :mod trauma
+buat :ARG0 datang :ARG0 curi :ARG1 seti :mod trauma
+lihat :ARG0 aku :ARG1 raut :mod sedih
+lihat :ARG0 aku :ARG1 raut :mod sedih
+lihat :ARG0 aku :ARG1 raut :mod sedih
+lihat :ARG0 aku :ARG1 raut :mod sedih
+lihat :ARG0 aku :ARG1 raut :mod sedih
+dapat :ARG0 ariana :ARG1 tepuk :mod tangan :mod meriah :mod tonton
+dapat :ARG0 ariana :ARG1 tepuk :mod tangan :mod meriah :mod tonton
+dapat :ARG0 ariana :ARG1 tepuk :mod tangan :mod meriah :mod tonton
+dapat :ARG0 ariana :ARG1 tepuk :mod tangan :mod meriah :mod tonton
+dapat :ARG0 ariana :ARG1 tepuk :mod tangan :mod meriah :mod tonton
+antar :ARG0 pak :name rifqy :ARG1 aku :time hari :mod ini
+antar :ARG0 pak :name rifqy :ARG1 aku :time hari :mod ini
+antar :ARG0 pak :name rifqy :ARG1 aku :time hari :mod ini
+antar :ARG0 pak :name rifqy :ARG1 aku :time hari :mod ini
+antar :ARG0 pak :name rifqy :ARG1 aku :time hari :mod ini
+habis :ARG0 kami :ARG1 waktu :time sejak :mod pagi
+habis :ARG0 kami :ARG1 waktu :time sejak :mod pagi
+habis :ARG0 kami :ARG1 waktu :time sejak :mod pagi
+habis :ARG0 kami :ARG1 waktu :time sejak :mod pagi
+habis :ARG0 kami :ARG1 waktu :time sejak :mod pagi
+bawa :ARG0 ia :ARG1 bunga :time kemarin
+bawa :ARG0 ia :ARG1 bunga :time kemarin
+bawa :ARG0 ia :ARG1 bunga :time kemarin
+bawa :ARG0 ia :ARG1 bunga :time kemarin
+bawa :ARG0 ia :ARG1 bunga :time kemarin
+aku :ARG0 ia :ARG1 pura :mod peduli
+aku :ARG0 ia :ARG1 pura :mod peduli
+aku :ARG0 ia :ARG1 pura :mod peduli
+aku :ARG0 ia :ARG1 pura :mod peduli
+aku :ARG0 ia :ARG1 pura :mod peduli
+senang :ARG0 aku :ARG1 dengar :mod aku
+senang :ARG0 aku :ARG1 dengar :mod aku
+putus :ARG0 kami :ARG1 nikah :time tahun :mod depan
+putus :ARG0 kami :ARG1 nikah :time tahun :mod depan
+terima :ARG0 orang :mod tua :mod apa :mod ada
+terima :ARG0 orang :mod tua :mod apa :mod ada
+suka :ARG0 kami :mod keluarga :ARG1 cita
+suka :ARG0 kami :mod keluarga :ARG1 cita
+lulus :ARG0 zahra :mod nilai :mod puas
+lulus :ARG0 zahra :mod nilai :mod puas
+lewat :ARG0 ia :ARG1 uji :mod lancar
+lewat :ARG0 ia :ARG1 uji :mod lancar
+lewat :ARG0 ia :ARG1 uji :mod lancar
+lewat :ARG0 ia :ARG1 uji :mod lancar
+lewat :ARG0 ia :ARG1 uji :mod lancar
+dapat :ARG0 putri :ARG1 sorot :mod tunjuk :mod itu
+dapat :ARG0 putri :ARG1 sorot :mod tunjuk :mod itu
+dapat :ARG0 putri :ARG1 sorot :mod tunjuk :mod itu
+dapat :ARG0 putri :ARG1 sorot :mod tunjuk :mod itu
+dapat :ARG0 putri :ARG1 sorot :mod tunjuk :mod itu
+pukau :ARG0 tampil :ARG1 semua :mod orang
+pukau :ARG0 tampil :ARG1 semua :mod orang
+pukau :ARG0 tampil :ARG1 semua :mod orang
+pukau :ARG0 tampil :ARG1 semua :mod orang
+pukau :ARG0 tampil :ARG1 semua :mod orang
+sangka :ARG0 ada :ARG1 ia :mod bagus :mod itu
+tampak :ARG0 dia :ARG1 cantik :mod sekali :time malam :mod ini
+tampak :ARG0 dia :ARG1 cantik :mod sekali :time malam :mod ini
+tampak :ARG0 dia :ARG1 cantik :mod sekali :time malam :mod ini
+tampak :ARG0 dia :ARG1 cantik :mod sekali :time malam :mod ini
+tampak :ARG0 dia :ARG1 cantik :mod sekali :time malam :mod ini
+rebut :ARG0 semua :mod orang :ARG1 foto
+rebut :ARG0 semua :mod orang :ARG1 foto
+rebut :ARG0 semua :mod orang :ARG1 foto
+jadi :ARG0 ia :ARG1 bintang :time malam :mod ini
+jadi :ARG0 ia :ARG1 bintang :time malam :mod ini
+jadi :ARG0 ia :ARG1 bintang :time malam :mod ini
+jadi :ARG0 ia :ARG1 bintang :time malam :mod ini
+jadi :ARG0 ia :ARG1 bintang :time malam :mod ini
+dapat :ARG0 aku :ARG1 tawar :location perusahaan :mod tarik
+dapat :ARG0 aku :ARG1 tawar :location perusahaan :mod tarik
+dapat :ARG0 aku :ARG1 tawar :location perusahaan :mod tarik
+dapat :ARG0 aku :ARG1 tawar :location perusahaan :mod tarik
+dapat :ARG0 aku :ARG1 tawar :location perusahaan :mod tarik
+tawar :ARG0 mereka :ARG1 aku :mod sebagai :mod menajer
+tawar :ARG0 mereka :ARG1 aku :mod sebagai :mod menajer
+tawar :ARG0 mereka :ARG1 aku :mod sebagai :mod menajer
+tawar :ARG0 mereka :ARG1 aku :mod sebagai :mod menajer
+tawar :ARG0 mereka :ARG1 aku :mod sebagai :mod menajer
+lihat :ARG0 mereka :ARG1 hasil :mod skripsi :time kemarin
+lihat :ARG0 mereka :ARG1 hasil :mod skripsi :time kemarin
+lihat :ARG0 mereka :ARG1 hasil :mod skripsi :time kemarin
+lihat :ARG0 mereka :ARG1 hasil :mod skripsi :time kemarin
+lihat :ARG0 mereka :ARG1 hasil :mod skripsi :time kemarin
+senang :ARG0 mereka :ARG1 karya :mod tulis
+senang :ARG0 mereka :ARG1 karya :mod tulis
+senang :ARG0 mereka :ARG1 karya :mod tulis
+senang :ARG0 mereka :ARG1 karya :mod tulis
+senang :ARG0 mereka :ARG1 karya :mod tulis
+tarik :ARG0 sebuah :mod penerbit :ARG1 terbit :mod buku
+lihat :ARG0 mereka :ARG1 contoh :location blog
+lihat :ARG0 mereka :ARG1 contoh :location blog
+lihat :ARG0 mereka :ARG1 contoh :location blog
+lihat :ARG0 mereka :ARG1 contoh :location blog
+lihat :ARG0 mereka :ARG1 contoh :location blog
+judul :ARG0 buku :mod pertama :ARG1 rindu
+judul :ARG0 buku :mod pertama :ARG1 rindu
+raya :ARG0 kami :ARG1 sukses :mod buku
+raya :ARG0 kami :ARG1 sukses :mod buku
+raya :ARG0 kami :ARG1 sukses :mod buku
+raya :ARG0 kami :ARG1 sukses :mod buku
+raya :ARG0 kami :ARG1 sukses :mod buku
+sumbang :ARG0 tia :ARG1 rezeki :location tempat :mod yatim :mod piatu
+sumbang :ARG0 tia :ARG1 rezeki :location tempat :mod yatim :mod piatu
+sumbang :ARG0 tia :ARG1 rezeki :location tempat :mod yatim :mod piatu
+sumbang :ARG0 tia :ARG1 rezeki :location tempat :mod yatim :mod piatu
+sumbang :ARG0 tia :ARG1 rezeki :location tempat :mod yatim :mod piatu
+kenal :ARG0 tia :ARG1 baik :mod orang
+kenal :ARG0 tia :ARG1 baik :mod orang
+rupa :ARG0 ia :ARG1 orang :mod dermawan
+kenal :ARG0 semua :mod satpam :mod kampus :ARG1 orang :nama utami
+kenal :ARG0 semua :mod satpam :mod kampus :ARG1 orang :nama utami
+kenal :ARG0 semua :mod satpam :mod kampus :ARG1 orang :nama utami
+kenal :ARG0 semua :mod satpam :mod kampus :ARG1 orang :nama utami
+kenal :ARG0 semua :mod satpam :mod kampus :ARG1 orang :nama utami
+awal :ARG0 ia :ARG1 karir :mod musik :mod bagus
+awal :ARG0 ia :ARG1 karir :mod musik :mod bagus
+awal :ARG0 ia :ARG1 karir :mod musik :mod bagus
+awal :ARG0 ia :ARG1 karir :mod musik :mod bagus
+awal :ARG0 ia :ARG1 karir :mod musik :mod bagus
+adalah :ARG0 ia :ARG1 bintang :mod sayang :mod gemar :time kini
+adalah :ARG0 ia :ARG1 bintang :mod sayang :mod gemar :time kini
+adalah :ARG0 ia :ARG1 bintang :mod sayang :mod gemar :time kini
+adalah :ARG0 ia :ARG1 bintang :mod sayang :mod gemar :time kini
+adalah :ARG0 ia :ARG1 bintang :mod sayang :mod gemar :time kini
+bawa :ARG0 azhila :ARG1 tas :mod buat :mod kulit :mod harimau :mod asli
+bawa :ARG0 azhila :ARG1 tas :mod buat :mod kulit :mod harimau :mod asli
+bawa :ARG0 azhila :ARG1 tas :mod buat :mod kulit :mod harimau :mod asli
+bawa :ARG0 mereka :ARG1 tas
+bawa :ARG0 mereka :ARG1 tas
+bawa :ARG0 mereka :ARG1 tas
+menang :ARG0 aji :ARG1 lomba :mod tulis :mod karya :mod ilmiah
+menang :ARG0 aji :ARG1 lomba :mod tulis :mod karya :mod ilmiah
+menang :ARG0 aji :ARG1 lomba :mod tulis :mod karya :mod ilmiah
+menang :ARG0 aji :ARG1 lomba :mod tulis :mod karya :mod ilmiah
+menang :ARG0 aji :ARG1 lomba :mod tulis :mod karya :mod ilmiah
+harga :ARG0 juri :ARG1 tulis
+harga :ARG0 juri :ARG1 tulis
+harga :ARG0 juri :ARG1 tulis
+harga :ARG0 juri :ARG1 tulis
+harga :ARG0 juri :ARG1 tulis
+beri :ARG0 lomba :ARG1 hadiah :mod libur :location eropa
+beri :ARG0 lomba :ARG1 hadiah :mod libur :location eropa
+beri :ARG0 lomba :ARG1 hadiah :mod libur :location eropa
+beri :ARG0 lomba :ARG1 hadiah :mod libur :location eropa
+beri :ARG0 lomba :ARG1 hadiah :mod libur :location eropa
+sinar :ARG0 bulan :mod cerah :time malam :mod ini
+sinar :ARG0 bulan :mod cerah :time malam :mod ini
+sinar :ARG0 bulan :mod cerah :time malam :mod ini
+sinar :ARG0 bulan :mod cerah :time malam :mod ini
+sinar :ARG0 bulan :mod cerah :time malam :mod ini
+larut :ARG0 semua :mod orang :ARG1 senang
+larut :ARG0 semua :mod orang :ARG1 senang
+larut :ARG0 semua :mod orang :ARG1 senang
+larut :ARG0 semua :mod orang :ARG1 senang
+tampak :ARG0 gadis :ARG1 nikmat :ARG1 musik
+tampak :ARG0 gadis :ARG1 nikmat :ARG1 musik
+tampak :ARG0 gadis :ARG1 nikmat :ARG1 musik
+tampak :ARG0 gadis :ARG1 nikmat :ARG1 musik
+tampak :ARG0 gadis :ARG1 nikmat :ARG1 musik
+gerak :ARG0 badan :mod irama
+gerak :ARG0 badan :mod irama
+tampak :ARG0 pria :mod berapa :ARG1 kagum :ARG1 lihat :mod jauh
+tampak :ARG0 pria :mod berapa :ARG1 kagum :ARG1 lihat :mod jauh
+kenal :ARG0 ia :ARG1 hanya :mod lewat :mod otak :mod cerdas :time kini
+kenal :ARG0 ia :ARG1 hanya :mod lewat :mod otak :mod cerdas :time kini
+kenal :ARG0 ia :ARG1 hanya :mod lewat :mod otak :mod cerdas :time kini
+kenal :ARG0 ia :ARG1 perempuan :mod pesona
+kenal :ARG0 ia :ARG1 perempuan :mod pesona
+kenal :ARG0 ia :ARG1 perempuan :mod pesona
+akhir :ARG0 bu :name ayu :ARG1 kisah :mod bahagia
+akhir :ARG0 bu :name ayu :ARG1 kisah :mod bahagia
+akhir :ARG0 bu :name ayu :ARG1 kisah :mod bahagia
+akhir :ARG0 bu :name ayu :ARG1 kisah :mod bahagia
+akhir :ARG0 bu :name ayu :ARG1 kisah :mod bahagia
+pilih :ARG0 karya :ARG1 jadi :mod sepuluh :mod karya :mod baik
+pesona :ARG0 orang :ARG1 diri :time hari :mod ini
+pesona :ARG0 orang :ARG1 diri :time hari :mod ini
+pesona :ARG0 orang :ARG1 diri :time hari :mod ini
+pesona :ARG0 orang :ARG1 diri :time hari :mod ini
+pesona :ARG0 orang :ARG1 diri :time hari :mod ini
+datang :ARG0 om :name aria :ARG1 temu :ARG1 tante :name laisha
+datang :ARG0 om :name aria :ARG1 temu :ARG1 tante :name laisha
+datang :ARG0 om :name aria :ARG1 temu :ARG1 tante :name laisha
+datang :ARG0 om :name aria :ARG1 temu :ARG1 tante :name laisha
+datang :ARG0 om :name aria :ARG1 temu :ARG1 tante :name laisha
+duduk :ARG0 mereka :location dalam :mod trem :mod sebelah
+duduk :ARG0 mereka :location dalam :mod trem :mod sebelah
+duduk :ARG0 mereka :location dalam :mod trem :mod sebelah
+duduk :ARG0 mereka :location dalam :mod trem :mod sebelah
+duduk :ARG0 mereka :location dalam :mod trem :mod sebelah
+beri :ARG0 aku :ARG1 uang :mod lima :mod ribu :mod rupiah
+beri :ARG0 aku :ARG1 uang :mod lima :mod ribu :mod rupiah
+beri :ARG0 aku :ARG1 uang :mod lima :mod ribu :mod rupiah
+beri :ARG0 aku :ARG1 uang :mod lima :mod ribu :mod rupiah
+beri :ARG0 aku :ARG1 uang :mod lima :mod ribu :mod rupiah
+beri :ARG0 suster :name nabilla :ARG1 kripik
+beri :ARG0 suster :name nabilla :ARG1 kripik
+beri :ARG0 suster :name nabilla :ARG1 kripik
+beri :ARG0 suster :name nabilla :ARG1 kripik
+beri :ARG0 suster :name nabilla :ARG1 kripik
+selesai :ARG0 pak :name aria :ARG1 tesis
+selesai :ARG0 pak :name aria :ARG1 tesis
+selesai :ARG0 pak :name aria :ARG1 tesis
+bawa :ARG0 paman :name anto :ARG1 bingkisan
+bawa :ARG0 paman :name anto :ARG1 bingkisan
+bawa :ARG0 paman :name anto :ARG1 bingkisan
+kunjung :ARG0 aku :ARG1 museum :name van :name Gogh
+kunjung :ARG0 aku :ARG1 museum :name van :name Gogh
+kunjung :ARG0 aku :ARG1 museum :name van :name Gogh
+main :ARG0 wafir :ARG1 gitar :mod jago
+main :ARG0 wafir :ARG1 gitar :mod jago
+main :ARG0 wafir :ARG1 gitar :mod jago
+ingin :ARG0 aku :ARG1 jadi :ARG1 lebih :mod baik :mod lagi
+ingin :ARG0 aku :ARG1 jadi :ARG1 lebih :mod baik :mod lagi
+ingin :ARG0 aku :ARG1 jadi :ARG1 lebih :mod baik :mod lagi
+ingin :ARG0 aku :ARG1 jadi :ARG1 lebih :mod baik :mod lagi
+ingin :ARG0 aku :ARG1 jadi :ARG1 lebih :mod baik :mod lagi
+temu :ARG0 bu :name ayu :ARG1 pak :name jabbar :location konser :mod sengaja
+temu :ARG0 bu :name ayu :ARG1 pak :name jabbar :location konser :mod sengaja
+pilih :ARG0 mereka :ARG1 gabung
+pilih :ARG0 mereka :ARG1 gabung
+pilih :ARG0 mereka :ARG1 gabung
+pilih :ARG0 mereka :ARG1 gabung
+pilih :ARG0 mereka :ARG1 gabung
+lihat :ARG1 pandang :mod indah
+lihat :ARG1 pandang :mod indah
+anak :ARG0 dewi :mod baik
+anak :ARG0 dewi :mod baik
+anak :ARG0 firman :mod nakal
+anak :ARG0 firman :mod nakal
+indah :ARG1 lukis
+indah :ARG1 lukis
+hembus :ARG0 angin :mod arah :mod barat
+hembus :ARG0 angin :mod arah :mod barat
+hembus :ARG0 angin :mod arah :mod barat
+dari :ARG0 paman :location jawa :mod tengah
+dari :ARG0 paman :location jawa :mod tengah
+pergi :ARG0 saya :location sekolah
+pergi :ARG0 saya :location sekolah
+laksana :ARG1 seminar :location gedung :mod serba :mod guna
+laksana :ARG1 seminar :location gedung :mod serba :mod guna
+kunjung :ARG0 aku :location rumah :time kemarin
+kunjung :ARG0 aku :location rumah :time kemarin
+kunjung :ARG0 aku :location rumah :time kemarin
+kunjung :ARG0 aku :location rumah :time kemarin
+bawa :ARG0 paman :name noel :ARG1 serabi :location semarang
+bawa :ARG0 paman :name noel :ARG1 serabi :location semarang
+bawa :ARG0 paman :name noel :ARG1 serabi :location semarang
+bawa :ARG0 paman :name noel :ARG1 serabi :location semarang
+bawa :ARG0 paman :name noel :ARG1 serabi :location semarang
+laku :ARG1 kerja :mod kelompok :location rumah :name ami :time hari :mod ini
+laku :ARG1 kerja :mod kelompok :location rumah :name ami :time hari :mod ini
+laku :ARG1 kerja :mod kelompok :location rumah :name ami :time hari :mod ini
+laku :ARG1 kerja :mod kelompok :location rumah :name ami :time hari :mod ini
+laku :ARG1 kerja :mod kelompok :location rumah :name ami :time hari :mod ini
+wisata :ARG0 kita :location yogyakarta :time hari :mod ini
+wisata :ARG0 kita :location yogyakarta :time hari :mod ini
+wisata :ARG0 kita :location yogyakarta :time hari :mod ini
+wisata :ARG0 kita :location yogyakarta :time hari :mod ini
+terima :ARG0 kampus :mod ini :ARG1 mahasiswa :mod luar :mod negeri
+terima :ARG0 kampus :mod ini :ARG1 mahasiswa :mod luar :mod negeri
+terima :ARG0 kampus :mod ini :ARG1 mahasiswa :mod luar :mod negeri
+terima :ARG0 kampus :mod ini :ARG1 mahasiswa :mod luar :mod negeri
+terima :ARG0 kampus :mod ini :ARG1 mahasiswa :mod luar :mod negeri
+laku :ARG1 aksi :mod demo :location depan :mod gedung :mod mpr
+laku :ARG1 aksi :mod demo :location depan :mod gedung :mod mpr
+laku :ARG1 aksi :mod demo :location depan :mod gedung :mod mpr
+temu :ARG0 aku :ARG1 orang :mod kawan :mod lama :location bandung
+temu :ARG0 aku :ARG1 orang :mod kawan :mod lama :location bandung
+mampir :ARG0 aku :location rumah :mod makan :time pulang :mod dari :mod kantor
+mampir :ARG0 aku :location rumah :mod makan :time pulang :mod dari :mod kantor
+mampir :ARG0 aku :location rumah :mod makan :time pulang :mod dari :mod kantor
+mampir :ARG0 aku :location rumah :mod makan :time pulang :mod dari :mod kantor
+mampir :ARG0 aku :location rumah :mod makan :time pulang :mod dari :mod kantor
+naik :ARG0 kami :ARG1 kereta :mod api :location stasiun :name gambir
+naik :ARG0 kami :ARG1 kereta :mod api :location stasiun :name gambir
+naik :ARG0 kami :ARG1 kereta :mod api :location stasiun :name gambir
+naik :ARG0 kami :ARG1 kereta :mod api :location stasiun :name gambir
+naik :ARG0 kami :ARG1 kereta :mod api :location stasiun :name gambir
+rupa :ARG0 dodol :ARG1 makan :mod khas :location garut
+wisata :ARG0 banyak :mod wisata :mod mancanegara :location pulau :mod bali
+wisata :ARG0 banyak :mod wisata :mod mancanegara :location pulau :mod bali
+dapat :ARG1 banyak :mod koleksi :mod main :mod zaman :mod dulu :location rumah
+dapat :ARG1 banyak :mod koleksi :mod main :mod zaman :mod dulu :location rumah
+rupa :ARG0 profesor :name manaf :ARG1 jebol :location universitas :location connecticut
+baca :ARG0 ibu :name dita :ARG1 buku
+baca :ARG0 ibu :name dita :ARG1 buku
+baca :ARG0 ibu :name dita :ARG1 buku
+baca :ARG0 ibu :name dita :ARG1 buku
+baca :ARG0 ibu :name dita :ARG1 buku
+beli :ARG0 pak :name roni :ARG1 roti
+beli :ARG0 pak :name roni :ARG1 roti
+beli :ARG0 pak :name roni :ARG1 roti
+beli :ARG0 pak :name roni :ARG1 roti
+beli :ARG0 pak :name roni :ARG1 roti
+kena :ARG0 mbak :name tukimin :ARG1 baju :mod merah
+kena :ARG0 mbak :name tukimin :ARG1 baju :mod merah
+kena :ARG0 mbak :name tukimin :ARG1 baju :mod merah
+kena :ARG0 mbak :name tukimin :ARG1 baju :mod merah
+kena :ARG0 mbak :name tukimin :ARG1 baju :mod merah
+cetak :ARG0 kita :ARG1 gol :location gawang :mod lawan
+cetak :ARG0 kita :ARG1 gol :location gawang :mod lawan
+cetak :ARG0 kita :ARG1 gol :location gawang :mod lawan
+cetak :ARG0 kita :ARG1 gol :location gawang :mod lawan
+cetak :ARG0 kita :ARG1 gol :location gawang :mod lawan
+pintal :ARG0 mbak :name shinta :ARG1 benang :mod wol
+pintal :ARG0 mbak :name shinta :ARG1 benang :mod wol
+pintal :ARG0 mbak :name shinta :ARG1 benang :mod wol
+pintal :ARG0 mbak :name shinta :ARG1 benang :mod wol
+pintal :ARG0 mbak :name shinta :ARG1 benang :mod wol
+ketik :ARG0 saya :ARG1 cerita
+ketik :ARG0 saya :ARG1 cerita
+ketik :ARG0 saya :ARG1 cerita
+ketik :ARG0 saya :ARG1 cerita
+ketik :ARG0 saya :ARG1 cerita
+ada :ARG1 balon :mod lima
+ada :ARG1 balon :mod lima
+ada :ARG0 aku :location depan :mod gedung
+ada :ARG0 aku :location depan :mod gedung
+ada :ARG0 aku :location depan :mod gedung
+ada :ARG0 aku :location depan :mod gedung
+haus :ARG0 kita
+haus :ARG0 kita
+beli :ARG0 ayah :name dodi :ARG1 motor
+beli :ARG0 ayah :name dodi :ARG1 motor
+beli :ARG0 ayah :name dodi :ARG1 motor
+beli :ARG0 ayah :name dodi :ARG1 motor
+beli :ARG0 ayah :name dodi :ARG1 motor
+jual :ARG0 ibu :name sukiyem :ARG1 kue :location pasar
+jual :ARG0 ibu :name sukiyem :ARG1 kue :location pasar
+jual :ARG0 ibu :name sukiyem :ARG1 kue :location pasar
+jual :ARG0 ibu :name sukiyem :ARG1 kue :location pasar
+jual :ARG0 ibu :name sukiyem :ARG1 kue :location pasar
+tanya :ARG0 mas :name ridho :ARG1 guru
+tanya :ARG0 mas :name ridho :ARG1 guru
+tanya :ARG0 mas :name ridho :ARG1 guru
+tanya :ARG0 mas :name ridho :ARG1 guru
+tanya :ARG0 mas :name ridho :ARG1 guru
+gonggong :ARG0 anjing
+gonggong :ARG0 anjing
+aum :ARG1 harimau :mod suara
+aum :ARG1 harimau :mod suara
+aum :ARG1 harimau :mod suara
+lari :ARG0 kucing
+lari :ARG0 kucing
+tidur :ARG0 adik
+tidur :ARG0 adik
+tidur :ARG0 adik
+masak :ARG0 ibu :name rina :location dapur
+masak :ARG0 ibu :name rina :location dapur
+masak :ARG0 ibu :name rina :location dapur
+masak :ARG0 ibu :name rina :location dapur
+masak :ARG0 ibu :name rina :location dapur
+pergi :ARG0 ibu :name tina :location pasar
+pergi :ARG0 ibu :name tina :location pasar
+pergi :ARG0 ibu :name tina :location pasar
+pergi :ARG0 ibu :name tina :location pasar
+tulis :ARG0 kak :name rima :ARG1 surat
+tulis :ARG0 kak :name rima :ARG1 surat
+tulis :ARG0 kak :name rima :ARG1 surat
+tulis :ARG0 kak :name rima :ARG1 surat
+tulis :ARG0 kak :name rima :ARG1 surat
+tutup :ARG0 pak :name toni :ARG1 jendela
+tutup :ARG0 pak :name toni :ARG1 jendela
+tutup :ARG0 pak :name toni :ARG1 jendela
+tutup :ARG0 pak :name toni :ARG1 jendela
+tutup :ARG0 pak :name toni :ARG1 jendela
+desah :ARG0 bu :name ayu
+desah :ARG0 bu :name ayu
+siram :ARG0 bu :name susi :ARG1 tanam
+siram :ARG0 bu :name susi :ARG1 tanam
+siram :ARG0 bu :name susi :ARG1 tanam
+siram :ARG0 bu :name susi :ARG1 tanam
+siram :ARG0 bu :name susi :ARG1 tanam
+goda :ARG0 dia
+goda :ARG0 dia
+duduk :ARG0 dia
+duduk :ARG0 dia
+duduk :ARG0 dia
+simpuh :ARG0 ibu :name dodi
+simpuh :ARG0 ibu :name dodi
+simpuh :ARG0 ibu :name dodi
+sujud :ARG0 kami
+sujud :ARG0 kami
+rangkak :ARG0 balita
+rangkak :ARG0 balita
+rangkak :ARG0 balita
+panjat :ARG1 mereka
+panjat :ARG1 mereka
+siaga :ARG0 polisi
+siaga :ARG0 polisi
+teriak :ARG0 aku
+teriak :ARG0 aku
+atur :ARG0 polisi :ARG1 lalin
+atur :ARG0 polisi :ARG1 lalin
+atur :ARG0 polisi :ARG1 lalin
+atur :ARG0 polisi :ARG1 lalin
+atur :ARG0 polisi :ARG1 lalin
+tutup :ARG0 bu :name resti :ARG1 mata
+tutup :ARG0 bu :name resti :ARG1 mata
+tutup :ARG0 bu :name resti :ARG1 mata
+tutup :ARG0 bu :name resti :ARG1 mata
+tutup :ARG0 bu :name resti :ARG1 mata
+buat :ARG0 kak :name sally :ARG1 adon
+buat :ARG0 kak :name sally :ARG1 adon
+buat :ARG0 kak :name sally :ARG1 adon
+buat :ARG0 kak :name sally :ARG1 adon
+buat :ARG0 kak :name sally :ARG1 adon
+ikut :ARG0 aku :ARG1 bapak :name john
+ikut :ARG0 aku :ARG1 bapak :name john
+ikut :ARG0 aku :ARG1 bapak :name john
+ikut :ARG0 aku :ARG1 bapak :name john
+ikut :ARG0 aku :ARG1 bapak :name john
+bangun :ARG0 tukang :ARG1 rumah
+bangun :ARG0 tukang :ARG1 rumah
+bangun :ARG0 tukang :ARG1 rumah
+bangun :ARG0 tukang :ARG1 rumah
+bangun :ARG0 tukang :ARG1 rumah
+nanti :ARG0 nenek :name yanti :ARG1 kakek :name joni
+nanti :ARG0 nenek :name yanti :ARG1 kakek :name joni
+nanti :ARG0 nenek :name yanti :ARG1 kakek :name joni
+nanti :ARG0 nenek :name yanti :ARG1 kakek :name joni
+basuh :ARG0 kami :ARG1 muka
+basuh :ARG0 kami :ARG1 muka
+basuh :ARG0 kami :ARG1 muka
+basuh :ARG0 kami :ARG1 muka
+basuh :ARG0 kami :ARG1 muka
+tampar :ARG0 pakdhe :name yayas :ARG1 kakak
+tampar :ARG0 pakdhe :name yayas :ARG1 kakak
+tampar :ARG0 pakdhe :name yayas :ARG1 kakak
+tampar :ARG0 pakdhe :name yayas :ARG1 kakak
+donor :ARG0 kami :ARG1 darah
+donor :ARG0 kami :ARG1 darah
+donor :ARG0 kami :ARG1 darah
+donor :ARG0 kami :ARG1 darah
+tipu :ARG0 om :name wiwit :ARG1 teman
+tipu :ARG0 om :name wiwit :ARG1 teman
+tipu :ARG0 om :name wiwit :ARG1 teman
+tipu :ARG0 om :name wiwit :ARG1 teman
+tipu :ARG0 om :name wiwit :ARG1 teman
+tarik :ARG0 ibu :ARG1 adik
+tarik :ARG0 ibu :ARG1 adik
+tarik :ARG0 ibu :ARG1 adik
+tarik :ARG0 ibu :ARG1 adik
+rindu :ARG0 aku :ARG1 bu :name azka
+rindu :ARG0 aku :ARG1 bu :name azka
+rindu :ARG0 aku :ARG1 bu :name azka
+rindu :ARG0 aku :ARG1 bu :name azka
+rindu :ARG0 aku :ARG1 bu :name azka
+bawa :ARG0 adik :ARG1 makan
+bawa :ARG0 adik :ARG1 makan
+bawa :ARG0 adik :ARG1 makan
+bawa :ARG0 adik :ARG1 makan
+bawa :ARG0 adik :ARG1 makan
+rawat :ARG0 suster :name siska :ARG1 pasien
+rawat :ARG0 suster :name siska :ARG1 pasien
+rawat :ARG0 suster :name siska :ARG1 pasien
+rawat :ARG0 suster :name siska :ARG1 pasien
+rawat :ARG0 suster :name siska :ARG1 pasien
+cicip :ARG0 tante :name suti :ARG1 masak
+cicip :ARG0 tante :name suti :ARG1 masak
+cicip :ARG0 tante :name suti :ARG1 masak
+cicip :ARG0 tante :name suti :ARG1 masak
+cicip :ARG0 tante :name suti :ARG1 masak
+cerita :ARG0 aku
+cerita :ARG0 aku
+cerita :ARG0 aku
+tinggal :ARG0 kakek :name glenn
+tinggal :ARG0 kakek :name glenn
+lamar :ARG0 tante :name siti :ARG1 kerja
+lamar :ARG0 tante :name siti :ARG1 kerja
+lamar :ARG0 tante :name siti :ARG1 kerja
+lamar :ARG0 tante :name siti :ARG1 kerja
+lamar :ARG0 tante :name siti :ARG1 kerja
+tembak :ARG0 peluru :ARG1 doni
+tembak :ARG0 peluru :ARG1 doni
+rambut :ARG0 nenek :name krista :ARG1 putih
+rambut :ARG0 nenek :name krista :ARG1 putih
+rambut :ARG0 nenek :name krista :ARG1 putih
+rambut :ARG0 nenek :name krista :ARG1 putih
+kata :ARG0 kak :name putri :ARG1 kasar
+kata :ARG0 kak :name putri :ARG1 kasar
+tabrak :ARG0 mobil :ARG1 adik :name kayla
+tabrak :ARG0 mobil :ARG1 adik :name kayla
+tabrak :ARG0 mobil :ARG1 adik :name kayla
+tabrak :ARG0 mobil :ARG1 adik :name kayla
+tabrak :ARG0 mobil :ARG1 adik :name kayla
+teriak :ARG0 kami
+teriak :ARG0 kami
+timpa :ARG0 pak :name risman :ARG1 pohon
+timpa :ARG0 pak :name risman :ARG1 pohon
+timpa :ARG0 pak :name risman :ARG1 pohon
+baca :ARG0 bu :name angela :ARG1 naskah :mod drama
+baca :ARG0 bu :name angela :ARG1 naskah :mod drama
+baca :ARG0 bu :name angela :ARG1 naskah :mod drama
+baca :ARG0 bu :name angela :ARG1 naskah :mod drama
+baca :ARG0 bu :name angela :ARG1 naskah :mod drama
+bawa :ARG0 ibu :ARG1 adik :location pasar
+bawa :ARG0 ibu :ARG1 adik :location pasar
+bawa :ARG0 ibu :ARG1 adik :location pasar
+bawa :ARG0 ibu :ARG1 adik :location pasar
+bawa :ARG0 ibu :ARG1 adik :location pasar
+gelar :ARG0 budhe :name tiwi :ARG1 tikar
+gelar :ARG0 budhe :name tiwi :ARG1 tikar
+gelar :ARG0 budhe :name tiwi :ARG1 tikar
+gelar :ARG0 budhe :name tiwi :ARG1 tikar
+gelar :ARG0 budhe :name tiwi :ARG1 tikar
+bawa :ARG0 pak :name ahmad :ARG1 makan
+bawa :ARG0 pak :name ahmad :ARG1 makan
+bawa :ARG0 pak :name ahmad :ARG1 makan
+bawa :ARG0 pak :name ahmad :ARG1 makan
+bawa :ARG0 pak :name ahmad :ARG1 makan
+hadir :ARG0 kakak :name dina :ARG1 pesta :mod nikah
+hadir :ARG0 kakak :name dina :ARG1 pesta :mod nikah
+hadir :ARG0 kakak :name dina :ARG1 pesta :mod nikah
+hadir :ARG0 kakak :name dina :ARG1 pesta :mod nikah
+hadir :ARG0 kakak :name dina :ARG1 pesta :mod nikah
+jahit :ARG0 ibu :name fio :ARG1 baju
+jahit :ARG0 ibu :name fio :ARG1 baju
+jahit :ARG0 ibu :name fio :ARG1 baju
+jahit :ARG0 ibu :name fio :ARG1 baju
+jahit :ARG0 ibu :name fio :ARG1 baju
+baik :ARG0 om :name bagus :ARG1 motor
+baik :ARG0 om :name bagus :ARG1 motor
+baik :ARG0 om :name bagus :ARG1 motor
+baik :ARG0 om :name bagus :ARG1 motor
+baik :ARG0 om :name bagus :ARG1 motor
+sumbang :ARG0 pak :name ridwan :ARG1 semen
+sumbang :ARG0 pak :name ridwan :ARG1 semen
+sumbang :ARG0 pak :name ridwan :ARG1 semen
+sumbang :ARG0 pak :name ridwan :ARG1 semen
+sumbang :ARG0 pak :name ridwan :ARG1 semen
+benam :ARG0 bu :name bowo :ARG1 tikus :location sawah
+benam :ARG0 bu :name bowo :ARG1 tikus :location sawah
+benam :ARG0 bu :name bowo :ARG1 tikus :location sawah
+benam :ARG0 bu :name bowo :ARG1 tikus :location sawah
+benam :ARG0 bu :name bowo :ARG1 tikus :location sawah
+nyanyi :ARG0 afgan :ARG1 lagu :mod sendu
+nyanyi :ARG0 afgan :ARG1 lagu :mod sendu
+nyanyi :ARG0 afgan :ARG1 lagu :mod sendu
+nyanyi :ARG0 afgan :ARG1 lagu :mod sendu
+nyanyi :ARG0 afgan :ARG1 lagu :mod sendu
+simpan :ARG0 ibu :name tina :ARG1 wasiat
+simpan :ARG0 ibu :name tina :ARG1 wasiat
+simpan :ARG0 ibu :name tina :ARG1 wasiat
+simpan :ARG0 ibu :name tina :ARG1 wasiat
+simpan :ARG0 ibu :name tina :ARG1 wasiat
+kunci :ARG0 ayah :ARG1 pintu
+kunci :ARG0 ayah :ARG1 pintu
+kunci :ARG0 ayah :ARG1 pintu
+kunci :ARG0 ayah :ARG1 pintu
+kunci :ARG0 ayah :ARG1 pintu
+rawat :ARG0 adik :ARG1 kucing
+rawat :ARG0 adik :ARG1 kucing
+rawat :ARG0 adik :ARG1 kucing
+rawat :ARG0 adik :ARG1 kucing
+rawat :ARG0 adik :ARG1 kucing
+jaga :ARG0 tni :ARG1 bhineka
+jaga :ARG0 tni :ARG1 bhineka
+jaga :ARG0 tni :ARG1 bhineka
+jaga :ARG0 tni :ARG1 bhinneka
+jaga :ARG0 tni :ARG1 bhinneka
+jaga :ARG0 tni :ARG1 bhinneka
+tuntut :ARG0 buruh :ARG1 gaji
+tuntut :ARG0 buruh :ARG1 gaji
+tuntut :ARG0 buruh :ARG1 gaji
+suka :ARG0 pak :name bagus :ARG1 bu :name ani
+suka :ARG0 pak :name bagus :ARG1 bu :name ani
+suka :ARG0 pak :name bagus :ARG1 bu :name ani
+suka :ARG0 pak :name bagus :ARG1 bu :name ani
+suka :ARG0 pak :name bagus :ARG1 bu :name ani
+buang :ARG0 paman :ARG1 sampah
+buang :ARG0 paman :ARG1 sampah
+buang :ARG0 paman :ARG1 sampah
+buang :ARG0 paman :ARG1 sampah
+buang :ARG0 paman :ARG1 sampah
+marah :ARG0 yanto :ARG1 tugas
+marah :ARG0 yanto :ARG1 tugas
+marah :ARG0 yanto :ARG1 tugas
+marah :ARG0 yanto :ARG1 tugas
+marah :ARG0 yanto :ARG1 tugas
+tuang :ARG0 ibu :name rina :ARG1 air
+tuang :ARG0 ibu :name rina :ARG1 air
+tuang :ARG0 ibu :name rina :ARG1 air
+tuang :ARG0 ibu :name rina :ARG1 air
+tuang :ARG0 ibu :name rina :ARG1 air
+usir :ARG0 jajah :ARG1 pribumi
+usir :ARG0 jajah :ARG1 pribumi
+usir :ARG0 jajah :ARG1 pribumi
+benci :ARG0 kami :ARG1 bohong
+benci :ARG0 kami :ARG1 bohong
+benci :ARG0 kami :ARG1 bohong
+peluk :ARG0 mereka
+peluk :ARG0 mereka
+salam :ARG0 kami
+salam :ARG0 kami
+timpa :ARG0 pohon :ARG1 mas :name rio
+timpa :ARG0 pohon :ARG1 mas :name rio
+timpa :ARG0 pohon :ARG1 mas :name rio
+tembak :ARG0 duta :mod besar :ARG1 peluru
+tembak :ARG0 duta :mod besar :ARG1 peluru
+potret :ARG0 turis :ARG1 pawai
+potret :ARG0 turis :ARG1 pawai
+potret :ARG0 turis :ARG1 pawai
+kirim :ARG0 aku :ARG1 pesan :location beli
+kirim :ARG0 aku :ARG1 pesan :location beli
+kirim :ARG0 aku :ARG1 pesan :location beli
+kirim :ARG0 aku :ARG1 pesan :location beli
+kirim :ARG0 aku :ARG1 pesan :location beli
+ajar :ARG0 bu :name hana :ARG1 statistik :mod mahasiswa
+ajar :ARG0 bu :name hana :ARG1 statistik :mod mahasiswa
+ajar :ARG0 bu :name hana :ARG1 statistik :mod mahasiswa
+ajar :ARG0 bu :name hana :ARG1 statistik :mod mahasiswa
+ajar :ARG0 bu :name hana :ARG1 statistik :mod mahasiswa
+beli :ARG0 kami :ARG1 buku :location toko :name gramedia
+beli :ARG0 kami :ARG1 buku :location toko :name gramedia
+beli :ARG0 kami :ARG1 buku :location toko :name gramedia
+beli :ARG0 kami :ARG1 buku :location toko :name gramedia
+beli :ARG0 kami :ARG1 buku :location toko :name gramedia
+jatuh :ARG0 ayah :location simpang :mod jalan
+jatuh :ARG0 ayah :location simpang :mod jalan
+tinggal :ARG0 kakak :name judi :ARG1 pacar
+tinggal :ARG0 kakak :name judi :ARG1 pacar
+tinggal :ARG0 kakak :name judi :ARG1 pacar
+tinggal :ARG0 kakak :name judi :ARG1 pacar
+tinggal :ARG0 kakak :name judi :ARG1 pacar
+pidato :ARG0 pak :name camat :location podium
+pidato :ARG0 pak :name camat :location podium
+pidato :ARG0 pak :name camat :location podium
+pidato :ARG0 pak :name camat :location podium
+pimpin :ARG0 ulama :name abdul :ARG1 umat
+pimpin :ARG0 ulama :name abdul :ARG1 umat
+pimpin :ARG0 ulama :name abdul :ARG1 umat
+beli :ARG0 ibu :ARG1 sayur :location warung
+beli :ARG0 ibu :ARG1 sayur :location warung
+beli :ARG0 ibu :ARG1 sayur :location warung
+beli :ARG0 ibu :ARG1 sayur :location warung
+beli :ARG0 ibu :ARG1 sayur :location warung
+tanam :ARG0 kak :name mira :ARG1 tanam :mod obat
+tanam :ARG0 kak :name mira :ARG1 tanam :mod obat
+tanam :ARG0 kak :name mira :ARG1 tanam :mod obat
+tanam :ARG0 kak :name mira :ARG1 tanam :mod obat
+tanam :ARG0 kak :name mira :ARG1 tanam :mod obat
+datang :ARG0 kami :location yogyakarta
+datang :ARG0 kami :location yogyakarta
+olahraga :ARG0 kami
+olahraga :ARG0 kami
+olahraga :ARG0 kami
+sampai :ARG0 mahasiswa :ARG1 orasi :location tengah :mod jalan
+sampai :ARG0 mahasiswa :ARG1 orasi :location tengah :mod jalan
+sampai :ARG0 mahasiswa :ARG1 orasi :location tengah :mod jalan
+sampai :ARG0 mahasiswa :ARG1 orasi :location tengah :mod jalan
+sampai :ARG0 mahasiswa :ARG1 orasi :location tengah :mod jalan
+berangkat :ARG0 adik :location sekolah
+berangkat :ARG0 adik :location sekolah
+berangkat :ARG0 adik :location sekolah
+buka :ARG0 mas :name linton :ARG1 kaleng :mod roti
+buka :ARG0 mas :name linton :ARG1 kaleng :mod roti
+buka :ARG0 mas :name linton :ARG1 kaleng :mod roti
+buka :ARG0 mas :name linton :ARG1 kaleng :mod roti
+buka :ARG0 mas :name linton :ARG1 kaleng :mod roti
+belanja :ARG0 ibu
+belanja :ARG0 ibu
+belanja :ARG0 ibu
+umum :ARG0 kepala :mod sekolah :ARG1 nilai
+umum :ARG0 kepala :mod sekolah :ARG1 nilai
+umum :ARG0 kepala :mod sekolah :ARG1 nilai
+umum :ARG0 kepala :mod sekolah :ARG1 nilai
+umum :ARG0 kepala :mod sekolah :ARG1 nilai
+dukung :ARG0 rakyat :ARG1 perintah
+dukung :ARG0 rakyat :ARG1 perintah
+dukung :ARG0 rakyat :ARG1 perintah
+pukul :ARG0 pak :name joko :ARG1 curi :location rumah
+pukul :ARG0 pak :name joko :ARG1 curi :location rumah
+pukul :ARG0 pak :name joko :ARG1 curi :location rumah
+pukul :ARG0 pak :name joko :ARG1 curi :location rumah
+pukul :ARG0 pak :name joko :ARG1 curi :location rumah
+buka :ARG0 saya :ARG1 kaleng :mod roti
+buka :ARG0 saya :ARG1 kaleng :mod roti
+buka :ARG0 saya :ARG1 kaleng :mod roti
+buka :ARG0 saya :ARG1 kaleng :mod roti
+buka :ARG0 saya :ARG1 kaleng :mod roti
+belanja :ARG0 saya
+belanja :ARG0 saya
+belanja :ARG0 saya
+umum :ARG0 direktur :ARG1 nilai
+umum :ARG0 direktur :ARG1 nilai
+umum :ARG0 direktur :ARG1 nilai
+umum :ARG0 direktur :ARG1 nilai
+umum :ARG0 direktur :ARG1 nilai
+dukung :ARG0 bu :name susi :ARG1 perintah
+dukung :ARG0 bu :name susi :ARG1 perintah
+dukung :ARG0 bu :name susi :ARG1 perintah
+pukul :ARG0 ayah :ARG1 curi :location rumah
+pukul :ARG0 ayah :ARG1 curi :location rumah
+pukul :ARG0 ayah :ARG1 curi :location rumah
+pukul :ARG0 ayah :ARG1 curi :location rumah
+pukul :ARG0 ayah :ARG1 curi :location rumah
+tentu :ARG0 cpu :ARG1 menang
+tentu :ARG0 cpu :ARG1 menang
+tentu :ARG0 cpu :ARG1 menang
+tentu :ARG0 cpu :ARG1 menang
+beri :ARG0 pak :name dwi :ARG1 hadiah :ARG1 menang
+beri :ARG0 pak :name dwi :ARG1 hadiah :ARG1 menang
+beri :ARG0 pak :name dwi :ARG1 hadiah :ARG1 menang
+beri :ARG0 pak :name dwi :ARG1 hadiah :ARG1 menang
+beri :ARG0 pak :name dwi :ARG1 hadiah :ARG1 menang
+pegang :ARG0 saya :ARG1 adik :mod perempuan
+pegang :ARG0 saya :ARG1 adik :mod perempuan
+pegang :ARG0 saya :ARG1 adik :mod perempuan
+pegang :ARG0 saya :ARG1 adik :mod perempuan
+pegang :ARG0 saya :ARG1 adik :mod perempuan
+bawa :ARG0 bu :name sakinah :ARG1 adik :location sekolah
+bawa :ARG0 bu :name sakinah :ARG1 adik :location sekolah
+bawa :ARG0 bu :name sakinah :ARG1 adik :location sekolah
+bawa :ARG0 bu :name sakinah :ARG1 adik :location sekolah
+pilih :ARG0 anda :ARG1 pasang
+pilih :ARG0 anda :ARG1 pasang
+pilih :ARG0 anda :ARG1 pasang
+raya :ARG0 kami :ARG1 menang
+raya :ARG0 kami :ARG1 menang
+raya :ARG0 kami :ARG1 menang
+raya :ARG0 kami :ARG1 menang
+raya :ARG0 kami :ARG1 menang
+aju :ARG0 mas :name anis :ARG1 keluh
+aju :ARG0 mas :name anis :ARG1 keluh
+aju :ARG0 mas :name anis :ARG1 keluh
+aju :ARG0 mas :name anis :ARG1 keluh
+aju :ARG0 mas :name anis :ARG1 keluh
+gambar :ARG1 deformasi
+lukis :ARG0 bu :name okta :ARG1 wanita
+lukis :ARG0 bu :name okta :ARG1 wanita
+lukis :ARG0 bu :name okta :ARG1 wanita
+lukis :ARG0 bu :name okta :ARG1 wanita
+lukis :ARG0 bu :name okta :ARG1 wanita
+cetak :ARG0 mas :name budi :ARG1 kartu :mod nama :location sampurna
+cetak :ARG0 mas :name budi :ARG1 kartu :mod nama :location sampurna
+cetak :ARG0 mas :name budi :ARG1 kartu :mod nama :location sampurna
+cetak :ARG0 mas :name budi :ARG1 kartu :mod nama :location sampurna
+cetak :ARG0 mas :name budi :ARG1 kartu :mod nama :location sampurna
+lompat :ARG0 saudara
+lompat :ARG0 saudara
+lompat :ARG0 saudara
+bela :ARG0 pengacara :ARG1 dakwa :location adil
+bela :ARG0 pengacara :ARG1 dakwa :location adil
+bela :ARG0 pengacara :ARG1 dakwa :location adil
+bela :ARG0 pengacara :ARG1 dakwa :location adil
+bela :ARG0 pengacara :ARG1 dakwa :location adil
+hukum :ARG0 hakim
+hukum :ARG0 hakim
+tuntut :ARG0 jaksa :ARG1 sangka :location adil
+tuntut :ARG0 jaksa :ARG1 sangka :location adil
+tuntut :ARG0 jaksa :ARG1 sangka :location adil
+tuntut :ARG0 jaksa :ARG1 sangka :location adil
+tuntut :ARG0 jaksa :ARG1 sangka :location adil
+terima :ARG0 mereka :ARG1 kalah
+terima :ARG0 mereka :ARG1 kalah
+terima :ARG0 mereka :ARG1 kalah
+terima :ARG0 mereka :ARG1 kalah
+terima :ARG0 mereka :ARG1 kalah
+jual :ARG0 adik :name zahra :ARG1 kue
+jual :ARG0 adik :name zahra :ARG1 kue
+jual :ARG0 adik :name zahra :ARG1 kue
+jual :ARG0 adik :name zahra :ARG1 kue
+jual :ARG0 adik :name zahra :ARG1 kue
+beri :ARG0 ibu :ARG1 makan
+beri :ARG0 ibu :ARG1 makan
+beri :ARG0 ibu :ARG1 makan
+beri :ARG0 ibu :ARG1 makan
+beri :ARG0 ibu :ARG1 makan
+dapat :ARG0 suster :name diana :ARG1 uang
+dapat :ARG0 suster :name diana :ARG1 uang
+dapat :ARG0 suster :name diana :ARG1 uang
+dapat :ARG0 suster :name diana :ARG1 uang
+dapat :ARG0 suster :name diana :ARG1 uang
+habis :ARG0 anda :ARG1 uang
+habis :ARG0 anda :ARG1 uang
+habis :ARG0 anda :ARG1 uang
+habis :ARG0 anda :ARG1 uang
+habis :ARG0 anda :ARG1 uang
+bakar :ARG0 rumun :mod orang :ARG1 mobil :location jalan
+bakar :ARG0 rumun :mod orang :ARG1 mobil :location jalan
+bakar :ARG0 rumun :mod orang :ARG1 mobil :location jalan
+bakar :ARG0 rumun :mod orang :ARG1 mobil :location jalan
+bakar :ARG0 rumun :mod orang :ARG1 mobil :location jalan
+tangkap :ARG0 warga :ARG1 babi :location hutan
+tangkap :ARG0 warga :ARG1 babi :location hutan
+tangkap :ARG0 warga :ARG1 babi :location hutan
+tangkap :ARG0 warga :ARG1 babi :location hutan
+tangkap :ARG0 warga :ARG1 babi :location hutan
+cerita :ARG0 bu :name zee :name zee :ARG1 kisah :mod tragis
+cerita :ARG0 bu :name zee :name zee :ARG1 kisah :mod tragis
+cerita :ARG0 bu :name zee :name zee :ARG1 kisah :mod tragis
+cerita :ARG0 bu :name zee :name zee :ARG1 kisah :mod tragis
+cerita :ARG0 bu :name zee :name zee :ARG1 kisah :mod tragis
+tangkap :ARG0 para :mod jaga :ARG1 curi
+tangkap :ARG0 para :mod jaga :ARG1 curi
+tangkap :ARG0 para :mod jaga :ARG1 curi
+tangkap :ARG0 para :mod jaga :ARG1 curi
+tangkap :ARG0 para :mod jaga :ARG1 curi
+seka :ARG0 saya :ARG1 lantai
+seka :ARG0 saya :ARG1 lantai
+seka :ARG0 saya :ARG1 lantai
+seka :ARG0 saya :ARG1 lantai
+seka :ARG0 saya :ARG1 lantai
+pelihara :ARG0 tentara :ARG1 damai :location Indonesia
+pelihara :ARG0 tentara :ARG1 damai :location Indonesia
+pelihara :ARG0 tentara :ARG1 damai :location Indonesia
+pelihara :ARG0 tentara :ARG1 damai :location Indonesia
+pelihara :ARG0 tentara :ARG1 damai :location Indonesia
+cari :ARG0 saya :ARG1 nafkah
+cari :ARG0 saya :ARG1 nafkah
+cari :ARG0 saya :ARG1 nafkah
+cari :ARG0 saya :ARG1 nafkah
+cari :ARG0 saya :ARG1 nafkah
+tanam :ARG0 pak :name ogah :ARG1 padi
+tanam :ARG0 pak :name ogah :ARG1 padi
+tanam :ARG0 pak :name ogah :ARG1 padi
+tanam :ARG0 pak :name ogah :ARG1 padi
+tanam :ARG0 pak :name ogah :ARG1 padi
+beli :ARG0 kontraktor :ARG1 tanam
+beli :ARG0 kontraktor :ARG1 tanam
+beli :ARG0 kontraktor :ARG1 tanam
+beli :ARG0 kontraktor :ARG1 tanam
+beli :ARG0 kontraktor :ARG1 tanam
+peras :ARG0 antara :ARG1 tani
+peras :ARG0 antara :ARG1 tani
+peras :ARG0 antara :ARG1 tani
+peras :ARG0 antara :ARG1 tani
+peras :ARG0 antara :ARG1 tani
+tonton :ARG0 dik :name dilan :ARG1 kartun :location tv
+tonton :ARG0 dik :name dilan :ARG1 kartun :location tv
+tonton :ARG0 dik :name dilan :ARG1 kartun :location tv
+tonton :ARG0 dik :name dilan :ARG1 kartun :location tv
+tonton :ARG0 dik :name dilan :ARG1 kartun :location tv
+tuang :ARG0 ibu :name salsa :ARG1 air
+tuang :ARG0 ibu :name salsa :ARG1 air
+tuang :ARG0 ibu :name salsa :ARG1 air
+tuang :ARG0 ibu :name salsa :ARG1 air
+tuang :ARG0 ibu :name salsa :ARG1 air
+lipat :ARG0 ibu :ARG1 pakai
+lipat :ARG0 ibu :ARG1 pakai
+lipat :ARG0 ibu :ARG1 pakai
+lipat :ARG0 ibu :ARG1 pakai
+lipat :ARG0 ibu :ARG1 pakai
+liput :ARG0 wartawan :ARG1 berita
+liput :ARG0 wartawan :ARG1 berita
+liput :ARG0 wartawan :ARG1 berita
+liput :ARG0 wartawan :ARG1 berita
+liput :ARG0 wartawan :ARG1 berita
+kunyah :ARG0 sister :name asti :ARG1 permen
+kunyah :ARG0 sister :name asti :ARG1 permen
+kunyah :ARG0 sister :name asti :ARG1 permen
+kunyah :ARG0 sister :name asti :ARG1 permen
+kunyah :ARG0 sister :name asti :ARG1 permen
+kendara :ARG0 ayah :ARG1 mobil
+kendara :ARG0 ayah :ARG1 mobil
+kendara :ARG0 ayah :ARG1 mobil
+kendara :ARG0 ayah :ARG1 mobil
+kendara :ARG0 ayah :ARG1 mobil
+buat :ARG0 bu :name prapto :ARG1 pupuk
+buat :ARG0 bu :name prapto :ARG1 pupuk
+buat :ARG0 bu :name prapto :ARG1 pupuk
+buat :ARG0 bu :name prapto :ARG1 pupuk
+buat :ARG0 bu :name prapto :ARG1 pupuk
+ledak :ARG0 pak :name adi :ARG1 pipa :location halaman
+ledak :ARG0 pak :name adi :ARG1 pipa :location halaman
+ledak :ARG0 pak :name adi :ARG1 pipa :location halaman
+ledak :ARG0 pak :name adi :ARG1 pipa :location halaman
+ledak :ARG0 pak :name adi :ARG1 pipa :location halaman
+tanam :ARG0 krishna :ARG1 kedelai :location kebun
+tanam :ARG0 krishna :ARG1 kedelai :location kebun
+tanam :ARG0 krishna :ARG1 kedelai :location kebun
+tanam :ARG0 krishna :ARG1 kedelai :location kebun
+tanam :ARG0 krishna :ARG1 kedelai :location kebun
+cuci :ARG0 mbak :name rina :location kamar :mod mandi
+cuci :ARG0 mbak :name rina :location kamar :mod mandi
+tunggu :ARG0 nenek :ARG1 kakek :location teras
+tunggu :ARG0 nenek :ARG1 kakek :location teras
+tunggu :ARG0 nenek :ARG1 kakek :location teras
+tunggu :ARG0 nenek :ARG1 kakek :location teras
+tunggu :ARG0 nenek :ARG1 kakek :location teras
+bersih :ARG0 anda :ARG1 dapur
+bersih :ARG0 anda :ARG1 dapur
+bersih :ARG0 anda :ARG1 dapur
+bersih :ARG0 anda :ARG1 dapur
+bersih :ARG0 anda :ARG1 dapur
+seberang :ARG0 mas :name dudi :ARG1 sungai
+seberang :ARG0 mas :name dudi :ARG1 sungai
+seberang :ARG0 mas :name dudi :ARG1 sungai
+seberang :ARG0 mas :name dudi :ARG1 sungai
+seberang :ARG0 mas :name dudi :ARG1 sungai
+cari :ARG0 ia :ARG1 uang
+cari :ARG0 ia :ARG1 uang
+cari :ARG0 ia :ARG1 uang
+cari :ARG0 ia :ARG1 uang
+cari :ARG0 ia :ARG1 uang
+main :ARG0 kak :name intan :ARG1 bola
+main :ARG0 kak :name intan :ARG1 bola
+main :ARG0 kak :name intan :ARG1 bola
+main :ARG0 kak :name intan :ARG1 bola
+main :ARG0 kak :name intan :ARG1 bola
+ajar :ARG0 rudi :ARG1 bahasa
+ajar :ARG0 rudi :ARG1 bahasa
+pancing :ARG0 saskia :ARG1 ikan
+pancing :ARG0 saskia :ARG1 ikan
+pancing :ARG0 saskia :ARG1 ikan
+pancing :ARG0 saskia :ARG1 ikan
+pancing :ARG0 saskia :ARG1 ikan
+gambar :ARG0 mbak :name hana :ARG1 kartun
+gambar :ARG0 mbak :name hana :ARG1 kartun
+gambar :ARG0 mbak :name hana :ARG1 kartun
+gambar :ARG0 mbak :name hana :ARG1 kartun
+gambar :ARG0 mbak :name hana :ARG1 kartun
+berangkat :ARG0 akmal :location sekolah
+berangkat :ARG0 akmal :location sekolah
+berangkat :ARG0 akmal :location sekolah
+tempel :ARG0 lisa :ARG1 foto :mod keluarga :location ruang :mod tamu
+tempel :ARG0 lisa :ARG1 foto :mod keluarga :location ruang :mod tamu
+tempel :ARG0 lisa :ARG1 foto :mod keluarga :location ruang :mod tamu
+tempel :ARG0 lisa :ARG1 foto :mod keluarga :location ruang :mod tamu
+tempel :ARG0 lisa :ARG1 foto :mod keluarga :location ruang :mod tamu
+tangis :ARG0 adik
+tangis :ARG0 adik
+tangis :ARG0 adik
+pingsan :ARG0 ibu
+pingsan :ARG0 ibu
+kunjung :ARG0 presiden :name joko :location papua
+kunjung :ARG0 presiden :name joko :location papua
+kunjung :ARG0 presiden :name joko :location papua
+naik :ARG0 semua :mod menang :location podium
+naik :ARG0 semua :mod menang :location podium
+tidur :ARG0 paman :location lantai
+tidur :ARG0 paman :location lantai
+beli :ARG0 aku :ARG1 sayur :location pasar
+beli :ARG0 aku :ARG1 sayur :location pasar
+beli :ARG0 aku :ARG1 sayur :location pasar
+beli :ARG0 aku :ARG1 sayur :location pasar
+beli :ARG0 aku :ARG1 sayur :location pasar
+lari :ARG0 kami
+lari :ARG0 kami
+lari :ARG0 kami
+baik :ARG0 bagus :ARG1 laptop
+baik :ARG0 bagus :ARG1 laptop
+baik :ARG0 bagus :ARG1 laptop
+baik :ARG0 bagus :ARG1 laptop
+baik :ARG0 bagus :ARG1 laptop
+bunuh :ARG0 toni :ARG1 cicak :mod guna :mod sapu
+bunuh :ARG0 toni :ARG1 cicak :mod guna :mod sapu
+bunuh :ARG0 toni :ARG1 cicak :mod guna :mod sapu
+bunuh :ARG0 toni :ARG1 cicak :mod guna :mod sapu
+bunuh :ARG0 toni :ARG1 cicak :mod guna :mod sapu
+demo :ARG0 warga :ARG1 lurah :mod baru
+demo :ARG0 warga :ARG1 lurah :mod baru
+demo :ARG0 warga :ARG1 lurah :mod baru
+demo :ARG0 warga :ARG1 lurah :mod baru
+demo :ARG0 warga :ARG1 lurah :mod baru
+nikmat :ARG0 para :mod tamu :mod undang :ARG1 saji :mod pesta
+nikmat :ARG0 para :mod tamu :mod undang :ARG1 saji :mod pesta
+nikmat :ARG0 para :mod tamu :mod undang :ARG1 saji :mod pesta
+nikmat :ARG0 para :mod tamu :mod undang :ARG1 saji :mod pesta
+nikmat :ARG0 para :mod tamu :mod undang :ARG1 saji :mod pesta
+buat :ARG0 aku :ARG1 artikel :mod sehat :mod mata
+buat :ARG0 aku :ARG1 artikel :mod sehat :mod mata
+buat :ARG0 aku :ARG1 artikel :mod sehat :mod mata
+buat :ARG0 aku :ARG1 artikel :mod sehat :mod mata
+buat :ARG0 aku :ARG1 artikel :mod sehat :mod mata
+umum :ARG0 bu :name nina :ARG1 hasil :mod ulang :mod matematika :mod para :mod siswa
+umum :ARG0 bu :name nina :ARG1 hasil :mod ulang :mod matematika :mod para :mod siswa
+umum :ARG0 bu :name nina :ARG1 hasil :mod ulang :mod matematika :mod para :mod siswa
+umum :ARG0 bu :name nina :ARG1 hasil :mod ulang :mod matematika :mod para :mod siswa
+umum :ARG0 bu :name nina :ARG1 hasil :mod ulang :mod matematika :mod para :mod siswa
+buat :ARG0 ibu :ARG1 bubur :mod kacang :mod ijo
+buat :ARG0 ibu :ARG1 bubur :mod kacang :mod ijo
+buat :ARG0 ibu :ARG1 bubur :mod kacang :mod ijo
+buat :ARG0 ibu :ARG1 bubur :mod kacang :mod ijo
+buat :ARG0 ibu :ARG1 bubur :mod kacang :mod ijo
+bantu :ARG0 warga :ARG1 acara :mod nikah :mod putri :mod presiden :name jokowi
+bantu :ARG0 warga :ARG1 acara :mod nikah :mod putri :mod presiden :name jokowi
+bantu :ARG0 warga :ARG1 acara :mod nikah :mod putri :mod presiden :name jokowi
+bantu :ARG0 warga :ARG1 acara :mod nikah :mod putri :mod presiden :name jokowi
+bantu :ARG0 warga :ARG1 acara :mod nikah :mod putri :mod presiden :name jokowi
+cuci :ARG0 aku :ARG1 pakai :mod kotor :location kamar :mod mandi
+cuci :ARG0 aku :ARG1 pakai :mod kotor :location kamar :mod mandi
+cuci :ARG0 aku :ARG1 pakai :mod kotor :location kamar :mod mandi
+cuci :ARG0 aku :ARG1 pakai :mod kotor :location kamar :mod mandi
+cuci :ARG0 aku :ARG1 pakai :mod kotor :location kamar :mod mandi
+bakar :ARG0 pak :name amat :ARG1 sampah :mod kering :location pinggir :mod sungai
+bakar :ARG0 pak :name amat :ARG1 sampah :mod kering :location pinggir :mod sungai
+bakar :ARG0 pak :name amat :ARG1 sampah :mod kering :location pinggir :mod sungai
+bakar :ARG0 pak :name amat :ARG1 sampah :mod kering :location pinggir :mod sungai
+bakar :ARG0 pak :name amat :ARG1 sampah :mod kering :location pinggir :mod sungai
+daya :ARG0 kelompok :mod tani :ARG1 sampah :mod plastik
+daya :ARG0 kelompok :mod tani :ARG1 sampah :mod plastik
+daya :ARG0 kelompok :mod tani :ARG1 sampah :mod plastik
+daya :ARG0 kelompok :mod tani :ARG1 sampah :mod plastik
+daya :ARG0 kelompok :mod tani :ARG1 sampah :mod plastik
+beri :ARG0 perintah :ARG1 bantu :mod langsung :mod tunai
+beri :ARG0 perintah :ARG1 bantu :mod langsung :mod tunai
+beri :ARG0 perintah :ARG1 bantu :mod langsung :mod tunai
+beri :ARG0 perintah :ARG1 bantu :mod langsung :mod tunai
+beri :ARG0 perintah :ARG1 bantu :mod langsung :mod tunai
+main :ARG0 bu :name rita :ARG1 piano
+main :ARG0 bu :name rita :ARG1 piano
+main :ARG0 bu :name rita :ARG1 piano
+main :ARG0 bu :name rita :ARG1 piano
+main :ARG0 bu :name rita :ARG1 piano
+teriak :ARG0 demo
+teriak :ARG0 demo
+lari :ARG0 ungsi
+lari :ARG0 ungsi
+tidur :ARG0 kakek :name yusuf
+tidur :ARG0 kakek :name yusuf
+tanam :ARG0 suster :name mira :ARG1 bunga :mod mawar
+tanam :ARG0 suster :name mira :ARG1 bunga :mod mawar
+tanam :ARG0 suster :name mira :ARG1 bunga :mod mawar
+tanam :ARG0 suster :name mira :ARG1 bunga :mod mawar
+tanam :ARG0 suster :name mira :ARG1 bunga :mod mawar
+datang :ARG0 dia :location jogyakarta
+datang :ARG0 dia :location jogyakarta
+berangkat :ARG0 andi :ARG1 latih :mod karate
+berangkat :ARG0 andi :ARG1 latih :mod karate
+olahraga :ARG0 mereka
+olahraga :ARG0 mereka
+olahraga :ARG0 mereka
+benam :ARG0 matahari :time senja :mod hari
+benam :ARG0 matahari :time senja :mod hari
+cari :ARG0 kelelawar :ARG1 makan :time malam :mod hari
+cari :ARG0 kelelawar :ARG1 makan :time malam :mod hari
+cari :ARG0 kelelawar :ARG1 makan :time malam :mod hari
+cari :ARG0 kelelawar :ARG1 makan :time malam :mod hari
+cari :ARG0 kelelawar :ARG1 makan :time malam :mod hari
+dengar :ARG1 suara :mod ayam :mod jantan :time fajar
+dengar :ARG1 suara :mod ayam :mod jantan :time fajar
+dengar :ARG1 suara :mod ayam :mod jantan :time fajar
+dengar :ARG1 suara :mod ayam :mod jantan :time fajar
+dengar :ARG1 suara :mod ayam :mod jantan :time fajar
+pulang :ARG0 murid :location sekolah :time hari :mod ini
+pulang :ARG0 murid :location sekolah :time hari :mod ini
+pulang :ARG0 murid :location sekolah :time hari :mod ini
+pulang :ARG0 murid :location sekolah :time hari :mod ini
+pulang :ARG0 murid :location sekolah :time hari :mod ini
+selenggara :ARG1 upacara :mod ingat :mod hari :mod sakti :mod pancasila :time tanggal :mod satu :mod oktober
+selenggara :ARG1 upacara :mod ingat :mod hari :mod sakti :mod pancasila :time tanggal :mod satu :mod oktober
+selenggara :ARG1 upacara :mod ingat :mod hari :mod sakti :mod pancasila :time tanggal :mod satu :mod oktober
+selenggara :ARG1 upacara :mod ingat :mod hari :mod sakti :mod pancasila :time tanggal :mod satu :mod oktober
+selenggara :ARG1 upacara :mod ingat :mod hari :mod sakti :mod pancasila :time tanggal :mod satu :mod oktober
+berangkat :ARG0 budi :location sekolah :time pukul :mod tujuh
+berangkat :ARG0 budi :location sekolah :time pukul :mod tujuh
+berangkat :ARG0 budi :location sekolah :time pukul :mod tujuh
+berangkat :ARG0 budi :location sekolah :time pukul :mod tujuh
+berangkat :ARG0 budi :location sekolah :time pukul :mod tujuh
+turun :ARG1 hujan :time kemarin :mod sore
+turun :ARG1 hujan :time kemarin :mod sore
+turun :ARG1 hujan :time kemarin :mod sore
+turun :ARG1 hujan :time kemarin :mod sore
+turun :ARG1 hujan :time kemarin :mod sore
+langsung :ARG1 musim :mod hujan :time sejak :mod bulan :mod oktober
+langsung :ARG1 musim :mod hujan :time sejak :mod bulan :mod oktober
+langsung :ARG1 musim :mod hujan :time sejak :mod bulan :mod oktober
+langsung :ARG1 musim :mod hujan :time sejak :mod bulan :mod oktober
+langsung :ARG1 musim :mod hujan :time sejak :mod bulan :mod oktober
+dengar :ARG0 bayi :time sejak :mod lahir
+dengar :ARG0 bayi :time sejak :mod lahir
+dengar :ARG0 bayi :time sejak :mod lahir
+dengar :ARG0 bayi :time sejak :mod lahir
+dengar :ARG0 bayi :time sejak :mod lahir
+pindah :ARG0 tante :name indri :location bandung :time setelah :mod nikah
+pindah :ARG0 tante :name indri :location bandung :time setelah :mod nikah
+pindah :ARG0 tante :name indri :location bandung :time setelah :mod nikah
+minum :ARG0 bu :name susi :ARG1 obat :time setelah :mod makan
+minum :ARG0 bu :name susi :ARG1 obat :time setelah :mod makan
+minum :ARG0 bu :name susi :ARG1 obat :time setelah :mod makan
+minum :ARG0 bu :name susi :ARG1 obat :time setelah :mod makan
+minum :ARG0 bu :name susi :ARG1 obat :time setelah :mod makan
+laksana :ARG1 upacara :mod bendera :time hari :mod senin
+laksana :ARG1 upacara :mod bendera :time hari :mod senin
+laksana :ARG1 upacara :mod bendera :time hari :mod senin
+laksana :ARG1 upacara :mod bendera :time hari :mod senin
+laksana :ARG1 upacara :mod bendera :time hari :mod senin
+hidup :ARG0 dinosaurus :location bumi :time juta :mod tahun :mod lalu
+hidup :ARG0 dinosaurus :location bumi :time juta :mod tahun :mod lalu
+hidup :ARG0 dinosaurus :location bumi :time juta :mod tahun :mod lalu
+hidup :ARG0 dinosaurus :location bumi :time juta :mod tahun :mod lalu
+hidup :ARG0 dinosaurus :location bumi :time juta :mod tahun :mod lalu
+rawat :ARG0 paman :name gober :location rumah :mod sakit :time kemarin
+rawat :ARG0 paman :name gober :location rumah :mod sakit :time kemarin
+rawat :ARG0 paman :name gober :location rumah :mod sakit :time kemarin
+rawat :ARG0 paman :name gober :location rumah :mod sakit :time kemarin
+rawat :ARG0 paman :name gober :location rumah :mod sakit :time kemarin
+pergi :ARG0 ibu :name joko :location pasar :time sore :mod ini
+pergi :ARG0 ibu :name joko :location pasar :time sore :mod ini
+pergi :ARG0 ibu :name joko :location pasar :time sore :mod ini
+pergi :ARG0 ibu :name joko :location pasar :time sore :mod ini
+pergi :ARG0 ibu :name joko :location pasar :time sore :mod ini
+pecah :ARG0 anak :mod ayam :ARG1 cangkang :mod telur :time tadi
+pecah :ARG0 anak :mod ayam :ARG1 cangkang :mod telur :time tadi
+pecah :ARG0 anak :mod ayam :ARG1 cangkang :mod telur :time tadi
+pecah :ARG0 anak :mod ayam :ARG1 cangkang :mod telur :time tadi
+pecah :ARG0 anak :mod ayam :ARG1 cangkang :mod telur :time tadi
+masuk :ARG0 bu :name tina :ARG1 sekolah :time senin :mod lalu
+masuk :ARG0 bu :name tina :ARG1 sekolah :time senin :mod lalu
+masuk :ARG0 bu :name tina :ARG1 sekolah :time senin :mod lalu
+masuk :ARG0 bu :name tina :ARG1 sekolah :time senin :mod lalu
+masuk :ARG0 bu :name tina :ARG1 sekolah :time senin :mod lalu
+tumbuh :ARG0 jamur :time musim :mod hujan
+tumbuh :ARG0 jamur :time musim :mod hujan
+tumbuh :ARG0 jamur :time musim :mod hujan
+tumbuh :ARG0 jamur :time musim :mod hujan
+tumbuh :ARG0 jamur :time musim :mod hujan
+bahas :ARG1 hal :time saat :mod rapat :mod nanti
+bahas :ARG1 hal :time saat :mod rapat :mod nanti
+bahas :ARG1 hal :time saat :mod rapat :mod nanti
+bahas :ARG1 hal :time saat :mod rapat :mod nanti
+bahas :ARG1 hal :time saat :mod rapat :mod nanti
+mulai :ARG1 upacara :mod detik :mod proklamasi :time jam :mod sepuluh :mod pagi
+mulai :ARG1 upacara :mod detik :mod proklamasi :time jam :mod sepuluh :mod pagi
+mulai :ARG1 upacara :mod detik :mod proklamasi :time jam :mod sepuluh :mod pagi
+mulai :ARG1 upacara :mod detik :mod proklamasi :time jam :mod sepuluh :mod pagi
+mulai :ARG1 upacara :mod detik :mod proklamasi :time jam :mod sepuluh :mod pagi
+proklamir :ARG1 merdeka :mod indonesia :time hari :mod ini
+proklamir :ARG1 merdeka :mod indonesia :time hari :mod ini
+proklamir :ARG1 merdeka :mod indonesia :time hari :mod ini
+proklamir :ARG1 merdeka :mod indonesia :time hari :mod ini
+proklamir :ARG1 merdeka :mod indonesia :time hari :mod ini
+jadi :ARG1 berontak :time tahun :mod lalu
+jadi :ARG1 berontak :time tahun :mod lalu
+jadi :ARG1 berontak :time tahun :mod lalu
+jadi :ARG1 berontak :time tahun :mod lalu
+jadi :ARG1 berontak :time tahun :mod lalu
+luap :ARG1 air :mod sungai :name bengawan :time kemarin
+luap :ARG1 air :mod sungai :name bengawan :time kemarin
+luap :ARG1 air :mod sungai :name bengawan :time kemarin
+luap :ARG1 air :mod sungai :name bengawan :time kemarin
+luap :ARG1 air :mod sungai :name bengawan :time kemarin
+janji :ARG0 dia :ARG1 tingkat :ARG1 makmur :mod masyarakat
+janji :ARG0 dia :ARG1 tingkat :ARG1 makmur :mod masyarakat
+janji :ARG0 dia :ARG1 tingkat :ARG1 makmur :mod masyarakat
+janji :ARG0 dia :ARG1 tingkat :ARG1 makmur :mod masyarakat
+janji :ARG0 dia :ARG1 tingkat :ARG1 makmur :mod masyarakat
+rasa :ARG1 udara :mod panas :time pagi :mod ini
+rasa :ARG1 udara :mod panas :time pagi :mod ini
+rasa :ARG1 udara :mod panas :time pagi :mod ini
+rasa :ARG1 udara :mod panas :time pagi :mod ini
+rasa :ARG1 udara :mod panas :time pagi :mod ini
+lewat :ARG0 bu :name nisa :location sini
+lewat :ARG0 bu :name nisa :location sini
+lewat :ARG0 bu :name nisa :location sini
+rasa :ARG0 pak :name harry :ARG1 bahagia :time hari :mod wisuda :mod anak
+rasa :ARG0 pak :name harry :ARG1 bahagia :time hari :mod wisuda :mod anak
+rasa :ARG0 pak :name harry :ARG1 bahagia :time hari :mod wisuda :mod anak
+rasa :ARG0 pak :name harry :ARG1 bahagia :time hari :mod wisuda :mod anak
+rasa :ARG0 pak :name harry :ARG1 bahagia :time hari :mod wisuda :mod anak
+berangkat :ARG0 profesor :name amri :location solo :time tiga :mod hari :mod lalu
+berangkat :ARG0 profesor :name amri :location solo :time tiga :mod hari :mod lalu
+berangkat :ARG0 profesor :name amri :location solo :time tiga :mod hari :mod lalu
+laksana :ARG1 senam :time hari :mod minggu
+laksana :ARG1 senam :time hari :mod minggu
+laksana :ARG1 senam :time hari :mod minggu
+laksana :ARG1 senam :time hari :mod minggu
+laksana :ARG1 senam :time hari :mod minggu
+lihat :ARG0 dia :ARG1 buku :mod ini
+lihat :ARG0 dia :ARG1 buku :mod ini
+lihat :ARG0 dia :ARG1 buku :mod ini
+lihat :ARG0 dia :ARG1 buku :mod ini
+lihat :ARG0 dia :ARG1 buku :mod ini
+sedih :ARG0 pak :name joko
+sedih :ARG0 pak :name joko
+ingat :ARG0 bu :name susi :ARG1 kejadian :mod itu
+ingat :ARG0 bu :name susi :ARG1 kejadian :mod itu
+ingat :ARG0 bu :name susi :ARG1 kejadian :mod itu
+ingat :ARG0 bu :name susi :ARG1 kejadian :mod itu
+ingat :ARG0 bu :name susi :ARG1 kejadian :mod itu
+pindah :ARG1 masak :location piring :mod saji
+pindah :ARG1 masak :location piring :mod saji
+pindah :ARG1 masak :location piring :mod saji
+pindah :ARG1 masak :location piring :mod saji
+pindah :ARG1 masak :location piring :mod saji
+mulai :ARG1 acara :mod seminar :time tiga :mod puluh :mod menit :mod lagi
+mulai :ARG1 acara :mod seminar :time tiga :mod puluh :mod menit :mod lagi
+mulai :ARG1 acara :mod seminar :time tiga :mod puluh :mod menit :mod lagi
+mulai :ARG1 acara :mod seminar :time tiga :mod puluh :mod menit :mod lagi
+tunggu :ARG0 kami :location stasiun :time sejak :mod satu :mod jam :mod lalu
+tunggu :ARG0 kami :location stasiun :time sejak :mod satu :mod jam :mod lalu
+tunggu :ARG0 kami :location stasiun :time sejak :mod satu :mod jam :mod lalu
+tunggu :ARG0 kami :location stasiun :time sejak :mod satu :mod jam :mod lalu
+tunggu :ARG0 kami :location stasiun :time sejak :mod satu :mod jam :mod lalu
+dengar :ARG0 om :name tanto :ARG1 kabar :time hari :mod ini
+dengar :ARG0 om :name tanto :ARG1 kabar :time hari :mod ini
+dengar :ARG0 om :name tanto :ARG1 kabar :time hari :mod ini
+dengar :ARG0 om :name tanto :ARG1 kabar :time hari :mod ini
+dengar :ARG0 om :name tanto :ARG1 kabar :time hari :mod ini
+bisa :ARG0 dia :ARG1 datang :time sore :mod ini
+bisa :ARG0 dia :ARG1 datang :time sore :mod ini
+resmi :ARG1 pameran :mod dirgantara :time pekan :mod depan
+resmi :ARG1 pameran :mod dirgantara :time pekan :mod depan
+resmi :ARG1 pameran :mod dirgantara :time pekan :mod depan
+resmi :ARG1 pameran :mod dirgantara :time pekan :mod depan
+resmi :ARG1 pameran :mod dirgantara :time pekan :mod depan
+kuliah :ARG0 kakak :location bandung :time tahun :mod depan
+kuliah :ARG0 kakak :location bandung :time tahun :mod depan
+kuliah :ARG0 kakak :location bandung :time tahun :mod depan
+kuliah :ARG0 kakak :location bandung :time tahun :mod depan
+kuliah :ARG0 kakak :location bandung :time tahun :mod depan
+tutup :ARG1 toko :mod buku :time sembilan :mod malam
+tutup :ARG1 toko :mod buku :time sembilan :mod malam
+tutup :ARG1 toko :mod buku :time sembilan :mod malam
+tutup :ARG1 toko :mod buku :time sembilan :mod malam
+mampir :ARG0 saya :location sana :time hari :mod ini
+mampir :ARG0 saya :location sana :time hari :mod ini
+mampir :ARG0 saya :location sana :time hari :mod ini
+latihan :ARG0 kami :ARG1 musik :time sabtu :mod sore
+latihan :ARG0 kami :ARG1 musik :time sabtu :mod sore
+latihan :ARG0 kami :ARG1 musik :time sabtu :mod sore
+latihan :ARG0 kami :ARG1 musik :time sabtu :mod sore
+latihan :ARG0 kami :ARG1 musik :time sabtu :mod sore
+temu :ARG0 saya :ARG1 pak :name andi :time besok
+temu :ARG0 saya :ARG1 pak :name andi :time besok
+temu :ARG0 saya :ARG1 pak :name andi :time besok
+temu :ARG0 saya :ARG1 pak :name andi :time besok
+temu :ARG0 saya :ARG1 pak :name andi :time besok
+laksana :ARG1 baik :mod jalan :time dalam :mod waktu :mod dekat
+laksana :ARG1 baik :mod jalan :time dalam :mod waktu :mod dekat
+laksana :ARG1 baik :mod jalan :time dalam :mod waktu :mod dekat
+laksana :ARG1 baik :mod jalan :time dalam :mod waktu :mod dekat
+mulai :ARG1 atur :mod laku :time sejak :mod sah
+mulai :ARG1 atur :mod laku :time sejak :mod sah
+mulai :ARG1 atur :mod laku :time sejak :mod sah
+mulai :ARG1 atur :mod laku :time sejak :mod sah
+mulai :ARG1 atur :mod laku :time sejak :mod sah
+pakai :ARG0 ani :ARG1 pakai :mod olahraga :time hari :mod ini
+pakai :ARG0 ani :ARG1 pakai :mod olahraga :time hari :mod ini
+pakai :ARG0 ani :ARG1 pakai :mod olahraga :time hari :mod ini
+pakai :ARG0 ani :ARG1 pakai :mod olahraga :time hari :mod ini
+pakai :ARG0 ani :ARG1 pakai :mod olahraga :time hari :mod ini
+pergi :ARG0 tante :name dyah :ARG1 libur :location bali :time besok
+pergi :ARG0 tante :name dyah :ARG1 libur :location bali :time besok
+pergi :ARG0 tante :name dyah :ARG1 libur :location bali :time besok
+pergi :ARG0 tante :name dyah :ARG1 libur :location bali :time besok
+pergi :ARG0 tante :name dyah :ARG1 libur :location bali :time besok
+datang :ARG1 bencana :mod banjir :time musim :mod hujan
+datang :ARG1 bencana :mod banjir :time musim :mod hujan
+datang :ARG1 bencana :mod banjir :time musim :mod hujan
+datang :ARG1 bencana :mod banjir :time musim :mod hujan
+datang :ARG1 bencana :mod banjir :time musim :mod hujan
+berangkat :ARG0 kita :time setelah :mod makan :mod siang
+berangkat :ARG0 kita :time setelah :mod makan :mod siang
+mulai :ARG1 acara :mod diskusi :time sembilan :mod malam
+mulai :ARG1 acara :mod diskusi :time sembilan :mod malam
+mulai :ARG1 acara :mod diskusi :time sembilan :mod malam
+mulai :ARG1 acara :mod diskusi :time sembilan :mod malam
+mulai :ARG1 acara :mod diskusi :time sembilan :mod malam
+gosok :ARG0 dokter :name rina :ARG1 gigi :time malam :mod setiap :mod belum :mod tidur
+gosok :ARG0 dokter :name rina :ARG1 gigi :time malam :mod setiap :mod belum :mod tidur
+gosok :ARG0 dokter :name rina :ARG1 gigi :time malam :mod setiap :mod belum :mod tidur
+gosok :ARG0 dokter :name rina :ARG1 gigi :time malam :mod setiap :mod belum :mod tidur
+gosok :ARG0 dokter :name rina :ARG1 gigi :time malam :mod setiap :mod belum :mod tidur
+kering :ARG1 sungai :time musim :mod kemarau
+kering :ARG1 sungai :time musim :mod kemarau
+kering :ARG1 sungai :time musim :mod kemarau
+kering :ARG1 sungai :time musim :mod kemarau
+kering :ARG1 sungai :time musim :mod kemarau
+ingat :ARG1 hari :mod pahlawan :time sepuluh :mod november
+ingat :ARG1 hari :mod pahlawan :time sepuluh :mod november
+ingat :ARG1 hari :mod pahlawan :time sepuluh :mod november
+ingat :ARG1 hari :mod pahlawan :time sepuluh :mod november
+ingat :ARG1 hari :mod pahlawan :time sepuluh :mod november
+janji :ARG0 dia :ARG1 datang :location sini :time tadi
+janji :ARG0 dia :ARG1 datang :location sini :time tadi
+janji :ARG0 dia :ARG1 datang :location sini :time tadi
+janji :ARG0 dia :ARG1 datang :location sini :time tadi
+janji :ARG0 dia :ARG1 datang :location sini :time tadi
+datang :ARG0 paman :location rumah :time esok :mod lusa
+datang :ARG0 paman :location rumah :time esok :mod lusa
+datang :ARG0 paman :location rumah :time esok :mod lusa
+datang :ARG0 paman :location rumah :time esok :mod lusa
+datang :ARG0 paman :location rumah :time esok :mod lusa
+ada :ARG1 aksi :mod besar :time kemarin
+ada :ARG1 aksi :mod besar :time kemarin
+hadir :ARG0 dia :ARG1 resmi :location lapang :time besok
+hadir :ARG0 dia :ARG1 resmi :location lapang :time besok
+hadir :ARG0 dia :ARG1 resmi :location lapang :time besok
+hadir :ARG0 dia :ARG1 resmi :location lapang :time besok
+hadir :ARG0 dia :ARG1 resmi :location lapang :time besok
+siap :ARG0 ibu :ARG1 alat :mod dapur :time besok
+siap :ARG0 ibu :ARG1 alat :mod dapur :time besok
+siap :ARG0 ibu :ARG1 alat :mod dapur :time besok
+siap :ARG0 ibu :ARG1 alat :mod dapur :time besok
+siap :ARG0 ibu :ARG1 alat :mod dapur :time besok
+berangkat :ARG0 kami :mod keluarga :location padang :time nanti :mod malam
+berangkat :ARG0 kami :mod keluarga :location padang :time nanti :mod malam
+berangkat :ARG0 kami :mod keluarga :location padang :time nanti :mod malam
+berangkat :ARG0 kami :mod keluarga :location padang :time nanti :mod malam
+berangkat :ARG0 kami :mod keluarga :location padang :time nanti :mod malam
+belanja :ARG0 ayah :ARG1 bahan :mod makan :location toko :mod surya :time siang :mod ini
+belanja :ARG0 ayah :ARG1 bahan :mod makan :location toko :mod surya :time siang :mod ini
+belanja :ARG0 ayah :ARG1 bahan :mod makan :location toko :mod surya :time siang :mod ini
+belanja :ARG0 ayah :ARG1 bahan :mod makan :location toko :mod surya :time siang :mod ini
+belanja :ARG0 ayah :ARG1 bahan :mod makan :location toko :mod surya :time siang :mod ini
+bawa :ARG0 kakek :ARG1 kopi :location kampung :time siang :mod ini
+bawa :ARG0 kakek :ARG1 kopi :location kampung :time siang :mod ini
+bawa :ARG0 kakek :ARG1 kopi :location kampung :time siang :mod ini
+bawa :ARG0 kakek :ARG1 kopi :location kampung :time siang :mod ini
+bawa :ARG0 kakek :ARG1 kopi :location kampung :time siang :mod ini
+sarapan :ARG0 kami :ARG1 roti :mod keju :time pagi :mod ini
+sarapan :ARG0 kami :ARG1 roti :mod keju :time pagi :mod ini
+sarapan :ARG0 kami :ARG1 roti :mod keju :time pagi :mod ini
+sarapan :ARG0 kami :ARG1 roti :mod keju :time pagi :mod ini
+sarapan :ARG0 kami :ARG1 roti :mod keju :time pagi :mod ini
+jalan :ARG1 macet :time pagi :mod ini
+jalan :ARG1 macet :time pagi :mod ini
+jalan :ARG1 macet :time pagi :mod ini
+jalan :ARG1 macet :time pagi :mod ini
+jalan :ARG1 macet :time pagi :mod ini
+guyur :ARG0 hujan :mod deras :time sejak :mod pagi
+guyur :ARG0 hujan :mod deras :time sejak :mod pagi
+guyur :ARG0 hujan :mod deras :time sejak :mod pagi
+guyur :ARG0 hujan :mod deras :time sejak :mod pagi
+guyur :ARG0 hujan :mod deras :time sejak :mod pagi
+makan :ARG0 pak :name juli :ARG1 buah :mod mangga
+makan :ARG0 pak :name juli :ARG1 buah :mod mangga
+makan :ARG0 pak :name juli :ARG1 buah :mod mangga
+makan :ARG0 pak :name juli :ARG1 buah :mod mangga
+makan :ARG0 pak :name juli :ARG1 buah :mod mangga
+lari :ARG0 roni :location sekitar :mod lapang
+lari :ARG0 roni :location sekitar :mod lapang
+lari :ARG0 roni :location sekitar :mod lapang
+lari :ARG0 roni :location sekitar :mod lapang
+lari :ARG0 roni :location sekitar :mod lapang
+pulang :ARG0 ayah :time sore :mod ini
+pulang :ARG0 ayah :time sore :mod ini
+pulang :ARG0 ayah :time sore :mod ini
+pergi :ARG0 ibu :location pasar
+pergi :ARG0 ibu :location pasar
+pulang :ARG0 bu :name rina :location depok
+pulang :ARG0 bu :name rina :location depok
+duduk :ARG0 pak :name joko :location teras :mod depan :mod rumah
+duduk :ARG0 pak :name joko :location teras :mod depan :mod rumah
+duduk :ARG0 pak :name joko :location teras :mod depan :mod rumah
+duduk :ARG0 pak :name joko :location teras :mod depan :mod rumah
+duduk :ARG0 pak :name joko :location teras :mod depan :mod rumah
+buka :ARG0 bu :name jean :ARG1 toko
+buka :ARG0 bu :name jean :ARG1 toko
+buka :ARG0 bu :name jean :ARG1 toko
+buka :ARG0 bu :name jean :ARG1 toko
+buka :ARG0 bu :name jean :ARG1 toko
+minum :ARG0 kakak :name dini :ARG1 kopi :location kedai :mod kopi
+minum :ARG0 kakak :name dini :ARG1 kopi :location kedai :mod kopi
+minum :ARG0 kakak :name dini :ARG1 kopi :location kedai :mod kopi
+minum :ARG0 kakak :name dini :ARG1 kopi :location kedai :mod kopi
+minum :ARG0 kakak :name dini :ARG1 kopi :location kedai :mod kopi
+nyanyi :ARG0 bu :name niki :ARG1 lagi :name indonesia :name raya
+nyanyi :ARG0 bu :name niki :ARG1 lagi :name indonesia :name raya
+nyanyi :ARG0 bu :name niki :ARG1 lagi :name indonesia :name raya
+nyanyi :ARG0 bu :name niki :ARG1 lagi :name indonesia :name raya
+nyanyi :ARG0 bu :name niki :ARG1 lagi :name indonesia :name raya
+mati :ARG1 ayam
+mati :ARG1 ayam
+mati :ARG1 ayam
+sampai :ARG0 ayah :location rumah :time malam :mod ini
+sampai :ARG0 ayah :location rumah :time malam :mod ini
+sampai :ARG0 ayah :location rumah :time malam :mod ini
+sampai :ARG0 ayah :location rumah :time malam :mod ini
+sampai :ARG0 ayah :location rumah :time malam :mod ini
+tutup :ARG1 toko :mod roti :time hari :mod minggu
+tutup :ARG1 toko :mod roti :time hari :mod minggu
+tutup :ARG1 toko :mod roti :time hari :mod minggu
+tutup :ARG1 toko :mod roti :time hari :mod minggu
+tutup :ARG1 toko :mod roti :time hari :mod minggu
+taruh :ARG0 bu :name dian :ARG1 tas :location meja
+taruh :ARG0 bu :name dian :ARG1 tas :location meja
+taruh :ARG0 bu :name dian :ARG1 tas :location meja
+taruh :ARG0 bu :name dian :ARG1 tas :location meja
+taruh :ARG0 bu :name dian :ARG1 tas :location meja
+sakit :ARG0 nenek :name tuti :ARG1 kepala :time hari :mod tiap
+sakit :ARG0 nenek :name tuti :ARG1 kepala :time hari :mod tiap
+sakit :ARG0 nenek :name tuti :ARG1 kepala :time hari :mod tiap
+sakit :ARG0 nenek :name tuti :ARG1 kepala :time hari :mod tiap
+sakit :ARG0 nenek :name tuti :ARG1 kepala :time hari :mod tiap
+hutang :ARG0 kakak :name budi :ARG1 buku :mod satu :mod cerita
+hutang :ARG0 kakak :name budi :ARG1 buku :mod satu :mod cerita
+hutang :ARG0 kakak :name budi :ARG1 buku :mod satu :mod cerita
+hutang :ARG0 kakak :name budi :ARG1 buku :mod satu :mod cerita
+hutang :ARG0 kakak :name budi :ARG1 buku :mod satu :mod cerita
+makan :ARG0 pak :name dedi :ARG1 bekal :location kelas
+makan :ARG0 pak :name dedi :ARG1 bekal :location kelas
+makan :ARG0 pak :name dedi :ARG1 bekal :location kelas
+makan :ARG0 pak :name dedi :ARG1 bekal :location kelas
+makan :ARG0 pak :name dedi :ARG1 bekal :location kelas
+dapat :ARG0 sumur :mod kering :time musim :mod kemarau
+dapat :ARG0 sumur :mod kering :time musim :mod kemarau
+dapat :ARG0 sumur :mod kering :time musim :mod kemarau
+dapat :ARG0 sumur :mod kering :time musim :mod kemarau
+dapat :ARG0 sumur :mod kering :time musim :mod kemarau
+ingat :ARG0 hari :mod pahlawan :time tiap :mod tanggal :mod sepuluh :mod november
+ingat :ARG0 hari :mod pahlawan :time tiap :mod tanggal :mod sepuluh :mod november
+ingat :ARG0 hari :mod pahlawan :time tiap :mod tanggal :mod sepuluh :mod november
+ingat :ARG0 hari :mod pahlawan :time tiap :mod tanggal :mod sepuluh :mod november
+ingat :ARG0 hari :mod pahlawan :time tiap :mod tanggal :mod sepuluh :mod november
+janji :ARG0 dinda :ARG1 datang :location sini :time besok :mod pagi
+janji :ARG0 dinda :ARG1 datang :location sini :time besok :mod pagi
+janji :ARG0 dinda :ARG1 datang :location sini :time besok :mod pagi
+janji :ARG0 dinda :ARG1 datang :location sini :time besok :mod pagi
+janji :ARG0 dinda :ARG1 datang :location sini :time besok :mod pagi
+berangkat :ARG0 kami :mod keluarga :location lampung :time besok
+berangkat :ARG0 kami :mod keluarga :location lampung :time besok
+berangkat :ARG0 kami :mod keluarga :location lampung :time besok
+berangkat :ARG0 kami :mod keluarga :location lampung :time besok
+berangkat :ARG0 kami :mod keluarga :location lampung :time besok
+jadi :ARG1 celaka :mod lalu :mod lintas :location simpang :name jonin :time pukul :mod sembilan
+jadi :ARG1 celaka :mod lalu :mod lintas :location simpang :name jonin :time pukul :mod sembilan
+jadi :ARG1 celaka :mod lalu :mod lintas :location simpang :name jonin :time pukul :mod sembilan
+jadi :ARG1 celaka :mod lalu :mod lintas :location simpang :name jonin :time pukul :mod sembilan
+jadi :ARG1 celaka :mod lalu :mod lintas :location simpang :name jonin :time pukul :mod sembilan
+pergi :ARG0 aku :location rumah :mod paman :time sekarang
+pergi :ARG0 aku :location rumah :mod paman :time sekarang
+pergi :ARG0 aku :location rumah :mod paman :time sekarang
+kata :ARG0 ibu :name nisa :ARG1 bisa :ARG1 tidur :time malam
+kata :ARG0 ibu :name nisa :ARG1 bisa :ARG1 tidur :time malam
+kata :ARG0 ibu :name nisa :ARG1 bisa :ARG1 tidur :time malam
+kata :ARG0 ibu :name nisa :ARG1 bisa :ARG1 tidur :time malam
+kata :ARG0 ibu :name nisa :ARG1 bisa :ARG1 tidur :time malam
+laksana :ARG0 kuliah :time besok :mod jam :mod tiga
+laksana :ARG0 kuliah :time besok :mod jam :mod tiga
+laksana :ARG0 kuliah :time besok :mod jam :mod tiga
+laksana :ARG0 kuliah :time besok :mod jam :mod tiga
+laksana :ARG0 kuliah :time besok :mod jam :mod tiga
+buat :ARG0 bibi :ARG1 janji :mod rapat :time minggu :mod depan
+buat :ARG0 bibi :ARG1 janji :mod rapat :time minggu :mod depan
+buat :ARG0 bibi :ARG1 janji :mod rapat :time minggu :mod depan
+buat :ARG0 bibi :ARG1 janji :mod rapat :time minggu :mod depan
+buat :ARG0 bibi :ARG1 janji :mod rapat :time minggu :mod depan
+main :ARG0 anak :location tanah :mod lapang
+main :ARG0 anak :location tanah :mod lapang
+main :ARG0 anak :location tanah :mod lapang
+main :ARG0 anak :location tanah :mod lapang
+main :ARG0 anak :location tanah :mod lapang
+diskusi :ARG0 mahasiswa :mod para :location ruang :mod kelas :time siang :mod tadi
+diskusi :ARG0 mahasiswa :mod para :location ruang :mod kelas :time siang :mod tadi
+diskusi :ARG0 mahasiswa :mod para :location ruang :mod kelas :time siang :mod tadi
+diskusi :ARG0 mahasiswa :mod para :location ruang :mod kelas :time siang :mod tadi
+diskusi :ARG0 mahasiswa :mod para :location ruang :mod kelas :time siang :mod tadi
+masak :ARG0 ibu :location dapur :time malam
+masak :ARG0 ibu :location dapur :time malam
+masak :ARG0 ibu :location dapur :time malam
+masak :ARG0 ibu :location dapur :time malam
+masak :ARG0 ibu :location dapur :time malam
+tidur :ARG0 kucing :location teras :mod beranda :mod rumah
+tidur :ARG0 kucing :location teras :mod beranda :mod rumah
+tidur :ARG0 kucing :location teras :mod beranda :mod rumah
+tidur :ARG0 kucing :location teras :mod beranda :mod rumah
+tidur :ARG0 kucing :location teras :mod beranda :mod rumah
+baca :ARG0 dimas :location pustaka
+baca :ARG0 dimas :location pustaka
+baca :ARG0 dimas :location pustaka
+baca :ARG0 dimas :location pustaka
+menung :ARG0 andra :location bangku :mod taman
+menung :ARG0 andra :location bangku :mod taman
+menung :ARG0 andra :location bangku :mod taman
+menung :ARG0 andra :location bangku :mod taman
+ceramah :ARG0 pak :name jamal :location depan :ARG1 jamaah :mod para
+ceramah :ARG0 pak :name jamal :location depan :ARG1 jamaah :mod para
+ceramah :ARG0 pak :name jamal :location depan :ARG1 jamaah :mod para
+ceramah :ARG0 pak :name jamal :location depan :ARG1 jamaah :mod para
+ceramah :ARG0 pak :name jamal :location depan :ARG1 jamaah :mod para
+tengger :ARG0 burung :location atas :mod dahan :mod pohon
+tengger :ARG0 burung :location atas :mod dahan :mod pohon
+tengger :ARG0 burung :location atas :mod dahan :mod pohon
+tengger :ARG0 burung :location atas :mod dahan :mod pohon
+tengger :ARG0 burung :location atas :mod dahan :mod pohon
+libur :ARG0 keluarga :mod pak :name broto :location pulau :name bali :time bulan :mod depan
+libur :ARG0 keluarga :mod pak :name broto :location pulau :name bali :time bulan :mod depan
+libur :ARG0 keluarga :mod pak :name broto :location pulau :name bali :time bulan :mod depan
+libur :ARG0 keluarga :mod pak :name broto :location pulau :name bali :time bulan :mod depan
+libur :ARG0 keluarga :mod pak :name broto :location pulau :name bali :time bulan :mod depan
+wisata :ARG0 siswa :mod para :location yogyakarta :time bulan :mod mei
+wisata :ARG0 siswa :mod para :location yogyakarta :time bulan :mod mei
+wisata :ARG0 siswa :mod para :location yogyakarta :time bulan :mod mei
+wisata :ARG0 siswa :mod para :location yogyakarta :time bulan :mod mei
+wisata :ARG0 siswa :mod para :location yogyakarta :time bulan :mod mei
+baik :ARG0 ayah :ARG1 sepeda :mod adik :location garasi :time kemarin
+baik :ARG0 ayah :ARG1 sepeda :mod adik :location garasi :time kemarin
+baik :ARG0 ayah :ARG1 sepeda :mod adik :location garasi :time kemarin
+baik :ARG0 ayah :ARG1 sepeda :mod adik :location garasi :time kemarin
+baik :ARG0 ayah :ARG1 sepeda :mod adik :location garasi :time kemarin
+kerja :ARG0 kakak :ARG1 tugas :mod sekolah :location ruang :mod tengah :time malam
+kerja :ARG0 kakak :ARG1 tugas :mod sekolah :location ruang :mod tengah :time malam
+kerja :ARG0 kakak :ARG1 tugas :mod sekolah :location ruang :mod tengah :time malam
+kerja :ARG0 kakak :ARG1 tugas :mod sekolah :location ruang :mod tengah :time malam
+kerja :ARG0 kakak :ARG1 tugas :mod sekolah :location ruang :mod tengah :time malam
+pergi :ARG0 kami :location pustaka :time sabtu :mod lalu
+pergi :ARG0 kami :location pustaka :time sabtu :mod lalu
+pergi :ARG0 kami :location pustaka :time sabtu :mod lalu
+pergi :ARG0 kami :location pustaka :time sabtu :mod lalu
+pergi :ARG0 kami :location pustaka :time sabtu :mod lalu
+tidur :ARG0 kelelawar :time siang :mod hari
+tidur :ARG0 kelelawar :time siang :mod hari
+tidur :ARG0 kelelawar :time siang :mod hari
+tidur :ARG0 kelelawar :time siang :mod hari
+tidur :ARG0 kelelawar :time siang :mod hari
+panggang :ARG0 ibu :ARG1 roti :mod oven
+panggang :ARG0 ibu :ARG1 roti :mod oven
+panggang :ARG0 ibu :ARG1 roti :mod oven
+panggang :ARG0 ibu :ARG1 roti :mod oven
+panggang :ARG0 ibu :ARG1 roti :mod oven
+potong :ARG0 bapak :name siman :ARG1 rumput :location kebun :time pagi
+potong :ARG0 bapak :name siman :ARG1 rumput :location kebun :time pagi
+potong :ARG0 bapak :name siman :ARG1 rumput :location kebun :time pagi
+potong :ARG0 bapak :name siman :ARG1 rumput :location kebun :time pagi
+potong :ARG0 bapak :name siman :ARG1 rumput :location kebun :time pagi
+pergi :ARG0 ibu :location rumah :mod sakit
+pergi :ARG0 ibu :location rumah :mod sakit
+pergi :ARG0 ibu :location rumah :mod sakit
+pergi :ARG0 ayah :location bandara
+pergi :ARG0 ayah :location bandara
+pergi :ARG0 ayah :location bandara
+siram :ARG0 gani :ARG1 tanam
+siram :ARG0 gani :ARG1 tanam
+siram :ARG0 gani :ARG1 tanam
+siram :ARG0 gani :ARG1 tanam
+siram :ARG0 gani :ARG1 tanam
+main :ARG0 adik :ARG1 kelereng :time sore :mod hari
+main :ARG0 adik :ARG1 kelereng :time sore :mod hari
+main :ARG0 adik :ARG1 kelereng :time sore :mod hari
+main :ARG0 adik :ARG1 kelereng :time sore :mod hari
+main :ARG0 adik :ARG1 kelereng :time sore :mod hari
+lari :ARG0 andi :location lapangan :mod bola
+lari :ARG0 andi :location lapangan :mod bola
+lari :ARG0 andi :location lapangan :mod bola
+lari :ARG0 andi :location lapangan :mod bola
+lari :ARG0 andi :location lapangan :mod bola
+sapu :ARG0 sinta :ARG1 halaman :mod rumah
+sapu :ARG0 sinta :ARG1 halaman :mod rumah
+sapu :ARG0 sinta :ARG1 halaman :mod rumah
+sapu :ARG0 sinta :ARG1 halaman :mod rumah
+sapu :ARG0 sinta :ARG1 halaman :mod rumah
+kerja :ARG0 linta :ARG1 pr :time pukul :mod tujuh :mod malam
+kerja :ARG0 linta :ARG1 pr :time pukul :mod tujuh :mod malam
+kerja :ARG0 linta :ARG1 pr :time pukul :mod tujuh :mod malam
+kerja :ARG0 linta :ARG1 pr :time pukul :mod tujuh :mod malam
+kerja :ARG0 linta :ARG1 pr :time pukul :mod tujuh :mod malam
+baca :ARG0 agus :ARG1 koran :location depan :mod rumah
+baca :ARG0 agus :ARG1 koran :location depan :mod rumah
+baca :ARG0 agus :ARG1 koran :location depan :mod rumah
+baca :ARG0 agus :ARG1 koran :location depan :mod rumah
+baca :ARG0 agus :ARG1 koran :location depan :mod rumah
+lari :ARG0 intan :location lapangan :name gerilya :time pukul :mod enam
+lari :ARG0 intan :location lapangan :name gerilya :time pukul :mod enam
+lari :ARG0 intan :location lapangan :name gerilya :time pukul :mod enam
+lari :ARG0 intan :location lapangan :name gerilya :time pukul :mod enam
+lari :ARG0 intan :location lapangan :name gerilya :time pukul :mod enam
+renang :ARG0 adik :location kolam :mod renang
+renang :ARG0 adik :location kolam :mod renang
+renang :ARG0 adik :location kolam :mod renang
+renang :ARG0 adik :location kolam :mod renang
+renang :ARG0 adik :location kolam :mod renang
+ajar :ARG0 diki :ARG1 baca :mod buku :time setiap :mod hari
+ajar :ARG0 diki :ARG1 baca :mod buku :time setiap :mod hari
+ajar :ARG0 diki :ARG1 baca :mod buku :time setiap :mod hari
+ajar :ARG0 diki :ARG1 baca :mod buku :time setiap :mod hari
+ajar :ARG0 diki :ARG1 baca :mod buku :time setiap :mod hari
+masak :ARG0 ibu :ARG1 nasi :location dapur :time setiap :mod hari
+masak :ARG0 ibu :ARG1 nasi :location dapur :time setiap :mod hari
+masak :ARG0 ibu :ARG1 nasi :location dapur :time setiap :mod hari
+masak :ARG0 ibu :ARG1 nasi :location dapur :time setiap :mod hari
+masak :ARG0 ibu :ARG1 nasi :location dapur :time setiap :mod hari
+cangkul :ARG0 ayah :location kebun
+cangkul :ARG0 ayah :location kebun
+cangkul :ARG0 ayah :location kebun
+cangkul :ARG0 ayah :location kebun
+naik :ARG0 andi :ARG1 helikopter :time minggu :mod lalu
+naik :ARG0 andi :ARG1 helikopter :time minggu :mod lalu
+naik :ARG0 andi :ARG1 helikopter :time minggu :mod lalu
+naik :ARG0 andi :ARG1 helikopter :time minggu :mod lalu
+naik :ARG0 andi :ARG1 helikopter :time minggu :mod lalu
+juara :ARG0 aku :ARG1 lomba :mod baca :ARG1 quran :mod pertama :time kemarin
+juara :ARG0 aku :ARG1 lomba :mod baca :ARG1 quran :mod pertama :time kemarin
+jadi :ARG0 hendra :ARG1 alumni :mod lulusan :mod baik :location universitas :mod islam :location malang :time tahun :mod 2013
+jadi :ARG0 hendra :ARG1 alumni :mod lulusan :mod baik :location universitas :mod islam :location malang :time tahun :mod 2013
+jadi :ARG0 hendra :ARG1 alumni :mod lulusan :mod baik :location universitas :mod islam :location malang :time tahun :mod 2013
+jadi :ARG0 hendra :ARG1 alumni :mod lulusan :mod baik :location universitas :mod islam :location malang :time tahun :mod 2013
+jadi :ARG0 hendra :ARG1 alumni :mod lulusan :mod baik :location universitas :mod islam :location malang :time tahun :mod 2013
+dagang :ARG0 ayah :ARG1 siomay
+dagang :ARG0 ayah :ARG1 siomay
+dagang :ARG0 ayah :ARG1 siomay
+dagang :ARG0 ayah :ARG1 siomay
+dagang :ARG0 ayah :ARG1 siomay
+jual :ARG0 adi :ARG1 kayu :location kota :name jakarta :time panjang :mod tahun
+jual :ARG0 adi :ARG1 kayu :location kota :name jakarta :time panjang :mod tahun
+jual :ARG0 adi :ARG1 kayu :location kota :name jakarta :time panjang :mod tahun
+jual :ARG0 adi :ARG1 kayu :location kota :name jakarta :time panjang :mod tahun
+jual :ARG0 adi :ARG1 kayu :location kota :name jakarta :time panjang :mod tahun
+lihat :ARG0 huni :ARG1 indah :time hari
+lihat :ARG0 huni :ARG1 indah :time hari
+lihat :ARG0 huni :ARG1 indah :time hari
+lihat :ARG0 huni :ARG1 indah :time hari
+lihat :ARG0 huni :ARG1 indah :time hari
+buat :ARG0 hujan :mod lebat :ARG1 ganggu :ARG1 sinyal :mod internet
+buat :ARG0 hujan :mod lebat :ARG1 ganggu :ARG1 sinyal :mod internet
+buat :ARG0 hujan :mod lebat :ARG1 ganggu :ARG1 sinyal :mod internet
+buat :ARG0 hujan :mod lebat :ARG1 ganggu :ARG1 sinyal :mod internet
+buat :ARG0 hujan :mod lebat :ARG1 ganggu :ARG1 sinyal :mod internet
+rupa :ARG0 hari :ARG1 padam :ARG1 listrik :mod gilir :time hari
+warna :ARG0 mobil :mod mewah :ARG1 merah
+warna :ARG0 mobil :mod mewah :ARG1 merah
+warna :ARG0 mobil :mod mewah :ARG1 merah
+warna :ARG0 mobil :mod mewah :ARG1 merah
+warna :ARG0 mobil :mod mewah :ARG1 merah
+ada :ARG0 majalah :location atas :mod meja :mod ajar
+ada :ARG0 majalah :location atas :mod meja :mod ajar
+ada :ARG0 majalah :location atas :mod meja :mod ajar
+ada :ARG0 majalah :location atas :mod meja :mod ajar
+ada :ARG0 majalah :location atas :mod meja :mod ajar
+lolos :ARG0 ani :ARG1 ikut :ARG1 uji :mod keluar :ARG0 usaha :time kemarin
+lolos :ARG0 ani :ARG1 ikut :ARG1 uji :mod keluar :ARG0 usaha :time kemarin
+lolos :ARG0 ani :ARG1 ikut :ARG1 uji :mod keluar :ARG0 usaha :time kemarin
+sertifikat :ARG0 rumah :mod atas :mod nama :name herlinda
+sertifikat :ARG0 rumah :mod atas :mod nama :name herlinda
+sertifikat :ARG0 rumah :mod atas :mod nama :name herlinda
+sertifikat :ARG0 rumah :mod atas :mod nama :name herlinda
+sertifikat :ARG0 rumah :mod atas :mod nama :name herlinda
+ada :ARG0 orang :location luar :mod rumah :time dari :mod tadi
+ada :ARG0 orang :location luar :mod rumah :time dari :mod tadi
+ada :ARG0 orang :location luar :mod rumah :time dari :mod tadi
+ada :ARG0 orang :location luar :mod rumah :time dari :mod tadi
+ada :ARG0 orang :location luar :mod rumah :time dari :mod tadi
+tingal :ARG0 nenek :time tadi :mod pagi :mod pukul :mod enam
+tingal :ARG0 nenek :time tadi :mod pagi :mod pukul :mod enam
+tingal :ARG0 nenek :time tadi :mod pagi :mod pukul :mod enam
+tingal :ARG0 nenek :time tadi :mod pagi :mod pukul :mod enam
+tingal :ARG0 nenek :time tadi :mod pagi :mod pukul :mod enam
+pergi :ARG0 diana :location sekolah :mod naik :ARG1 sepeda :mod motor :time siang
+pergi :ARG0 diana :location sekolah :mod naik :ARG1 sepeda :mod motor :time siang
+pergi :ARG0 diana :location sekolah :mod naik :ARG1 sepeda :mod motor :time siang
+pergi :ARG0 diana :location sekolah :mod naik :ARG1 sepeda :mod motor :time siang
+pergi :ARG0 diana :location sekolah :mod naik :ARG1 sepeda :mod motor :time siang
+pulang :ARG0 ayah :location desa :time malam :mod tadi
+pulang :ARG0 ayah :location desa :time malam :mod tadi
+pulang :ARG0 ayah :location desa :time malam :mod tadi
+pulang :ARG0 ayah :location desa :time malam :mod tadi
+pulang :ARG0 ayah :location desa :time malam :mod tadi
+ajar :ARG0 ayah :location sekolah :mod dasar :mod negeri :name tamanan :mod 1 :time tahun
+ajar :ARG0 ayah :location sekolah :mod dasar :mod negeri :name tamanan :mod 1 :time tahun
+ajar :ARG0 ayah :location sekolah :mod dasar :mod negeri :name tamanan :mod 1 :time tahun
+ajar :ARG0 ayah :location sekolah :mod dasar :mod negeri :name tamanan :mod 1 :time tahun
+ajar :ARG0 ayah :location sekolah :mod dasar :mod negeri :name tamanan :mod 1 :time tahun
+main :ARG0 adik :ARG1 boneka :name barbie
+main :ARG0 adik :ARG1 boneka :name barbie
+main :ARG0 adik :ARG1 boneka :name barbie
+main :ARG0 adik :ARG1 boneka :name barbie
+main :ARG0 adik :ARG1 boneka :name barbie
+tabrak :ARG0 mobil :ARG1 pagar :mod rumah :mod sampai :mod rusak :time siang
+tabrak :ARG0 mobil :ARG1 pagar :mod rumah :mod sampai :mod rusak :time siang
+tabrak :ARG0 mobil :ARG1 pagar :mod rumah :mod sampai :mod rusak :time siang
+tabrak :ARG0 mobil :ARG1 pagar :mod rumah :mod sampai :mod rusak :time siang
+tabrak :ARG0 mobil :ARG1 pagar :mod rumah :mod sampai :mod rusak :time siang
+beri :ARG0 ani :ARG1 ucap :mod selamat :mod kepada :mod adik :time tadi :mod pagi
+beri :ARG0 ani :ARG1 ucap :mod selamat :mod kepada :mod adik :time tadi :mod pagi
+beri :ARG0 ani :ARG1 ucap :mod selamat :mod kepada :mod adik :time tadi :mod pagi
+beri :ARG0 ani :ARG1 ucap :mod selamat :mod kepada :mod adik :time tadi :mod pagi
+beri :ARG0 ani :ARG1 ucap :mod selamat :mod kepada :mod adik :time tadi :mod pagi
+mulai :ARG0 acara :mod diskusi :time jam :mod delapan
+mulai :ARG0 acara :mod diskusi :time jam :mod delapan
+mulai :ARG0 acara :mod diskusi :time jam :mod delapan
+mulai :ARG0 acara :mod diskusi :time jam :mod delapan
+mulai :ARG0 acara :mod diskusi :time jam :mod delapan
+berangkat :ARG0 paman :ARG1 layar :time sejak :mod pukul :mod enam
+berangkat :ARG0 paman :ARG1 layar :time sejak :mod pukul :mod enam
+berangkat :ARG0 paman :ARG1 layar :time sejak :mod pukul :mod enam
+berangkat :ARG0 paman :ARG1 layar :time sejak :mod pukul :mod enam
+berangkat :ARG0 paman :ARG1 layar :time sejak :mod pukul :mod enam
+saji :ARG0 ibu :ARG1 makan
+saji :ARG0 ibu :ARG1 makan
+saji :ARG0 ibu :ARG1 makan
+saji :ARG0 ibu :ARG1 makan
+saji :ARG0 ibu :ARG1 makan
+laku :ARG0 murid :ARG1 upacara :mod bendera :time hari :mod ini
+laku :ARG0 murid :ARG1 upacara :mod bendera :time hari :mod ini
+laku :ARG0 murid :ARG1 upacara :mod bendera :time hari :mod ini
+laku :ARG0 murid :ARG1 upacara :mod bendera :time hari :mod ini
+laku :ARG0 murid :ARG1 upacara :mod bendera :time hari :mod ini
+dan :op1 tanam :ARG0 bu :name ani :ARG1 bunga :op2 berangkat :ARG0 om :name andi :ARG1 sekolah :mod ke :time besok
+dan :op1 pergi :ARG0 ibu :name asih :location rumah :mod nenek :name yanti :time kemarin :op2 pergi :ARG0 kami :mod keluarga :ARG1 tamasya :time hari :mod minggu
+dan :op1 ajar :ARG0 siswa :location sekolah :op2 upacara :ARG0 siswa :mod para
+dan :op1 makan :ARG0 om :name budi :ARG1 permen :op2 tanam :ARG0 tani :ARG1 padi
+dan :op1 pergi :ARG0 ayah :location kantor :mod ke :op2 masak :ARG0 ibu :name risna :ARG1 ayam :location dapur
+dan :op1 main :ARG0 adik :ARG1 teman :op2 tidur :ARG0 kakak
+dan :op1 ajak :ARG0 paman :name nadiem :ARG1 adik :mod main :op2 pimpin :ARG0 kepala :mod sekolah :ARG1 upacara :time tadi
+dan :op1 tonton :ARG0 mereka :ARG1 tanding :mod bola :mod basket :time hari :op2 ajak :ARG0 ibu :name fio :ARG1 adik :location pasar
+dan :op1 punya :ARG0 om :name irwan :ARG1 sepatu :mod baru :op2 ajar :ARG0 siswa :mod semua :mod rajin
+dan :op1 jual :ARG0 dagang :mod para :location pasar :time hari :op2 siap :ARG0 peserta :mod lomba :location garis :mod start
+dan :op1 baca :ARG0 bu :name anna :ARG1 buku :time kemarin :op2 baca :ARG0 bu :name anna :ARG1 buku :name bobo
+dan :op1 beli :ARG0 syifa :ARG1 roti :name jaya :op2 pergi :ARG0 tante :name syifa :location salon :name lutuye
+dan :op1 kena :ARG0 zulia :ARG1 baju :mod merah :op2 cetak :ARG0 mereka :ARG1 gol :location gawang :mod lawan
+dan :op1 laku :ARG0 mereka :ARG1 selebrasi :op2 sambut :ARG0 tonton :ARG1 pak :name budi :mod riuh
+dan :op1 pintal :ARG0 ashita :ARG1 benang :mod wol :op2 pintal :ARG0 ashita :ARG1 benang :mod sutra
+dan :op1 main :ARG0 profesor :name joko :ARG1 bola :op2 tangis :ARG0 pak :name andi :location tengah :mod permainan
+dan :op1 tidur :ARG0 ayah :op2 main :ARG0 risya :ARG1 voli
+dan :op1 tendang :ARG0 bos :name andi :ARG1 bola :mod itu :op2 jalan :ARG0 main :mod tarik
+dan :op1 ketik :ARG0 aku :ARG1 cerita :op2 ketik :ARG0 aku :ARG1 cerita :time datang :ARG0 ayah
+dan :op1 adalah :ARG0 suminah :mod anak :mod dua :op2 manja :ARG1 ia
+dan :op1 manja :ARG0 orang :mod tua :ARG1 ia :op2 benci :ARG0 aku :ARG1 tikus
+dan :op1 benci :ARG0 ia :ARG1 kucing :op2 orang :ARG0 ayah :ARG1 polisi
+dan :op1 anak :ARG0 dewi :mod manja :op2 rangkak :ARG0 orang :name rudi
+dan :op1 orang :ARG0 pak :name sasu :ARG1 ceo :mod muda :location indonesia :op2 anak :ARG0 andriana :mod berani
+dan :op1 adalah :ARG0 zia :ARG1 mayoret :mod kelompok :mod marching :mod band :op2 siswa :ARG0 mereka :mod sma :name dua :name nusantara
+dan :op1 orang :ARG0 teguh :ARG1 perwira :mod polisi :op2 rupa :ARG0 ramadhan :ARG1 bulan :mod suci
+dan :op1 baca :ARG0 andi :ARG1 buku :op2 lari :ARG0 siana :location lapang
+dan :op1 kerja :ARG0 siwan :ARG1 tugas :location pustaka :mod kampus :op2 rotasi :ARG0 bumi
+dan :op1 putar :ARG0 bola :location udara :op2 sapa :ARG0 dika :ARG1 tiap :mod orang :mod lewat
+dan :op1 gerak :ARG0 menara :mod pisa :mod miring :op2 baca :ARG0 sonia :ARG1 jurnal :mod hari :mod sekolah :mod kembali
+dan :op1 mati :ARG0 singa :mod lapar :op2 lari :ARG0 impala :ARG1 kejar :ARG0 singa
+dan :op1 bangun :ARG1 gedung :mod tahun :mod lima :op2 selesai :ARG1 misi :mod satu
+dan :op1 sepatu :ARG0 anna :mod pasang :mod dua :op2 ada :ARG1 coklat :mod biji :mod tiga
+dan :op1 umur :ARG0 bangunan :mod abad :op2 ada :ARG0 anak :mod kucing :mod tiga
+dan :op1 naik :ARG0 tante :name ari :ARG1 sepeda :op2 jadi :ARG0 bu :name ayu :ARG1 lulus :mod baik :mod ipb :time tahun :mod 2017
+dan :op1 mampu :ARG0 dia :ARG1 mandiri :mod finansial :op2 orang :ARG0 ibu :ARG1 dokter
+dan :op1 beli :ARG0 arya :ARG1 telur :location minimarket :op2 beli :ARG0 kakek :name arya :ARG1 telur :location minimarket
+dan :op1 roboh :ARG1 rumah :op2 kacau :ARG0 hujan :ARG1 sinyal :mod internet
+dan :op1 adalah :ARG0 padam :mod gilir :mod empat :time minggu :op2 warna :ARG0 mobil :ARG1 silver
+dan :op1 taruh :ARG0 aku :ARG1 majalah :location meja :mod atas :op2 dapat :ARG0 aji :ARG1 kerja :mod bagus :location perusahaan :mod multi
+dan :op1 diri :ARG0 orang :location sana :time tadi :mod sejak :op2 tinggal :ARG0 kakak
+dan :op1 pergi :ARG0 riana :location pasar :op2 dari :ARG0 ayah :location kota
+dan :op1 bawa :ARG0 ayah :ARG1 boneka :op2 main :ARG0 kesang :ARG1 bola
+dan :op1 tabrak :ARG0 mobil :ARG1 mobil :mod parkir :location depan :mod kompleks :time pagi :mod ini :op2 beri :ARG0 agung :ARG1 selamat :ARG1 pada :time bulan :mod ini
+dan :op1 bahagia :ARG0 aku :time hari :mod ini :op2 anak :ARG0 kucing :ARG1 lima
+dan :op1 pergi :ARG0 ibu :location kantor :op2 antar :ARG0 ayah :ARG1 ibu :location pasar
+dan :op1 tara :ARG0 gaji :mod bulan :mod tiap :ARG1 rumah :mod buah :mod satu :op2 makan :ARG0 aku :ARG1 roti :time tadi
+dan :op1 busuk :ARG0 roti :op2 buang :ARG0 aku :ARG1 roti :location tempat :mod sampah
+dan :op1 bawa :ARG0 aceng :ARG1 sesuatu :location semeru :op2 gerak :ARG0 mobil :ARG1 maju
+dan :op1 guna :ARG0 mereka :ARG1 teknologi :mod rupa :mod paling :mod mutakhir :op2 anak :ARG0 dia :mod riang
+dan :op1 ada :ARG0 balon :mod lima :op2 beli :ARG0 jabar :mod untuk
+dan :op1 senang :ARG0 kami :location taman :mod bermain :time siang :mod itu :op2 tampak :ARG0 raut :mod muka :ARG1 bahagia
+dan :op1 buat :ARG0 jadi :ARG1 rifqy :mod sadar :time kemarin :op2 suka :ARG0 ia :ARG1 suka :ARG0 dekat :ARG1 mereka :time lama :mod ini
+dan :op1 tahu :ARG0 bu :name rifqy :ARG1 rasa :op2 juara :ARG0 alfiansyah :ARG1 renang
+dan :op1 jadi :ARG0 agribisnis :mod 50 :ARG1 juara :ARG1 the :mod 10th :mod umum :time tahun :mod ini :op2 kantuk :ARG0 aku :time sore :mod tadi
+dan :op1 selesai :ARG0 dia :ARG1 tugas :time tepat :mod waktu :op2 anak :ARG0 dia :mod cerdas
+dan :op1 ada :ARG0 rumah :location belakang :mod kebun :mod raya :op2 ada :ARG0 tk :location sebelah :mod kanan
+dan :op1 pilih :ARG0 mereka :ARG1 tinggal :location pinggiran :mod jakarta :op2 jarak :ARG0 rumah :mod mereka :time sekarang :mod dekat :ARG1 tempat :mod kerja
+dan :op1 rupa :ARG0 shiana :ARG1 anak :ARG0 mereka :mod dua :op2 nanti :ARG0 shiana :ARG1 lahir :ARG1 adik :location dunia :time sekarang
+dan :op1 semangat :ARG0 ibu :ARG1 gadis :location garis :mod finish :time pagi :mod tadi :op2 serah :ARG0 aku
+dan :op1 rasa :ARG0 aku :ARG1 sendiri :mod lagi :location rumah :op2 teman :ARG0 dia :ARG1 aku :time pagi :mod sampai
+dan :op1 buat :ARG0 datang :ARG0 curi :ARG1 seti :mod trauma :op2 lihat :ARG0 aku :ARG1 raut :mod sedih
+dan :op1 dapat :ARG0 ariana :ARG1 tepuk :mod tangan :mod meriah :mod tonton :op2 antar :ARG0 pak :name rifqy :ARG1 aku :time hari :mod ini
+dan :op1 habis :ARG0 kami :ARG1 waktu :time sejak :mod pagi :op2 bawa :ARG0 ia :ARG1 bunga :time kemarin
+dan :op1 aku :ARG0 ia :ARG1 pura :mod peduli :op2 senang :ARG0 aku :ARG1 dengar :mod aku
+dan :op1 putus :ARG0 kami :ARG1 nikah :time tahun :mod depan :op2 terima :ARG0 orang :mod tua :mod apa :mod ada
+dan :op1 suka :ARG0 kami :mod keluarga :ARG1 cita :op2 lulus :ARG0 zahra :mod nilai :mod puas
+dan :op1 lewat :ARG0 ia :ARG1 uji :mod lancar :op2 dapat :ARG0 putri :ARG1 sorot :mod tunjuk :mod itu
+dan :op1 pukau :ARG0 tampil :ARG1 semua :mod orang :op2 sangka :ARG0 ada :ARG1 ia :mod bagus :mod itu
+dan :op1 tampak :ARG0 dia :ARG1 cantik :mod sekali :time malam :mod ini :op2 rebut :ARG0 semua :mod orang :ARG1 foto
+dan :op1 jadi :ARG0 ia :ARG1 bintang :time malam :mod ini :op2 dapat :ARG0 aku :ARG1 tawar :location perusahaan :mod tarik
+dan :op1 tawar :ARG0 mereka :ARG1 aku :mod sebagai :mod menajer :op2 lihat :ARG0 mereka :ARG1 hasil :mod skripsi :time kemarin
+dan :op1 senang :ARG0 mereka :ARG1 karya :mod tulis :op2 tarik :ARG0 sebuah :mod penerbit :ARG1 terbit :mod buku
+dan :op1 lihat :ARG0 mereka :ARG1 contoh :location blog :op2 judul :ARG0 buku :mod pertama :ARG1 rindu
+dan :op1 raya :ARG0 kami :ARG1 sukses :mod buku :op2 sumbang :ARG0 tia :ARG1 rezeki :location tempat :mod yatim :mod piatu
+dan :op1 kenal :ARG0 tia :ARG1 baik :mod orang :op2 rupa :ARG0 ia :ARG1 orang :mod dermawan
+dan :op1 kenal :ARG0 semua :mod satpam :mod kampus :ARG1 orang :nama utami :op2 awal :ARG0 ia :ARG1 karir :mod musik :mod bagus
+dan :op1 adalah :ARG0 ia :ARG1 bintang :mod sayang :mod gemar :time kini :op2 bawa :ARG0 azhila :ARG1 tas :mod buat :mod kulit :mod harimau :mod asli
+dan :op1 bawa :ARG0 mereka :ARG1 tas :op2 menang :ARG0 aji :ARG1 lomba :mod tulis :mod karya :mod ilmiah
+dan :op1 harga :ARG0 juri :ARG1 tulis :op2 beri :ARG0 lomba :ARG1 hadiah :mod libur :location eropa
+dan :op1 sinar :ARG0 bulan :mod cerah :time malam :mod ini :op2 larut :ARG0 semua :mod orang :ARG1 senang
+dan :op1 tampak :ARG0 gadis :ARG1 nikmat :ARG1 musik :op2 gerak :ARG0 badan :mod irama
+dan :op1 tampak :ARG0 pria :mod berapa :ARG1 kagum :ARG1 lihat :mod jauh :op2 kenal :ARG0 ia :ARG1 hanya :mod lewat :mod otak :mod cerdas :time kini
+dan :op1 kenal :ARG0 ia :ARG1 perempuan :mod pesona :op2 akhir :ARG0 bu :name ayu :ARG1 kisah :mod bahagia
+dan :op1 pilih :ARG0 karya :ARG1 jadi :mod sepuluh :mod karya :mod baik :op2 pesona :ARG0 orang :ARG1 diri :time hari :mod ini
+dan :op1 datang :ARG0 om :name aria :ARG1 temu :ARG1 tante :name laisha :op2 duduk :ARG0 mereka :location dalam :mod trem :mod sebelah
+dan :op1 beri :ARG0 aku :ARG1 uang :mod lima :mod ribu :mod rupiah :op2 beri :ARG0 suster :name nabilla :ARG1 kripik
+dan :op1 selesai :ARG0 pak :name aria :ARG1 tesis :op2 bawa :ARG0 paman :name anto :ARG1 bingkisan
+dan :op1 kunjung :ARG0 aku :ARG1 museum :name van :name Gogh :op2 main :ARG0 wafir :ARG1 gitar :mod jago
+dan :op1 ingin :ARG0 aku :ARG1 jadi :ARG1 lebih :mod baik :mod lagi :op2 temu :ARG0 bu :name ayu :ARG1 pak :name jabbar :location konser :mod sengaja
+dan :op1 pilih :ARG0 mereka :ARG1 gabung :op2 lihat :ARG1 pandang :mod indah
+dan :op1 anak :ARG0 dewi :mod baik :op2 anak :ARG0 firman :mod nakal
+dan :op1 indah :ARG1 lukis :op2 hembus :ARG0 angin :mod arah :mod barat
+dan :op1 dari :ARG0 paman :location jawa :mod tengah :op2 pergi :ARG0 saya :location sekolah
+dan :op1 laksana :ARG1 seminar :location gedung :mod serba :mod guna :op2 kunjung :ARG0 aku :location rumah :time kemarin
+dan :op1 bawa :ARG0 paman :name noel :ARG1 serabi :location semarang :op2 laku :ARG1 kerja :mod kelompok :location rumah :name ami :time hari :mod ini
+dan :op1 wisata :ARG0 kita :location yogyakarta :time hari :mod ini :op2 terima :ARG0 kampus :mod ini :ARG1 mahasiswa :mod luar :mod negeri
+dan :op1 laku :ARG1 aksi :mod demo :location depan :mod gedung :mod mpr :op2 temu :ARG0 aku :ARG1 orang :mod kawan :mod lama :location bandung
+dan :op1 mampir :ARG0 aku :location rumah :mod makan :time pulang :mod dari :mod kantor :op2 naik :ARG0 kami :ARG1 kereta :mod api :location stasiun :name gambir
+dan :op1 rupa :ARG0 dodol :ARG1 makan :mod khas :location garut :op2 wisata :ARG0 banyak :mod wisata :mod mancanegara :location pulau :mod bali
+dan :op1 dapat :ARG1 banyak :mod koleksi :mod main :mod zaman :mod dulu :location rumah :op2 rupa :ARG0 profesor :name manaf :ARG1 jebol :location universitas :location connecticut
+dan :op1 baca :ARG0 ibu :name dita :ARG1 buku :op2 beli :ARG0 pak :name roni :ARG1 roti
+dan :op1 kena :ARG0 mbak :name tukimin :ARG1 baju :mod merah :op2 cetak :ARG0 kita :ARG1 gol :location gawang :mod lawan
+dan :op1 pintal :ARG0 mbak :name shinta :ARG1 benang :mod wol :op2 ketik :ARG0 saya :ARG1 cerita
+dan :op1 ada :ARG1 balon :mod lima :op2 ada :ARG0 aku :location depan :mod gedung
+dan :op1 haus :ARG0 kita :op2 beli :ARG0 ayah :name dodi :ARG1 motor
+dan :op1 jual :ARG0 ibu :name sukiyem :ARG1 kue :location pasar :op2 tanya :ARG0 mas :name ridho :ARG1 guru
+dan :op1 gonggong :ARG0 anjing :op2 aum :ARG1 harimau :mod suara
+dan :op1 lari :ARG0 kucing :op2 tidur :ARG0 adik
+dan :op1 masak :ARG0 ibu :name rina :location dapur :op2 pergi :ARG0 ibu :name tina :location pasar
+dan :op1 tulis :ARG0 kak :name rima :ARG1 surat :op2 tutup :ARG0 pak :name toni :ARG1 jendela
+dan :op1 desah :ARG0 bu :name ayu :op2 siram :ARG0 bu :name susi :ARG1 tanam
+dan :op1 goda :ARG0 dia :op2 duduk :ARG0 dia
+dan :op1 simpuh :ARG0 ibu :name dodi :op2 sujud :ARG0 kami
+dan :op1 rangkak :ARG0 balita :op2 panjat :ARG1 mereka
+dan :op1 siaga :ARG0 polisi :op2 teriak :ARG0 aku
+dan :op1 atur :ARG0 polisi :ARG1 lalin :op2 tutup :ARG0 bu :name resti :ARG1 mata
+dan :op1 buat :ARG0 kak :name sally :ARG1 adon :op2 ikut :ARG0 aku :ARG1 bapak :name john
+dan :op1 bangun :ARG0 tukang :ARG1 rumah :op2 nanti :ARG0 nenek :name yanti :ARG1 kakek :name joni
+dan :op1 basuh :ARG0 kami :ARG1 muka :op2 tampar :ARG0 pakdhe :name yayas :ARG1 kakak
+dan :op1 donor :ARG0 kami :ARG1 darah :op2 tipu :ARG0 om :name wiwit :ARG1 teman
+dan :op1 tarik :ARG0 ibu :ARG1 adik :op2 rindu :ARG0 aku :ARG1 bu :name azka
+dan :op1 bawa :ARG0 adik :ARG1 makan :op2 rawat :ARG0 suster :name siska :ARG1 pasien
+dan :op1 cicip :ARG0 tante :name suti :ARG1 masak :op2 cerita :ARG0 aku
+dan :op1 tinggal :ARG0 kakek :name glenn :op2 lamar :ARG0 tante :name siti :ARG1 kerja
+dan :op1 tembak :ARG0 peluru :ARG1 doni :op2 rambut :ARG0 nenek :name krista :ARG1 putih
+dan :op1 kata :ARG0 kak :name putri :ARG1 kasar :op2 tabrak :ARG0 mobil :ARG1 adik :name kayla
+dan :op1 teriak :ARG0 kami :op2 timpa :ARG0 pak :name risman :ARG1 pohon
+dan :op1 baca :ARG0 bu :name angela :ARG1 naskah :mod drama :op2 bawa :ARG0 ibu :ARG1 adik :location pasar
+dan :op1 gelar :ARG0 budhe :name tiwi :ARG1 tikar :op2 bawa :ARG0 pak :name ahmad :ARG1 makan
+dan :op1 hadir :ARG0 kakak :name dina :ARG1 pesta :mod nikah :op2 jahit :ARG0 ibu :name fio :ARG1 baju
+dan :op1 baik :ARG0 om :name bagus :ARG1 motor :op2 sumbang :ARG0 pak :name ridwan :ARG1 semen
+dan :op1 benam :ARG0 bu :name bowo :ARG1 tikus :location sawah :op2 nyanyi :ARG0 afgan :ARG1 lagu :mod sendu
+dan :op1 simpan :ARG0 ibu :name tina :ARG1 wasiat :op2 kunci :ARG0 ayah :ARG1 pintu
+dan :op1 rawat :ARG0 adik :ARG1 kucing :op2 jaga :ARG0 tni :ARG1 bhineka
+dan :op1 jaga :ARG0 tni :ARG1 bhinneka :op2 tuntut :ARG0 buruh :ARG1 gaji
+dan :op1 suka :ARG0 pak :name bagus :ARG1 bu :name ani :op2 buang :ARG0 paman :ARG1 sampah
+dan :op1 marah :ARG0 yanto :ARG1 tugas :op2 tuang :ARG0 ibu :name rina :ARG1 air
+dan :op1 usir :ARG0 jajah :ARG1 pribumi :op2 benci :ARG0 kami :ARG1 bohong
+dan :op1 peluk :ARG0 mereka :op2 salam :ARG0 kami
+dan :op1 timpa :ARG0 pohon :ARG1 mas :name rio :op2 tembak :ARG0 duta :mod besar :ARG1 peluru
+dan :op1 potret :ARG0 turis :ARG1 pawai :op2 kirim :ARG0 aku :ARG1 pesan :location beli
+dan :op1 ajar :ARG0 bu :name hana :ARG1 statistik :mod mahasiswa :op2 beli :ARG0 kami :ARG1 buku :location toko :name gramedia
+dan :op1 jatuh :ARG0 ayah :location simpang :mod jalan :op2 tinggal :ARG0 kakak :name judi :ARG1 pacar
+dan :op1 pidato :ARG0 pak :name camat :location podium :op2 pimpin :ARG0 ulama :name abdul :ARG1 umat
+dan :op1 beli :ARG0 ibu :ARG1 sayur :location warung :op2 tanam :ARG0 kak :name mira :ARG1 tanam :mod obat
+dan :op1 datang :ARG0 kami :location yogyakarta :op2 olahraga :ARG0 kami
+dan :op1 sampai :ARG0 mahasiswa :ARG1 orasi :location tengah :mod jalan :op2 berangkat :ARG0 adik :location sekolah
+dan :op1 buka :ARG0 mas :name linton :ARG1 kaleng :mod roti :op2 belanja :ARG0 ibu
+dan :op1 umum :ARG0 kepala :mod sekolah :ARG1 nilai :op2 dukung :ARG0 rakyat :ARG1 perintah
+dan :op1 pukul :ARG0 pak :name joko :ARG1 curi :location rumah :op2 buka :ARG0 saya :ARG1 kaleng :mod roti
+dan :op1 belanja :ARG0 saya :op2 umum :ARG0 direktur :ARG1 nilai
+dan :op1 dukung :ARG0 bu :name susi :ARG1 perintah :op2 pukul :ARG0 ayah :ARG1 curi :location rumah
+dan :op1 tentu :ARG0 cpu :ARG1 menang :op2 beri :ARG0 pak :name dwi :ARG1 hadiah :ARG1 menang
+dan :op1 pegang :ARG0 saya :ARG1 adik :mod perempuan :op2 bawa :ARG0 bu :name sakinah :ARG1 adik :location sekolah
+dan :op1 pilih :ARG0 anda :ARG1 pasang :op2 raya :ARG0 kami :ARG1 menang
+dan :op1 aju :ARG0 mas :name anis :ARG1 keluh :op2 gambar :ARG1 deformasi
+dan :op1 lukis :ARG0 bu :name okta :ARG1 wanita :op2 cetak :ARG0 mas :name budi :ARG1 kartu :mod nama :location sampurna
+dan :op1 lompat :ARG0 saudara :op2 bela :ARG0 pengacara :ARG1 dakwa :location adil
+dan :op1 hukum :ARG0 hakim :op2 tuntut :ARG0 jaksa :ARG1 sangka :location adil
+dan :op1 terima :ARG0 mereka :ARG1 kalah :op2 jual :ARG0 adik :name zahra :ARG1 kue
+dan :op1 beri :ARG0 ibu :ARG1 makan :op2 dapat :ARG0 suster :name diana :ARG1 uang
+dan :op1 habis :ARG0 anda :ARG1 uang :op2 bakar :ARG0 rumun :mod orang :ARG1 mobil :location jalan
+dan :op1 tangkap :ARG0 warga :ARG1 babi :location hutan :op2 cerita :ARG0 bu :name zee :name zee :ARG1 kisah :mod tragis
+dan :op1 tangkap :ARG0 para :mod jaga :ARG1 curi :op2 seka :ARG0 saya :ARG1 lantai
+dan :op1 pelihara :ARG0 tentara :ARG1 damai :location Indonesia :op2 cari :ARG0 saya :ARG1 nafkah
+dan :op1 tanam :ARG0 pak :name ogah :ARG1 padi :op2 beli :ARG0 kontraktor :ARG1 tanam
+dan :op1 peras :ARG0 antara :ARG1 tani :op2 tonton :ARG0 dik :name dilan :ARG1 kartun :location tv
+dan :op1 tuang :ARG0 ibu :name salsa :ARG1 air :op2 lipat :ARG0 ibu :ARG1 pakai
+dan :op1 liput :ARG0 wartawan :ARG1 berita :op2 kunyah :ARG0 sister :name asti :ARG1 permen
+dan :op1 kendara :ARG0 ayah :ARG1 mobil :op2 buat :ARG0 bu :name prapto :ARG1 pupuk
+dan :op1 ledak :ARG0 pak :name adi :ARG1 pipa :location halaman :op2 tanam :ARG0 krishna :ARG1 kedelai :location kebun
+dan :op1 cuci :ARG0 mbak :name rina :location kamar :mod mandi :op2 tunggu :ARG0 nenek :ARG1 kakek :location teras
+dan :op1 bersih :ARG0 anda :ARG1 dapur :op2 seberang :ARG0 mas :name dudi :ARG1 sungai
+dan :op1 cari :ARG0 ia :ARG1 uang :op2 main :ARG0 kak :name intan :ARG1 bola
+dan :op1 ajar :ARG0 rudi :ARG1 bahasa :op2 pancing :ARG0 saskia :ARG1 ikan
+dan :op1 gambar :ARG0 mbak :name hana :ARG1 kartun :op2 berangkat :ARG0 akmal :location sekolah
+dan :op1 tempel :ARG0 lisa :ARG1 foto :mod keluarga :location ruang :mod tamu :op2 tangis :ARG0 adik
+dan :op1 pingsan :ARG0 ibu :op2 kunjung :ARG0 presiden :name joko :location papua
+dan :op1 naik :ARG0 semua :mod menang :location podium :op2 tidur :ARG0 paman :location lantai
+dan :op1 beli :ARG0 aku :ARG1 sayur :location pasar :op2 lari :ARG0 kami
+dan :op1 baik :ARG0 bagus :ARG1 laptop :op2 bunuh :ARG0 toni :ARG1 cicak :mod guna :mod sapu
+dan :op1 demo :ARG0 warga :ARG1 lurah :mod baru :op2 nikmat :ARG0 para :mod tamu :mod undang :ARG1 saji :mod pesta
+dan :op1 buat :ARG0 aku :ARG1 artikel :mod sehat :mod mata :op2 umum :ARG0 bu :name nina :ARG1 hasil :mod ulang :mod matematika :mod para :mod siswa
+dan :op1 buat :ARG0 ibu :ARG1 bubur :mod kacang :mod ijo :op2 bantu :ARG0 warga :ARG1 acara :mod nikah :mod putri :mod presiden :name jokowi
+dan :op1 cuci :ARG0 aku :ARG1 pakai :mod kotor :location kamar :mod mandi :op2 bakar :ARG0 pak :name amat :ARG1 sampah :mod kering :location pinggir :mod sungai
+dan :op1 daya :ARG0 kelompok :mod tani :ARG1 sampah :mod plastik :op2 beri :ARG0 perintah :ARG1 bantu :mod langsung :mod tunai
+dan :op1 main :ARG0 bu :name rita :ARG1 piano :op2 teriak :ARG0 demo
+dan :op1 lari :ARG0 ungsi :op2 tidur :ARG0 kakek :name yusuf
+dan :op1 tanam :ARG0 suster :name mira :ARG1 bunga :mod mawar :op2 datang :ARG0 dia :location jogyakarta
+dan :op1 berangkat :ARG0 andi :ARG1 latih :mod karate :op2 olahraga :ARG0 mereka
+dan :op1 benam :ARG0 matahari :time senja :mod hari :op2 cari :ARG0 kelelawar :ARG1 makan :time malam :mod hari
+dan :op1 dengar :ARG1 suara :mod ayam :mod jantan :time fajar :op2 pulang :ARG0 murid :location sekolah :time hari :mod ini
+dan :op1 selenggara :ARG1 upacara :mod ingat :mod hari :mod sakti :mod pancasila :time tanggal :mod satu :mod oktober :op2 berangkat :ARG0 budi :location sekolah :time pukul :mod tujuh
+dan :op1 turun :ARG1 hujan :time kemarin :mod sore :op2 langsung :ARG1 musim :mod hujan :time sejak :mod bulan :mod oktober
+dan :op1 dengar :ARG0 bayi :time sejak :mod lahir :op2 pindah :ARG0 tante :name indri :location bandung :time setelah :mod nikah
+dan :op1 minum :ARG0 bu :name susi :ARG1 obat :time setelah :mod makan :op2 laksana :ARG1 upacara :mod bendera :time hari :mod senin
+dan :op1 hidup :ARG0 dinosaurus :location bumi :time juta :mod tahun :mod lalu :op2 rawat :ARG0 paman :name gober :location rumah :mod sakit :time kemarin
+dan :op1 pergi :ARG0 ibu :name joko :location pasar :time sore :mod ini :op2 pecah :ARG0 anak :mod ayam :ARG1 cangkang :mod telur :time tadi
+dan :op1 masuk :ARG0 bu :name tina :ARG1 sekolah :time senin :mod lalu :op2 tumbuh :ARG0 jamur :time musim :mod hujan
+dan :op1 bahas :ARG1 hal :time saat :mod rapat :mod nanti :op2 mulai :ARG1 upacara :mod detik :mod proklamasi :time jam :mod sepuluh :mod pagi
+dan :op1 proklamir :ARG1 merdeka :mod indonesia :time hari :mod ini :op2 jadi :ARG1 berontak :time tahun :mod lalu
+dan :op1 luap :ARG1 air :mod sungai :name bengawan :time kemarin :op2 janji :ARG0 dia :ARG1 tingkat :ARG1 makmur :mod masyarakat
+dan :op1 rasa :ARG1 udara :mod panas :time pagi :mod ini :op2 lewat :ARG0 bu :name nisa :location sini
+dan :op1 rasa :ARG0 pak :name harry :ARG1 bahagia :time hari :mod wisuda :mod anak :op2 berangkat :ARG0 profesor :name amri :location solo :time tiga :mod hari :mod lalu
+dan :op1 laksana :ARG1 senam :time hari :mod minggu :op2 lihat :ARG0 dia :ARG1 buku :mod ini
+dan :op1 sedih :ARG0 pak :name joko :op2 ingat :ARG0 bu :name susi :ARG1 kejadian :mod itu
+dan :op1 pindah :ARG1 masak :location piring :mod saji :op2 mulai :ARG1 acara :mod seminar :time tiga :mod puluh :mod menit :mod lagi
+dan :op1 tunggu :ARG0 kami :location stasiun :time sejak :mod satu :mod jam :mod lalu :op2 dengar :ARG0 om :name tanto :ARG1 kabar :time hari :mod ini
+dan :op1 bisa :ARG0 dia :ARG1 datang :time sore :mod ini :op2 resmi :ARG1 pameran :mod dirgantara :time pekan :mod depan
+dan :op1 kuliah :ARG0 kakak :location bandung :time tahun :mod depan :op2 tutup :ARG1 toko :mod buku :time sembilan :mod malam
+dan :op1 mampir :ARG0 saya :location sana :time hari :mod ini :op2 latihan :ARG0 kami :ARG1 musik :time sabtu :mod sore
+dan :op1 temu :ARG0 saya :ARG1 pak :name andi :time besok :op2 laksana :ARG1 baik :mod jalan :time dalam :mod waktu :mod dekat
+dan :op1 mulai :ARG1 atur :mod laku :time sejak :mod sah :op2 pakai :ARG0 ani :ARG1 pakai :mod olahraga :time hari :mod ini
+dan :op1 pergi :ARG0 tante :name dyah :ARG1 libur :location bali :time besok :op2 datang :ARG1 bencana :mod banjir :time musim :mod hujan
+dan :op1 berangkat :ARG0 kita :time setelah :mod makan :mod siang :op2 mulai :ARG1 acara :mod diskusi :time sembilan :mod malam
+dan :op1 gosok :ARG0 dokter :name rina :ARG1 gigi :time malam :mod setiap :mod belum :mod tidur :op2 kering :ARG1 sungai :time musim :mod kemarau
+dan :op1 ingat :ARG1 hari :mod pahlawan :time sepuluh :mod november :op2 janji :ARG0 dia :ARG1 datang :location sini :time tadi
+dan :op1 datang :ARG0 paman :location rumah :time esok :mod lusa :op2 ada :ARG1 aksi :mod besar :time kemarin
+dan :op1 hadir :ARG0 dia :ARG1 resmi :location lapang :time besok :op2 siap :ARG0 ibu :ARG1 alat :mod dapur :time besok
+dan :op1 berangkat :ARG0 kami :mod keluarga :location padang :time nanti :mod malam :op2 belanja :ARG0 ayah :ARG1 bahan :mod makan :location toko :mod surya :time siang :mod ini
+dan :op1 bawa :ARG0 kakek :ARG1 kopi :location kampung :time siang :mod ini :op2 sarapan :ARG0 kami :ARG1 roti :mod keju :time pagi :mod ini
+dan :op1 jalan :ARG1 macet :time pagi :mod ini :op2 guyur :ARG0 hujan :mod deras :time sejak :mod pagi
+dan :op1 makan :ARG0 pak :name juli :ARG1 buah :mod mangga :op2 lari :ARG0 roni :location sekitar :mod lapang
+dan :op1 pulang :ARG0 ayah :time sore :mod ini :op2 pergi :ARG0 ibu :location pasar
+dan :op1 pulang :ARG0 bu :name rina :location depok :op2 duduk :ARG0 pak :name joko :location teras :mod depan :mod rumah
+dan :op1 buka :ARG0 bu :name jean :ARG1 toko :op2 minum :ARG0 kakak :name dini :ARG1 kopi :location kedai :mod kopi
+dan :op1 nyanyi :ARG0 bu :name niki :ARG1 lagi :name indonesia :name raya :op2 mati :ARG1 ayam
+dan :op1 sampai :ARG0 ayah :location rumah :time malam :mod ini :op2 tutup :ARG1 toko :mod roti :time hari :mod minggu
+dan :op1 taruh :ARG0 bu :name dian :ARG1 tas :location meja :op2 sakit :ARG0 nenek :name tuti :ARG1 kepala :time hari :mod tiap
+dan :op1 hutang :ARG0 kakak :name budi :ARG1 buku :mod satu :mod cerita :op2 makan :ARG0 pak :name dedi :ARG1 bekal :location kelas
+dan :op1 dapat :ARG0 sumur :mod kering :time musim :mod kemarau :op2 ingat :ARG0 hari :mod pahlawan :time tiap :mod tanggal :mod sepuluh :mod november
+dan :op1 janji :ARG0 dinda :ARG1 datang :location sini :time besok :mod pagi :op2 berangkat :ARG0 kami :mod keluarga :location lampung :time besok
+dan :op1 jadi :ARG1 celaka :mod lalu :mod lintas :location simpang :name jonin :time pukul :mod sembilan :op2 pergi :ARG0 aku :location rumah :mod paman :time sekarang
+dan :op1 kata :ARG0 ibu :name nisa :ARG1 bisa :ARG1 tidur :time malam :op2 laksana :ARG0 kuliah :time besok :mod jam :mod tiga
+dan :op1 buat :ARG0 bibi :ARG1 janji :mod rapat :time minggu :mod depan :op2 main :ARG0 anak :location tanah :mod lapang
+dan :op1 diskusi :ARG0 mahasiswa :mod para :location ruang :mod kelas :time siang :mod tadi :op2 masak :ARG0 ibu :location dapur :time malam
+dan :op1 tidur :ARG0 kucing :location teras :mod beranda :mod rumah :op2 baca :ARG0 dimas :location pustaka
+dan :op1 menung :ARG0 andra :location bangku :mod taman :op2 ceramah :ARG0 pak :name jamal :location depan :ARG1 jamaah :mod para
+dan :op1 tengger :ARG0 burung :location atas :mod dahan :mod pohon :op2 libur :ARG0 keluarga :mod pak :name broto :location pulau :name bali :time bulan :mod depan
+dan :op1 wisata :ARG0 siswa :mod para :location yogyakarta :time bulan :mod mei :op2 baik :ARG0 ayah :ARG1 sepeda :mod adik :location garasi :time kemarin
+dan :op1 kerja :ARG0 kakak :ARG1 tugas :mod sekolah :location ruang :mod tengah :time malam :op2 pergi :ARG0 kami :location pustaka :time sabtu :mod lalu
+dan :op1 tidur :ARG0 kelelawar :time siang :mod hari :op2 panggang :ARG0 ibu :ARG1 roti :mod oven
+dan :op1 potong :ARG0 bapak :name siman :ARG1 rumput :location kebun :time pagi :op2 pergi :ARG0 ibu :location rumah :mod sakit
+dan :op1 pergi :ARG0 ayah :location bandara :op2 siram :ARG0 gani :ARG1 tanam
+dan :op1 main :ARG0 adik :ARG1 kelereng :time sore :mod hari :op2 lari :ARG0 andi :location lapangan :mod bola
+dan :op1 sapu :ARG0 sinta :ARG1 halaman :mod rumah :op2 kerja :ARG0 linta :ARG1 pr :time pukul :mod tujuh :mod malam
+dan :op1 baca :ARG0 agus :ARG1 koran :location depan :mod rumah :op2 lari :ARG0 intan :location lapangan :name gerilya :time pukul :mod enam
+dan :op1 renang :ARG0 adik :location kolam :mod renang :op2 ajar :ARG0 diki :ARG1 baca :mod buku :time setiap :mod hari
+dan :op1 masak :ARG0 ibu :ARG1 nasi :location dapur :time setiap :mod hari :op2 cangkul :ARG0 ayah :location kebun
+dan :op1 naik :ARG0 andi :ARG1 helikopter :time minggu :mod lalu :op2 juara :ARG0 aku :ARG1 lomba :mod baca :ARG1 quran :mod pertama :time kemarin
+dan :op1 jadi :ARG0 hendra :ARG1 alumni :mod lulusan :mod baik :location universitas :mod islam :location malang :time tahun :mod 2013 :op2 dagang :ARG0 ayah :ARG1 siomay
+dan :op1 jual :ARG0 adi :ARG1 kayu :location kota :name jakarta :time panjang :mod tahun :op2 lihat :ARG0 huni :ARG1 indah :time hari
+dan :op1 buat :ARG0 hujan :mod lebat :ARG1 ganggu :ARG1 sinyal :mod internet :op2 rupa :ARG0 hari :ARG1 padam :ARG1 listrik :mod gilir :time hari
+dan :op1 warna :ARG0 mobil :mod mewah :ARG1 merah :op2 ada :ARG0 majalah :location atas :mod meja :mod ajar
+dan :op1 lolos :ARG0 ani :ARG1 ikut :ARG1 uji :mod keluar :ARG0 usaha :time kemarin :op2 sertifikat :ARG0 rumah :mod atas :mod nama :name herlinda
+dan :op1 ada :ARG0 orang :location luar :mod rumah :time dari :mod tadi :op2 tingal :ARG0 nenek :time tadi :mod pagi :mod pukul :mod enam
+dan :op1 pergi :ARG0 diana :location sekolah :mod naik :ARG1 sepeda :mod motor :time siang :op2 pulang :ARG0 ayah :location desa :time malam :mod tadi
+dan :op1 ajar :ARG0 ayah :location sekolah :mod dasar :mod negeri :name tamanan :mod 1 :time tahun :op2 main :ARG0 adik :ARG1 boneka :name barbie
+dan :op1 tabrak :ARG0 mobil :ARG1 pagar :mod rumah :mod sampai :mod rusak :time siang :op2 beri :ARG0 ani :ARG1 ucap :mod selamat :mod kepada :mod adik :time tadi :mod pagi
+dan :op1 mulai :ARG0 acara :mod diskusi :time jam :mod delapan :op2 berangkat :ARG0 paman :ARG1 layar :time sejak :mod pukul :mod enam
+dan :op1 saji :ARG0 ibu :ARG1 makan :op2 laku :ARG0 murid :ARG1 upacara :mod bendera :time hari :mod ini
+atau :op1 tanam :ARG0 bu :name ani :ARG1 bunga :op2 berangkat :ARG0 om :name andi :ARG1 sekolah :mod ke :time besok
+atau :op1 pergi :ARG0 ibu :name asih :location rumah :mod nenek :name yanti :time kemarin :op2 pergi :ARG0 kami :mod keluarga :ARG1 tamasya :time hari :mod minggu
+atau :op1 ajar :ARG0 siswa :location sekolah :op2 upacara :ARG0 siswa :mod para
+atau :op1 makan :ARG0 om :name budi :ARG1 permen :op2 tanam :ARG0 tani :ARG1 padi
+atau :op1 pergi :ARG0 ayah :location kantor :mod ke :op2 masak :ARG0 ibu :name risna :ARG1 ayam :location dapur
+atau :op1 main :ARG0 adik :ARG1 teman :op2 tidur :ARG0 kakak
+atau :op1 ajak :ARG0 paman :name nadiem :ARG1 adik :mod main :op2 pimpin :ARG0 kepala :mod sekolah :ARG1 upacara :time tadi
+atau :op1 tonton :ARG0 mereka :ARG1 tanding :mod bola :mod basket :time hari :op2 ajak :ARG0 ibu :name fio :ARG1 adik :location pasar
+atau :op1 punya :ARG0 om :name irwan :ARG1 sepatu :mod baru :op2 ajar :ARG0 siswa :mod semua :mod rajin
+atau :op1 jual :ARG0 dagang :mod para :location pasar :time hari :op2 siap :ARG0 peserta :mod lomba :location garis :mod start
+atau :op1 baca :ARG0 bu :name anna :ARG1 buku :time kemarin :op2 baca :ARG0 bu :name anna :ARG1 buku :name bobo
+atau :op1 beli :ARG0 syifa :ARG1 roti :name jaya :op2 pergi :ARG0 tante :name syifa :location salon :name lutuye
+atau :op1 kena :ARG0 zulia :ARG1 baju :mod merah :op2 cetak :ARG0 mereka :ARG1 gol :location gawang :mod lawan
+atau :op1 laku :ARG0 mereka :ARG1 selebrasi :op2 sambut :ARG0 tonton :ARG1 pak :name budi :mod riuh
+atau :op1 pintal :ARG0 ashita :ARG1 benang :mod wol :op2 pintal :ARG0 ashita :ARG1 benang :mod sutra
+atau :op1 main :ARG0 profesor :name joko :ARG1 bola :op2 tangis :ARG0 pak :name andi :location tengah :mod permainan
+atau :op1 tidur :ARG0 ayah :op2 main :ARG0 risya :ARG1 voli
+atau :op1 tendang :ARG0 bos :name andi :ARG1 bola :mod itu :op2 jalan :ARG0 main :mod tarik
+atau :op1 ketik :ARG0 aku :ARG1 cerita :op2 ketik :ARG0 aku :ARG1 cerita :time datang :ARG0 ayah
+atau :op1 adalah :ARG0 suminah :mod anak :mod dua :op2 manja :ARG1 ia
+atau :op1 manja :ARG0 orang :mod tua :ARG1 ia :op2 benci :ARG0 aku :ARG1 tikus
+atau :op1 benci :ARG0 ia :ARG1 kucing :op2 orang :ARG0 ayah :ARG1 polisi
+atau :op1 anak :ARG0 dewi :mod manja :op2 rangkak :ARG0 orang :name rudi
+atau :op1 orang :ARG0 pak :name sasu :ARG1 ceo :mod muda :location indonesia :op2 anak :ARG0 andriana :mod berani
+atau :op1 adalah :ARG0 zia :ARG1 mayoret :mod kelompok :mod marching :mod band :op2 siswa :ARG0 mereka :mod sma :name dua :name nusantara
+atau :op1 orang :ARG0 teguh :ARG1 perwira :mod polisi :op2 rupa :ARG0 ramadhan :ARG1 bulan :mod suci
+atau :op1 baca :ARG0 andi :ARG1 buku :op2 lari :ARG0 siana :location lapang
+atau :op1 kerja :ARG0 siwan :ARG1 tugas :location pustaka :mod kampus :op2 rotasi :ARG0 bumi
+atau :op1 putar :ARG0 bola :location udara :op2 sapa :ARG0 dika :ARG1 tiap :mod orang :mod lewat
+atau :op1 gerak :ARG0 menara :mod pisa :mod miring :op2 baca :ARG0 sonia :ARG1 jurnal :mod hari :mod sekolah :mod kembali
+atau :op1 mati :ARG0 singa :mod lapar :op2 lari :ARG0 impala :ARG1 kejar :ARG0 singa
+atau :op1 bangun :ARG1 gedung :mod tahun :mod lima :op2 selesai :ARG1 misi :mod satu
+atau :op1 sepatu :ARG0 anna :mod pasang :mod dua :op2 ada :ARG1 coklat :mod biji :mod tiga
+atau :op1 umur :ARG0 bangunan :mod abad :op2 ada :ARG0 anak :mod kucing :mod tiga
+atau :op1 naik :ARG0 tante :name ari :ARG1 sepeda :op2 jadi :ARG0 bu :name ayu :ARG1 lulus :mod baik :mod ipb :time tahun :mod vv22
+atau :op1 mampu :ARG0 dia :ARG1 mandiri :mod finansial :op2 orang :ARG0 ibu :ARG1 dokter
+atau :op1 beli :ARG0 arya :ARG1 telur :location minimarket :op2 beli :ARG0 kakek :name arya :ARG1 telur :location minimarket
+atau :op1 roboh :ARG1 rumah :op2 kacau :ARG0 hujan :ARG1 sinyal :mod internet
+atau :op1 adalah :ARG0 padam :mod gilir :mod empat :time minggu :op2 warna :ARG0 mobil :ARG1 silver
+atau :op1 taruh :ARG0 aku :ARG1 majalah :location meja :mod atas :op2 dapat :ARG0 aji :ARG1 kerja :mod bagus :location perusahaan :mod multi
+atau :op1 diri :ARG0 orang :location sana :time tadi :mod sejak :op2 tinggal :ARG0 kakak
+atau :op1 pergi :ARG0 riana :location pasar :op2 dari :ARG0 ayah :location kota
+atau :op1 bawa :ARG0 ayah :ARG1 boneka :op2 main :ARG0 kesang :ARG1 bola
+atau :op1 tabrak :ARG0 mobil :ARG1 mobil :mod parkir :location depan :mod kompleks :time pagi :mod ini :op2 beri :ARG0 agung :ARG1 selamat :ARG1 pada :time bulan :mod ini
+atau :op1 bahagia :ARG0 aku :time hari :mod ini :op2 anak :ARG0 kucing :ARG1 lima
+atau :op1 pergi :ARG0 ibu :location kantor :op2 antar :ARG0 ayah :ARG1 ibu :location pasar
+atau :op1 tara :ARG0 gaji :mod bulan :mod tiap :ARG1 rumah :mod buah :mod satu :op2 makan :ARG0 aku :ARG1 roti :time tadi
+atau :op1 busuk :ARG0 roti :op2 buang :ARG0 aku :ARG1 roti :location tempat :mod sampah
+atau :op1 bawa :ARG0 aceng :ARG1 sesuatu :location semeru :op2 gerak :ARG0 mobil :ARG1 maju
+atau :op1 guna :ARG0 mereka :ARG1 teknologi :mod rupa :mod paling :mod mutakhir :op2 anak :ARG0 dia :mod riang
+atau :op1 ada :ARG0 balon :mod lima :op2 beli :ARG0 jabar :mod untuk
+atau :op1 senang :ARG0 kami :location taman :mod bermain :time siang :mod itu :op2 tampak :ARG0 raut :mod muka :ARG1 bahagia
+atau :op1 buat :ARG0 jadi :ARG1 rifqy :mod sadar :time kemarin :op2 suka :ARG0 ia :ARG1 suka :ARG0 dekat :ARG1 mereka :time lama :mod ini
+atau :op1 tahu :ARG0 bu :name rifqy :ARG1 rasa :op2 juara :ARG0 alfiansyah :ARG1 renang
+atau :op1 jadi :ARG0 agribisnis :mod 50 :ARG1 juara :ARG1 the :mod 10th :mod umum :time tahun :mod ini :op2 kantuk :ARG0 aku :time sore :mod tadi
+atau :op1 selesai :ARG0 dia :ARG1 tugas :time tepat :mod waktu :op2 anak :ARG0 dia :mod cerdas
+atau :op1 ada :ARG0 rumah :location belakang :mod kebun :mod raya :op2 ada :ARG0 tk :location sebelah :mod kanan
+atau :op1 pilih :ARG0 mereka :ARG1 tinggal :location pinggiran :mod jakarta :op2 jarak :ARG0 rumah :mod mereka :time sekarang :mod dekat :ARG1 tempat :mod kerja
+atau :op1 rupa :ARG0 shiana :ARG1 anak :ARG0 mereka :mod dua :op2 nanti :ARG0 shiana :ARG1 lahir :ARG1 adik :location dunia :time sekarang
+atau :op1 semangat :ARG0 ibu :ARG1 gadis :location garis :mod finish :time pagi :mod tadi :op2 serah :ARG0 aku
+atau :op1 rasa :ARG0 aku :ARG1 sendiri :mod lagi :location rumah :op2 teman :ARG0 dia :ARG1 aku :time pagi :mod sampai
+atau :op1 buat :ARG0 datang :ARG0 curi :ARG1 seti :mod trauma :op2 lihat :ARG0 aku :ARG1 raut :mod sedih
+atau :op1 dapat :ARG0 ariana :ARG1 tepuk :mod tangan :mod meriah :mod tonton :op2 antar :ARG0 pak :name rifqy :ARG1 aku :time hari :mod ini
+atau :op1 habis :ARG0 kami :ARG1 waktu :time sejak :mod pagi :op2 bawa :ARG0 ia :ARG1 bunga :time kemarin
+atau :op1 aku :ARG0 ia :ARG1 pura :mod peduli :op2 senang :ARG0 aku :ARG1 dengar :mod aku
+atau :op1 putus :ARG0 kami :ARG1 nikah :time tahun :mod depan :op2 terima :ARG0 orang :mod tua :mod apa :mod ada
+atau :op1 suka :ARG0 kami :mod keluarga :ARG1 cita :op2 lulus :ARG0 zahra :mod nilai :mod puas
+atau :op1 lewat :ARG0 ia :ARG1 uji :mod lancar :op2 dapat :ARG0 putri :ARG1 sorot :mod tunjuk :mod itu
+atau :op1 pukau :ARG0 tampil :ARG1 semua :mod orang :op2 sangka :ARG0 ada :ARG1 ia :mod bagus :mod itu
+atau :op1 tampak :ARG0 dia :ARG1 cantik :mod sekali :time malam :mod ini :op2 rebut :ARG0 semua :mod orang :ARG1 foto
+atau :op1 jadi :ARG0 ia :ARG1 bintang :time malam :mod ini :op2 dapat :ARG0 aku :ARG1 tawar :location perusahaan :mod tarik
+atau :op1 tawar :ARG0 mereka :ARG1 aku :mod sebagai :mod menajer :op2 lihat :ARG0 mereka :ARG1 hasil :mod skripsi :time kemarin
+atau :op1 senang :ARG0 mereka :ARG1 karya :mod tulis :op2 tarik :ARG0 sebuah :mod penerbit :ARG1 terbit :mod buku
+atau :op1 lihat :ARG0 mereka :ARG1 contoh :location blog :op2 judul :ARG0 buku :mod pertama :ARG1 rindu
+atau :op1 raya :ARG0 kami :ARG1 sukses :mod buku :op2 sumbang :ARG0 tia :ARG1 rezeki :location tempat :mod yatim :mod piatu
+atau :op1 kenal :ARG0 tia :ARG1 baik :mod orang :op2 rupa :ARG0 ia :ARG1 orang :mod dermawan
+atau :op1 kenal :ARG0 semua :mod satpam :mod kampus :ARG1 orang :nama utami :op2 awal :ARG0 ia :ARG1 karir :mod musik :mod bagus
+atau :op1 adalah :ARG0 ia :ARG1 bintang :mod sayang :mod gemar :time kini :op2 bawa :ARG0 azhila :ARG1 tas :mod buat :mod kulit :mod harimau :mod asli
+atau :op1 bawa :ARG0 mereka :ARG1 tas :op2 menang :ARG0 aji :ARG1 lomba :mod tulis :mod karya :mod ilmiah
+atau :op1 harga :ARG0 juri :ARG1 tulis :op2 beri :ARG0 lomba :ARG1 hadiah :mod libur :location eropa
+atau :op1 sinar :ARG0 bulan :mod cerah :time malam :mod ini :op2 larut :ARG0 semua :mod orang :ARG1 senang
+atau :op1 tampak :ARG0 gadis :ARG1 nikmat :ARG1 musik :op2 gerak :ARG0 badan :mod irama
+atau :op1 tampak :ARG0 pria :mod berapa :ARG1 kagum :ARG1 lihat :mod jauh :op2 kenal :ARG0 ia :ARG1 hanya :mod lewat :mod otak :mod cerdas :time kini
+atau :op1 kenal :ARG0 ia :ARG1 perempuan :mod pesona :op2 akhir :ARG0 bu :name ayu :ARG1 kisah :mod bahagia
+atau :op1 pilih :ARG0 karya :ARG1 jadi :mod sepuluh :mod karya :mod baik :op2 pesona :ARG0 orang :ARG1 diri :time hari :mod ini
+atau :op1 datang :ARG0 om :name aria :ARG1 temu :ARG1 tante :name laisha :op2 duduk :ARG0 mereka :location dalam :mod trem :mod sebelah
+atau :op1 beri :ARG0 aku :ARG1 uang :mod lima :mod ribu :mod rupiah :op2 beri :ARG0 suster :name nabilla :ARG1 kripik
+atau :op1 selesai :ARG0 pak :name aria :ARG1 tesis :op2 bawa :ARG0 paman :name anto :ARG1 bingkisan
+atau :op1 kunjung :ARG0 aku :ARG1 museum :name van :name Gogh :op2 main :ARG0 wafir :ARG1 gitar :mod jago
+atau :op1 ingin :ARG0 aku :ARG1 jadi :ARG1 lebih :mod baik :mod lagi :op2 temu :ARG0 bu :name ayu :ARG1 pak :name jabbar :location konser :mod sengaja
+atau :op1 pilih :ARG0 mereka :ARG1 gabung :op2 lihat :ARG1 pandang :mod indah
+atau :op1 anak :ARG0 dewi :mod baik :op2 anak :ARG0 firman :mod nakal
+atau :op1 indah :ARG1 lukis :op2 hembus :ARG0 angin :mod arah :mod barat
+atau :op1 dari :ARG0 paman :location jawa :mod tengah :op2 pergi :ARG0 saya :location sekolah
+atau :op1 laksana :ARG1 seminar :location gedung :mod serba :mod guna :op2 kunjung :ARG0 aku :location rumah :time kemarin
+atau :op1 bawa :ARG0 paman :name noel :ARG1 serabi :location semarang :op2 laku :ARG1 kerja :mod kelompok :location rumah :name ami :time hari :mod ini
+atau :op1 wisata :ARG0 kita :location yogyakarta :time hari :mod ini :op2 terima :ARG0 kampus :mod ini :ARG1 mahasiswa :mod luar :mod negeri
+atau :op1 laku :ARG1 aksi :mod demo :location depan :mod gedung :mod mpr :op2 temu :ARG0 aku :ARG1 orang :mod kawan :mod lama :location bandung
+atau :op1 mampir :ARG0 aku :location rumah :mod makan :time pulang :mod dari :mod kantor :op2 naik :ARG0 kami :ARG1 kereta :mod api :location stasiun :name gambir
+atau :op1 rupa :ARG0 dodol :ARG1 makan :mod khas :location garut :op2 wisata :ARG0 banyak :mod wisata :mod mancanegara :location pulau :mod bali
+atau :op1 dapat :ARG1 banyak :mod koleksi :mod main :mod zaman :mod dulu :location rumah :op2 rupa :ARG0 profesor :name manaf :ARG1 jebol :location universitas :location connecticut
+atau :op1 baca :ARG0 ibu :name dita :ARG1 buku :op2 beli :ARG0 pak :name roni :ARG1 roti
+atau :op1 kena :ARG0 mbak :name tukimin :ARG1 baju :mod merah :op2 cetak :ARG0 kita :ARG1 gol :location gawang :mod lawan
+atau :op1 pintal :ARG0 mbak :name shinta :ARG1 benang :mod wol :op2 ketik :ARG0 saya :ARG1 cerita
+atau :op1 ada :ARG1 balon :mod lima :op2 ada :ARG0 aku :location depan :mod gedung
+atau :op1 haus :ARG0 kita :op2 beli :ARG0 ayah :name dodi :ARG1 motor
+atau :op1 jual :ARG0 ibu :name sukiyem :ARG1 kue :location pasar :op2 tanya :ARG0 mas :name ridho :ARG1 guru
+atau :op1 gonggong :ARG0 anjing :op2 aum :ARG1 harimau :mod suara
+atau :op1 lari :ARG0 kucing :op2 tidur :ARG0 adik
+atau :op1 masak :ARG0 ibu :name rina :location dapur :op2 pergi :ARG0 ibu :name tina :location pasar
+atau :op1 tulis :ARG0 kak :name rima :ARG1 surat :op2 tutup :ARG0 pak :name toni :ARG1 jendela
+atau :op1 desah :ARG0 bu :name ayu :op2 siram :ARG0 bu :name susi :ARG1 tanam
+atau :op1 goda :ARG0 dia :op2 duduk :ARG0 dia
+atau :op1 simpuh :ARG0 ibu :name dodi :op2 sujud :ARG0 kami
+atau :op1 rangkak :ARG0 balita :op2 panjat :ARG1 mereka
+atau :op1 siaga :ARG0 polisi :op2 teriak :ARG0 aku
+atau :op1 atur :ARG0 polisi :ARG1 lalin :op2 tutup :ARG0 bu :name resti :ARG1 mata
+atau :op1 buat :ARG0 kak :name sally :ARG1 adon :op2 ikut :ARG0 aku :ARG1 bapak :name john
+atau :op1 bangun :ARG0 tukang :ARG1 rumah :op2 nanti :ARG0 nenek :name yanti :ARG1 kakek :name joni
+atau :op1 basuh :ARG0 kami :ARG1 muka :op2 tampar :ARG0 pakdhe :name yayas :ARG1 kakak
+atau :op1 donor :ARG0 kami :ARG1 darah :op2 tipu :ARG0 om :name wiwit :ARG1 teman
+atau :op1 tarik :ARG0 ibu :ARG1 adik :op2 rindu :ARG0 aku :ARG1 bu :name azka
+atau :op1 bawa :ARG0 adik :ARG1 makan :op2 rawat :ARG0 suster :name siska :ARG1 pasien
+atau :op1 cicip :ARG0 tante :name suti :ARG1 masak :op2 cerita :ARG0 aku
+atau :op1 tinggal :ARG0 kakek :name glenn :op2 lamar :ARG0 tante :name siti :ARG1 kerja
+atau :op1 tembak :ARG0 peluru :ARG1 doni :op2 rambut :ARG0 nenek :name krista :ARG1 putih
+atau :op1 kata :ARG0 kak :name putri :ARG1 kasar :op2 tabrak :ARG0 mobil :ARG1 adik :name kayla
+atau :op1 teriak :ARG0 kami :op2 timpa :ARG0 pak :name risman :ARG1 pohon
+atau :op1 baca :ARG0 bu :name angela :ARG1 naskah :mod drama :op2 bawa :ARG0 ibu :ARG1 adik :location pasar
+atau :op1 gelar :ARG0 budhe :name tiwi :ARG1 tikar :op2 bawa :ARG0 pak :name ahmad :ARG1 makan
+atau :op1 hadir :ARG0 kakak :name dina :ARG1 pesta :mod nikah :op2 jahit :ARG0 ibu :name fio :ARG1 baju
+atau :op1 baik :ARG0 om :name bagus :ARG1 motor :op2 sumbang :ARG0 pak :name ridwan :ARG1 semen
+atau :op1 benam :ARG0 bu :name bowo :ARG1 tikus :location sawah :op2 nyanyi :ARG0 afgan :ARG1 lagu :mod sendu
+atau :op1 simpan :ARG0 ibu :name tina :ARG1 wasiat :op2 kunci :ARG0 ayah :ARG1 pintu
+atau :op1 rawat :ARG0 adik :ARG1 kucing :op2 jaga :ARG0 tni :ARG1 bhineka
+atau :op1 jaga :ARG0 tni :ARG1 bhinneka :op2 tuntut :ARG0 buruh :ARG1 gaji
+atau :op1 suka :ARG0 pak :name bagus :ARG1 bu :name ani :op2 buang :ARG0 paman :ARG1 sampah
+atau :op1 marah :ARG0 yanto :ARG1 tugas :op2 tuang :ARG0 ibu :name rina :ARG1 air
+atau :op1 usir :ARG0 jajah :ARG1 pribumi :op2 benci :ARG0 kami :ARG1 bohong
+atau :op1 peluk :ARG0 mereka :op2 salam :ARG0 kami
+atau :op1 timpa :ARG0 pohon :ARG1 mas :name rio :op2 tembak :ARG0 duta :mod besar :ARG1 peluru
+atau :op1 potret :ARG0 turis :ARG1 pawai :op2 kirim :ARG0 aku :ARG1 pesan :location beli
+atau :op1 ajar :ARG0 bu :name hana :ARG1 statistik :mod mahasiswa :op2 beli :ARG0 kami :ARG1 buku :location toko :name gramedia
+atau :op1 jatuh :ARG0 ayah :location simpang :mod jalan :op2 tinggal :ARG0 kakak :name judi :ARG1 pacar
+atau :op1 pidato :ARG0 pak :name camat :location podium :op2 pimpin :ARG0 ulama :name abdul :ARG1 umat
+atau :op1 beli :ARG0 ibu :ARG1 sayur :location warung :op2 tanam :ARG0 kak :name mira :ARG1 tanam :mod obat
+atau :op1 datang :ARG0 kami :location yogyakarta :op2 olahraga :ARG0 kami
+atau :op1 sampai :ARG0 mahasiswa :ARG1 orasi :location tengah :mod jalan :op2 berangkat :ARG0 adik :location sekolah
+atau :op1 buka :ARG0 mas :name linton :ARG1 kaleng :mod roti :op2 belanja :ARG0 ibu
+atau :op1 umum :ARG0 kepala :mod sekolah :ARG1 nilai :op2 dukung :ARG0 rakyat :ARG1 perintah
+atau :op1 pukul :ARG0 pak :name joko :ARG1 curi :location rumah :op2 buka :ARG0 saya :ARG1 kaleng :mod roti
+atau :op1 belanja :ARG0 saya :op2 umum :ARG0 direktur :ARG1 nilai
+atau :op1 dukung :ARG0 bu :name susi :ARG1 perintah :op2 pukul :ARG0 ayah :ARG1 curi :location rumah
+atau :op1 tentu :ARG0 cpu :ARG1 menang :op2 beri :ARG0 pak :name dwi :ARG1 hadiah :ARG1 menang
+atau :op1 pegang :ARG0 saya :ARG1 adik :mod perempuan :op2 bawa :ARG0 bu :name sakinah :ARG1 adik :location sekolah
+atau :op1 pilih :ARG0 anda :ARG1 pasang :op2 raya :ARG0 kami :ARG1 menang
+atau :op1 aju :ARG0 mas :name anis :ARG1 keluh :op2 gambar :ARG1 deformasi
+atau :op1 lukis :ARG0 bu :name okta :ARG1 wanita :op2 cetak :ARG0 mas :name budi :ARG1 kartu :mod nama :location sampurna
+atau :op1 lompat :ARG0 saudara :op2 bela :ARG0 pengacara :ARG1 dakwa :location adil
+atau :op1 hukum :ARG0 hakim :op2 tuntut :ARG0 jaksa :ARG1 sangka :location adil
+atau :op1 terima :ARG0 mereka :ARG1 kalah :op2 jual :ARG0 adik :name zahra :ARG1 kue
+atau :op1 beri :ARG0 ibu :ARG1 makan :op2 dapat :ARG0 suster :name diana :ARG1 uang
+atau :op1 habis :ARG0 anda :ARG1 uang :op2 bakar :ARG0 rumun :mod orang :ARG1 mobil :location jalan
+atau :op1 tangkap :ARG0 warga :ARG1 babi :location hutan :op2 cerita :ARG0 bu :name zee :name zee :ARG1 kisah :mod tragis
+atau :op1 tangkap :ARG0 para :mod jaga :ARG1 curi :op2 seka :ARG0 saya :ARG1 lantai
+atau :op1 pelihara :ARG0 tentara :ARG1 damai :location Indonesia :op2 cari :ARG0 saya :ARG1 nafkah
+atau :op1 tanam :ARG0 pak :name ogah :ARG1 padi :op2 beli :ARG0 kontraktor :ARG1 tanam
+atau :op1 peras :ARG0 antara :ARG1 tani :op2 tonton :ARG0 dik :name dilan :ARG1 kartun :location tv
+atau :op1 tuang :ARG0 ibu :name salsa :ARG1 air :op2 lipat :ARG0 ibu :ARG1 pakai
+atau :op1 liput :ARG0 wartawan :ARG1 berita :op2 kunyah :ARG0 sister :name asti :ARG1 permen
+atau :op1 kendara :ARG0 ayah :ARG1 mobil :op2 buat :ARG0 bu :name prapto :ARG1 pupuk
+atau :op1 ledak :ARG0 pak :name adi :ARG1 pipa :location halaman :op2 tanam :ARG0 krishna :ARG1 kedelai :location kebun
+atau :op1 cuci :ARG0 mbak :name rina :location kamar :mod mandi :op2 tunggu :ARG0 nenek :ARG1 kakek :location teras
+atau :op1 bersih :ARG0 anda :ARG1 dapur :op2 seberang :ARG0 mas :name dudi :ARG1 sungai
+atau :op1 cari :ARG0 ia :ARG1 uang :op2 main :ARG0 kak :name intan :ARG1 bola
+atau :op1 ajar :ARG0 rudi :ARG1 bahasa :op2 pancing :ARG0 saskia :ARG1 ikan
+atau :op1 gambar :ARG0 mbak :name hana :ARG1 kartun :op2 berangkat :ARG0 akmal :location sekolah
+atau :op1 tempel :ARG0 lisa :ARG1 foto :mod keluarga :location ruang :mod tamu :op2 tangis :ARG0 adik
+atau :op1 pingsan :ARG0 ibu :op2 kunjung :ARG0 presiden :name joko :location papua
+atau :op1 naik :ARG0 semua :mod menang :location podium :op2 tidur :ARG0 paman :location lantai
+atau :op1 beli :ARG0 aku :ARG1 sayur :location pasar :op2 lari :ARG0 kami
+atau :op1 baik :ARG0 bagus :ARG1 laptop :op2 bunuh :ARG0 toni :ARG1 cicak :mod guna :mod sapu
+atau :op1 demo :ARG0 warga :ARG1 lurah :mod baru :op2 nikmat :ARG0 para :mod tamu :mod undang :ARG1 saji :mod pesta
+atau :op1 buat :ARG0 aku :ARG1 artikel :mod sehat :mod mata :op2 umum :ARG0 bu :name nina :ARG1 hasil :mod ulang :mod matematika :mod para :mod siswa
+atau :op1 buat :ARG0 ibu :ARG1 bubur :mod kacang :mod ijo :op2 bantu :ARG0 warga :ARG1 acara :mod nikah :mod putri :mod presiden :name jokowi
+atau :op1 cuci :ARG0 aku :ARG1 pakai :mod kotor :location kamar :mod mandi :op2 bakar :ARG0 pak :name amat :ARG1 sampah :mod kering :location pinggir :mod sungai
+atau :op1 daya :ARG0 kelompok :mod tani :ARG1 sampah :mod plastik :op2 beri :ARG0 perintah :ARG1 bantu :mod langsung :mod tunai
+atau :op1 main :ARG0 bu :name rita :ARG1 piano :op2 teriak :ARG0 demo
+atau :op1 lari :ARG0 ungsi :op2 tidur :ARG0 kakek :name yusuf
+atau :op1 tanam :ARG0 suster :name mira :ARG1 bunga :mod mawar :op2 datang :ARG0 dia :location jogyakarta
+atau :op1 berangkat :ARG0 andi :ARG1 latih :mod karate :op2 olahraga :ARG0 mereka
+atau :op1 benam :ARG0 matahari :time senja :mod hari :op2 cari :ARG0 kelelawar :ARG1 makan :time malam :mod hari
+atau :op1 dengar :ARG1 suara :mod ayam :mod jantan :time fajar :op2 pulang :ARG0 murid :location sekolah :time hari :mod ini
+atau :op1 selenggara :ARG1 upacara :mod ingat :mod hari :mod sakti :mod pancasila :time tanggal :mod satu :mod oktober :op2 berangkat :ARG0 budi :location sekolah :time pukul :mod tujuh
+atau :op1 turun :ARG1 hujan :time kemarin :mod sore :op2 langsung :ARG1 musim :mod hujan :time sejak :mod bulan :mod oktober
+atau :op1 dengar :ARG0 bayi :time sejak :mod lahir :op2 pindah :ARG0 tante :name indri :location bandung :time setelah :mod nikah
+atau :op1 minum :ARG0 bu :name susi :ARG1 obat :time setelah :mod makan :op2 laksana :ARG1 upacara :mod bendera :time hari :mod senin
+atau :op1 hidup :ARG0 dinosaurus :location bumi :time juta :mod tahun :mod lalu :op2 rawat :ARG0 paman :name gober :location rumah :mod sakit :time kemarin
+atau :op1 pergi :ARG0 ibu :name joko :location pasar :time sore :mod ini :op2 pecah :ARG0 anak :mod ayam :ARG1 cangkang :mod telur :time tadi
+atau :op1 masuk :ARG0 bu :name tina :ARG1 sekolah :time senin :mod lalu :op2 tumbuh :ARG0 jamur :time musim :mod hujan
+atau :op1 bahas :ARG1 hal :time saat :mod rapat :mod nanti :op2 mulai :ARG1 upacara :mod detik :mod proklamasi :time jam :mod sepuluh :mod pagi
+atau :op1 proklamir :ARG1 merdeka :mod indonesia :time hari :mod ini :op2 jadi :ARG1 berontak :time tahun :mod lalu
+atau :op1 luap :ARG1 air :mod sungai :name bengawan :time kemarin :op2 janji :ARG0 dia :ARG1 tingkat :ARG1 makmur :mod masyarakat
+atau :op1 rasa :ARG1 udara :mod panas :time pagi :mod ini :op2 lewat :ARG0 bu :name nisa :location sini
+atau :op1 rasa :ARG0 pak :name harry :ARG1 bahagia :time hari :mod wisuda :mod anak :op2 berangkat :ARG0 profesor :name amri :location solo :time tiga :mod hari :mod lalu
+atau :op1 laksana :ARG1 senam :time hari :mod minggu :op2 lihat :ARG0 dia :ARG1 buku :mod ini
+atau :op1 sedih :ARG0 pak :name joko :op2 ingat :ARG0 bu :name susi :ARG1 kejadian :mod itu
+atau :op1 pindah :ARG1 masak :location piring :mod saji :op2 mulai :ARG1 acara :mod seminar :time tiga :mod puluh :mod menit :mod lagi
+atau :op1 tunggu :ARG0 kami :location stasiun :time sejak :mod satu :mod jam :mod lalu :op2 dengar :ARG0 om :name tanto :ARG1 kabar :time hari :mod ini
+atau :op1 bisa :ARG0 dia :ARG1 datang :time sore :mod ini :op2 resmi :ARG1 pameran :mod dirgantara :time pekan :mod depan
+atau :op1 kuliah :ARG0 kakak :location bandung :time tahun :mod depan :op2 tutup :ARG1 toko :mod buku :time sembilan :mod malam
+atau :op1 mampir :ARG0 saya :location sana :time hari :mod ini :op2 latihan :ARG0 kami :ARG1 musik :time sabtu :mod sore
+atau :op1 temu :ARG0 saya :ARG1 pak :name andi :time besok :op2 laksana :ARG1 baik :mod jalan :time dalam :mod waktu :mod dekat
+atau :op1 mulai :ARG1 atur :mod laku :time sejak :mod sah :op2 pakai :ARG0 ani :ARG1 pakai :mod olahraga :time hari :mod ini
+atau :op1 pergi :ARG0 tante :name dyah :ARG1 libur :location bali :time besok :op2 datang :ARG1 bencana :mod banjir :time musim :mod hujan
+atau :op1 berangkat :ARG0 kita :time setelah :mod makan :mod siang :op2 mulai :ARG1 acara :mod diskusi :time sembilan :mod malam
+atau :op1 gosok :ARG0 dokter :name rina :ARG1 gigi :time malam :mod setiap :mod belum :mod tidur :op2 kering :ARG1 sungai :time musim :mod kemarau
+atau :op1 ingat :ARG1 hari :mod pahlawan :time sepuluh :mod november :op2 janji :ARG0 dia :ARG1 datang :location sini :time tadi
+atau :op1 datang :ARG0 paman :location rumah :time esok :mod lusa :op2 ada :ARG1 aksi :mod besar :time kemarin
+atau :op1 hadir :ARG0 dia :ARG1 resmi :location lapang :time besok :op2 siap :ARG0 ibu :ARG1 alat :mod dapur :time besok
+atau :op1 berangkat :ARG0 kami :mod keluarga :location padang :time nanti :mod malam :op2 belanja :ARG0 ayah :ARG1 bahan :mod makan :location toko :mod surya :time siang :mod ini
+atau :op1 bawa :ARG0 kakek :ARG1 kopi :location kampung :time siang :mod ini :op2 sarapan :ARG0 kami :ARG1 roti :mod keju :time pagi :mod ini
+atau :op1 jalan :ARG1 macet :time pagi :mod ini :op2 guyur :ARG0 hujan :mod deras :time sejak :mod pagi
+atau :op1 makan :ARG0 pak :name juli :ARG1 buah :mod mangga :op2 lari :ARG0 roni :location sekitar :mod lapang
+atau :op1 pulang :ARG0 ayah :time sore :mod ini :op2 pergi :ARG0 ibu :location pasar
+atau :op1 pulang :ARG0 bu :name rina :location depok :op2 duduk :ARG0 pak :name joko :location teras :mod depan :mod rumah
+atau :op1 buka :ARG0 bu :name jean :ARG1 toko :op2 minum :ARG0 kakak :name dini :ARG1 kopi :location kedai :mod kopi
+atau :op1 nyanyi :ARG0 bu :name niki :ARG1 lagi :name indonesia :name raya :op2 mati :ARG1 ayam
+atau :op1 sampai :ARG0 ayah :location rumah :time malam :mod ini :op2 tutup :ARG1 toko :mod roti :time hari :mod minggu
+atau :op1 taruh :ARG0 bu :name dian :ARG1 tas :location meja :op2 sakit :ARG0 nenek :name tuti :ARG1 kepala :time hari :mod tiap
+atau :op1 hutang :ARG0 kakak :name budi :ARG1 buku :mod satu :mod cerita :op2 makan :ARG0 pak :name dedi :ARG1 bekal :location kelas
+atau :op1 dapat :ARG0 sumur :mod kering :time musim :mod kemarau :op2 ingat :ARG0 hari :mod pahlawan :time tiap :mod tanggal :mod sepuluh :mod november
+atau :op1 janji :ARG0 dinda :ARG1 datang :location sini :time besok :mod pagi :op2 berangkat :ARG0 kami :mod keluarga :location lampung :time besok
+atau :op1 jadi :ARG1 celaka :mod lalu :mod lintas :location simpang :name jonin :time pukul :mod sembilan :op2 pergi :ARG0 aku :location rumah :mod paman :time sekarang
+atau :op1 kata :ARG0 ibu :name nisa :ARG1 bisa :ARG1 tidur :time malam :op2 laksana :ARG0 kuliah :time besok :mod jam :mod tiga
+atau :op1 buat :ARG0 bibi :ARG1 janji :mod rapat :time minggu :mod depan :op2 main :ARG0 anak :location tanah :mod lapang
+atau :op1 diskusi :ARG0 mahasiswa :mod para :location ruang :mod kelas :time siang :mod tadi :op2 masak :ARG0 ibu :location dapur :time malam
+atau :op1 tidur :ARG0 kucing :location teras :mod beranda :mod rumah :op2 baca :ARG0 dimas :location pustaka
+atau :op1 menung :ARG0 andra :location bangku :mod taman :op2 ceramah :ARG0 pak :name jamal :location depan :ARG1 jamaah :mod para
+atau :op1 tengger :ARG0 burung :location atas :mod dahan :mod pohon :op2 libur :ARG0 keluarga :mod pak :name broto :location pulau :name bali :time bulan :mod depan
+atau :op1 wisata :ARG0 siswa :mod para :location yogyakarta :time bulan :mod mei :op2 baik :ARG0 ayah :ARG1 sepeda :mod adik :location garasi :time kemarin
+atau :op1 kerja :ARG0 kakak :ARG1 tugas :mod sekolah :location ruang :mod tengah :time malam :op2 pergi :ARG0 kami :location pustaka :time sabtu :mod lalu
+atau :op1 tidur :ARG0 kelelawar :time siang :mod hari :op2 panggang :ARG0 ibu :ARG1 roti :mod oven
+atau :op1 potong :ARG0 bapak :name siman :ARG1 rumput :location kebun :time pagi :op2 pergi :ARG0 ibu :location rumah :mod sakit
+atau :op1 pergi :ARG0 ayah :location bandara :op2 siram :ARG0 gani :ARG1 tanam
+atau :op1 main :ARG0 adik :ARG1 kelereng :time sore :mod hari :op2 lari :ARG0 andi :location lapangan :mod bola
+atau :op1 sapu :ARG0 sinta :ARG1 halaman :mod rumah :op2 kerja :ARG0 linta :ARG1 pr :time pukul :mod tujuh :mod malam
+atau :op1 baca :ARG0 agus :ARG1 koran :location depan :mod rumah :op2 lari :ARG0 intan :location lapangan :name gerilya :time pukul :mod enam
+atau :op1 renang :ARG0 adik :location kolam :mod renang :op2 ajar :ARG0 diki :ARG1 baca :mod buku :time setiap :mod hari
+atau :op1 masak :ARG0 ibu :ARG1 nasi :location dapur :time setiap :mod hari :op2 cangkul :ARG0 ayah :location kebun
+atau :op1 naik :ARG0 andi :ARG1 helikopter :time minggu :mod lalu :op2 juara :ARG0 aku :ARG1 lomba :mod baca :ARG1 quran :mod pertama :time kemarin
+atau :op1 jadi :ARG0 hendra :ARG1 alumni :mod lulusan :mod baik :location universitas :mod islam :location malang :time tahun :mod 2013 :op2 dagang :ARG0 ayah :ARG1 siomay
+atau :op1 jual :ARG0 adi :ARG1 kayu :location kota :name jakarta :time panjang :mod tahun :op2 lihat :ARG0 huni :ARG1 indah :time hari
+atau :op1 buat :ARG0 hujan :mod lebat :ARG1 ganggu :ARG1 sinyal :mod internet :op2 rupa :ARG0 hari :ARG1 padam :ARG1 listrik :mod gilir :time hari
+atau :op1 warna :ARG0 mobil :mod mewah :ARG1 merah :op2 ada :ARG0 majalah :location atas :mod meja :mod ajar
+atau :op1 lolos :ARG0 ani :ARG1 ikut :ARG1 uji :mod keluar :ARG0 usaha :time kemarin :op2 sertifikat :ARG0 rumah :mod atas :mod nama :name herlinda
+atau :op1 ada :ARG0 orang :location luar :mod rumah :time dari :mod tadi :op2 tingal :ARG0 nenek :time tadi :mod pagi :mod pukul :mod enam
+atau :op1 pergi :ARG0 diana :location sekolah :mod naik :ARG1 sepeda :mod motor :time siang :op2 pulang :ARG0 ayah :location desa :time malam :mod tadi
+atau :op1 ajar :ARG0 ayah :location sekolah :mod dasar :mod negeri :name tamanan :mod 1 :time tahun :op2 main :ARG0 adik :ARG1 boneka :name barbie
+atau :op1 tabrak :ARG0 mobil :ARG1 pagar :mod rumah :mod sampai :mod rusak :time siang :op2 beri :ARG0 ani :ARG1 ucap :mod selamat :mod kepada :mod adik :time tadi :mod pagi
+atau :op1 mulai :ARG0 acara :mod diskusi :time jam :mod delapan :op2 berangkat :ARG0 paman :ARG1 layar :time sejak :mod pukul :mod enam
+atau :op1 saji :ARG0 ibu :ARG1 makan :op2 laku :ARG0 murid :ARG1 upacara :mod bendera :time hari :mod ini
