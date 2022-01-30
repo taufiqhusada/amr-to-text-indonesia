@@ -797,6 +797,12 @@ class T5Stack(T5PreTrainedModel):
         self.model_parallel = False
         self.device_map = None
 
+        # if encoder add tree level embeddings
+        if (not is_decoder):
+            embed_dim = embed_tokens.embedding_dim
+            tree_max = config.tree_max
+            self.tree_embed = nn.Embedding(tree_max, embed_dim, padding_idx=1)
+
     @add_start_docstrings(PARALLELIZE_DOCSTRING)
     def parallelize(self, device_map=None):
         # Check validity of device_map
@@ -839,6 +845,7 @@ class T5Stack(T5PreTrainedModel):
     def forward(
         self,
         input_ids=None,
+        tree_ids=None,
         attention_mask=None,
         encoder_hidden_states=None,
         encoder_attention_mask=None,
@@ -878,7 +885,12 @@ class T5Stack(T5PreTrainedModel):
 
         if inputs_embeds is None:
             assert self.embed_tokens is not None, "You have to initialize the model with valid token embeddings"
-            inputs_embeds = self.embed_tokens(input_ids)
+            if (self.is_decoder):
+                inputs_embeds = self.embed_tokens(input_ids)
+            else:  # if encoder add tree level embeddings
+                x = self.embed_tokens(input_ids)
+                embed_tree = self.tree_embed(tree_ids)
+                inputs_embeds = x + embed_tree
 
         batch_size, seq_length = input_shape
 
