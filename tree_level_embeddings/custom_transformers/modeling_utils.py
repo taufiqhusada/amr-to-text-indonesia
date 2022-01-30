@@ -960,6 +960,7 @@ class PreTrainedModel(nn.Module, ModuleUtilsMixin, GenerationMixin):
         mirror = kwargs.pop("mirror", None)
         from_pipeline = kwargs.pop("_from_pipeline", None)
         from_auto_class = kwargs.pop("_from_auto", False)
+        additional_config = kwargs.pop("additional_config", None)
 
         user_agent = {"file_type": "model", "framework": "pytorch", "from_auto_class": from_auto_class}
         if from_pipeline is not None:
@@ -1054,6 +1055,7 @@ class PreTrainedModel(nn.Module, ModuleUtilsMixin, GenerationMixin):
             resolved_archive_file = None
 
         config.name_or_path = pretrained_model_name_or_path
+        config.additional_config = additional_config
 
         # Instantiate model.
         model = cls(config, *model_args, **model_kwargs)

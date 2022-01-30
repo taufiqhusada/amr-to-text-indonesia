@@ -801,7 +801,7 @@ class T5Stack(T5PreTrainedModel):
         # if encoder add tree level embeddings
         if (not config.is_decoder):
             embed_dim = embed_tokens.embedding_dim
-            tree_max = config.tree_max
+            tree_max = config.additional_config.tree_max
             self.tree_embed = nn.Embedding(tree_max, embed_dim, padding_idx=1)
 
     @add_start_docstrings(PARALLELIZE_DOCSTRING)
