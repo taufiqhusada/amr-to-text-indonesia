@@ -1270,6 +1270,7 @@ class T5Model(T5PreTrainedModel):
     def forward(
         self,
         input_ids=None,
+        tree_ids=None,
         attention_mask=None,
         decoder_input_ids=None,
         decoder_attention_mask=None,
@@ -1313,6 +1314,7 @@ class T5Model(T5PreTrainedModel):
         if encoder_outputs is None:
             encoder_outputs = self.encoder(
                 input_ids=input_ids,
+                tree_ids=tree_ids, 
                 attention_mask=attention_mask,
                 inputs_embeds=inputs_embeds,
                 head_mask=head_mask,
@@ -1458,6 +1460,7 @@ class T5ForConditionalGeneration(T5PreTrainedModel):
     def forward(
         self,
         input_ids=None,
+        tree_ids=None,
         attention_mask=None,
         decoder_input_ids=None,
         decoder_attention_mask=None,
@@ -1511,6 +1514,7 @@ class T5ForConditionalGeneration(T5PreTrainedModel):
             # Convert encoder inputs in embeddings if needed
             encoder_outputs = self.encoder(
                 input_ids=input_ids,
+                tree_ids=tree_ids, 
                 attention_mask=attention_mask,
                 inputs_embeds=inputs_embeds,
                 head_mask=head_mask,
