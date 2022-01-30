@@ -798,7 +798,7 @@ class T5Stack(T5PreTrainedModel):
         self.device_map = None
 
         # if encoder add tree level embeddings
-        if (not is_decoder):
+        if (not self.is_decoder ):
             embed_dim = embed_tokens.embedding_dim
             tree_max = config.tree_max
             self.tree_embed = nn.Embedding(tree_max, embed_dim, padding_idx=1)
