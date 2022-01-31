@@ -114,7 +114,3 @@ mkdir result/g-gempa-dieng
 
 python evaluate_indoT5.py --saved_model_folder_path ${SAVED_MODEL_FOLDER} \
 --data_folder ../data/test/preprocessed_data/g-gempa-dieng --result_folder result/g-gempa-dieng
-
-##### move result ######
-mkdir result/${PREPROCESSING_METHOD}
-mv result/* result/${PREPROCESSING_METHOD}
