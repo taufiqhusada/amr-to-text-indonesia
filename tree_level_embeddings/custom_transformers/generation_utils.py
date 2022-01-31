@@ -401,7 +401,7 @@ class GenerationMixin:
         return input_ids.new_ones(input_ids.shape, dtype=torch.long)
 
     def _prepare_encoder_decoder_kwargs_for_generation(
-        self, input_ids: torch.LongTensor, model_kwargs
+        self, input_ids: torch.LongTensor, tree_ids: torch.LongTensor, model_kwargs
     ) -> Dict[str, Any]:
         if "encoder_outputs" not in model_kwargs:
             # retrieve encoder hidden states
@@ -409,7 +409,7 @@ class GenerationMixin:
             encoder_kwargs = {
                 argument: value for argument, value in model_kwargs.items() if not argument.startswith("decoder_")
             }
-            model_kwargs["encoder_outputs"]: ModelOutput = encoder(input_ids, return_dict=True, **encoder_kwargs)
+            model_kwargs["encoder_outputs"]: ModelOutput = encoder(input_ids, tree_ids=tree_ids, return_dict=True, **encoder_kwargs)
         return model_kwargs
 
     def _prepare_decoder_input_ids_for_generation(
@@ -665,6 +665,7 @@ class GenerationMixin:
     def generate(
         self,
         input_ids: Optional[torch.LongTensor] = None,
+        tree_ids: Optional[torch.LongTensor]=None,
         max_length: Optional[int] = None,
         min_length: Optional[int] = None,
         do_sample: Optional[bool] = None,
@@ -924,7 +925,7 @@ class GenerationMixin:
 
         if self.config.is_encoder_decoder:
             # add encoder_outputs to model_kwargs
-            model_kwargs = self._prepare_encoder_decoder_kwargs_for_generation(input_ids, model_kwargs)
+            model_kwargs = self._prepare_encoder_decoder_kwargs_for_generation(input_ids, tree_ids, model_kwargs)
 
             # set input_ids as decoder_input_ids
             if "decoder_input_ids" in model_kwargs:
