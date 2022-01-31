@@ -20,7 +20,7 @@ cp data/preprocessed_data/${PREPROCESSING_METHOD}/test* data/preprocessed_silver
 
 
 ######### train on silver data ###########
-cd train
+cd tree_level_embeddings
 mkdir result/result_supervised_task_adaptation
 
 python train_indoT5.py \
