@@ -61,7 +61,7 @@ if __name__=='__main__':
     if (args.resume_from_checkpoint):
         print('resume from checkpoint')
         tokenizer = T5TokenizerFast.from_pretrained(os.path.join(saved_model_folder_path, 'tokenizer'))
-        model = T5ForConditionalGeneration.from_pretrained(os.path.join(saved_model_folder_path, 'model'))
+        model = T5ForConditionalGeneration.from_pretrained(os.path.join(saved_model_folder_path, 'model'), additional_config = {'tree_max':max_seq_len_amr})
     else:
         tokenizer = T5TokenizerFast.from_pretrained("Wikidepia/IndoT5-base")
         model = T5ForConditionalGeneration.from_pretrained("Wikidepia/IndoT5-base", additional_config = {'tree_max':max_seq_len_amr})

@@ -48,7 +48,7 @@ if __name__=='__main__':
         print("Running on the CPU")
 
     tokenizer = T5TokenizerFast.from_pretrained(os.path.join(saved_model_folder_path, 'tokenizer'))
-    model = T5ForConditionalGeneration.from_pretrained(os.path.join(saved_model_folder_path, 'model'))
+    model = T5ForConditionalGeneration.from_pretrained(os.path.join(saved_model_folder_path, 'model'), additional_config = {'tree_max':max_seq_len_amr})
     print(tokenizer)
     print(model.config)
 
@@ -57,7 +57,7 @@ if __name__=='__main__':
 
     test_amr_path = os.path.join(data_folder, 'test.amr.txt')
     test_sent_path = os.path.join(data_folder, 'test.sent.txt')
-    test_level_path = os.path.join(DATA_FOLDER, 'test.amr.txt.tree_level')  
+    test_level_path = os.path.join(data_folder, 'test.amr.txt.tree_level')  
     test_dataset = AMRToTextDataset(test_amr_path, test_sent_path, tokenizer, 'test', test_level_path)
     test_loader = AMRToTextDataLoader(dataset=test_dataset, model_type=model_type, tokenizer=tokenizer, with_tree_level=True,  
                         max_seq_len_amr=max_seq_len_amr, max_seq_len_sent=max_seq_len_sent, batch_size=batch_size, shuffle=False)
