@@ -64,7 +64,7 @@ class AMRToTextDataset(Dataset):
         return item
     
     def _encode_tokens_with_tree_level(self, amr, level):
-        list_level = [int(e)+1 for e in level.split()]     # +1 because 0 is pad idx
+        list_level = [int(e) for e in level.split()]    
         token_ids = []
         tree_ids = []
         for i, token in enumerate(amr.split()):

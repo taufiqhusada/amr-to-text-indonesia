@@ -50,7 +50,7 @@ def dfs_tree(root, adj_list, mode="dfs"):  # mode = linearized_penman/dfs/nodes_
     path = []
     list_level = []
 
-    def _dfs_tree_recurr(node_now, parent,  level=0):
+    def _dfs_tree_recurr(node_now, parent,  level=1):
         if (mode=='linearized_penman'):
             path.append('(')
             list_level.append(-100) 
@@ -60,11 +60,11 @@ def dfs_tree(root, adj_list, mode="dfs"):  # mode = linearized_penman/dfs/nodes_
             if (node_next!=parent):
                 if (mode!="nodes_only"):
                     path.append(edge)
-                    list_level.append(level)
+                    list_level.append(level+1)
                 _dfs_tree_recurr(node_next, node_now, level+1)
         if (mode=='linearized_penman'):
             path.append(')')
-            list_level.append(-100) 
+            list_level.append(0) 
 
     _dfs_tree_recurr(root, root)
     return path, list_level
