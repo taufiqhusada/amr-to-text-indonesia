@@ -71,9 +71,6 @@ python preprocess/preprocess.py \
 --mode ${PREPROCESSING_METHOD}
 
 ####### predict all and evaluate #########
-cd evaluate
-mkdir result
-
 # amr_simple_test
 echo evaluate on data amr_simple_test
 mkdir result/amr_simple_test
