@@ -54,6 +54,8 @@ class AMRToTextDataset(Dataset):
         if (self.with_tree_level):
             level = data['level']
             tokenize_amr, tokenize_level = self._encode_tokens_with_tree_level(amr, level)
+            tokenize_amr.append(self.tokenizer.eos_token_id)
+            tokenize_level.append(self.tokenizer.eos_token_id)
             item['input']['encoded'] = tokenize_amr
             item['input']['raw'] = amr
             

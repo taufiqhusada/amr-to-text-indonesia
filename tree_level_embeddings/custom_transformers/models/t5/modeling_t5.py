@@ -802,7 +802,7 @@ class T5Stack(T5PreTrainedModel):
         if (not config.is_decoder):
             embed_dim = embed_tokens.embedding_dim
             tree_max = config.additional_config['tree_max']
-            self.tree_embed = nn.Embedding(tree_max, embed_dim, padding_idx=0)
+            self.tree_embed = nn.Embedding(tree_max, embed_dim, padding_idx=1)
 
     @add_start_docstrings(PARALLELIZE_DOCSTRING)
     def parallelize(self, device_map=None):
