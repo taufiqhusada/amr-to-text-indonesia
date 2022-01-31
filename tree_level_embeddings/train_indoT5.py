@@ -64,7 +64,7 @@ if __name__=='__main__':
         model = T5ForConditionalGeneration.from_pretrained(os.path.join(saved_model_folder_path, 'model'))
     else:
         tokenizer = T5TokenizerFast.from_pretrained("Wikidepia/IndoT5-base")
-        model = T5ForConditionalGeneration.from_pretrained("Wikidepia/IndoT5-base", return_dict=True)
+        model = T5ForConditionalGeneration.from_pretrained("Wikidepia/IndoT5-base", additional_config = {'tree_max':max_seq_len_amr})
 
     #moving the model to device(GPU/CPU)
     model.to(device)
