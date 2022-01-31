@@ -68,7 +68,7 @@ class AMRToTextDataset(Dataset):
         token_ids = []
         tree_ids = []
         for i, token in enumerate(amr.split()):
-            encoded_token = tokenizer.encode(token, add_special_tokens=False)
+            encoded_token = self.tokenizer.encode(token, add_special_tokens=False)
             token_ids += encoded_token
             tree_ids += [list_level[i]] * len(encoded_token)
                 
