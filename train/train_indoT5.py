@@ -84,22 +84,25 @@ if __name__=='__main__':
 
     train_amr_path = os.path.join(DATA_FOLDER, 'train.amr.txt')
     train_sent_path = os.path.join(DATA_FOLDER, 'train.sent.txt')
+    train_level_path = os.path.join(DATA_FOLDER, 'train.amr.txt.tree_level')
 
     dev_amr_path = os.path.join(DATA_FOLDER, 'dev.amr.txt')
     dev_sent_path = os.path.join(DATA_FOLDER, 'dev.sent.txt')
+    dev_level_path = os.path.join(DATA_FOLDER, 'dev.amr.txt.tree_level')
 
     test_amr_path = os.path.join(DATA_FOLDER, 'test.amr.txt')
     test_sent_path = os.path.join(DATA_FOLDER, 'test.sent.txt')
+    test_level_path = os.path.join(DATA_FOLDER, 'test.amr.txt.tree_level')    
 
-    train_dataset = AMRToTextDataset(train_amr_path, train_sent_path, tokenizer, 'train')
-    dev_dataset = AMRToTextDataset(dev_amr_path, dev_sent_path, tokenizer, 'dev')
-    test_dataset = AMRToTextDataset(test_amr_path, test_sent_path, tokenizer, 'test')
+    train_dataset = AMRToTextDataset(train_amr_path, train_sent_path, tokenizer, 'train', train_level_path)
+    dev_dataset = AMRToTextDataset(dev_amr_path, dev_sent_path, tokenizer, 'dev', dev_level_path)
+    test_dataset = AMRToTextDataset(test_amr_path, test_sent_path, tokenizer, 'test', test_level_path)
 
-    train_loader = AMRToTextDataLoader(dataset=train_dataset, model_type=model_type, tokenizer=tokenizer,  max_seq_len_amr=max_seq_len_amr, max_seq_len_sent=max_seq_len_sent, 
+    train_loader = AMRToTextDataLoader(dataset=train_dataset, model_type=model_type, tokenizer=tokenizer,  with_tree_level=True,   max_seq_len_amr=max_seq_len_amr, max_seq_len_sent=max_seq_len_sent, 
                                         batch_size=batch_size, shuffle=True)  
-    test_loader = AMRToTextDataLoader(dataset=test_dataset, model_type=model_type, tokenizer=tokenizer,  max_seq_len_amr=max_seq_len_amr, max_seq_len_sent=max_seq_len_sent, 
+    test_loader = AMRToTextDataLoader(dataset=test_dataset, model_type=model_type, tokenizer=tokenizer,  with_tree_level=True,    max_seq_len_amr=max_seq_len_amr, max_seq_len_sent=max_seq_len_sent, 
                                         batch_size=batch_size, shuffle=False)  
-    dev_loader = AMRToTextDataLoader(dataset=dev_dataset, model_type=model_type, tokenizer=tokenizer,  max_seq_len_amr=max_seq_len_amr, max_seq_len_sent=max_seq_len_sent, 
+    dev_loader = AMRToTextDataLoader(dataset=dev_dataset, model_type=model_type, tokenizer=tokenizer,  with_tree_level=True,  max_seq_len_amr=max_seq_len_amr, max_seq_len_sent=max_seq_len_sent, 
                                         batch_size=batch_size, shuffle=False)  
 
     print('len train dataset: ', str(len(train_dataset)))
@@ -133,9 +136,9 @@ if __name__=='__main__':
             enc_mask_batch = torch.FloatTensor(batch_data[2]).cuda()
             dec_mask_batch = None
             label_batch = torch.LongTensor(batch_data[4]).cuda()
-            token_type_batch = None
+            level_batch = torch.LongTensor(batch_data[5]).cuda()
 
-            outputs = model(input_ids=enc_batch, attention_mask=enc_mask_batch, decoder_input_ids=dec_batch, 
+            outputs = model(input_ids=enc_batch,  tree_ids = level_batch, attention_mask=enc_mask_batch, decoder_input_ids=dec_batch, 
                         decoder_attention_mask=dec_mask_batch, labels=label_batch)
             loss, logits = outputs[:2]
             hyps = logits.topk(1, dim=-1)[1]
@@ -169,9 +172,9 @@ if __name__=='__main__':
             enc_mask_batch = torch.FloatTensor(batch_data[2]).cuda()
             dec_mask_batch = None
             label_batch = torch.LongTensor(batch_data[4]).cuda()
-            token_type_batch = None
+            level_batch = torch.LongTensor(batch_data[5]).cuda()
 
-            outputs = model(input_ids=enc_batch, attention_mask=enc_mask_batch, decoder_input_ids=dec_batch, 
+            outputs = model(input_ids=enc_batch, tree_ids = level_batch, attention_mask=enc_mask_batch, decoder_input_ids=dec_batch, 
                         decoder_attention_mask=dec_mask_batch, labels=label_batch)
             loss, logits = outputs[:2]
             hyps = logits.topk(1, dim=-1)[1]
@@ -207,12 +210,12 @@ if __name__=='__main__':
     for i, batch_data in enumerate(pbar):
         batch_seq = batch_data[-1]
 
-        enc_batch = torch.LongTensor(batch_data[0])
-        dec_batch = torch.LongTensor(batch_data[1])
-        enc_mask_batch = torch.FloatTensor(batch_data[2])
+        enc_batch = torch.LongTensor(batch_data[0]).cuda()
+        dec_batch = torch.LongTensor(batch_data[1]).cuda()
+        enc_mask_batch = torch.FloatTensor(batch_data[2]).cuda()
         dec_mask_batch = None
-        label_batch = torch.LongTensor(batch_data[4])
-        token_type_batch = None
+        label_batch = torch.LongTensor(batch_data[4]).cuda()
+        level_batch = torch.LongTensor(batch_data[5]).cuda()
 
         # cuda
         enc_batch = enc_batch.cuda()
@@ -222,7 +225,7 @@ if __name__=='__main__':
         label_batch = label_batch.cuda()
         token_type_batch = None
 
-        hyps = model.generate(input_ids=enc_batch, attention_mask=enc_mask_batch, num_beams=num_beams, max_length=max_seq_len_sent, 
+        hyps = model.generate(input_ids=enc_batch,  tree_ids = level_batch, attention_mask=enc_mask_batch, num_beams=num_beams, max_length=max_seq_len_sent, 
                             early_stopping=True, pad_token_id=tokenizer.pad_token_id, eos_token_id=tokenizer.eos_token_id)
 
 
