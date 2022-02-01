@@ -61,7 +61,7 @@ class PreprocessAMR:
             else:
                 list_file = [f for f in listdir(source_folder_path)]
                 for file_name in list_file:
-                    list_tuple_sent_amr_level_from_file = self.traversal_with_tree_level(path.join(source_folder_path, file_name,mode[:-16]))
+                    list_tuple_sent_amr_level_from_file = self.traversal_with_tree_level(path.join(source_folder_path, file_name), mode[:-16])
                 list_tuple_sent_amr_level += list_tuple_sent_amr_level_from_file
             
             print("total:", len(list_tuple_sent_amr_level), " tuple_sent_amr_level")
