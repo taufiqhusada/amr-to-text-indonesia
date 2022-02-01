@@ -672,10 +672,15 @@ class MBartEncoder(MBartPreTrainedModel):
         self.max_source_positions = config.max_position_embeddings
         self.embed_scale = math.sqrt(embed_dim) if config.scale_embedding else 1.0
 
-        if embed_tokens is not None:
-            self.embed_tokens = embed_tokens
-        else:
-            self.embed_tokens = nn.Embedding(config.vocab_size, embed_dim, self.padding_idx)
+        # if embed_tokens is not None:
+        #     self.embed_tokens = embed_tokens
+        # else:
+        #     self.embed_tokens = nn.Embedding(config.vocab_size, embed_dim, self.padding_idx)
+
+        self.embed_tokens = embed_tokens
+
+        tree_max = config.additional_config['tree_max']
+        self.tree_embed = nn.Embedding(tree_max, embed_dim, padding_idx=1)
 
         self.embed_positions = MBartLearnedPositionalEmbedding(
             config.max_position_embeddings,
@@ -690,6 +695,7 @@ class MBartEncoder(MBartPreTrainedModel):
     def forward(
         self,
         input_ids=None,
+        tree_ids=None,
         attention_mask=None,
         head_mask=None,
         inputs_embeds=None,
@@ -755,8 +761,9 @@ class MBartEncoder(MBartPreTrainedModel):
             inputs_embeds = self.embed_tokens(input_ids) * self.embed_scale
 
         embed_pos = self.embed_positions(input_shape)
+        embed_tree = self.tree_embed(tree_ids)
 
-        hidden_states = inputs_embeds + embed_pos
+        hidden_states = inputs_embeds + embed_pos + embed_tree
         hidden_states = self.layernorm_embedding(hidden_states)
         hidden_states = F.dropout(hidden_states, p=self.dropout, training=self.training)
 
@@ -1129,6 +1136,7 @@ class MBartModel(MBartPreTrainedModel):
     def forward(
         self,
         input_ids=None,
+        tree_ids=None,
         attention_mask=None,
         decoder_input_ids=None,
         decoder_attention_mask=None,
@@ -1158,6 +1166,7 @@ class MBartModel(MBartPreTrainedModel):
         if encoder_outputs is None:
             encoder_outputs = self.encoder(
                 input_ids=input_ids,
+                tree_ids=tree_ids,
                 attention_mask=attention_mask,
                 head_mask=head_mask,
                 inputs_embeds=inputs_embeds,
@@ -1256,6 +1265,7 @@ class MBartForConditionalGeneration(MBartPreTrainedModel):
     def forward(
         self,
         input_ids=None,
+        tree_ids=None,
         attention_mask=None,
         decoder_input_ids=None,
         decoder_attention_mask=None,
@@ -1288,6 +1298,7 @@ class MBartForConditionalGeneration(MBartPreTrainedModel):
 
         outputs = self.model(
             input_ids,
+            tree_ids=tree_ids,
             attention_mask=attention_mask,
             decoder_input_ids=decoder_input_ids,
             encoder_outputs=encoder_outputs,
