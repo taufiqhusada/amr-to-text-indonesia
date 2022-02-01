@@ -54,8 +54,6 @@ class AMRToTextDataset(Dataset):
         if (self.with_tree_level):
             level = data['level']
             tokenize_amr, tokenize_level = self._encode_tokens_with_tree_level(amr, level)
-            tokenize_amr.append(self.tokenizer.eos_token_id)
-            tokenize_level.append(self.tokenizer.eos_token_id)
             item['input']['encoded'] = tokenize_amr
             item['input']['raw'] = amr
             
@@ -129,6 +127,8 @@ class AMRToTextDataLoader(DataLoader):
         
         for i, item in enumerate(batch):
             input_seq = item['input']['encoded']
+            if (self.with_tree_level):
+                input_seq.append(self.eos_token_id)
             label_seq = item['output']['encoded']
             input_seq, label_seq = input_seq[:max_enc_len - len(self.t5_prefix)], label_seq[:max_dec_len - 1]
             
@@ -150,6 +150,7 @@ class AMRToTextDataLoader(DataLoader):
             
             if (self.with_tree_level):
                 level_seq = item['level']['encoded']
+                level_seq.append(self.eos_token_id)
                 level_seq = level_seq[:max_enc_len - len(self.t5_prefix)]  # truncate if greater than max len
                 
                 level_batch[i,len(self.t5_prefix):len(self.t5_prefix) + len(level_seq)] = level_seq  # assign content
@@ -175,7 +176,11 @@ class AMRToTextDataLoader(DataLoader):
         label_batch = np.full((batch_size, max_dec_len), self.label_pad_token_id, dtype=np.int64)
         enc_mask_batch = np.full((batch_size, max_enc_len), 0, dtype=np.float32)
         dec_mask_batch = np.full((batch_size, max_dec_len), 0, dtype=np.float32)
+        level_batch = None
         
+        if (self.with_tree_level):
+            level_batch = np.full((batch_size, max_enc_len), self.pad_token_id, dtype=np.int64)
+
         for i, item in enumerate(batch):
             input_seq = item['input']['encoded']
             label_seq = item['output']['encoded']
@@ -199,5 +204,12 @@ class AMRToTextDataLoader(DataLoader):
             # Assign special token to label
             label_batch[i,len(label_seq)] = self.eos_token_id
             label_batch[i,1+len(label_seq)] = self.tgt_lid_token_id
+
+            if (self.with_tree_level):
+                level_seq = item['level']['encoded']
+                level_seq = level_seq[:max_enc_len-2]
+                level_batch[i,0:len(level_seq)] = level_seq
+                enc_batch[i,len(input_seq)] = self.eos_token_id
+                enc_batch[i,1+len(input_seq)] = self.pad_token_id
         
-        return enc_batch, dec_batch, enc_mask_batch, None, label_batch
+        return enc_batch, dec_batch, enc_mask_batch, None, label_batch, level_batch
