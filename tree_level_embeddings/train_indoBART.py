@@ -211,7 +211,7 @@ if __name__=='__main__':
     for i, batch_data in enumerate(pbar):
         batch_seq = batch_data[-1]
 
-         enc_batch = torch.LongTensor(batch_data[0]).cuda()
+        enc_batch = torch.LongTensor(batch_data[0]).cuda()
         dec_batch = torch.LongTensor(batch_data[1]).cuda()
         enc_mask_batch = torch.FloatTensor(batch_data[2]).cuda()
         dec_mask_batch = None
