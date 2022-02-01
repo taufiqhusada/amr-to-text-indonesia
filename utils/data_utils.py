@@ -111,7 +111,10 @@ class AMRToTextDataLoader(DataLoader):
             
     def _t5_collate_fn(self, batch):
         batch_size = len(batch)
-        max_enc_len = min(self.max_seq_len_amr, max(map(lambda x: len(x['input']['encoded']), batch))  + len(self.t5_prefix))
+        if (self.with_tree_level):
+            max_enc_len = min(self.max_seq_len_amr, max(map(lambda x: len(x['input']['encoded'])+1, batch))  + len(self.t5_prefix))
+        else:
+            max_enc_len = min(self.max_seq_len_amr, max(map(lambda x: len(x['input']['encoded']), batch))  + len(self.t5_prefix))
         max_dec_len = min(self.max_seq_len_sent, max(map(lambda x: len(x['output']['encoded']), batch)) + 1)
         
         
