@@ -1,7 +1,7 @@
 from os import listdir, path
 import argparse
 from tqdm import tqdm
-from graph_utils import convert_linearized_penman_to_rule_based_traversal, convert_linearized_penman_to_dfs_with_tree_level
+from graph_utils import convert_linearized_penman_to_rule_based_traversal, convert_linearized_penman_to_traversal_with_tree_level
 import re
 
 class PreprocessAMR:   
@@ -11,7 +11,7 @@ class PreprocessAMR:
         if (source_folder_path and source_file_path):
             raise Exception("please specify either only source file path or source folder path")
         
-        if (mode != "dfs_with_tree_level"):
+        if ("with_tree_level" not in mode):
             list_pair_sent_amr = []
             if (source_file_path):
                 if (mode=="linearized_penman"):
@@ -54,14 +54,14 @@ class PreprocessAMR:
                 f.write("\n")
             f.close()
 
-        else: # mode == dfs_with_tree_level
+        else: # mode == <dfs/linearized_penman>_with_tree_level
             list_tuple_sent_amr_level = []
             if (source_file_path):
-                list_tuple_sent_amr_level = self.dfs_with_tree_level(source_file_path)
+                list_tuple_sent_amr_level = self.traversal_with_tree_level(source_file_path, mode[:-16])
             else:
                 list_file = [f for f in listdir(source_folder_path)]
                 for file_name in list_file:
-                    list_tuple_sent_amr_level_from_file = self.dfs_with_tree_level(path.join(source_folder_path, file_name))
+                    list_tuple_sent_amr_level_from_file = self.traversal_with_tree_level(path.join(source_folder_path, file_name,mode[:-16]))
                 list_tuple_sent_amr_level += list_tuple_sent_amr_level_from_file
             
             print("total:", len(list_tuple_sent_amr_level), " tuple_sent_amr_level")
@@ -206,13 +206,13 @@ class PreprocessAMR:
 
         return list_pair_sent_amr
 
-    def dfs_with_tree_level(self, file_path):
+    def traversal_with_tree_level(self, file_path, mode):
         list_pair_sent_amr = self.linearize_penman(file_path)
         list_tuple_sent_amr_level = []
 
         for i in range(len(list_pair_sent_amr)):
             (sent,amr) = list_pair_sent_amr[i]
-            result_path_traversal, result_list_level = convert_linearized_penman_to_dfs_with_tree_level(amr)
+            result_path_traversal, result_list_level = convert_linearized_penman_to_traversal_with_tree_level(amr, mode)
 
             list_tuple_sent_amr_level.append((sent, result_path_traversal, result_list_level))
         return list_tuple_sent_amr_level

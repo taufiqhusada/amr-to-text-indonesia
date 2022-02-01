@@ -53,7 +53,7 @@ def dfs_tree(root, adj_list, mode="dfs"):  # mode = linearized_penman/dfs/nodes_
     def _dfs_tree_recurr(node_now, parent,  level=1):
         if (mode=='linearized_penman'):
             path.append('(')
-            list_level.append(-100) 
+            list_level.append(0) 
         path.append(node_now)
         list_level.append(level)
         for (edge, node_next) in adj_list[node_now]:
@@ -120,9 +120,9 @@ def convert_linearized_penman_to_rule_based_traversal(linearized_penman):
         str_path+= edge + " " + node_without_id + " "
     return str_path.strip()
 
-def convert_linearized_penman_to_dfs_with_tree_level(linearized_penman):
+def convert_linearized_penman_to_traversal_with_tree_level(linearized_penman, mode='dfs'):
     root, adj_list = convert_linearized_penman_to_tree(linearized_penman)
-    path, list_level = dfs_tree(root, adj_list, "dfs")
+    path, list_level = dfs_tree(root, adj_list, mode)
 
     str_path = ""
     str_level = ""
@@ -146,6 +146,6 @@ if __name__=="__main__":
     # # print(dfs_tree(root, adj_list))
 
     # print(grammar_based_tree_traversal(root, adj_list))
-    print(convert_linearized_penman_to_dfs_with_tree_level('( pergi :ARG0 ( kami :mod ( keluarga ) ) :ARG1 ( tamasya ) :time ( hari :mod ( tamasya ) ) )'))
+    print(convert_linearized_penman_to_traversal_with_tree_level('( pergi :ARG0 ( kami :mod ( keluarga ) ) :ARG1 ( tamasya ) :time ( hari :mod ( tamasya ) ) )', mode='linearized_penman'))
 
     # print(convert_linearized_penman_to_dfs_with_tree_level('( adik  ajak :ARG0 ( ibu ) :ARG1 a :location ( pasar ) )'))
