@@ -156,7 +156,7 @@ class AMRToTextDataLoader(DataLoader):
                 level_seq.append(self.eos_token_id)
                 level_seq = level_seq[:max_enc_len - len(self.t5_prefix)]  # truncate if greater than max len
                 
-                level_batch[i,len(self.t5_prefix):len(self.t5_prefix) + len(level_seq)] = level_seq  # assign content
+                level_batch[i,len(self.t5_prefix):len(self.t5_prefix) + len(level_seq)] = level_seq + 3 # assign content
                 level_batch[i,:len(self.t5_prefix)] = [0]*len(self.t5_prefix)
             
         
