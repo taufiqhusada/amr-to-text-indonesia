@@ -70,7 +70,7 @@ class AMRToTextDataset(Dataset):
         for i, token in enumerate(amr.split()):
             encoded_token = self.tokenizer.encode(token, add_special_tokens=False)
             token_ids += encoded_token
-            tree_ids += [list_level[i] + 3] * len(encoded_token)
+            tree_ids += [str(list_level[i])] * len(encoded_token)
                 
         tokenize_amr = token_ids
         tokenize_level = tree_ids
@@ -131,7 +131,7 @@ class AMRToTextDataLoader(DataLoader):
         for i, item in enumerate(batch):
             input_seq = item['input']['encoded']
             if (self.with_tree_level):
-                input_seq.append(self.eos_token_id)
+                input_seq.append(2)
             label_seq = item['output']['encoded']
             input_seq, label_seq = input_seq[:max_enc_len - len(self.t5_prefix)], label_seq[:max_dec_len - 1]
             
@@ -153,7 +153,7 @@ class AMRToTextDataLoader(DataLoader):
             
             if (self.with_tree_level):
                 level_seq = item['level']['encoded']
-                level_seq.append(self.eos_token_id)
+                level_seq.append(2)
                 level_seq = level_seq[:max_enc_len - len(self.t5_prefix)]  # truncate if greater than max len
                 
                 level_batch[i,len(self.t5_prefix):len(self.t5_prefix) + len(level_seq)] = level_seq  # assign content
