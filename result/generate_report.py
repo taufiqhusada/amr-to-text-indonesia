@@ -4,7 +4,7 @@ import os
 sys.path.append('..')
 from utils.scoring import calc_corpus_bleu_score
 
-def generate_report_from_result_specific_data(path_folder, dataset_name):
+def generate_report_from_result_specific_data(path_folder, dataset_name, remove_last_char=False):
     complete_path = os.path.join(path_folder, dataset_name)
     with open(os.path.join(complete_path, 'test_generations.txt')) as f:
         test_generations = f.readlines()
@@ -15,6 +15,8 @@ def generate_report_from_result_specific_data(path_folder, dataset_name):
     for i in range(len(test_generations)):
         hyp = test_generations[i].strip()
         label = test_label[i].strip()
+        if (remove_last_char):
+            label = label[:-1]
         score = calc_corpus_bleu_score([hyp], [label])
         list_tuple_bleu_hyp_label_source.append((score, hyp, label, dataset_name))      
 
@@ -70,7 +72,7 @@ if __name__ == '__main__':
     # generate list_tuple_bleu_hyp_label_source from all news dataset
     list_tuple_bleu_hyp_label_source = []
     for dataset_name in LIST_NEWS_DATASET:
-        list_tuple_bleu_hyp_label_source += generate_report_from_result_specific_data(path_folder, dataset_name)
+        list_tuple_bleu_hyp_label_source += generate_report_from_result_specific_data(path_folder, dataset_name, remove_last_char=True)
 
     list_tuple_bleu_hyp_label_source.sort(reverse=True)
     with open(os.path.join(path_folder, 'report_news_dataset_test.csv'), 'w') as f:
