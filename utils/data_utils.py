@@ -70,7 +70,10 @@ class AMRToTextDataset(Dataset):
         for i, token in enumerate(amr.split()):
             encoded_token = self.tokenizer.encode(token, add_special_tokens=False)
             token_ids += encoded_token
-            tree_ids += [list_level[i] + 2] * len(encoded_token)
+
+            # level start at 3, following https://github.com/EagleW/Stage-wise-Fine-tuning/blob/0286726e28f517793216a6c113b4a6a8d21fd906/preprocess/webnlg_tree.py#L101
+            modified_level = list_level[i] + 2 if list_level[i]!= 0 else list_level[i]
+            tree_ids += [modified_level] * len(encoded_token)
                 
         tokenize_amr = token_ids
         tokenize_level = tree_ids
