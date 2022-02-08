@@ -60,7 +60,7 @@ def dfs_tree(root, adj_list, mode="dfs"):  # mode = linearized_penman/dfs/nodes_
             if (node_next!=parent):
                 if (mode!="nodes_only"):
                     path.append(edge)
-                    list_level.append(level+1)
+                    list_level.append(0)
                 _dfs_tree_recurr(node_next, node_now, level+1)
         if (mode=='linearized_penman'):
             path.append(')')
