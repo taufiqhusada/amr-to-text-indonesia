@@ -70,7 +70,7 @@ class AMRToTextDataset(Dataset):
         for i, token in enumerate(amr.split()):
             encoded_token = self.tokenizer.encode(token, add_special_tokens=False)
             token_ids += encoded_token
-            tree_ids += [list_level[i] + 3] * len(encoded_token)
+            tree_ids += [list_level[i] + 2] * len(encoded_token)
                 
         tokenize_amr = token_ids
         tokenize_level = tree_ids
