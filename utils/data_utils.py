@@ -216,6 +216,6 @@ class AMRToTextDataLoader(DataLoader):
                 level_seq = level_seq[:max_enc_len-2]
                 level_batch[i,0:len(level_seq)] = level_seq
                 enc_batch[i,len(input_seq)] = self.eos_token_id
-                enc_batch[i,1+len(input_seq)] = self.src_lid_token_id
+                enc_batch[i,1+len(input_seq)] = self.pad_token_id
         
         return enc_batch, dec_batch, enc_mask_batch, None, label_batch, level_batch
