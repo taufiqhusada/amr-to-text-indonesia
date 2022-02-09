@@ -214,10 +214,10 @@ class AMRToTextDataLoader(DataLoader):
             if (self.with_tree_level):
                 level_seq = item['level']['encoded']
 
-                for i in range(len(level_seq)):
-                    if (level_seq[i]==0):
-                        level_seq[i] = self.pad_token_id
-                        
+                for idx_level in range(len(level_seq)):
+                    if (level_seq[idx_level]==0):
+                        level_seq[idx_level] = self.pad_token_id
+
                 level_seq = level_seq[:max_enc_len-2]
                 level_batch[i,0:len(level_seq)] = level_seq
                 enc_batch[i,len(input_seq)] = self.eos_token_id
