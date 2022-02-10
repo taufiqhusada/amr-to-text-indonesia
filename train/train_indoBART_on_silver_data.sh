@@ -1,5 +1,6 @@
 PREPROCESSING_METHOD=$1
 SILVER_DATA_FOLDER=$2
+EPOCH=$3
 
 echo preprocessing method ${PREPROCESSING_METHOD}
 echo silver data folder ${SILVER_DATA_FOLDER}
@@ -25,7 +26,7 @@ mkdir result/result_supervised_task_adaptation
 
 python train_indoBART.py \
 --model_type indo-bart \
---n_epochs 1 \
+--n_epochs ${EPOCH} \
 --data_folder ../data/preprocessed_silver_data  \
 --result_folder result/result_supervised_task_adaptation
 
