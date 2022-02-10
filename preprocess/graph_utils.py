@@ -69,19 +69,23 @@ def dfs_tree(root, adj_list, mode="dfs"):  # mode = linearized_penman/dfs/nodes_
     _dfs_tree_recurr(root, root)
     return path, list_level
 
-def grammar_based_tree_traversal(root, adj_list):
+def grammar_based_tree_traversal(root, adj_list, with_level=False):
     with open('preprocess/traversal_rule.json') as f:
         list_rule = json.load(f)['list_rule']
     
     path = []
+    list_level = []
 
-    def _put_edge_node_in_path(pair_edge_node):
+    def _put_edge_node_in_path(pair_edge_node, level=None):
         if pair_edge_node not in path:
             path.append(pair_edge_node)
+            if (with_level):
+                list_level.append(level)
+                list_level.append(level)
     
-    def _traversal_tree_recurr(node_now, prev_edge=':root'):
+    def _traversal_tree_recurr(node_now, prev_edge=':root', level = 1):
         if (node_now not in adj_list):  # leaf node
-            _put_edge_node_in_path((prev_edge, node_now))
+            _put_edge_node_in_path((prev_edge, node_now), level)
 
         list_pair_edge_node = adj_list[node_now]
         priority_list_pair_edge_node = []
@@ -93,24 +97,27 @@ def grammar_based_tree_traversal(root, adj_list):
                 if edge_condition == edge:
                     is_picked[i] = True
                     if priority == "dependent_node":
-                        _traversal_tree_recurr(node, edge)
-                        _put_edge_node_in_path((prev_edge, node_now))
+                        _traversal_tree_recurr(node, edge, level+1)
+                        _put_edge_node_in_path((prev_edge, node_now), level)
                     else: # head node
-                        _put_edge_node_in_path((prev_edge, node_now))
-                        _traversal_tree_recurr(node, edge)
+                        _put_edge_node_in_path((prev_edge, node_now), level)
+                        _traversal_tree_recurr(node, edge, level+1)
 
         # traverse other node that is not in priority
         for i in range(len(is_picked)):
             if (not is_picked[i]):
                 (edge, node) = list_pair_edge_node[i]
-                _put_edge_node_in_path((prev_edge, node_now))
-                _traversal_tree_recurr(node, edge)
+                _put_edge_node_in_path((prev_edge, node_now), level)
+                _traversal_tree_recurr(node, edge, level+1)
+    
     _traversal_tree_recurr(root)
-    return path
+                    
+    return path, list_level
 
-def convert_linearized_penman_to_rule_based_traversal(linearized_penman):
+
+def convert_linearized_penman_to_rule_based_traversal(linearized_penman, with_level=False):
     root, adj_list = convert_linearized_penman_to_tree(linearized_penman)
-    path = grammar_based_tree_traversal(root, adj_list)
+    path, list_level = grammar_based_tree_traversal(root, adj_list, with_level)
 
     str_path = ""
     for (edge, node) in path:
@@ -118,7 +125,15 @@ def convert_linearized_penman_to_rule_based_traversal(linearized_penman):
         if (edge==None):
             edge = ':mod'
         str_path+= edge + " " + node_without_id + " "
-    return str_path.strip()
+    
+    if (with_level):
+        str_level = ""
+        for level in list_level:
+            str_level += str(level) + " "
+        
+        return str_path.strip(), str_level.strip()
+    else:
+        return str_path.strip(), None
 
 def convert_linearized_penman_to_traversal_with_tree_level(linearized_penman, mode='dfs'):
     root, adj_list = convert_linearized_penman_to_tree(linearized_penman)
@@ -146,6 +161,8 @@ if __name__=="__main__":
     # # print(dfs_tree(root, adj_list))
 
     # print(grammar_based_tree_traversal(root, adj_list))
-    print(convert_linearized_penman_to_traversal_with_tree_level('( pergi :ARG0 ( kami :mod ( keluarga ) ) :ARG1 ( tamasya ) :time ( hari :mod ( tamasya ) ) )', mode='linearized_penman'))
+    path, levels = convert_linearized_penman_to_rule_based_traversal('( pergi :ARG0 ( kami :mod ( keluarga ) ) :ARG1 ( tamasya ) :time ( hari :mod ( tamasya ) ) )', True)
+    print(path)
+    print(levels)
 
     # print(convert_linearized_penman_to_dfs_with_tree_level('( adik  ajak :ARG0 ( ibu ) :ARG1 a :location ( pasar ) )'))

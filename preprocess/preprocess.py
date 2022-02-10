@@ -53,17 +53,27 @@ class PreprocessAMR:
                 f.write(sent.strip())
                 f.write("\n")
             f.close()
-
-        else: # mode == <dfs/linearized_penman>_with_tree_level
-            list_tuple_sent_amr_level = []
-            if (source_file_path):
-                list_tuple_sent_amr_level = self.traversal_with_tree_level(source_file_path, mode[:-16])
+        else: # mode == <dfs/linearized_penman/rule_based_traversal>_with_tree_level
+            if(mode=='rule_based_traversal_with_tree_level'):
+                list_tuple_sent_amr_level = []
+                if (source_file_path):
+                    list_tuple_sent_amr_level = self.rule_based_traversal_with_tree_level(source_file_path)
+                else:
+                    list_file = [f for f in listdir(source_folder_path)]
+                    for file_name in list_file:
+                        list_tuple_sent_amr_level_from_file = self.rule_based_traversal_with_tree_level(path.join(source_folder_path, file_name))
+                        print(len(list_tuple_sent_amr_level_from_file))
+                        list_tuple_sent_amr_level += list_tuple_sent_amr_level_from_file    
             else:
-                list_file = [f for f in listdir(source_folder_path)]
-                for file_name in list_file:
-                    list_tuple_sent_amr_level_from_file = self.traversal_with_tree_level(path.join(source_folder_path, file_name), mode[:-16])
-                    print(len(list_tuple_sent_amr_level_from_file))
-                    list_tuple_sent_amr_level += list_tuple_sent_amr_level_from_file
+                list_tuple_sent_amr_level = []
+                if (source_file_path):
+                    list_tuple_sent_amr_level = self.traversal_with_tree_level(source_file_path, mode[:-16])
+                else:
+                    list_file = [f for f in listdir(source_folder_path)]
+                    for file_name in list_file:
+                        list_tuple_sent_amr_level_from_file = self.traversal_with_tree_level(path.join(source_folder_path, file_name), mode[:-16])
+                        print(len(list_tuple_sent_amr_level_from_file))
+                        list_tuple_sent_amr_level += list_tuple_sent_amr_level_from_file
             
             print("total:", len(list_tuple_sent_amr_level), " tuple_sent_amr_level")
             
@@ -202,7 +212,7 @@ class PreprocessAMR:
 
         for i in range(len(list_pair_sent_amr)):
             (sent,amr) = list_pair_sent_amr[i]
-            result_path_traversal = convert_linearized_penman_to_rule_based_traversal(amr)
+            result_path_traversal, _ = convert_linearized_penman_to_rule_based_traversal(amr)
             list_pair_sent_amr[i] = (sent, result_path_traversal)
 
         return list_pair_sent_amr
@@ -216,6 +226,18 @@ class PreprocessAMR:
             result_path_traversal, result_list_level = convert_linearized_penman_to_traversal_with_tree_level(amr, mode)
 
             list_tuple_sent_amr_level.append((sent, result_path_traversal, result_list_level))
+        return list_tuple_sent_amr_level
+
+    def rule_based_traversal_with_tree_level(self, file_path):
+        list_pair_sent_amr = self.linearize_penman(file_path)
+        list_tuple_sent_amr_level = []
+
+        for i in range(len(list_pair_sent_amr)):
+            (sent,amr) = list_pair_sent_amr[i]
+            result_path_traversal, result_list_level= convert_linearized_penman_to_rule_based_traversal(amr, with_level=True)
+            
+            list_tuple_sent_amr_level.append((sent, result_path_traversal, result_list_level))
+
         return list_tuple_sent_amr_level
 
 if __name__=="__main__":
