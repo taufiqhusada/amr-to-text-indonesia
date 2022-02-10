@@ -680,7 +680,7 @@ class MBartEncoder(MBartPreTrainedModel):
         self.embed_tokens = embed_tokens
 
         tree_max = config.additional_config['tree_max']
-        self.tree_embed = nn.Embedding(tree_max, embed_dim, padding_idx=1)
+        self.tree_embed = nn.Embedding(tree_max, embed_dim, padding_idx=self.padding_idx)
 
         self.embed_positions = MBartLearnedPositionalEmbedding(
             config.max_position_embeddings,
