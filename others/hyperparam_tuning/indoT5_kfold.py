@@ -82,13 +82,13 @@ if __name__=='__main__':
         train_subsampler = torch.utils.data.SubsetRandomSampler(train_idx)
         test_subsampler = torch.utils.data.SubsetRandomSampler(test_idx)
 
-        train_loader = AMRToTextDataLoader(dataset=train_subsampler, model_type=model_type, tokenizer=tokenizer,  max_seq_len_amr=max_seq_len_amr, max_seq_len_sent=max_seq_len_sent, 
-                        batch_size=batch_size, shuffle=False)
-        test_loader = AMRToTextDataLoader(dataset=train_subsampler, model_type=model_type, tokenizer=tokenizer,  max_seq_len_amr=max_seq_len_amr, max_seq_len_sent=max_seq_len_sent, 
-                        batch_size=batch_size, shuffle=False) 
+        train_loader = AMRToTextDataLoader(dataset=dataset, model_type=model_type, tokenizer=tokenizer,  max_seq_len_amr=max_seq_len_amr, max_seq_len_sent=max_seq_len_sent, 
+                        batch_size=batch_size, shuffle=False, sampler=train_subsampler)
+        test_loader = AMRToTextDataLoader(dataset=dataset, model_type=model_type, tokenizer=tokenizer,  max_seq_len_amr=max_seq_len_amr, max_seq_len_sent=max_seq_len_sent, 
+                        batch_size=batch_size, shuffle=False, sampler=test_subsampler) 
 
-        print('len train dataset: ', str(len(train_subsampler)))
-        print('len test dataset: ', str(len(test_subsampler)))
+        print('len train dataset and dataloader: ', str(len(train_subsampler)), str(len(train_loader)))
+        print('len test dataset and dataloader: ', str(len(test_subsampler)), str(len(test_loader)))
 
         model = AutoModelForSeq2SeqLM.from_pretrained("Wikidepia/IndoT5-base", return_dict=True)
 
@@ -118,8 +118,7 @@ if __name__=='__main__':
             list_hyp, list_label = [], []
 
             train_pbar = tqdm(iter(train_loader), leave=True, total=len(train_loader))
-            i = 0
-            for batch_data in train_pbar:
+            for i, batch_data in enumerate(train_pbar):
                 enc_batch = torch.LongTensor(batch_data[0]).cuda()
                 dec_batch = torch.LongTensor(batch_data[1]).cuda()
                 enc_mask_batch = torch.FloatTensor(batch_data[2]).cuda()
@@ -139,7 +138,6 @@ if __name__=='__main__':
                 
                 train_pbar.set_description("(Epoch {}) TRAIN LOSS:{:.4f} LR:{:.8f}".format((epoch+1),
                         total_train_loss/(i+1), get_lr(optimizer)))
-                i+=1
                 
                 optimizer.step()
                 optimizer.zero_grad()
