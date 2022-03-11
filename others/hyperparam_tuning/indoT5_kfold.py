@@ -198,5 +198,5 @@ if __name__=='__main__':
         gc.collect()
 
     print('bleu score avg on all folds: ', str(total_bleu/5))
-        with open(os.path.join(result_folder, 'bleu_score_test.txt'), 'w') as f:
-            f.write(str(total_bleu/5))
+    with open(os.path.join(result_folder, 'bleu_score_test.txt'), 'w') as f:
+        f.write(str(total_bleu/5))
