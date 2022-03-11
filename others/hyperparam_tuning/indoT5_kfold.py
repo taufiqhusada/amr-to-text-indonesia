@@ -211,7 +211,6 @@ if __name__=='__main__':
         # del model
         del model
         gc.collect()
-        free_gpu_cache()
 
     print('bleu score avg on all folds: ', str(total_bleu/5))
     with open(os.path.join(result_folder, 'bleu_score_test.txt'), 'w') as f:
