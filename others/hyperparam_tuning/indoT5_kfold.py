@@ -36,18 +36,6 @@ def get_lr(optimizer):
     for param_group in optimizer.param_groups:
         return param_group['lr']
 
-import torch
-from GPUtil import showUtilization as gpu_usage
-from numba import cuda
-
-def free_gpu_cache():                      
-    torch.cuda.empty_cache()
-
-    cuda.select_device(0)
-    cuda.close()
-    cuda.select_device(0)
-
-
 if __name__=='__main__':
     parser = add_args(argparse.ArgumentParser())
     args = parser.parse_args()
