@@ -79,7 +79,7 @@ if __name__=='__main__':
     dataset = AMRToTextDataset(amr_path, sent_path, tokenizer, 'train')
     total_bleu = 0
 
-    kfold = KFold(n_splits=5, shuffle=True, random_state=42)
+    kfold = KFold(n_splits=10, shuffle=True, random_state=42)
 
     for fold,(train_idx,test_idx) in enumerate(kfold.split(dataset)):
         train_subsampler = torch.utils.data.SubsetRandomSampler(train_idx)
@@ -200,6 +200,6 @@ if __name__=='__main__':
         del model
         gc.collect()
 
-    print('bleu score avg on all folds: ', str(total_bleu/5))
+    print('bleu score avg on all folds: ', str(total_bleu/10))
     with open(os.path.join(result_folder, 'bleu_score_test.txt'), 'w') as f:
-        f.write(str(total_bleu/5))
+        f.write(str(total_bleu/10))
