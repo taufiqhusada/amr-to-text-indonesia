@@ -184,11 +184,9 @@ if __name__=='__main__':
             list_hyp += batch_list_hyp
             list_label += batch_list_label
 
-        list_label = []
         for i in range(len(list_hyp)):
             if (i<1):
-                print('sample: ', list_hyp[i], '----', test_dataset.data['sent'][i])
-            list_label.append(test_dataset.data['sent'][i])
+                print('sample: ', list_hyp[i], '----', list_label[i])
         
         ## BLEU SCORE
         bleu = calc_corpus_bleu_score(list_hyp, list_label)
