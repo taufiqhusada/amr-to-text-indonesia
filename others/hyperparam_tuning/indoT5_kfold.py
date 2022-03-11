@@ -68,7 +68,7 @@ if __name__=='__main__':
     dataset = AMRToTextDataset(amr_path, sent_path, tokenizer, 'train')
     total_bleu = 0
 
-    for fold,(train_idx,test_idx) in enumerate(kfold.split(dataset, shuffle=True, random_state=42)):
+    for fold,(train_idx,test_idx) in enumerate(kfold.split(dataset, n_splits=5, shuffle=True, random_state=42)):
         train_subsampler = torch.utils.data.SubsetRandomSampler(train_idx)
         test_subsampler = torch.utils.data.SubsetRandomSampler(test_idx)
 
