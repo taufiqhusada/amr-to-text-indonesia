@@ -22,6 +22,9 @@ from utils.scoring import calc_corpus_bleu_score
 from utils.eval import generate
 from utils.utils_argparser import add_args
 
+import os
+os.environ["TOKENIZERS_PARALLELISM"] = "false"
+
 def set_seed(seed):
     random.seed(seed)
     np.random.seed(seed)
