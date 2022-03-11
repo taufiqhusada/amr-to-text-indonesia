@@ -24,7 +24,7 @@ from utils.utils_argparser import add_args
 
 import os
 os.environ["TOKENIZERS_PARALLELISM"] = "false"
-os.environ["CUDA_LAUNCH_BLOCKING"] = 1
+os.environ["CUDA_LAUNCH_BLOCKING"] = "1"
 
 def set_seed(seed):
     random.seed(seed)
