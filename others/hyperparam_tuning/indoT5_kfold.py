@@ -40,6 +40,7 @@ if __name__=='__main__':
     ## init params
     set_seed(42)
     model_type = "indo-t5"
+    print(args)
     batch_size = args.batch_size
     lr = args.lr
     eps = args.eps
