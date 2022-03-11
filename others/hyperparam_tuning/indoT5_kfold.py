@@ -65,6 +65,13 @@ if __name__=='__main__':
     amr_path = os.path.join(DATA_FOLDER, 'train.amr.txt')
     sent_path = os.path.join(DATA_FOLDER, 'train.sent.txt')
 
+    tokenizer = T5TokenizerFast.from_pretrained("Wikidepia/IndoT5-base")
+     # add new vocab (amr special tokens)
+    new_tokens_vocab = {}
+    new_tokens_vocab['additional_special_tokens'] = tokenizer.additional_special_tokens
+    for idx, t in enumerate(AMR_TOKENS):
+        new_tokens_vocab['additional_special_tokens'].append(t)
+
     dataset = AMRToTextDataset(amr_path, sent_path, tokenizer, 'train')
     total_bleu = 0
 
@@ -80,17 +87,10 @@ if __name__=='__main__':
         print('len train dataset: ', str(len(train_subsampler)))
         print('len test dataset: ', str(len(test_subsampler)))
 
-        tokenizer = T5TokenizerFast.from_pretrained("Wikidepia/IndoT5-base")
         model = AutoModelForSeq2SeqLM.from_pretrained("Wikidepia/IndoT5-base", return_dict=True)
 
         #moving the model to device(GPU/CPU)
         model.to(device)
-
-        # add new vocab (amr special tokens)
-        new_tokens_vocab = {}
-        new_tokens_vocab['additional_special_tokens'] = tokenizer.additional_special_tokens
-        for idx, t in enumerate(AMR_TOKENS):
-            new_tokens_vocab['additional_special_tokens'].append(t)
 
         num_added_toks = tokenizer.add_special_tokens(new_tokens_vocab)
 
@@ -194,7 +194,7 @@ if __name__=='__main__':
 
 
         # del model
-        del model, tokenizer
+        del model
         gc.collect()
 
     print('bleu score avg on all folds: ', str(total_bleu/5))
