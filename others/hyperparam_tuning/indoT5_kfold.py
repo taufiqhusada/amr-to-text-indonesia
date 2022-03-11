@@ -24,6 +24,7 @@ from utils.utils_argparser import add_args
 
 import os
 os.environ["TOKENIZERS_PARALLELISM"] = "false"
+os.environ["CUDA_LAUNCH_BLOCKING"] = 1
 
 def set_seed(seed):
     random.seed(seed)
@@ -207,11 +208,10 @@ if __name__=='__main__':
         print(fold, bleu)
         total_bleu += bleu
 
-        free_gpu_cache()
-        model.to('cpu')
         # del model
         del model
         gc.collect()
+        free_gpu_cache()
 
     print('bleu score avg on all folds: ', str(total_bleu/5))
     with open(os.path.join(result_folder, 'bleu_score_test.txt'), 'w') as f:
