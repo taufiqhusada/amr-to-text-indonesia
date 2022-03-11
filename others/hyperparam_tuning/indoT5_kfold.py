@@ -118,7 +118,8 @@ if __name__=='__main__':
             list_hyp, list_label = [], []
 
             train_pbar = tqdm(iter(train_loader), leave=True, total=len(train_loader))
-            for i, batch_data in enumerate(train_pbar):
+            i = 0
+            for batch_data in train_pbar:
                 enc_batch = torch.LongTensor(batch_data[0]).cuda()
                 dec_batch = torch.LongTensor(batch_data[1]).cuda()
                 enc_mask_batch = torch.FloatTensor(batch_data[2]).cuda()
@@ -138,6 +139,7 @@ if __name__=='__main__':
                 
                 train_pbar.set_description("(Epoch {}) TRAIN LOSS:{:.4f} LR:{:.8f}".format((epoch+1),
                         total_train_loss/(i+1), get_lr(optimizer)))
+                i+=1
                 
                 optimizer.step()
                 optimizer.zero_grad()
@@ -150,7 +152,7 @@ if __name__=='__main__':
         list_hyp, list_label = [], []
 
         pbar = tqdm(iter(test_loader), leave=True, total=len(test_loader))
-        for i, batch_data in enumerate(pbar):
+        for batch_data in pbar:
             batch_seq = batch_data[-1]
 
             enc_batch = torch.LongTensor(batch_data[0])
