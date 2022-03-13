@@ -27,6 +27,7 @@ mkdir result/result_supervised_task_adaptation
 python train_indoT5.py \
 --model_type indo-t5 \
 --n_epochs ${EPOCH} \
+--lr 0.0001 \
 --data_folder ../data/preprocessed_silver_data  \
 --result_folder result/result_supervised_task_adaptation
 
