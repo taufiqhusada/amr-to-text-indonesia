@@ -2,7 +2,7 @@ import os
 from tqdm import tqdm
 import json
 
-SUMMARY_AMR_FOLDER="../../peringkasan_abstraktif_amr/semantic_summ/summ_ramp_5_passes_len_edges_exp_0_FOLD1_V7"
+SUMMARY_AMR_FOLDER="D:/Taufiq kuliah/tugas/TUGAS AKHIR/code and data/peringkasan_abstraktif_amr/semantic_summ/subgraf_ringkasan_xlsum_indo/summ_ramp_5_passes_len_edges_exp_0_xlsum_indo"
 XLSUM_INDONESIAN_FOLDER_PATH = "../../peringkasan_abstraktif_amr/xlsum_indonesian/"
 
 if __name__ == "__main__":
