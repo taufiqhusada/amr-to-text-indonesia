@@ -26,6 +26,8 @@ mkdir result/result_supervised_task_adaptation
 python train_indoBART.py \
 --model_type indo-bart \
 --n_epochs 1 \
+--lr 3e-5 \
+--num_beams 10 \
 --data_folder ../data/preprocessed_silver_data  \
 --result_folder result/result_supervised_task_adaptation
 
