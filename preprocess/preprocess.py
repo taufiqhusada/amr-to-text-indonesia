@@ -42,13 +42,13 @@ class PreprocessAMR:
                 
             print("total:", len(list_pair_sent_amr), "pair sent-amr")
             
-            f = open(result_amr_path, "w")
+            f = open(result_amr_path, "w", encoding='utf8')
             for (sent,amr) in list_pair_sent_amr:
                 f.write(amr.strip())
                 f.write("\n")
             f.close()
 
-            f = open(result_sent_path, "w")
+            f = open(result_sent_path, "w", encoding='utf8')
             for (sent,amr) in list_pair_sent_amr:
                 f.write(sent.strip())
                 f.write("\n")
@@ -67,19 +67,19 @@ class PreprocessAMR:
             
             print("total:", len(list_tuple_sent_amr_level), " tuple_sent_amr_level")
             
-            f = open(result_amr_path, "w")
+            f = open(result_amr_path, "w", encoding='utf8')
             for (sent,amr,str_list_level) in list_tuple_sent_amr_level:
                 f.write(amr.strip())
                 f.write("\n")
             f.close()
 
-            f = open(result_sent_path, "w")
+            f = open(result_sent_path, "w", encoding='utf8')
             for (sent,amr,str_list_level) in list_tuple_sent_amr_level:
                 f.write(sent.strip())
                 f.write("\n")
             f.close()
 
-            f = open(result_amr_path+'.tree_level', "w")
+            f = open(result_amr_path+'.tree_level', "w", encoding='utf8')
             for (sent,amr,str_list_level) in list_tuple_sent_amr_level:
                 f.write(str_list_level.strip())
                 f.write("\n")
@@ -114,7 +114,7 @@ class PreprocessAMR:
         return final_str
 
     def linearize_penman(self, file_path):
-        with open(file_path) as f:
+        with open(file_path, encoding='utf8') as f:
             data = f.readlines()
 
         # transform original AMR to linearized penman notation based on format Ribeiro dkk (2020)
