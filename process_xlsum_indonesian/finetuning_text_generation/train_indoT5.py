@@ -74,7 +74,7 @@ if __name__=='__main__':
     new_tokens_vocab['additional_special_tokens'] = []
     for idx, t in enumerate(AMR_TOKENS):
         new_tokens_vocab['additional_special_tokens'].append(t)
-    more_new_tokens = ['mod-of, arg0-of, arg1-of']
+    more_new_tokens = ['mod-of', 'arg0-of', 'arg1-of']
     new_tokens_vocab['additional_special_tokens'] += more_new_tokens
 
     num_added_toks = tokenizer.add_special_tokens(new_tokens_vocab)
