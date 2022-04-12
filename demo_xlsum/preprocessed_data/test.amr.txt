@@ -1,1 +1,0 @@
-( gereja :name ( anglikan ) :mod-of ( sayap :mod-of ( demonstran :ARG0-of ( seruak :mod ( kena :ARG1 ( pakai :mod ( muslim ) ) :mod ( teriak :ARG1 ( sloganslogan :mod ( antiislam ) ) :mod ( dan ) ) ) ) ) ) :mod ( australia ) :mod ( adalah ) )
