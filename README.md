@@ -1,6 +1,9 @@
 # amr-to-text-indonesia
 Author: Taufiq Husada Daryanto
 
+## Description
+Pembangkitan teks Bahasa Indonesia dari graf AMR dengan metode finetuning model bahasa pralatih
+
 ## How to run trained model
 Demo: https://colab.research.google.com/drive/1q4CNhhlR8O-Mm465udoi8AdrbOamE1-g?usp=sharing
 
