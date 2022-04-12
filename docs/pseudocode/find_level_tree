@@ -1,0 +1,28 @@
+Function Dfs_tree(root, adj_list):  
+    input   : Root of a tree AMR [root],
+              Adjacency list of a tree AMR [adj_list], 
+
+    path <- []
+    list_level <- []
+
+    Dfs_tree_recurr(root, root, path, list_level)
+    return path, list_level
+
+ Function Dfs_tree_recurr(node_now, parent, path, list_level, level=1):
+    input   : Node current to be processed [node_now],
+              Node parent of processed node [parent]
+              
+    path.append('(')
+    list_level.append(0) 
+
+    path.append(node_now)
+    list_level.append(level)
+    for each (edge, node_next) in adj_list[node_now] do
+        if (node_next!=parent) then
+            if (mode!="nodes_only") then
+                path.append(edge)
+                list_level.append(level+1)
+            Dfs_tree_recurr(node_next, node_now, path, list_level, level+1)
+    
+    path.append(')')
+    list_level.append(0) 

@@ -1,0 +1,20 @@
+Function GetNodesOnlyRepresentationFromInput
+    input   : File txt contains AMR (PENMAN format) and sentence [file_path_input]
+    output  : List pair sentence and AMR in NodesOnly representation
+
+    list_pair_sent_amr <- LinearizePenmanInput(file_path_input)
+    
+    for i = 0 to list_pair_sent_amr.length do
+        (sent,amr) <- list_pair_sent_amr[i]            
+        curr_amr <- ""
+        for each kata in amr.split() do 
+            if (kata=='(' or kata==')' or (':' in kata)) then
+                continue
+
+            curr_amr <- curr_amr + kata + " "  
+        list_pair_sent_amr[i] <- (sent, " ".join(curr_amr.split()))
+
+    return list_pair_sent_amr
+EndFunction
+
+

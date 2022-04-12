@@ -1,0 +1,20 @@
+Function GetDFSRepresentationFromInput
+    input   : File txt contains AMR (PENMAN format) and sentence [file_path_input]
+    output  : List pair sentence and AMR in dfs representation
+
+    list_pair_sent_amr <- LinearizePenmanInput(file_path_input)
+    
+    for i = 0 to list_pair_sent_amr.length do
+        (sent,amr) <- list_pair_sent_amr[i]            
+        curr_amr <- ""
+        for c in amr do
+            if (c=='(' or c==')') then
+                continue
+
+            curr_amr <- curr_amr + c
+        list_pair_sent_amr[i] <- (sent, " ".join(curr_amr.split()))
+
+    return list_pair_sent_amr
+EndFunction
+
+

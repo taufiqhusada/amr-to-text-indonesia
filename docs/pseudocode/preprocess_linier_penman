@@ -1,0 +1,86 @@
+Function LinearizePenmanInput
+    input   : File txt contains AMR (PENMAN format) and sentence [file_path_input]
+    output  : List pair sentence and linearized penmman
+
+    data <- openFile(file_path_input)
+
+    list_pair_sent_amr <- []   // final result: list[(<sent>, <amr>), ...]
+
+    sent_now <- ""
+    amr_now <- ""
+    is_reading_amr <- False
+
+    for idx_line = 0 to data.length do
+        line <- data[idx_line]
+        line <- line.strip()
+
+        if (line=='') then
+            if (is_reading_amr) then
+                is_reading_amr <- False      // reading AMR finish then append it to list
+                amr_now <- " ".join(amr_now.split())
+                amr_now <- GetFinalPenmanRepresentation(amr_now)
+                list_pair_sent_amr.append((sent_now, amr_now))
+                amr_now <- ""
+                sent_now <- ""
+            continue
+
+        line <- line + "."
+
+        if (line[0]=='#') then  // read label (sentence)
+            if ('# ::snt ' in line) then
+                sent_now <- line[8:-1]
+                temp_sent_now <- sent_now.split()
+                sent_now <- " ".join(temp_sent_now)
+            else  // ignore other than sentence/amr
+                continue
+        else:  // reading amr
+            is_reading_amr <- True
+            found_slash <- False // /
+            found_colon <- False // :
+            for each c in line do
+                if (c=='.') then
+                    amr_now <- amr_now + " "
+                else if (c==')' or c=='(' or c=='/') then
+                    amr_now <- amr_now " " + c + " "
+                else
+                    amr_now <- amr_now + c
+
+    amr_now <- " ".join(amr_now.split())
+    if (amr_now != "") then
+        amr_now <- GetFinalPenmanRepresentation(amr_now)
+        list_pair_sent_amr.append((sent_now, amr_now))
+
+    return list_pair_sent_amr
+Endfunction 
+
+Function GetFinalPenmanRepresentation
+    input   : String linearized PENMAN raw version [linearizedPenmanRaw]
+    output  : String final form of linearized PENMAN that we use for finetuning
+
+    list_item <- linearizedPenmanRaw.split()
+
+    // map variable to node
+    map_variable_node <- {}
+    for i = 0 to list_item.length do 
+        if (list_item[i] == '/') then
+            map_variable_node[list_item[i-1]] <- list_item[i+1]
+
+    // remove variable and slash
+    pattern_to_be_removed <- '\( \w+ /'
+    subtitute <- '('
+    final_str <- re.sub(pattern_to_be_removed, subtitute, linearized_penman)
+
+    pattern_to_be_removed <- '/'
+    subtitute <- ''
+    final_str <- re.sub(pattern_to_be_removed, subtitute, final_str)
+
+    // convert remaining variable (usually for coreference cases) to node
+    list_item <- final_str.split()
+    for i = 0 to list_item.length do 
+        if (list_item[i] in map_variable_node) then
+            list_item[i] <- map_variable_node[list_item[i]]
+
+    final_str <- " ".join(list_item)
+
+    return final_str
+Endfunction
