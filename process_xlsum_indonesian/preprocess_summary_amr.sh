@@ -1,7 +1,7 @@
 #!/bin/sh
 
 SAVED_MODEL_FOLDER=../best_model
-PREPROCESSING_METHOD=linearized_penman
+PREPROCESSING_METHOD=linearized_penman_with_tree_level
 SUMMARY_AMR_FILE=process_xlsum_indonesian/generated_summary_amr.txt
 
 echo saved model folder ${SAVED_MODEL_FOLDER}
