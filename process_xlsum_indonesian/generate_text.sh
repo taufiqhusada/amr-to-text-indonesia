@@ -1,4 +1,4 @@
-cd ../evaluate
+cd ../tree_level_embeddings
 
 SAVED_MODEL_FOLDER=../best_model
 
