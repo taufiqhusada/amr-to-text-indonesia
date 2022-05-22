@@ -19,13 +19,16 @@ see folder `result`
 2. [BEST MODEL di dataset pembangkitan teks] Finetuning indoT5 + supervised task adaptation + tree-level embeddings: https://drive.google.com/file/d/1jTtPidENzT0M2dKyaMkbzTocnK-eCjfg/view?usp=sharing
 3. [BEST MODEL di dataset pembangkitan ringkasan di xlsum indo] Finetuning indoT5 + supervised task adaptation + tree-level embeddings + additional finetuning for xlsum indo: https://drive.google.com/file/d/1PyI4JAkjV8K3Y-cpL0A0KK5V0B8B_ddZ/view?usp=sharing
 
-## Peringkasan berbasis AMR dengan penambahan pembangkitan teks dari AMR
+## Dataset used
+https://github.com/taufiqhusada/amr-indo-dataset
+
+# Peringkasan berbasis AMR dengan penambahan pembangkitan teks dari AMR
 Using XLsum-Indonesian dataset
-### Result
+## Result
 1. Summary AMR output: `process_xlsum_indonesian/generated_summary_amr.txt`
 2. Output pembangkitan teks dengan trained model nomor 3: `process_xlsum_indonesian/generated_summary_amr.txt/finetuning_text_generation/result_after_additional_finetuning.csv`
 3. Output pembangkitan teks dengan trained model nomor 2: `process_xlsum_indonesian/result_with_score.csv`
 
-### Code
+## Code
 1. peringkasan: https://drive.google.com/drive/folders/1E3ufHOQ8r-DjfjhzfWUxl4lpvvc21cgF?usp=sharing (open it using std.stei email)
 2. pembangkitan teks: this repo (see how to run)
