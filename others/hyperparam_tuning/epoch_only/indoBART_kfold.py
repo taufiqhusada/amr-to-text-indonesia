@@ -15,7 +15,7 @@ import argparse
 from sklearn.model_selection import KFold
 import gc
 
-sys.path.append('../..')
+sys.path.append('../../..')
 from utils.constants import AMR_TOKENS
 from utils.data_utils import AMRToTextDataset, AMRToTextDataLoader
 from utils.scoring import calc_corpus_bleu_score
@@ -102,7 +102,7 @@ if __name__=='__main__':
             model = MBartForConditionalGeneration.from_pretrained(os.path.join(saved_model_folder_path, 'model'))
         else:
             model = MBartForConditionalGeneration.from_pretrained('indobenchmark/indobart')
-            
+
         #moving the model to device(GPU/CPU)
         model.to(device)
 
