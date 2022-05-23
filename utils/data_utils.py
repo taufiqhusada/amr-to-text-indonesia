@@ -60,7 +60,7 @@ class AMRToTextDataset(Dataset):
             item['level'] = {}
             item['level']['encoded'] = tokenize_level
             item['level']['raw'] = level
-            
+        print(item)            
         return item
     
     def _encode_tokens_with_tree_level(self, amr, level):
@@ -162,7 +162,17 @@ class AMRToTextDataLoader(DataLoader):
                 level_batch[i,len(self.t5_prefix):len(self.t5_prefix) + len(level_seq)] = level_seq  # assign content
                 level_batch[i,:len(self.t5_prefix)] = [0]*len(self.t5_prefix)
             
+        print('encoder')
+        print(enc_batch)
         
+        print('level')
+        print(level_batch)
+   
+        print('decoder')
+        print(dec_batch)
+        
+        print('label')
+        print(label_batch)
         return enc_batch, dec_batch, enc_mask_batch, None, label_batch, level_batch
     
     def _bart_collate_fn(self, batch):
