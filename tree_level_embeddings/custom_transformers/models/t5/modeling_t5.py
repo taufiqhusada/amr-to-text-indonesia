@@ -896,7 +896,7 @@ class T5Stack(T5PreTrainedModel):
                 print('embedding')
                 print(x)
                 print(embed_tree)
-                print(input_embeds)
+                print(inputs_embeds)
 
         batch_size, seq_length = input_shape
 
