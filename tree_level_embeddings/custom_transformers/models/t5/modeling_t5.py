@@ -892,6 +892,11 @@ class T5Stack(T5PreTrainedModel):
                 x = self.embed_tokens(input_ids)
                 embed_tree = self.tree_embed(tree_ids)
                 inputs_embeds = x + embed_tree
+                
+                print('embedding')
+                print(x)
+                print(embed_tree)
+                print(input_embeds)
 
         batch_size, seq_length = input_shape
 
