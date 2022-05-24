@@ -2,7 +2,8 @@
 Author: Taufiq Husada Daryanto
 
 ## Description
-Pembangkitan teks Bahasa Indonesia dari graf AMR dengan metode finetuning model bahasa pralatih (IndoT5/IndoBART) dengan tambahan supervised task adaptation dan tree-level embeddings
+Pembangkitan teks Bahasa Indonesia dari graf AMR dengan metode finetuning model bahasa pralatih (IndoT5/IndoBART) dengan tambahan supervised task adaptation dan tree-level embeddings.
+- best model: finetuning indot5 (menggunakan input bentuk linier penman) + supervised task adaptation 
 
 ## How to run trained model
 [https://colab.research.google.com/drive/1F5ubJ03fwvW4fXcOrsxVxJXihrZ30-uQ?usp=sharing](https://colab.research.google.com/drive/1q4CNhhlR8O-Mm465udoi8AdrbOamE1-g?usp=sharing)
@@ -24,8 +25,8 @@ https://github.com/taufiqhusada/amr-indo-dataset
 Using XLsum-Indonesian dataset
 ## Result
 1. Summary AMR output: `process_xlsum_indonesian/generated_summary_amr.txt`
-2. Output pembangkitan teks dengan trained model nomor 3: `process_xlsum_indonesian/generated_summary_amr.txt/finetuning_text_generation/result_after_additional_finetuning.csv`
-3. Output pembangkitan teks dengan trained model nomor 2: `process_xlsum_indonesian/result_with_score.csv`
+2. Output pembangkitan teks dengan trained model nomor 2 (best for xlsum indo): `process_xlsum_indonesian/generated_summary_amr.txt/finetuning_text_generation/result_after_additional_finetuning.csv`
+3. Output pembangkitan teks dengan trained model nomor 1: `process_xlsum_indonesian/result_with_score.csv`
 
 ## Code
 1. peringkasan: https://drive.google.com/drive/folders/1E3ufHOQ8r-DjfjhzfWUxl4lpvvc21cgF?usp=sharing (open it using std.stei email)
