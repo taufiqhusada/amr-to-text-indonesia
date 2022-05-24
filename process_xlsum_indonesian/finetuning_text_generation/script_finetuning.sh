@@ -1,5 +1,5 @@
 mkdir result
-cd ../../tree_level_embeddings
+cd ../../train
 
 python train_indoT5.py \
 --model_type indo-t5 \
