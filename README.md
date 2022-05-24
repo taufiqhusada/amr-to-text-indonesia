@@ -5,8 +5,7 @@ Author: Taufiq Husada Daryanto
 Pembangkitan teks Bahasa Indonesia dari graf AMR dengan metode finetuning model bahasa pralatih (IndoT5/IndoBART) dengan tambahan supervised task adaptation dan tree-level embeddings
 
 ## How to run trained model
-https://colab.research.google.com/drive/1F5ubJ03fwvW4fXcOrsxVxJXihrZ30-uQ?usp=sharing
-<!-- with tree level embeddings: https://colab.research.google.com/drive/1q4CNhhlR8O-Mm465udoi8AdrbOamE1-g?usp=sharing -->
+[https://colab.research.google.com/drive/1F5ubJ03fwvW4fXcOrsxVxJXihrZ30-uQ?usp=sharing](https://colab.research.google.com/drive/1q4CNhhlR8O-Mm465udoi8AdrbOamE1-g?usp=sharing)
 
 ## How to train (reproduce the result)
 see folder `examples`
