@@ -1,0 +1,77 @@
+# ::snt Sejumlah demonstran sayap kanan menyeruak ke dalam sebuah gereja di Australia seraya mengenakan pakaian muslim dan meneriakkan slogan-slogan anti-Islam.
+
+(s / seruak
+    :ARG0 (d / demonstran
+         :mod (s2 / sayap))
+    :ARG1 (g / gereja
+	:name (a12 / anglikan)
+        :location (a / australia))
+    :mod (k2 / kena
+         :ARG1 (p / pakai
+              :mod (m / muslim))
+          :mod (t / teriak
+               :ARG1 (s3 / sloganslogan
+                   :mod (a2 / antiislam))
+               :mod (d2 / dan))))
+
+# ::snt Sekitar 100 orang pendukung pemerintah Venezuela menyerbu masuk parlemen dan memukuli sejumlah anggota DPR.
+
+(s / serbu
+   :ARG0 (d / dukung
+       :name (p / pemerintah
+          :name (v / venezuela)))
+   :mod (m / masuk
+         :ARG1 (g / gedung
+            :mod (p2 / parlemen))
+         :mod (p3 / pukul
+            :name (d3 / dpr)
+         :mod (d2/ dan))))
+
+# ::snt Gencatan senjata antara pasukan pemerintah Ukraina dan kelompok pemberontak pro-Rusia telah dimulai di Ukraina timur.
+
+(g / genjat
+    :mod ( s / senjata)
+    :ARG0 (p / perintah
+             :mod (p2 / pasu
+                  :name (u / ukraina
+                      :mod (t6 / timur)))
+             :mod (k / kelompok
+                  :mod (b / berontak
+                      :name (p4 / prorusia)
+                  :mod (d / dan)))))
+
+
+# ::snt Lionel Messi, Cristiano Ronaldo, dan Andres Iniesta ditetapkan sebagai tiga calon penerima penghargaan pemain terbaik Ballon d'Or.
+
+(m / masuk
+   :ARG0 (l / lionel
+           :name (m / messi
+               :mod (c / cristiano
+                    :name (r / ronaldo
+                         :mod (d / dan)
+                         :mod (a / andres
+                              :name (i / iniesta))))))
+   :ARG1 (n / nominasi
+       :mod (t / tiga
+         :mod (c2 / calon
+           :mod (b / baik
+              :name (f / fifa))))))
+    
+# ::snt Fitryanti Pakiding dan Melvin Gumal, masing-masing dari Papua Barat dan Sarawak, Malaysia, menerima Penghargaan Whitley di London atas usaha konservasi penyu dan orang utan.
+
+(t / terima
+    :ARG0 (f2 / fitryanti
+        :name (p / pakiding
+             :mod (d / dan)
+             :mod (m / melvin
+                 :name (g / gumal))
+        :mod (p4 / papua))
+     :ARG1 (h/ harga
+          :name (w / whitley
+              :name (a2 / award)))
+     :location (l / london)
+     :ARG1 (k / konservasi
+         :name (p2 / penyu
+             :mod (d2 / dan)
+             :name (o3 / orang))))
+     

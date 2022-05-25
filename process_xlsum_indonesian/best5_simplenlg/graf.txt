@@ -1,0 +1,94 @@
+# ::snt Sejumlah demonstran sayap kanan menyeruak ke dalam sebuah gereja di Australia seraya mengenakan pakaian muslim dan meneriakkan slogan-slogan anti-Islam.
+
+(g / gereja
+   :name (a12 / anglikan)
+   :mod-of (s2 / sayap
+               :mod-of (d / demonstran
+                          :ARG0-of (s / seruak
+                                      :mod (k2 / kena
+                                               :ARG1 (p / pakai
+                                                        :mod (m / muslim))
+                                               :mod (t / teriak
+                                                       :ARG1 (s3 / sloganslogan
+                                                                 :mod (a2 / antiislam))
+                                                       :mod (d2 / dan))))))
+   :mod (a / australia)
+   :mod (a7 / adalah))
+
+
+# ::snt Sekitar 100 orang pendukung pemerintah Venezuela menyerbu masuk parlemen dan memukuli sejumlah anggota DPR.
+
+(m / masuk
+   :ARG1 (a / anggota
+            :mod (d3 / dpr)
+            :mod (s / serbu
+                    :mod (p3 / pukul
+                             :mod (d2 / dan))))
+   :mod-of (t / terobos
+              :ARG0 (d / dukung
+                       :mod (p / perintah)
+                       :mod (p5 / pemerintah)))
+   :ARG1 (g / gedung
+            :mod (p2 / parlemen
+                     :mod (v / venezuela))))
+
+# ::snt Gencatan senjata antara pasukan pemerintah Ukraina dan kelompok pemberontak pro-Rusia telah dimulai di Ukraina timur.
+
+(t / tempur
+   :ARG1-of (h / henti
+               :mod-of (p / perintah
+                          :mod (p2 / pasu
+                                   :mod (d / dan)
+                                   :mod (u / ukraina
+                                           :mod (t6 / timur))
+                                   :mod (k / kelompok
+                                           :mod (b / berontak
+                                                   :name (p4 / prorusia)))))
+               :ARG1 (l3 / laku
+                         :ARG1 (g / gencat
+                                  :mod (s / senjata)))))
+
+
+# ::snt Lionel Messi, Cristiano Ronaldo, dan Andres Iniesta ditetapkan sebagai tiga calon penerima penghargaan pemain terbaik Ballon d'Or.
+
+(c / cristiano
+   :name (r2 / ronaldo)
+   :name-of (l / lionel
+               :name (m2 / messi)
+               :ARG0-of (m / masuk
+                           :ARG1 (n / nominasi
+                                    :mod (a2 / akhir))
+                           :ARG0 (m3 / main
+                                     :mod (c2 / calon)
+                                     :mod (m15 / manchester)
+                                     :mod (b / baik)
+                                     :mod (f / fifa)
+                                     :mod (t2 / tiga))
+                           :ARG1 (r3 / rekor))
+               :mod (a / andres
+                       :name (i / iniesta)
+                       :mod (d / dan))))
+
+# ::snt Fitryanti Pakiding dan Melvin Gumal, masing-masing dari Papua Barat dan Sarawak, Malaysia, menerima Penghargaan Whitley di London atas usaha konservasi penyu dan orang utan.
+
+(m / melvin
+   :name (g / gumal)
+   :mod (d / dan)
+   :ARG0-of (t2 / terima
+                :mod (s / serah
+                        :location (l / london))
+                :ARG0 (f2 / fitryanti
+                          :name (p / pakiding))
+                :ARG1 (h3 / hadiah
+                          :mod (n2 / negeri
+                                   :mod (h / harga
+                                           :ARG0 (k / konservasi
+                                                    :mod (p5 / penyu
+                                                             :mod (b / belimbing))
+                                                    :mod (o3 / orang)
+                                                    :mod (p4 / papua)))
+                                   :mod (s7 / sarawak)))
+                :mod (w / whitley
+                        :name (_ / 2014)
+                        :name (a2 / award))))
+
