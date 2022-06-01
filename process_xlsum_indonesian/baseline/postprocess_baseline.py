@@ -38,7 +38,7 @@ def get_text_cos_sim(teks_ringkasan_pred, teks_artikel):
     
     ringkasan_prediksi = ''
     temp_kalimat_artikel = {}
-    for i in range(0,2):
+    for i in range(0,1):
         try:
 #                 print(sorted_score_sent[rank_sent[i]],rank_sent[i], teks_artikel[rank_sent[i]])
 #                 print()
@@ -141,7 +141,7 @@ if __name__ == "__main__":
     # print(get_text_cos_sim('test 1', ['test 1', 'test 2', 'test 3', 'test 4']))
 
     # get raw articles from test data
-    json_file_test_path = '../../../peringkasan_abstraktif_amr/xlsum_indonesian/indonesian_test.jsonl'
+    json_file_test_path = '../../../peringkasan_berbasis_amr/xlsum_indonesian/indonesian_test.jsonl'
     data = []
     with open(json_file_test_path,  encoding='utf-8') as f:
         while True:
@@ -161,7 +161,7 @@ if __name__ == "__main__":
         result.append(get_text_cos_sim(list_simple_nlg[i], sent_tokenize(data[i]['text'])))
 
     # calculate score
-    list_label = pd.read_csv('result_with_score.csv')['label'].values
+    list_label = pd.read_csv('simple_nlg_with_score.csv')['label'].values
 
     scorer = rouge_scorer.RougeScorer(['rouge1','rouge2', 'rougeL'])
     rouge1 = 0

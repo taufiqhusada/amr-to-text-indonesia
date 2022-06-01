@@ -2,8 +2,8 @@ import os
 from tqdm import tqdm
 import json
 
-SUMMARY_AMR_FOLDER="D:/Taufiq kuliah/tugas/TUGAS AKHIR/code and data/peringkasan_abstraktif_amr/semantic_summ/subgraf_ringkasan_xlsum_indo/summ_ramp_5_passes_len_edges_exp_0_xlsum_indo"
-XLSUM_INDONESIAN_FOLDER_PATH = "../../peringkasan_abstraktif_amr/xlsum_indonesian/"
+SUMMARY_AMR_FOLDER="D:/Taufiq kuliah/tugas/TUGAS AKHIR/code and data/peringkasan_berbasis_amr/semantic_summ/subgraf_ringkasan_xlsum_indo/summ_ramp_5_passes_len_edges_exp_0_xlsum_indo"
+XLSUM_INDONESIAN_FOLDER_PATH = "../../peringkasan_berbasis_amr/xlsum_indonesian/"
 
 if __name__ == "__main__":
     json_file_test_path = os.path.join(XLSUM_INDONESIAN_FOLDER_PATH, 'indonesian_test.jsonl')
@@ -37,13 +37,39 @@ if __name__ == "__main__":
             outfile.write('\n\n')
     outfile.close()
 
+    list_simple_nlg = []
+    list_label = []
     ## output simple nlg
     with open('result_simple_nlg.tsv', 'w', encoding='utf8') as f:
         f.write('id\tsimple_nlg\tgold_summary\n')
         for (id, simple_nlg, gold_summary) in list_result_simple_nlg:
+            list_simple_nlg.append(simple_nlg)
+            list_label.append(gold_summary)
             f.write(id)
             f.write('\t')
             f.write(simple_nlg.strip())
             f.write('\t')
             f.write(gold_summary.strip())
             f.write('\n')
+
+
+    from rouge_score import rouge_scorer
+
+    scorer = rouge_scorer.RougeScorer(['rouge1','rouge2', 'rougeL'])
+
+    rouge1 = 0
+    rouge2 = 0
+    rougeL = 0
+
+    list_score_rouge1 = []
+    list_score_rouge2 = []
+    list_score_rougeL = []
+    for i in range(len(list_label)):
+        scores = scorer.score(list_simple_nlg[i].strip().lower(), list_label[i].strip().lower())
+        #     print(scores)
+        list_score_rouge1.append(scores['rouge1'].fmeasure)
+        list_score_rouge2.append(scores['rouge2'].fmeasure)
+        list_score_rougeL.append(scores['rougeL'].fmeasure)
+    print(sum(list_score_rouge1) / len(list_score_rouge1))
+    print(sum(list_score_rouge2) / len(list_score_rouge2))
+    print(sum(list_score_rougeL) / len(list_score_rougeL))

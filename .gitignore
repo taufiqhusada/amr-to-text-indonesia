@@ -2,3 +2,5 @@
 .vscode/
 env/
 best_model/
+process_xlsum_indonesian/graf_ringkasan/*
+demo_xlsum/*
