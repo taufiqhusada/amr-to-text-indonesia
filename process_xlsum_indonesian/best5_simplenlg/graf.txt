@@ -1,20 +1,30 @@
-# ::snt Sejumlah demonstran sayap kanan menyeruak ke dalam sebuah gereja di Australia seraya mengenakan pakaian muslim dan meneriakkan slogan-slogan anti-Islam.
+# ::snt Lionel Messi, Cristiano Ronaldo, dan Andres Iniesta ditetapkan sebagai tiga calon penerima penghargaan pemain terbaik Ballon d'Or.
 
-(g / gereja
-   :name (a12 / anglikan)
-   :mod-of (s2 / sayap
-               :mod-of (d / demonstran
-                          :ARG0-of (s / seruak
-                                      :mod (k2 / kena
-                                               :ARG1 (p / pakai
-                                                        :mod (m / muslim))
-                                               :mod (t / teriak
-                                                       :ARG1 (s3 / sloganslogan
-                                                                 :mod (a2 / antiislam))
-                                                       :mod (d2 / dan))))))
-   :mod (a / australia)
-   :mod (a7 / adalah))
+(m / masuk
+   :ARG0 (l / lionel
+           :name (m / messi
+               :mod (c / cristiano
+                    :name (r / ronaldo
+                         :mod (d / dan)
+                         :mod (a / andres
+                              :name (i / iniesta))))))
+   :ARG1 (n / nominasi
+       :mod (t / tiga
+         :mod (c2 / calon
+           :mod (b / baik
+              :name (f / fifa))))))
 
+# ::snt Seorang pria Australia dipecat akibat mengeluh video game Pokemon Go tidak dapat diakses di Singapura.
+
+(a3 / akibat
+    :ARG1-of (p / pecat
+                :mod (k / keluh
+                        :ARG1 (p2 / pokemon
+                                  :mod (g / go)))
+                :ARG1 (a4 / akses
+                          :ARG1 (s / singapura))
+                :ARG1 (e / ekspatriat
+                         :mod (a / australia))))
 
 # ::snt Sekitar 100 orang pendukung pemerintah Venezuela menyerbu masuk parlemen dan memukuli sejumlah anggota DPR.
 
@@ -27,68 +37,34 @@
    :mod-of (t / terobos
               :ARG0 (d / dukung
                        :mod (p / perintah)
-                       :mod (p5 / pemerintah)))
+                       :mod (p5 / pemerintah)
+                       :mod (l4 / laku)))
    :ARG1 (g / gedung
             :mod (p2 / parlemen
                      :mod (v / venezuela))))
 
-# ::snt Gencatan senjata antara pasukan pemerintah Ukraina dan kelompok pemberontak pro-Rusia telah dimulai di Ukraina timur.
+# ::snt Blackberry memastikan bahwa layanan BBM akan tersedia secara gratis untuk telepon Apple dan Android pada akhir pekan.
 
-(t / tempur
-   :ARG1-of (h / henti
-               :mod-of (p / perintah
-                          :mod (p2 / pasu
-                                   :mod (d / dan)
-                                   :mod (u / ukraina
-                                           :mod (t6 / timur))
-                                   :mod (k / kelompok
-                                           :mod (b / berontak
-                                                   :name (p4 / prorusia)))))
-               :ARG1 (l3 / laku
-                         :ARG1 (g / gencat
-                                  :mod (s / senjata)))))
+(b4 / bbm
+    :mod-of (l10 / layan
+                 :ARG1-of (s / sedia
+                             :ARG1 (t4 / telepon
+                                       :mod (d / dan))
+                             :ARG1 (b / blackberry)
+                             :ARG1 (a2 / android)
+                             :mod (a / akan))))
 
 
-# ::snt Lionel Messi, Cristiano Ronaldo, dan Andres Iniesta ditetapkan sebagai tiga calon penerima penghargaan pemain terbaik Ballon d'Or.
+# ::snt Pendiri Facebook, Mark Zuckerberg, menemui Presiden Indonesia terpilih, Joko Widodo, di kantor Gubernur DKI Jakarta, Senin (13/10) pagi.
 
-(c / cristiano
-   :name (r2 / ronaldo)
-   :name-of (l / lionel
-               :name (m2 / messi)
-               :ARG0-of (m / masuk
-                           :ARG1 (n / nominasi
-                                    :mod (a2 / akhir))
-                           :ARG0 (m3 / main
-                                     :mod (c2 / calon)
-                                     :mod (m15 / manchester)
-                                     :mod (b / baik)
-                                     :mod (f / fifa)
-                                     :mod (t2 / tiga))
-                           :ARG1 (r3 / rekor))
-               :mod (a / andres
-                       :name (i / iniesta)
-                       :mod (d / dan))))
-
-# ::snt Fitryanti Pakiding dan Melvin Gumal, masing-masing dari Papua Barat dan Sarawak, Malaysia, menerima Penghargaan Whitley di London atas usaha konservasi penyu dan orang utan.
-
-(m / melvin
-   :name (g / gumal)
-   :mod (d / dan)
-   :ARG0-of (t2 / terima
-                :mod (s / serah
-                        :location (l / london))
-                :ARG0 (f2 / fitryanti
-                          :name (p / pakiding))
-                :ARG1 (h3 / hadiah
-                          :mod (n2 / negeri
-                                   :mod (h / harga
-                                           :ARG0 (k / konservasi
-                                                    :mod (p5 / penyu
-                                                             :mod (b / belimbing))
-                                                    :mod (o3 / orang)
-                                                    :mod (p4 / papua)))
-                                   :mod (s7 / sarawak)))
-                :mod (w / whitley
-                        :name (_ / 2014)
-                        :name (a2 / award))))
+(d / diri
+   :mod (f / facebook
+           :mod (m / mark
+                   :mod (z / zuckerberg)
+                   :mod (p2 / presiden
+                            :mod (i / indonesia))))
+   :mod-of (j / joko
+              :mod (w / widodo)
+              :ARG1-of (p / pilih))
+   :mod (d2 / dan))
 
