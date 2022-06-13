@@ -12,14 +12,14 @@ class AMRToTextDataset(Dataset):
             temp_list_amr_input = f.readlines()
         list_amr_input = []
         for item in temp_list_amr_input:
-            list_amr_input.append(item.strip().lower())  # lowercase for bart tokenizer
+            list_amr_input.append(item.strip())  # lowercase for bart tokenizer
             
         temp_list_sent_output = []
         with open(file_sent_path, encoding='utf8') as f:
             temp_list_sent_output = f.readlines()
         list_sent_output = []
         for item in temp_list_sent_output:
-            list_sent_output.append(item.strip().lower())
+            list_sent_output.append(item.strip())
         
         if (file_level_path):
             temp_list_level = []
