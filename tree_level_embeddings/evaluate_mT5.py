@@ -2,7 +2,7 @@ import pandas as pd
 import os
 import sys
 import torch
-from custom_transformers.models.mt5 import MT5ForConditionalGeneration, T5TokenizerFast
+from custom_transformers.models.mt5 import MT5ForConditionalGeneration, MT5TokenizerFast
 from transformers.optimization import  AdamW, Adafactor 
 import time
 import warnings
@@ -47,7 +47,7 @@ if __name__=='__main__':
         device = torch.device("cpu")
         print("Running on the CPU")
 
-    tokenizer = T5TokenizerFast.from_pretrained(os.path.join(saved_model_folder_path, 'tokenizer'))
+    tokenizer = MT5TokenizerFast.from_pretrained(os.path.join(saved_model_folder_path, 'tokenizer'))
     model = MT5ForConditionalGeneration.from_pretrained(os.path.join(saved_model_folder_path, 'model'), additional_config = {'tree_max':max_seq_len_amr})
     print(tokenizer)
     print(model.config)

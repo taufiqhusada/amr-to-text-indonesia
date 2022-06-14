@@ -2,7 +2,7 @@ import pandas as pd
 import os
 import sys
 import torch
-from custom_transformers.models.mt5 import MT5ForConditionalGeneration, T5TokenizerFast
+from custom_transformers.models.mt5 import MT5ForConditionalGeneration, MT5TokenizerFast
 from transformers.optimization import  AdamW, Adafactor 
 import time
 import warnings
@@ -60,10 +60,10 @@ if __name__=='__main__':
 
     if (args.resume_from_checkpoint):
         print('resume from checkpoint')
-        tokenizer = T5TokenizerFast.from_pretrained(os.path.join(saved_model_folder_path, 'tokenizer'))
+        tokenizer = MT5TokenizerFast.from_pretrained(os.path.join(saved_model_folder_path, 'tokenizer'))
         model = MT5ForConditionalGeneration.from_pretrained(os.path.join(saved_model_folder_path, 'model'), additional_config = {'tree_max':max_seq_len_amr})
     else:
-        tokenizer = T5TokenizerFast.from_pretrained("google/mt5-base")
+        tokenizer = MT5TokenizerFast.from_pretrained("google/mt5-base")
         model = MT5ForConditionalGeneration.from_pretrained("google/mt5-base", additional_config = {'tree_max':max_seq_len_amr})
 
     #moving the model to device(GPU/CPU)
