@@ -28,6 +28,8 @@ python train_mT5.py \
 --model_type mT5 \
 --n_epochs ${EPOCH} \
 --lr 1e-4 \
+--max_seq_len_amr 256 \
+--max_seq_len_sent 192 \
 --data_folder ../data/preprocessed_silver_data  \
 --result_folder result/result_supervised_task_adaptation
 
