@@ -98,7 +98,7 @@ class AMRToTextDataLoader(DataLoader):
         self.label_pad_token_id = label_pad_token_id
         self.with_tree_level = with_tree_level
         
-        if model_type == 'indo-t5':
+        if model_type == 'indo-t5' or model_type == 'mT5':
             self.bos_token_id = tokenizer.pad_token_id
             self.t5_prefix =np.array(self.tokenizer.encode(T5_PREFIX, add_special_tokens=False))
             self.collate_fn = self._t5_collate_fn

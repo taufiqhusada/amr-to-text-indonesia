@@ -1,0 +1,307 @@
+bleu,hyp,label,source
+100.00000000000004,"upacara proklamasi dimulai jam sepuluh pagi","upacara proklamasi dimulai jam sepuluh pagi",amr_simple_test
+100.00000000000004,"toko buku buka jam 8 pagi","toko buku buka jam 8 pagi",amr_simple_test
+100.00000000000004,"suster rina membasuh muka di kamar mandi","suster rina membasuh muka di kamar mandi",amr_simple_test
+100.00000000000004,"saya pergi ke pasar jam enam pagi","saya pergi ke pasar jam enam pagi",amr_simple_test
+100.00000000000004,"saya bertemu pak ilham besok","saya bertemu pak ilham besok",amr_simple_test
+100.00000000000004,"paman kembali ke rumah tadi malam","paman kembali ke rumah tadi malam",amr_simple_test
+100.00000000000004,"paman budi tidur di kamar depan","paman budi tidur di kamar depan",amr_simple_test
+100.00000000000004,"pak roni berangkat ke bandung besok","pak roni berangkat ke bandung besok",amr_simple_test
+100.00000000000004,"pak krisna menanam kedelai di kebun","pak krisna menanam kedelai di kebun",amr_simple_test
+100.00000000000004,"pak iwan menyetir mobil","pak iwan menyetir mobil",amr_simple_test
+100.00000000000004,"pak ilham masuk kantor","pak ilham masuk kantor",amr_simple_test
+100.00000000000004,"pak hasan membakar sampah","pak hasan membakar sampah",amr_simple_test
+100.00000000000004,"pak amir bermain basket di lapangan","pak amir bermain basket di lapangan",amr_simple_test
+100.00000000000004,"lagu indonesia raya dinyanyikan siswa","lagu indonesia raya dinyanyikan siswa",amr_simple_test
+100.00000000000004,"kue dijual kak zahra","kue dijual kak zahra",amr_simple_test
+100.00000000000004,"kita pergi pukul tujuh malam","kita pergi pukul tujuh malam",amr_simple_test
+100.00000000000004,"kami pergi ke sana sekarang","kami pergi ke sana sekarang",amr_simple_test
+100.00000000000004,"kakak memilih pasangan minggu depan","kakak memilih pasangan minggu depan",amr_simple_test
+100.00000000000004,"kakak byan menghabiskan uang","kakak byan menghabiskan uang",amr_simple_test
+100.00000000000004,"jaksa menuntut tersangka di pengadilan","jaksa menuntut tersangka di pengadilan",amr_simple_test
+100.00000000000004,"ibu rusni memasak sejak tadi pagi","ibu rusni memasak sejak tadi pagi",amr_simple_test
+100.00000000000004,"ibu memasak di dapur","ibu memasak di dapur",amr_simple_test
+100.00000000000004,"babi ditangkap warga di hutan","babi ditangkap warga di hutan",amr_simple_test
+100.00000000000004,"ayah pergi ke kantor minggu kemarin","ayah pergi ke kantor minggu kemarin",amr_simple_test
+100.00000000000004,"andi berangkat ke sekolah","andi berangkat ke sekolah",amr_simple_test
+100.00000000000004,"aku memanggil bu lisa","aku memanggil bu lisa",amr_simple_test
+100.00000000000004,"adik zaki mengunyah permen","adik zaki mengunyah permen",amr_simple_test
+100.00000000000004,"adik membaca buku ensiklopedia","adik membaca buku ensiklopedia",amr_simple_test
+100.00000000000004,"adik kuliah di jakarta tahun depan","adik kuliah di jakarta tahun depan",amr_simple_test
+100.00000000000004,"acara seminar dimulai satu jam lagi","acara seminar dimulai satu jam lagi",amr_simple_test
+72.89545183625967,"dinda berangkat ke jakarta tiga hari lalu","dinda berangkat ke jakarta tiga hari yang lalu",amr_simple_test
+67.31821382417488,"upacara bendera dilaksanakan pada hari sabtu","upacara penurunan bendera dilaksanakan pada hari sabtu",amr_simple_test
+66.87403049764218,"ibu menjahit baju dengan riapi","ibu menjahit baju dengan rapi",amr_simple_test
+66.87403049764218,"ibu budi memasak nasi putih","ibu budi memasak nasi kuning",amr_simple_test
+66.87403049764218,"adik menonton kartun di tv","adik menonton kartun di televisi",amr_simple_test
+64.34588841607616,"ani mendapatkan nilai bagus pada hari pertama","ani mendapat nilai bagus pada hari pertama",amr_simple_test
+60.427507947135354,"saya berangkat ke bandung besok lusa","besok lusa saya berangkat ke bandung",amr_simple_test
+59.4603557501361,"kami menunggu di stasiun sejak satu jam lalu","kami menunggu di stasiun sejak tiga jam lalu",amr_simple_test
+59.460355750136046,"riana makan nasi merah","riana makan nasi goreng",amr_simple_test
+57.89300674674101,"koran dibaca ayah di teras","koran tempo dibaca ayah di teras",amr_simple_test
+55.780028607687655,"kami pergi ke gunung rinjani pada nanti","kami pergi ke gunung rinjani saat liburan nanti",amr_simple_test
+54.10822690539397,"bu Cinta berangkat ke sekolah guna guna Taksi","bu cinta berangkat ke sekolah menggunakan taksi",amr_simple_test
+53.7284965911771,"wawan menyala lampu di depan rumah","wawan menyalakan lampu di depan rumah",amr_simple_test
+53.7284965911771,"para siswa berdiskusi di waring kopi","para siswa berdiskusi di warung kopi",amr_simple_test
+53.7284965911771,"pak sawah menanam padi di sawah","pak sutejo menanam padi di sawah",amr_simple_test
+53.7284965911771,"kita mampir ke sini kali ini","kita mampir ke sini lain kali",amr_simple_test
+53.7284965911771,"kisah tragis diceritakan pak zee zee","kisah tragisnya diceritakan pak zee zee",amr_simple_test
+53.7284965911771,"kami latih musik setiap hari minggu","kami latihan musik setiap hari minggu",amr_simple_test
+51.54486831107658,"dinda pulang ke rumah sejak kemarin sore","sejak kemarin sore, dinda pulang ke rumah",amr_simple_test
+50.000000000000014,"kartu nama dicetak oleh pak budi di sampurna","kartu nama dicetak pak budi di sampurna",amr_simple_test
+50.000000000000014,"ayah berangkat ke kantor pada pukul tujuh pagi","ayah berangkat ke kantor pukul tujuh pagi",amr_simple_test
+49.76093899250716,"saya ada di rumah","saya masih ada di rumah",amr_simple_test
+49.76093899250716,"ibu menyapu halaman rumah","ibu sedang menyapu halaman rumah",amr_simple_test
+49.76093899250716,"ayah ada di kantor","ayah sedang ada di kantor",amr_simple_test
+49.76093899250716,"aku ada di rumah","aku masih ada di rumah",amr_simple_test
+46.30777161991026,"siswa belajar di sekolah","arlita sedang belajar di sekolah",amr_simple_test
+45.561621331146846,"bapak soekarno memproklamirkan kemerdekaan indonesia pada tanggal 17 agustus 1945","kemerdekaan indonesia diproklamirkan pada tanggal 17 agustus 1945 oleh bapak soekarno",amr_simple_test
+45.48019047027906,"kakek tanam di halaman tadi pagi","kakek menanam cabe di halaman tadi pagi",amr_simple_test
+45.48019047027906,"ayah pulang ke rumah sejak disahkan","jojon pulang ke rumah sejak ayah memarahinya",amr_simple_test
+45.180100180492246,"ayah ada di pasar sekarang","ayah sekarang ada di pasar",amr_simple_test
+43.01250851313264,"ayah membaca koran di teras rumah","ayah membaca koran waspada di teras rumah",amr_simple_test
+42.72870063962342,"lagu indonesia raya dinyanyikan siswa","siswa menyanyikan lagu indonesia raya",amr_simple_test
+42.72870063962342,"guru memberikan hadiah kepada pemenang","guru memberi hadiah kepada pemenang",amr_simple_test
+42.72870063962342,"aku tulis cerita di buku","aku menuliskan cerita di buku",amr_simple_test
+42.38365628278778,"kak dina membeli baju di toko baru","kak dina beli baju di toko baru.",amr_simple_test
+40.93653765389909,"suster ayu menonton drama korea","suster ayu suka menonton drama korea",amr_simple_test
+40.93653765389909,"devis bermain bola sampai sore","devis bermain bola kaki sampai sore",amr_simple_test
+39.76353643835252,"air dituang ibu oleh ibu","air dituang ibu raska",amr_simple_test
+38.49815007763549,"saya melihat acara komedi di tv","saya tertawa ketika melihat acara komedi di televisi",amr_simple_test
+37.99178428257963,"pak guru pidato di lapangan sekolah","pak guru berpidato di lapangan sekolah",amr_simple_test
+37.99178428257963,"musim kemarau terjadi pada bulan oktober","musim kemarau terjadi di bulan oktober",amr_simple_test
+37.99178428257963,"jam delapan, acara diskusi dimulai","acara diskusi dimulai jam delapan",amr_simple_test
+35.35533905932737,"pupuk dibuat mas prapto","mas prapto membuat pupuk",amr_simple_test
+35.35533905932737,"pak hasan membakar sampah","sampah dibakar pak hasan",amr_simple_test
+35.35533905932737,"kue dijual kak zahra","kak zahra menjual kue",amr_simple_test
+35.35533905932737,"kakak byan menghabiskan uang","uang dihabiskan kakak byan",amr_simple_test
+35.35533905932737,"balon itu memukul ilham","balon itu ditiup ilham",amr_simple_test
+35.35533905932737,"bahan makanan dibeli joko","joko membeli bahan makanan",amr_simple_test
+35.35533905932737,"aku memanggil bu lisa","bu lisa dipanggil aku",amr_simple_test
+35.35533905932737,"adik zaki mengunyah permen","permen dikunyah adik zaki",amr_simple_test
+35.1862973998119,"bapak rian mencari nafkah","bapak rian sedang mencari nafkah",amr_simple_test
+34.98330125272253,"ibu menjahit baju sekolah ROBEk","ibu menjahit baju sekolahku yang robek",amr_simple_test
+34.56232340002788,"ibu shinta menyiram bunga mawar kemarin","ibu shinta menyiram bunga mawar dengan air hujan yang ditampung kemarin",amr_simple_test
+34.32945239845197,"saat fajar terdengar suara ayam jantan bergilir ketika fajar tiba","saat fajar tiba terdengar suara ayam jantan berkokok",amr_simple_test
+32.46679154750991,"pak tono tahu perbaikan komputer rusak","pak tono tahu bahwa komputernya rusak",amr_simple_test
+32.46679154750991,"kisah tragis diceritakan pak zee zee","pak zee zee menceritakan kisah tragisnya",amr_simple_test
+32.46679154750991,"adik membaca buku belajar di kamar","adik membaca buku pelajaran di kamarnya",amr_simple_test
+32.17294420803808,"suster rina membasuh muka di kamar mandi","muka dibasuh suster rina di kamar mandi",amr_simple_test
+31.947155212313625,"padi ditanam oleh tani","padi ditanam petani",amr_simple_test
+31.947155212313625,"ibunya adalah seorang dosen","ibuku seorang dosen",amr_simple_test
+31.947155212313625,"borong membeli hasil tanaman","pemborong membeli hasil panen",amr_simple_test
+31.947155212313625,"auliya menjual hias berapa","auliya menjual beberapa perhiasannya",amr_simple_test
+30.739407647563215,"tadi sore, natasha datang ke pesta","natasha datang ke pestaku tadi sore",amr_simple_test
+30.739407647563215,"kami pergi ke kemah di gunung semeru","kami pergi berkemah di gunung semeru",amr_simple_test
+30.739407647563215,"andi pergi ke kemah di tepi pantai","andi pergi berkemah di tepi pantai",amr_simple_test
+30.2137539735677,"hari senin, bu tati pergi ke jogja","bu tati pergi berlibur ke jogja hari senin",amr_simple_test
+30.213753973567677,"toko dibeli oleh kue di toko","anggi membeli kue di toko",amr_simple_test
+30.213753973567677,"tentara menjaga kebhinnekaan di indonesia","tentara menjaga perdamaian di indonesia",amr_simple_test
+30.213753973567677,"pakaian dilipat oleh bu neneng","pakaian dilipat bu neneng",amr_simple_test
+30.213753973567677,"mobil itu membakar mobil di jalan","massa membakar mobil di jalanan",amr_simple_test
+29.797147054518835,"hari raya idul fitri diberikan oleh tahanan bergilir","tahanan di nusakambangan diberikan keringanan saat hari raya idul fitri",amr_simple_test
+28.641904579795423,"paman membeli novel sherlock holmes","paman membelikanku novel sherlock holmes edisi terbaru",amr_simple_test
+27.77619034011791,"tikus itu ada di bawah ranjang tidur","ada tikus di bawah ranjang tidurku",amr_simple_test
+27.77619034011791,"setelah makan siang, obat diminum obat","obat itu diminum setelah makan siang",amr_simple_test
+27.77619034011791,"sampah dibuang oleh yasmin di tempat sampah","yasmin membuang sampah di tempat sampah",amr_simple_test
+27.77619034011791,"orasi dibaca oleh karni di atas panggung","karni membacakan orasi di atas panggung",amr_simple_test
+27.77619034011791,"andini sedang berlibur di pantai hari ini","andini berlibur ke pantai hari ini",amr_simple_test
+27.77619034011791,"air sungai meluap pada pukul enam pagi","air selokan meluap pukul enam pagi",amr_simple_test
+27.534765745159184,"matahari terterbit pagi hari","matahari terbit di pagi hari",amr_simple_test
+27.534765745159184,"ibu budi nanak nasi","ibu budi sedang menanak nasi",amr_simple_test
+27.22230298303347,"waktu dekat, jalan tol dilaksanakan","perbaikan jalan tol dilaksanakan dalam waktu dekat ini",amr_simple_test
+26.86424829558855,"tikus banyak ada di rumah","ada banyak tikus di rumah",amr_simple_test
+26.269098944241588,"ibu yuni membeli kue di kedai kopi","ibu sri yuni membeli kue capit",amr_simple_test
+25.57539057896621,"sore, andra berangkat ke sekolah","andre berangkat ke sekolah pada enam pagi",amr_simple_test
+25.40663740773074,"kakak memilih pasangan minggu depan","pasangan dipilih kakak minggu depan",amr_simple_test
+25.40663740773074,"jaksa menuntut tersangka di pengadilan","tersangka dituntut jaksa di pengadilan",amr_simple_test
+25.40663740773074,"guru memberikan hadiah kepada pemenang","hadiah diberi guru kepada pemenang",amr_simple_test
+25.40663740773074,"dia bisa tidur malam ini","dia bisa malam hari ini",amr_simple_test
+25.40663740773074,"babi ditangkap warga di hutan","warga menangkap babi di hutan",amr_simple_test
+25.40663740773074,"aku tulis cerita di buku","cerita dituliskan aku di buku",amr_simple_test
+24.274588585366175,"pak krisna menanam kedelai di kebun","kedelai ditanam pak krisna di kebun",amr_simple_test
+24.274588585366175,"kami trauma setelah pergi ke sana setelah trauma kemarin","setelah kejadian kemarin, kami trauma pergi ke sana",amr_simple_test
+23.643540225079384,"toko buku dipergikan oleh angga","angga pergi ke toko buku",amr_simple_test
+23.643540225079384,"tentara menjaga kebhinnekaan di indonesia","perdamaian dijaga tentara di indonesia",amr_simple_test
+23.643540225079384,"para nelayan yang pancing ikan","para nelayan sedang memancing ikan",amr_simple_test
+23.643540225079384,"pakcoy tumbuh pada musim kemarau","pakcoy bertumbuhan ketika musim kemarau",amr_simple_test
+23.643540225079384,"pakaian dilipat oleh bu neneng","bu neneng melipat pakaian",amr_simple_test
+23.643540225079384,"ibu budi memasak nasi putih","nasi kuning dimasak ibu budi",amr_simple_test
+23.643540225079384,"aku mencuci pakaian setelah tidur","aku mencuci kaki sebelum tidur",amr_simple_test
+23.643540225079384,"adik digendong oleh ibu risdi","adik digendong ibu",amr_simple_test
+23.643540225079384,"adik diberi uang kepada satria","satria memberikan uang kepada adiknya",amr_simple_test
+22.957488466614336,"tadi malam, rina bertemu teman","rina bertemu temannya tadi malam",amr_simple_test
+22.957488466614336,"padi di bajak ayah di sawah","ayah sedang membajak padi di sawah",amr_simple_test
+22.089591134157878,"di pantai, dik dina melihat dik dina","dik dina melihat pemandangan pantai",amr_simple_test
+21.444097124017667,"kak adi tertimpa halaman","terompet ditiup kak adi di halaman",amr_simple_test
+21.444097124017667,"kak adi tertimpa halaman","kak adi meniup terompet di halaman",amr_simple_test
+21.3643503198117,"halaman rumah dimainkan oleh budie","bugie bermain di halaman rumah",amr_simple_test
+21.3643503198117,"adik menangis sedang menantikan adiknya","adik menangis keras karena jatuh",amr_simple_test
+20.95871245288356,"pak hasan meninggal di halte bus kemarin","pak hasan bertemu dengan pak husen kemarin di halte bus",amr_simple_test
+20.80119537801062,"koran dibaca ayah di teras","ayah membaca koran tempo di teras",amr_simple_test
+19.692104496063735,"nasi dijual oleh hujan tadi malam","ketika hujan tadi malam, penjual nasi goreng berjualan",amr_simple_test
+19.64073254502566,"bola itu dimainkan pak andri sampai sore","pak andri bermain bola sampai sore",amr_simple_test
+19.3576934939088,"ruang tamu ditonton oleh riko","riko menonton tv di ruang tamu",amr_simple_test
+19.3576934939088,"bu nyanyikan lagunya dengan semangat","bu via menyanyikan lagu dengan semangat",amr_simple_test
+19.304869754804482,"setelah menikah, nuryati memindah bandung","nuryati pindah ke bandung setelah menikah",amr_simple_test
+19.304869754804482,"senam segar jasmani dilaksanakan tiap senin","senam kesegaran jasmani dilaksanakan setiap senin",amr_simple_test
+19.130147081392227,"kartu nama dicetak oleh pak budi di sampurna","pak budi mencetak kartu nama di sampurna",amr_simple_test
+18.99589214128981,"wanita dilukis oleh okta","perempuan dilukis okta",amr_simple_test
+18.99589214128981,"tas diperiksa tasnya tugasnya","tas pengunjung diperiksa petugas",amr_simple_test
+18.99589214128981,"rumah dibersihkan oleh Mita","mita membersihkan rumah.",amr_simple_test
+18.99589214128981,"roti dibuat oleh anita","anita sedang membuat roti",amr_simple_test
+18.99589214128981,"kakak melantai di lantai","lantai dipel kakak",amr_simple_test
+18.99589214128981,"kakak melantai di lantai","kakak mengepel lantai",amr_simple_test
+18.99589214128981,"kakak bersih di dapur","kakak membersihkan dapur",amr_simple_test
+18.99589214128981,"kakak bersih di dapur","dapur dibersikan kakak",amr_simple_test
+18.99589214128981,"halaman disumbangkan oleh yusron","yusron sedang menyapu halaman",amr_simple_test
+18.99589214128981,"buku dibaca oleh citra","citra sedang membaca buku",amr_simple_test
+18.575057999133602,"kami pergi ke kemah dari gunung semeru","kami pergi berkemah di gunung semeru",amr_simple_test
+17.965205598154213,"pak joko menyepeda sepeda pagi ini","setiap pagi pak joko bersepeda",amr_simple_test
+17.965205598154213,"mobil itu menaju mobil lebih cepat","mobil itu melaju dengan sangat cepat",amr_simple_test
+17.965205598154213,"ibunya adalah seorang yang sangat mempesonakan","ibuku adalah orang yang sangat penyayang",amr_simple_test
+17.965205598154213,"di saat ujian, dinda bercetak","dinda mencontek saat ujian",amr_simple_test
+17.82013231677092,"hal yang banyak dibahas di rapat nanti","banyak hal yang perlu dibahas saat rapat nanti",amr_simple_test
+16.70067963244422,"udara terasa panas saatnya","saat hujan, udara terasa lebih panas",amr_simple_test
+16.37226966703825,"adik berlarian kencang sangat","adik berlari dengan sangat kencang",amr_simple_test
+16.233395773754953,"ayah pergi ke Pangcing minggu ini","ayah pergi memancing seminggu sekali",amr_simple_test
+15.97357760615681,"wanita dilukis oleh okta","okta melukis perempuan",amr_simple_test
+15.97357760615681,"tas diperiksa tasnya tugasnya","petugas memeriksa tas pengunjung",amr_simple_test
+15.97357760615681,"ranti jalan di perbaikan","ranti berjalan dengan pelan",amr_simple_test
+15.97357760615681,"padi ditanam oleh tani","petani menanam padi",amr_simple_test
+15.97357760615681,"minum buah meminum minum","mey meminum minuman itu",amr_simple_test
+15.97357760615681,"lusi digambar oleh lusi","lusi menggambar",amr_simple_test
+15.97357760615681,"hakim penjatuh di pengadilan","hukuman dijatuhkan hakim roger",amr_simple_test
+15.97357760615681,"hakim penjatuh di pengadilan","hakim roger menjatuhi hukuman",amr_simple_test
+15.97357760615681,"curi ditangkap oleh saptam","pencuri ditangkap satpam",amr_simple_test
+15.97357760615681,"curi ditangkap oleh pencuri","pencuri tertangkap",amr_simple_test
+15.97357760615681,"cecep dibong oleh cecep","cecep adalah pembohong",amr_simple_test
+15.97357760615681,"borong membeli hasil tanaman","hasil panen dibeli pemborong",amr_simple_test
+15.848738972120703,"kakekfian menunggu kakekfian di teras","nenek yeti menunggu kakek fian di teras",amr_simple_test
+15.848738972120703,"jarak sekolahnya terjadi terlalu jauh","jarak sekolah dan rumahku tidak terlalu jauh",amr_simple_test
+15.848738972120703,"gol dicetak oleh gawang lawan","tim indonesia mencetak gol ke gawang lawan",amr_simple_test
+15.619699684601281,"pak gilang berkata pulang ke kampung lusa","pak gilang mengatakan bahwa ayah pulang lusa",amr_simple_test
+15.619699684601281,"baju pesta dibeli oleh tata di mall","tata membeli baju mahal itu di mall",amr_simple_test
+15.25487608028144,"kami menjadi lebih nyaman di tempat paling nyaman","perpustakaan menjadi tempat yang paling nyaman di sekolah kami",amr_simple_test
+15.207218222740094,"dia sedih waktu bersama dengan dia","dia sedih saat ingat kejadian waktu itu",amr_simple_test
+15.207218222740094,"dengar baik sejak dari ketika kecil","andre dapat mendengar dengan baik sejak kecil",amr_simple_test
+14.794015674776452,"selokan dijatuh uang mainan","uang maman jatuh ke selokan",amr_simple_test
+14.794015674776452,"dimas dudung di sekolah","dudung sangat pendiam di sekolahnya",amr_simple_test
+14.626134130279034,"pak pupuguh bisa hadir sore ini","pak puguh bisa hadir pada sore hari ini",amr_simple_test
+14.535768424205482,"bu rima dan bu rima menendang salon","bu rima berdandan di salon",amr_simple_test
+14.320952289897704,"kakekfian menunggu kakekfian di teras","kakek fian ditunggu nenek yeti di teras",amr_simple_test
+14.31720073264775,"kami inap di kamar besar malam ini","malam ini kami menginap di hotel yang besar",amr_simple_test
+14.058533129758727,"kucing itu nampak sangat takut","kucing hitam itu sangat menakutkan",amr_simple_test
+14.058533129758727,"adik menonton kartun di tv","kartun ditonton adik di televisi",amr_simple_test
+13.888095170058955,"pemerintah didapatkan banyak dari indonesia di zaman dahulu","zaman dahulu terdapat banyak kerajaan di indonesia",amr_simple_test
+13.888095170058955,"hari ini, ayah jemput adik ke sekolah","ayah menjemput adik di sekolah hari ini",amr_simple_test
+13.888095170058955,"hari ini, ayah jemput adik ke sekolah","adik dijemput ayah di sekolah hari ini",amr_simple_test
+13.83254362586636,"gol dicetak oleh messi tadi malam","messi mencetak gol indah di pertandingan tadi malam",amr_simple_test
+13.784336590962209,"di kebun milik, ayah bantu buah apel","weni membantu ayahnya memanen buah apel di kebun miliknya",amr_simple_test
+13.741272855400096,"di meja, mirna membersihkan baju","mirna membersihkan kacamatanya dengan selembar tisu basah",amr_simple_test
+13.540372457315733,"kami kurang air bersih pada musim kemarin","di musim kemarau, kami kekurangan air bersih",amr_simple_test
+13.540372457315733,"ibu pergi ke kantor waktu bersama nenek","waktu kecil andre diajak ibu pergi mengunjungi nenek",amr_simple_test
+13.540372457315733,"ayah menghentikan tikis setelah membeli mainan baru","tika berhenti menangis setelah ayah membelikannya mainan baru",amr_simple_test
+13.134549472120788,"sejak disahkan, atur dilakukan oleh atur","peraturan berlaku sejak disahkan",amr_simple_test
+13.134549472120788,"di sekolah, cerpen ada dipelajari oleh ada","cerpen yang ada di sekolah menginpirasi pembacanya",amr_simple_test
+13.134549472120788,"buru buru buru di buru di hutan","pemburu itu berburu hewan di hutan",amr_simple_test
+12.975849993980741,"kami ikut inbk bulan depan","bulan depan, kami mengikuti unbk secara serentak",amr_simple_test
+12.869637315183779,"ibu selesai ujian hari ini","ibu guru mengatakan bahwa kami harus menyelesaikan soal ujian hari ini",amr_simple_test
+12.750736437345598,"jas tampan oleh romeo","romeo tampan dengan setelan jas itu",amr_simple_test
+12.703318703865365,"tanaman tersebut diperas oleh petani","petani diperas tengkulak",amr_simple_test
+12.703318703865365,"polisi menangkap polisi di pengadilan","polisi itu menangkap gerombolan pencuri",amr_simple_test
+12.703318703865365,"indah makan bekal di lahap","indah memakan bekalnya dengan lahap",amr_simple_test
+12.703318703865365,"air dituang ibu oleh ibu","ibu raska menuang air",amr_simple_test
+12.703318703865365,"adik digendong oleh ibu risdi","ibu rusdi menggendong adik",amr_simple_test
+12.629099764064142,"aku mempunyai uang sepuluh ribu rupiah","sisa uang yang aku miliki saat ini hanya berjumlah sepuluh ribu rupiah",amr_simple_test
+12.44023474812678,"pustaka dibaca oleh rizal","rizal sedang membaca di perpustakaan",amr_simple_test
+12.44023474812678,"buku selip dicari sabrina","sabrina mencari bukunya yang terselip",amr_simple_test
+12.44023474812678,"acara dibela oleh jaksa","tersangka dibela pengacara di pengadilan",amr_simple_test
+12.22307556087252,"di rumah, kalian memboleh datang ke rumahnya","kalian boleh datang ke rumahku kapan saja",amr_simple_test
+12.22307556087252,"di istana, sangat mewah, sangat indah","hotel itu sangat mewah seperti istana",amr_simple_test
+11.521590992286539,"perbaikan kelas dimulai sekarang","mulai sekarang kalian memperhatikan kebersihan kelas",amr_simple_test
+11.51015341649912,"pak andi memecah gelas sengaja","pak andre memecahkan gelas dengan sengaja",amr_simple_test
+11.51015341649912,"kita terjaga satu bangsa sekarang","kita menjaga persatuan bangsa mulai sekarang",amr_simple_test
+11.51015341649912,"kami mendapatkan tawaran mudah sekarang","sekarang kami dapat berkomunikasi dengan mudah",amr_simple_test
+11.51015341649912,"bola ditendang anak yang laki","anak laki-laki itu yang menendang bola",amr_simple_test
+11.044795567078939,"bu asti kenakan bu asti di atas asti","bu asti mengenakan topi bundar",amr_simple_test
+10.682175159905848,"tanaman tersebut diperas oleh petani","tengkulak memeras petani",amr_simple_test
+10.682175159905848,"singa yang intai oleh singa","singa mengintai mangsanya",amr_simple_test
+10.682175159905848,"singa merangkak itu sedang merangkak","singa meraung dengan keras",amr_simple_test
+10.682175159905848,"sepatu santoso dijahit oleh santoso","santoso menjahit celana",amr_simple_test
+10.682175159905848,"obat tersebut didaluarsa oleh obat","obat ini kadaluarsa",amr_simple_test
+10.682175159905848,"kopi jessica menyuh kopi ayah","jesica menyeduhkan kopi kesukaan ayahnya",amr_simple_test
+10.682175159905848,"ia menyukai gambar di komik","nadya suka menggambar komik",amr_simple_test
+10.552670315936318,"pak ucok membeli sawah di sawah menggunakan teknologi yang tani","pak ucok membajak sawah dengan teknologi pertanian yang modern",amr_simple_test
+10.400597689005304,"aku mengerjakan kerja bulan lalu","aku bekerja sejak sebulan yang lalu",amr_simple_test
+10.175282441454785,"diana menulis diana di perpustakaan malam hari","dina menulis puisi untuk ibunda di beranda pada malam hari",amr_simple_test
+9.71654721818804,"ibu memberi makan ketika pulang ayah","ibu memberikan sup hangat ketika ayah pulang",amr_simple_test
+9.652434877402245,"siswa didapatkan oleh don di kampus","dona adalah siswa berprestasi di kampusku",amr_simple_test
+9.652434877402245,"mobil itu membakar mobil di jalan","mobil dibakar massa di jalanan",amr_simple_test
+9.652434877402245,"kakek marah di rumah sebelah rumah","kakek sebelah rumahku sangat pemarah",amr_simple_test
+9.652434877402245,"hasil penulisan puisi ditulis oleh obe","obe menulis puisi",amr_simple_test
+8.913765521398126,"peristiwa pki dijadi oleh peringatan hari kesaktian pki di tahun 1965","peristiwa pemberontakan g-30-s pki terjadi pada tahun 1965",amr_simple_test
+8.745825313180626,"buku selip dicari oleh roni","rani sedang mencari buku yang terselip",amr_simple_test
+8.745825313180626,"buku ilham dicari oleh ilham","ilham sedang mencari bukunya yang hilang",amr_simple_test
+8.51528917838043,"kejam sangat dirampok oleh korban","perampok itu merampok korbannya dengan sangat kejam",amr_simple_test
+8.449917822620138,"di rumah dodi, pak dodi berkata setelah makan","pak dodi mengatakan bu nia pergi ke rumah jihan sebelum magrib",amr_simple_test
+8.116697886877475,"surat ditulis oleh rina di perpustakaan","rini menulis surat dengan komputer",amr_simple_test
+7.809849842300637,"bu oktia menunggang kereta oleh bu oktia","bu septia menunggang kerbau",amr_simple_test
+7.654112967106117,"adonan itu tuang dalam kesenangan dingin","tuangkan adonan ke dalam loyang setelah adonan dingin",amr_simple_test
+7.16047614494885,"kesehatannya disadar oleh kita saatnya","saat sakit kita menyadari pentingnya menjaga kesehatan",amr_simple_test
+7.16047614494885,"dia melihat antusiasnya tiap waktunya","dia terlihat antusias setiap kali membicarakan politik",amr_simple_test
+6.916271812933183,"sampah bisa dipotong menggunakan sampah ulangan","pemulung itu memunguti sampah yang bisa didaur ulang",amr_simple_test
+6.567274736060395,"tiga menit lalu, paman mati di komputer","paul mematikan komputernya lima menit yang lalu",amr_simple_test
+0.0,"warung itu pergi","wahyu pergi ke warung",amr_simple_test
+0.0,"toko cat pergi","linda pergi ke toko cat",amr_simple_test
+0.0,"siska teriak jauh","siska berteriak di kejauhan",amr_simple_test
+0.0,"saya mengetik makalah","saya mengetik makalah",amr_simple_test
+0.0,"saya mengantuk","saya mengantuk",amr_simple_test
+0.0,"saya jumpa dinda","saya berjumpa dengan dinda",amr_simple_test
+0.0,"paman berkunjung kemarin","paman mengunjungi ayah kemarin",amr_simple_test
+0.0,"pakaian dicuci ibu","ibu sedang mencuci pakaian",amr_simple_test
+0.0,"pacarnya ditulis oleh kakak di facebook","caca menulis status fb",amr_simple_test
+0.0,"nafkah dicari ayah","nafkah dicari ayah",amr_simple_test
+0.0,"nafkah dicari ayah","ayah mencari nafkah",amr_simple_test
+0.0,"mereka menerima kekalahan","mereka menerima kekalahan",amr_simple_test
+0.0,"mereka menerima kekalahan","kekalahan diterima mereka",amr_simple_test
+0.0,"menang dimenentukan oleh juri","pemenang ditetapkan kpu",amr_simple_test
+0.0,"menang dimenentukan oleh juri","kpu menetapkan pemenang",amr_simple_test
+0.0,"kue layak makan","kue ini layak dimakan",amr_simple_test
+0.0,"kucing itu burung","kucing itu berburu mangsa",amr_simple_test
+0.0,"kami merayakan kemenangan","kemenangan dirayakan kami",amr_simple_test
+0.0,"kami merayakan kemenangan","kami merayakan kemenangan",amr_simple_test
+0.0,"jurnalis liput berita","jurnalis meliput berita",amr_simple_test
+0.0,"jurnalis liput berita","berita diliput jurnalis",amr_simple_test
+0.0,"jalanan ditemu oleh seorang nenek","nur menemukan barang itu di jalan",amr_simple_test
+0.0,"irawan memperbaiki perasaannya","irawan sangat baik hati kepada siapa saja",amr_simple_test
+0.0,"ibu menyiram bunga","ibu menyiram bunga",amr_simple_test
+0.0,"ibu menyiram bunga","bunga disiram ibu",amr_simple_test
+0.0,"ibu memberi makan","makan diberi ibu",amr_simple_test
+0.0,"ibu memberi makan","ibu memberi makan",amr_simple_test
+0.0,"ibu cuci piring","ibu sedang mencuci piring",amr_simple_test
+0.0,"ibu cuci piring","ibu sedang mencuci piring",amr_simple_test
+0.0,"guru memberi tugas","tugas diberikan guru",amr_simple_test
+0.0,"guru memberi tugas","guru memberikan tugas",amr_simple_test
+0.0,"dia renang","dia sedang berenang",amr_simple_test
+0.0,"dia lamun orang","dia melamunkan seseorang",amr_simple_test
+0.0,"devin menangis sedu","devin menangis tersedu-sedu",amr_simple_test
+0.0,"curi ditangkap oleh saptam","satpam menangkap pencuri",amr_simple_test
+0.0,"budhe suara turun","suaranya diturunkan budhe citra",amr_simple_test
+0.0,"budhe suara turun","budhe citra menurunkan suaranya",amr_simple_test
+0.0,"bola dimainkan kakak","kakak masih bermain bola",amr_simple_test
+0.0,"ayah membawa piala","piala dibawa ayah",amr_simple_test
+0.0,"ayah membawa piala","ayah membawa piala",amr_simple_test
+0.0,"arsita melihat gaun","arsita terlihat begitu anggun dengan gaunnya",amr_simple_test
+0.0,"anis mengsampaikan keluhan","keluhan disampaikan gubernur anis",amr_simple_test
+0.0,"anis mengsampaikan keluhan","gubernur anis menyampaikan keluhan",amr_simple_test
+0.0,"anak yang ajaib","angga anak ajaib",amr_simple_test
+0.0,"aku suka tulisan","aku suka dengan tulisannya",amr_simple_test
+0.0,"aku menangkap aku","aku terperangkap",amr_simple_test
+0.0,"ajeng menawari ajeng","ajeng tertawa terbahak-bahak",amr_simple_test
+0.0,"adik menerima uang","uang diterima adik",amr_simple_test
+0.0,"adik menerima uang","adik menerima uang",amr_simple_test
+0.0,"adik meminjam buku","buku dipinjam adik",amr_simple_test
+0.0,"adik meminjam buku","adik meminjam buku",amr_simple_test
+0.0,"adik melompat","adik melompat",amr_simple_test
+0.0,"acara dibela oleh jaksa","pengacara membela tersangka di pengadilan",amr_simple_test
