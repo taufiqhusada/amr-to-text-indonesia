@@ -77,40 +77,40 @@ cd tree_level_embeddings
 echo evaluate on data amr_simple_test
 mkdir result/amr_simple_test
 
-python evaluate_mT5.py --saved_model_folder_path ${SAVED_MODEL_FOLDER} \
+python evaluate_mT5.py --saved_model_folder_path ${SAVED_MODEL_FOLDER} --max_seq_len_amr 256 --max_seq_len_sent 192 \
 --data_folder ../data/test/preprocessed_data/amr_simple_test --result_folder result/amr_simple_test
 
 # b-salah-darat
 echo evaluate on data b-salah-darat
 mkdir result/b-salah-darat
 
-python evaluate_mT5.py --saved_model_folder_path ${SAVED_MODEL_FOLDER} \
+python evaluate_mT5.py --saved_model_folder_path ${SAVED_MODEL_FOLDER} --max_seq_len_amr 256 --max_seq_len_sent 192 \
 --data_folder ../data/test/preprocessed_data/b-salah-darat --result_folder result/b-salah-darat
 
 # c-gedung-roboh
 echo evaluate on data c-gedung-roboh
 mkdir result/c-gedung-roboh
 
-python evaluate_mT5.py --saved_model_folder_path ${SAVED_MODEL_FOLDER} \
+python evaluate_mT5.py --saved_model_folder_path ${SAVED_MODEL_FOLDER} --max_seq_len_amr 256 --max_seq_len_sent 192 \
 --data_folder ../data/test/preprocessed_data/c-gedung-roboh --result_folder result/c-gedung-roboh
 
 # d-indo-fuji
 echo evaluate on data d-indo-fuji
 mkdir result/d-indo-fuji
 
-python evaluate_mT5.py --saved_model_folder_path ${SAVED_MODEL_FOLDER} \
+python evaluate_mT5.py --saved_model_folder_path ${SAVED_MODEL_FOLDER} --max_seq_len_amr 256 --max_seq_len_sent 192 \
 --data_folder ../data/test/preprocessed_data/d-indo-fuji --result_folder result/d-indo-fuji
 
 # f-bunuh-diri
 echo evaluate on data f-bunuh-diri
 mkdir result/f-bunuh-diri
 
-python evaluate_mT5.py --saved_model_folder_path ${SAVED_MODEL_FOLDER} \
+python evaluate_mT5.py --saved_model_folder_path ${SAVED_MODEL_FOLDER} --max_seq_len_amr 256 --max_seq_len_sent 192 \
 --data_folder ../data/test/preprocessed_data/f-bunuh-diri --result_folder result/f-bunuh-diri
 
 # g-gempa-dieng
 echo evaluate on data g-gempa-dieng
 mkdir result/g-gempa-dieng
 
-python evaluate_mT5.py --saved_model_folder_path ${SAVED_MODEL_FOLDER} \
+python evaluate_mT5.py --saved_model_folder_path ${SAVED_MODEL_FOLDER} --max_seq_len_amr 256 --max_seq_len_sent 192 \
 --data_folder ../data/test/preprocessed_data/g-gempa-dieng --result_folder result/g-gempa-dieng
