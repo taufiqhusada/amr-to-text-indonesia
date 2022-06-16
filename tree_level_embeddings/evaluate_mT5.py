@@ -47,8 +47,19 @@ if __name__=='__main__':
         device = torch.device("cpu")
         print("Running on the CPU")
 
-    tokenizer = MT5TokenizerFast.from_pretrained(os.path.join(saved_model_folder_path, 'tokenizer'))
+    tokenizer = MT5TokenizerFast.from_pretrained("google/mt5-base")
     model = MT5ForConditionalGeneration.from_pretrained(os.path.join(saved_model_folder_path, 'model'), additional_config = {'tree_max':max_seq_len_amr})
+
+    new_tokens_vocab = {}
+    new_tokens_vocab['additional_special_tokens'] = tokenizer.additional_special_tokens
+    for idx, t in enumerate(AMR_TOKENS):
+        new_tokens_vocab['additional_special_tokens'].append(t)
+
+    num_added_toks = tokenizer.add_special_tokens(new_tokens_vocab)
+    print(f'added {num_added_toks} tokens')
+
+    model.resize_token_embeddings(len(tokenizer))
+    
     print(tokenizer)
     print(model.config)
 
