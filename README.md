@@ -29,5 +29,5 @@ Using XLsum-Indonesian dataset
 3. Output pembangkitan teks dengan trained model nomor 1: `process_xlsum_indonesian/result_with_score.csv`
 
 ## Code
-1. AMR-based summarization (from input article to summary graph): https://drive.google.com/drive/folders/1E3ufHOQ8r-DjfjhzfWUxl4lpvvc21cgF?usp=sharing (open it using std.stei email)
+1. AMR-based summarization (from input article to summary graph): https://drive.google.com/drive/folders/1E3ufHOQ8r-DjfjhzfWUxl4lpvvc21cgF?usp=sharing (open it using std.stei email) (there is a `README.txt` there
 2. Generate text from summary graph: this repo (see how to run)
